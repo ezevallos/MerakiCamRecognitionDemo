@@ -2,6 +2,12 @@ from pprint import pprint
 import requests
 import json
 
+# Vars
+imagga_url = 'https://api.imagga.com/v2/tags'
+api_key = 'acc_db9beb7028f6615'
+api_secret = '1a67544b5950da6bb1faf42935830fc2'
+
+# Helper functions
 def setHeaders_meraki():
     header = {
         "X-Cisco-Meraki-API-Key":"6bec40cf957de430a6f1f2baa056b99a4fac9ea0",
@@ -29,15 +35,15 @@ def analyze(url, image, key, secret):
         files={'image': image})
     return response
 
-# Vars
-imagga_url = 'https://api.imagga.com/v2/tags'
-api_key = 'acc_db9beb7028f6615'
-api_secret = '1a67544b5950da6bb1faf42935830fc2'
+# Main function
+def main():
+    header = setHeaders_meraki()
+    snapshot = getSnap(header)
+    url = snapshot["url"]
+    print(url)
+    image = get_image(url)
+    response = analyze(imagga_url, image, api_key, api_secret)
+    pprint(response.json(), indent=2, width=200)
 
-header = setHeaders_meraki()
-snapshot = getSnap(header)
-url = snapshot["url"]
-print(url)
-image = get_image(url)
-response = analyze(imagga_url, image, api_key, api_secret)
-pprint(response.json(), indent=2, width=200)
+if __name__ == '__main__':
+    main()
