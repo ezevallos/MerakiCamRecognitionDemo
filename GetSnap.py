@@ -1,5 +1,6 @@
-import requests
 from pprint import pprint
+import requests
+import json
 
 def setHeaders_meraki():
     header = {
@@ -35,6 +36,8 @@ api_secret = '1a67544b5950da6bb1faf42935830fc2'
 
 header = setHeaders_meraki()
 snapshot = getSnap(header)
-image = get_image(snapshot["url"])
+url = snapshot["url"]
+print(url)
+image = get_image(url)
 response = analyze(imagga_url, image, api_key, api_secret)
-pprint(response.json())
+pprint(response.json(), indent=2, width=200)
