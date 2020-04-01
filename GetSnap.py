@@ -1,9 +1,8 @@
-import base64
 import requests
 import json
-import time
-from urllib.request import urlopen
 from pprint import pprint
+import subprocess
+import os
 
 def setHeaders_meraki():
     header = {
@@ -18,50 +17,31 @@ def getSnap(theHeader):
     resp = requests.post(uri, headers = theHeader,data={})
     return resp.json()
 
-header = setHeaders_meraki()
-snapshot = getSnap(header)
+def get_image(url, image_name):
+    code = 404
+    while code == 404:
+        response = requests.request('GET', url)
+        code = response.status_code
+    with open(image_name, 'wb') as file:
+        file.write(response.content)
 
-pprint(snapshot)
+def analyze(url, image_name, key, secret):
+    f = open(image_name, 'rb')
+    response = requests.post(
+        url,
+        auth=(key, secret),
+        files={'image': f})
+    f.close()
+    return response
 
-url = snapshot["url"]
-print(url)
-
-uri = "https://api.imagga.com/v2/tags"
-
-querystring = {"image_url":url,"version":"2"}
-'''
-resp = requests.get(url, verify=False, stream=True)
-f = open('temp.jpeg', 'wb')
-img = resp.content
-f.write(img)
-f.close()
-print('-' * 40)
-pprint(resp)
-print(img)
-print('-' * 40)
-'''
-'''
-headers = {
-    'accept': "application/json",
-    'authorization': "Basic YWNjX2RiOWJlYjcwMjhmNjYxNToxYTY3NTQ0YjU5NTBkYTZiYjFmYWY0MjkzNTgzMGZjMg=="
-    }
-
-response = requests.request("GET", uri, headers=headers, params=querystring)
-
-print(response.text)
-'''
-
+# Vars
+imagga_url = 'https://api.imagga.com/v2/tags'
 api_key = 'acc_db9beb7028f6615'
 api_secret = '1a67544b5950da6bb1faf42935830fc2'
+temp_name = 'temp.jpg'
 
-f = open('temp.jpeg', 'r')
-
-# print(image_url)
-
-response = requests.post(
-    'https://api.imagga.com/v2/tags',
-    auth=(api_key, api_secret),
-    files={'image': base64.b64decode(f.readlines()[0].split('base64,')[1])})
-f.close()
-
+header = setHeaders_meraki()
+snapshot = getSnap(header)
+get_image(snapshot["url"], temp_name)
+response = analyze(imagga_url, temp_name, api_key, api_secret)
 pprint(response.json())
