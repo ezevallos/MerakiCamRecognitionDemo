@@ -17,7 +17,7 @@ def getSnap(theHeader):
 def get_image(url):
     code = 404
     while code != 200:
-        response = requests.request('GET', url)
+        response = requests.get(url)
         code = response.status_code
     return response.content
 
