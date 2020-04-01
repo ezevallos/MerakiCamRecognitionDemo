@@ -1,8 +1,5 @@
 import requests
-import json
 from pprint import pprint
-import subprocess
-import os
 
 def setHeaders_meraki():
     header = {
@@ -17,31 +14,27 @@ def getSnap(theHeader):
     resp = requests.post(uri, headers = theHeader,data={})
     return resp.json()
 
-def get_image(url, image_name):
+def get_image(url):
     code = 404
-    while code == 404:
+    while code != 200:
         response = requests.request('GET', url)
         code = response.status_code
-    with open(image_name, 'wb') as file:
-        file.write(response.content)
+    return response.content
 
-def analyze(url, image_name, key, secret):
-    f = open(image_name, 'rb')
+def analyze(url, image, key, secret):
     response = requests.post(
         url,
         auth=(key, secret),
-        files={'image': f})
-    f.close()
+        files={'image': image})
     return response
 
 # Vars
 imagga_url = 'https://api.imagga.com/v2/tags'
 api_key = 'acc_db9beb7028f6615'
 api_secret = '1a67544b5950da6bb1faf42935830fc2'
-temp_name = 'temp.jpg'
 
 header = setHeaders_meraki()
 snapshot = getSnap(header)
-get_image(snapshot["url"], temp_name)
-response = analyze(imagga_url, temp_name, api_key, api_secret)
+image = get_image(snapshot["url"])
+response = analyze(imagga_url, image, api_key, api_secret)
 pprint(response.json())
