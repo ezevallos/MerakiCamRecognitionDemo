@@ -2,6 +2,7 @@ import base64
 import requests
 import json
 import time
+from urllib.request import urlopen
 from pprint import pprint
 
 def setHeaders_meraki():
@@ -28,7 +29,18 @@ print(url)
 uri = "https://api.imagga.com/v2/tags"
 
 querystring = {"image_url":url,"version":"2"}
-
+'''
+resp = requests.get(url, verify=False, stream=True)
+f = open('temp.jpeg', 'wb')
+img = resp.content
+f.write(img)
+f.close()
+print('-' * 40)
+pprint(resp)
+print(img)
+print('-' * 40)
+'''
+'''
 headers = {
     'accept': "application/json",
     'authorization': "Basic YWNjX2RiOWJlYjcwMjhmNjYxNToxYTY3NTQ0YjU5NTBkYTZiYjFmYWY0MjkzNTgzMGZjMg=="
@@ -37,15 +49,19 @@ headers = {
 response = requests.request("GET", uri, headers=headers, params=querystring)
 
 print(response.text)
+'''
 
-"""
 api_key = 'acc_db9beb7028f6615'
 api_secret = '1a67544b5950da6bb1faf42935830fc2'
-image_url = url
 
-response = requests.get(
-    'https://api.imagga.com/v2/tags?image_url=%s' % image_url,
-    auth=(api_key, api_secret))
+f = open('temp.jpeg', 'r')
+
+# print(image_url)
+
+response = requests.post(
+    'https://api.imagga.com/v2/tags',
+    auth=(api_key, api_secret),
+    files={'image': base64.b64decode(f.readlines()[0].split('base64,')[1])})
+f.close()
 
 pprint(response.json())
-"""
