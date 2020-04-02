@@ -40,10 +40,13 @@ def main():
     header = setHeaders_meraki()
     snapshot = getSnap(header)
     url = snapshot["url"]
+    print(40*"-")
     print(url)
+    print(40*"-")
     image = get_image(url)
     response = analyze(imagga_url, image, api_key, api_secret)
     pprint(response.json(), indent=2, width=200)
+    print(40*"-")
 
 if __name__ == '__main__':
     main()
