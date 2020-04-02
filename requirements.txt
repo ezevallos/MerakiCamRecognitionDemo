@@ -6,3 +6,4 @@ urllib3==1.25.8
 Flask==1.1.1
 Flask-Cors==3.0.8
 gunicorn==19.9.0
+jsonify==0.5
