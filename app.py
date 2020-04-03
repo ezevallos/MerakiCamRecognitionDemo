@@ -1,4 +1,4 @@
-from flask import Flask, Response, jsonify, request, render_template
+from flask import Flask, Response, jsonify, request, render_template, send_file
 from flask_assistant import Assistant, tell
 from flask_cors import CORS
 from pprint import pprint
@@ -18,14 +18,20 @@ def main():
     tags = GetSnap.tags
     return str(tags)
 
+@app.route("/img", methods=['GET'])
+def get_image():
+    return send_file('img.jpg', mimetype='image/jpg')
+
 @assist.action('tv-watch')
 def google_tv_watch():
-    data_uri="data:image/jpeg;base64," + base64.b64encode(GetSnap.get_image(GetSnap.url)).decode("utf-8")
-    print(data_uri[:70])
-    return tell("I see " + GetSnap.speech[:154]).card(
+    speech,image = GetSnap.return_speech()
+    f = open('img.jpg',"wb")
+    f.write(image)
+    f.close()
+    return tell("I see " + speech[:154]).card(
         text="",
         title="See Image:",
-        img_url=data_uri
+        img_url="https://lychee-custard-48379.herokuapp.com/img"
     )
 
 if __name__ == '__main__':

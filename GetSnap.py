@@ -47,23 +47,19 @@ def listToString(s):
     # return string   
     return str1  
 
-'''
-# Main function
-def main():
-'''
-header = setHeaders_meraki()
-snapshot = getSnap(header)
-url = snapshot["url"]
-print(40*"-")
-print(url)
-print(40*"-")
-image = get_image(url)
-response = analyze(imagga_url, image, api_key, api_secret)
-pprint(response.json(), indent=2, width=200)
-print(40*"-")
-tags = [item['tag']['en'] for item in response.json()['result']['tags']]
-speech = listToString(tags)
-'''
-if __name__ == '__main__':
-    main()
-'''
+
+# return speech function
+def return_speech():
+    header = setHeaders_meraki()
+    snapshot = getSnap(header)
+    url = snapshot["url"]
+    print(40*"-")
+    print(url)
+    print(40*"-")
+    image = get_image(url)
+    response = analyze(imagga_url, image, api_key, api_secret)
+    pprint(response.json(), indent=2, width=200)
+    print(40*"-")
+    tags = [item['tag']['en'] for item in response.json()['result']['tags']]
+    speech = listToString(tags)
+    return (speech,image)
