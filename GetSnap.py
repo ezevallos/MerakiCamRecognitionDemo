@@ -35,6 +35,18 @@ def analyze(url, image, key, secret):
         files={'image': image})
     return response
 
+def listToString(s):  
+    
+    # initialize an empty string 
+    str1 = ""  
+    
+    # traverse in the string   
+    for ele in s:  
+        str1 = str1 + "," + ele 
+    
+    # return string   
+    return str1  
+
 '''
 # Main function
 def main():
@@ -51,6 +63,7 @@ pprint(response.json(), indent=2, width=200)
 print(40*"-")
 tags = [item['tag']['en'] for item in response.json()['result']['tags']]
 tags.append(url)
+speech = listToString(tags)
 '''
 if __name__ == '__main__':
     main()
