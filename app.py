@@ -19,7 +19,7 @@ def main():
 
 @assist.action('tv-watch')
 def google_tv_watch():
-    return tell(GetSnap.speech[:639]).card(
+    return tell(GetSnap.speech[:154]).card(
         text=GetSnap.url,
         title="Here is the url:"
     )
