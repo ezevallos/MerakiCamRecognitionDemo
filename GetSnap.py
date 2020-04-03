@@ -42,7 +42,7 @@ def listToString(s):
     
     # traverse in the string   
     for ele in s:  
-        str1 = str1 + "," + ele 
+        str1 = str1 + ele + ","
     
     # return string   
     return str1  
@@ -62,7 +62,6 @@ response = analyze(imagga_url, image, api_key, api_secret)
 pprint(response.json(), indent=2, width=200)
 print(40*"-")
 tags = [item['tag']['en'] for item in response.json()['result']['tags']]
-tags.append(url)
 speech = listToString(tags)
 '''
 if __name__ == '__main__':

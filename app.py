@@ -6,6 +6,9 @@ import json, jsonify, requests
 import GetSnap
 
 app = Flask(__name__)
+
+app.config['ASSIST_CONFIG_ON_GOOGLE'] = True
+
 cors = CORS(app)
 assist = Assistant(app, route='/google')
 
@@ -16,7 +19,10 @@ def main():
 
 @assist.action('tv-watch')
 def google_tv_watch():
-    return tell(GetSnap.speech[:639])
+    return tell(GetSnap.speech[:639]).card(
+        text=GetSnap.url,
+        title="Here is the url:"
+    )
 
 if __name__ == '__main__':
     app.run(threaded=True, port=5000)
