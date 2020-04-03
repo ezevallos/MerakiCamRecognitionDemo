@@ -22,7 +22,7 @@ def main():
 def google_tv_watch():
     return tell("I see " + GetSnap.speech[:154]).card(
         title="See Image:",
-        img_url="data:image/jpeg;base64," + base64.b64encode(GetSnap.get_image(GetSnap.url))
+        img_url="data:image/jpeg;base64," + str(base64.b64encode(GetSnap.get_image(GetSnap.url)))
     )
 
 if __name__ == '__main__':
