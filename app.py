@@ -19,10 +19,7 @@ def main():
 
 @assist.action('tv-watch')
 def google_tv_watch():
-    return tell(GetSnap.speech[:154]).card(
-        text=GetSnap.url
-        title="URL:"
-    )
+    return tell(GetSnap.speech[:154] + " " + GetSnap.url)
 
 if __name__ == '__main__':
     app.run(threaded=True, port=5000)
