@@ -1,10 +1,12 @@
-from flask import Flask, request, render_template
+from flask import Flask, Response, jsonify, request, render_template
 from flask_assistant import Assistant, tell
+from flask_cors import CORS
 from pprint import pprint
 import json, jsonify, requests
 import GetSnap
 
 app = Flask(__name__)
+cors = CORS(app)
 assist = Assistant(app, route='/google')
 
 @app.route("/", methods=['GET'])
