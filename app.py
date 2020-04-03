@@ -16,8 +16,7 @@ def main():
 
 @assist.action('tv-watch')
 def google_tv_watch():
-    print(GetSnap.tags)
-    return tell(GetSnap.tags)
+    return tell(print(GetSnap.tags))
 
 if __name__ == '__main__':
     app.run(threaded=True, port=5000)
