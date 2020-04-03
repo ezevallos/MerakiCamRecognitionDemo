@@ -27,10 +27,8 @@ def google_tv_watch():
     f = open('img.jpg',"wb")
     f.write(image)
     f.close()
-    return tell("I see " + speech[:154]).card(
-        text="",
-        title="See Image:",
-        img_url="https://lychee-custard-48379.herokuapp.com/img"
+    return tell("I see " + speech[:154]).link_out(
+        "See Image:", "https://lychee-custard-48379.herokuapp.com/img"
     )
 
 if __name__ == '__main__':
