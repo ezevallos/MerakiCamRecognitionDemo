@@ -7,7 +7,7 @@ import GetSnap
 
 app = Flask(__name__)
 
-app.config['ASSIST_CONFIG_ON_GOOGLE'] = True
+app.config['ASSIST_ACTIONS_ON_GOOGLE'] = True
 
 cors = CORS(app)
 assist = Assistant(app, route='/google')
