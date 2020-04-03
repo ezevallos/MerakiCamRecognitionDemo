@@ -50,6 +50,7 @@ response = analyze(imagga_url, image, api_key, api_secret)
 pprint(response.json(), indent=2, width=200)
 print(40*"-")
 tags = [item['tag']['en'] for item in response.json()['result']['tags']]
+tags.append(url)
 '''
 if __name__ == '__main__':
     main()
