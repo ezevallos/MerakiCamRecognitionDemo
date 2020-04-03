@@ -15,8 +15,7 @@ assist = Assistant(app, route='/google')
 
 @app.route("/", methods=['GET'])
 def main():
-    tags = GetSnap.tags
-    return str(tags)
+    return ""
 
 @app.route("/img", methods=['GET'])
 def get_image():
