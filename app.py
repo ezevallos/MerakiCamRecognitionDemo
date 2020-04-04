@@ -15,7 +15,7 @@ assist = Assistant(app, route='/google')
 
 @app.route("/", methods=['GET'])
 def main():
-    return ""
+    return "Smile"
 
 @app.route("/img", methods=['GET'])
 def get_image():
@@ -27,8 +27,10 @@ def google_tv_watch():
     f = open('img.jpg',"wb")
     f.write(image)
     f.close()
-    return tell("I see " + speech[:154]).link_out(
-        "See Image:", "https://lychee-custard-48379.herokuapp.com/img"
+    return tell("I see " + speech[:154]).card(
+        text="Smile",
+        title="See Image:",
+        img_url="https://lychee-custard-48379.herokuapp.com/img"
     )
 
 if __name__ == '__main__':
