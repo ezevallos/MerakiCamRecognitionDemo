@@ -1,5 +1,5 @@
 from flask import Flask, Response, jsonify, request, render_template, send_file
-from flask_assistant import Assistant, tell
+from flask_assistant import Assistant, tell, ask
 from flask_cors import CORS
 from pprint import pprint
 import json, jsonify, requests
@@ -9,6 +9,7 @@ import base64
 app = Flask(__name__)
 
 app.config['ASSIST_ACTIONS_ON_GOOGLE'] = True
+app.config['INTEGRATIONS'] = ['ACTIONS_ON_GOOGLE']
 
 cors = CORS(app)
 assist = Assistant(app, route='/google')
@@ -28,7 +29,7 @@ def google_tv_watch():
     f.write(image)
     f.close()
     return tell("I see " + speech[:154]).card(
-        text="Smile",
+        text="See...",
         title="See Image:",
         img_url="https://lychee-custard-48379.herokuapp.com/img"
     )
