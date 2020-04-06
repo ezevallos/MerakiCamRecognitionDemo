@@ -6,11 +6,11 @@ En este laboratorio obtenemos un *snapshot* de una cámara *Cisco Meraki*, hacie
 
 ## Objetivos
 
-Al completar este laboratorio, estará familiarizado con el uso básico de las *APIs* de *Cisco Meraki*, *Imagga* y *Google Actions*, y además habrá establecido un flujo de trabajo en el cual:
+Al completar este laboratorio, estará familiarizado con el uso básico de las *APIs* de *Cisco Meraki*, *Imagga* y *Google Actions*, y además:
 
- - Obtiene la captura de una cámara Meraki, mediante el *Dashboard API*
- - Utiliza el URL de la imagen, para obtener el archivo donde esta se encuentra
- - Envía esta imagen al software de reconocimiento, llamado *Imagga*, mediante su *API*
+ - Obtener la captura de una cámara Meraki, mediante el *Dashboard API*
+ - Utilizar el URL de la imagen, para obtener el archivo donde esta se encuentra
+ - Enviar esta imagen al software de reconocimiento, llamado *Imagga*, mediante su *API*
  - 
 
 ## Create files and folders
@@ -148,5 +148,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY4MzM2MDUwLC0xMzI2MzE2NTY0XX0=
+eyJoaXN0b3J5IjpbLTE5Mjg2Njg2MTQsMzY4MzM2MDUwLC0xMz
+I2MzE2NTY0XX0=
 -->
