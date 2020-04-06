@@ -4,9 +4,9 @@
 En este laboratorio obtenemos un *snapshot* de una cámara *Cisco Meraki*, haciendo uso del *Dashboard API*. Luego, envíamos la imagen a un software de reconocimiento de imágenes llamado *Imagga*, cuyo *API* es de uso abierto. Finalmente, utilizamos la *API* de *Google Actions* para que nos lea las características de la imagen en voz alta, y nos muestre la imagen; mediante un comando de voz de *Google Assistant*.
 
 
-# Files
+## Objetivos
 
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+Al completar este laboratorio, estará familiarizado 
 
 ## Create files and folders
 
@@ -143,5 +143,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI5OTY5MDQzLC0xMzI2MzE2NTY0XX0=
+eyJoaXN0b3J5IjpbMTE4MzYxMzQ5OCwtMTMyNjMxNjU2NF19
 -->
