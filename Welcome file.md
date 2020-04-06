@@ -6,7 +6,7 @@ En este laboratorio obtenemos un *snapshot* de una cámara *Cisco Meraki*, hacie
 
 ## Objetivos
 
-Al completar este laboratorio, estará familiarizado 
+Al completar este laboratorio, estará familiarizado con el uso básico de las *APIs* de *Cisco Meraki*, *Imagga* y *Google Actions*, 
 
 ## Create files and folders
 
@@ -143,5 +143,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MzYxMzQ5OCwtMTMyNjMxNjU2NF19
+eyJoaXN0b3J5IjpbNzU0OTQwOTA1LC0xMzI2MzE2NTY0XX0=
 -->
