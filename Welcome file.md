@@ -18,6 +18,7 @@ Al completar este laboratorio, estará familiarizado con el uso básico de las *
 
 ## Pre-requisitos
 
+ - List item
 
 ## Create files and folders
 
@@ -154,6 +155,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1Njk1NDU2NSwtMTkyODY2ODYxNCwzNj
+eyJoaXN0b3J5IjpbMTM5NjgwMzI0NywtMTkyODY2ODYxNCwzNj
 gzMzYwNTAsLTEzMjYzMTY1NjRdfQ==
 -->
