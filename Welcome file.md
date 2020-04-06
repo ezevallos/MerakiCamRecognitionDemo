@@ -19,7 +19,8 @@ Al completar este laboratorio, estará familiarizado con el uso básico de las *
 ## Pre-requisitos
 
  - Cuenta de ***DevNet*** para utilizar el ***Sandbox Meraki Always-On***
- - Cuenta de ***GitHub*** y un conocimiento básico de contol de versiones, según lo descrito en 
+ - Cuenta de ***GitHub*** y un conocimiento básico de contol de versiones, según lo descrito en [Introducción a Git](https://developer.cisco.com/learning/tracks/devnet-beginner-es/fundamentals-es/intro-to-git-es/step/1)
+ - 
 
 ## Create files and folders
 
@@ -156,6 +157,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTU3ODM0MywtMTkyODY2ODYxNCwzNj
-gzMzYwNTAsLTEzMjYzMTY1NjRdfQ==
+eyJoaXN0b3J5IjpbLTEyNjA5NjExOTUsLTE5Mjg2Njg2MTQsMz
+Y4MzM2MDUwLC0xMzI2MzE2NTY0XX0=
 -->
