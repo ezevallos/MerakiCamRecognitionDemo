@@ -18,9 +18,11 @@ Al completar este laboratorio, estará familiarizado con el uso básico de las *
 
 ## Pre-requisitos
 
+ - Manejo de ***Python*** y sus librerías, en particular ***Flask*** para desplegar *web servers*
  - Cuenta de ***DevNet*** para utilizar el ***Sandbox Meraki Always-On***.
  - Cuenta de ***GitHub*** y un conocimiento básico de contol de versiones, según lo descrito en [Introducción a Git](https://developer.cisco.com/learning/tracks/devnet-beginner-es/fundamentals-es/intro-to-git-es/step/1).
  - Cuenta de ***Imagga*** para contar con un *api_key* y *api_secret* y enviar imágenes a reconocer.
+ - Cuenta de ***
 
 ## Acerca de Cisco Meraki
 
@@ -157,6 +159,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMzkxNDY2Nyw2NzIxNTY3NywtMTkyOD
+eyJoaXN0b3J5IjpbMTgzNTYyMTY4Miw2NzIxNTY3NywtMTkyOD
 Y2ODYxNCwzNjgzMzYwNTAsLTEzMjYzMTY1NjRdfQ==
 -->
