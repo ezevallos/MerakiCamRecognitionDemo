@@ -8,19 +8,19 @@ En este laboratorio obtenemos un *snapshot* de una cámara *Cisco Meraki*, hacie
 
 Al completar este laboratorio, estará familiarizado con el uso básico de las *APIs* de *Cisco Meraki*, *Imagga* y *Google Actions*, y además:
 
- - Obtener la captura de una cámara Meraki, mediante el *Dashboard API*
- - Utilizar el URL de la imagen, para obtener el archivo donde esta se encuentra
+ - Obtener la captura de una cámara Meraki, mediante el *Dashboard API*.
+ - Utilizar el URL de la imagen, para obtener el archivo donde esta se encuentra.
  - Enviar esta imagen al software de reconocimiento, llamado *Imagga*, mediante su *API*
- - Modularizar el código para llamarlo desde nuestro *web server*
+ - Modularizar el código para llamarlo desde nuestro *web server*.
  - Crear un *web server Flask* que sirva las características e imagen obtenidas en el script previo
- - Publicar nuestro proyecto a *Heroku* para acceder a él desde una dirección web
- - Configurar *Google Actions* para llamar a nuestro *web server* mediante un comando de voz en *Google Assistant*, usando *DialogFlow*
+ - Publicar nuestro proyecto a *Heroku* para acceder a él desde una dirección web.
+ - Configurar *Google Actions* para llamar a nuestro *web server* mediante un comando de voz en *Google Assistant*, usando *DialogFlow*.
 
 ## Pre-requisitos
 
- - Cuenta de ***DevNet*** para utilizar el ***Sandbox Meraki Always-On***
- - Cuenta de ***GitHub*** y un conocimiento básico de contol de versiones, según lo descrito en [Introducción a Git](https://developer.cisco.com/learning/tracks/devnet-beginner-es/fundamentals-es/intro-to-git-es/step/1)
- - Cuenta de ***Imagga*** para contar con un *api_key* y *api_secret* 
+ - Cuenta de ***DevNet*** para utilizar el ***Sandbox Meraki Always-On***.
+ - Cuenta de ***GitHub*** y un conocimiento básico de contol de versiones, según lo descrito en [Introducción a Git](https://developer.cisco.com/learning/tracks/devnet-beginner-es/fundamentals-es/intro-to-git-es/step/1).
+ - Cuenta de ***Imagga*** para contar con un *api_key* y *api_secret* y enviar imágenes a reconocer.
 
 ## Acerca de Cisco Meraki
 
@@ -157,6 +157,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODAzMTkxODMsLTE5Mjg2Njg2MTQsMz
-Y4MzM2MDUwLC0xMzI2MzE2NTY0XX0=
+eyJoaXN0b3J5IjpbNjcyMTU2NzcsLTE5Mjg2Njg2MTQsMzY4Mz
+M2MDUwLC0xMzI2MzE2NTY0XX0=
 -->
