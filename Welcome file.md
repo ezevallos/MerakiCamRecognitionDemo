@@ -22,7 +22,7 @@ Al completar este laboratorio, estará familiarizado con el uso básico de las *
  - Cuenta de ***GitHub*** y un conocimiento básico de contol de versiones, según lo descrito en [Introducción a Git](https://developer.cisco.com/learning/tracks/devnet-beginner-es/fundamentals-es/intro-to-git-es/step/1)
  - 
 
-## Create files and folders
+## Acerca de Cisco Meraki
 
 The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
 
@@ -157,6 +157,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjA5NjExOTUsLTE5Mjg2Njg2MTQsMz
-Y4MzM2MDUwLC0xMzI2MzE2NTY0XX0=
+eyJoaXN0b3J5IjpbMTI1MjExMTM0MCwtMTkyODY2ODYxNCwzNj
+gzMzYwNTAsLTEzMjYzMTY1NjRdfQ==
 -->
