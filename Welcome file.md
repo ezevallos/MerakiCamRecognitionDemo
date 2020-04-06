@@ -14,7 +14,9 @@ Al completar este laboratorio, estará familiarizado con el uso básico de las *
  - Modularizar el código para llamarlo desde nuestro *web server*
  - Crear un *web server Flask* que sirva las características e imagen obtenidas en el script previo
  - Publicar nuestro proyecto a *Heroku* para acceder a él desde una dirección web
- - Configurar *Google Actions*
+ - Configurar *Google Actions* para llamar a nuestro *web server* mediante un comando de voz en *Google Assistant*, usando *DialogFlow*
+
+## 
 
 ## Create files and folders
 
@@ -151,6 +153,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NzExMTg0MSwtMTkyODY2ODYxNCwzNj
+eyJoaXN0b3J5IjpbMTcxNTc3OTUzNSwtMTkyODY2ODYxNCwzNj
 gzMzYwNTAsLTEzMjYzMTY1NjRdfQ==
 -->
