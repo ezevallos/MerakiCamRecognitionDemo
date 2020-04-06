@@ -1,7 +1,7 @@
 # Lab: Utilice las *APIs* de *Google Actions*, *Imagga* y *Cisco Meraki* para analizar la captura de una cámara de Meraki
 
 ## Introducción
-En este laboratorio obtenemos un *snapshot* de una cámara *Cisco Meraki*, haciendo uso del *Dashboard API*. Envíamos la imagen a un software 
+En este laboratorio obtenemos un *snapshot* de una cámara *Cisco Meraki*, haciendo uso del *Dashboard API*. Luego, envíamos la imagen a un software de reconocimiento de imágenes llamado *Imagga*, cuyo *API* es de uso abierto. 
 
 
 # Files
@@ -143,5 +143,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTgwMzEzNywtMTMyNjMxNjU2NF19
+eyJoaXN0b3J5IjpbMTYwMTE3Nzg4NiwtMTMyNjMxNjU2NF19
 -->
