@@ -11,7 +11,9 @@ Al completar este laboratorio, estará familiarizado con el uso básico de las *
  - Obtener la captura de una cámara Meraki, mediante el *Dashboard API*
  - Utilizar el URL de la imagen, para obtener el archivo donde esta se encuentra
  - Enviar esta imagen al software de reconocimiento, llamado *Imagga*, mediante su *API*
- - Crear un *web server Flask* que sirva las características e imagen
+ - Modularizar el código para llamarlo desde nuestro *web server*
+ - Crear un *web server Flask* que sirva las características e imagen obtenidas en el script previo
+ - Publicar nuestro repositorio 
 
 ## Create files and folders
 
@@ -148,6 +150,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIwOTM0NzksLTE5Mjg2Njg2MTQsMzY4Mz
-M2MDUwLC0xMzI2MzE2NTY0XX0=
+eyJoaXN0b3J5IjpbLTIwNTI1OTY1MTEsLTE5Mjg2Njg2MTQsMz
+Y4MzM2MDUwLC0xMzI2MzE2NTY0XX0=
 -->
