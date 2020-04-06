@@ -18,13 +18,13 @@ Al completar este laboratorio, estará familiarizado con el uso básico de las *
 
 ## Pre-requisitos
 
- - Cuenta de ***DevNet*** para utilizar el ***Sandbox Meraki Always-On***.
+ - Cuenta de ***DevNet*** para utilizar el ***_Sandbox Meraki Always-On_***.
  - Cuenta de ***GitHub*** y un conocimiento básico de contol de versiones, según lo descrito en [Introducción a Git](https://developer.cisco.com/learning/tracks/devnet-beginner-es/fundamentals-es/intro-to-git-es/step/1).
  - Cuenta de ***Imagga*** para contar con un *api_key* y *api_secret* y enviar imágenes a reconocer.
 
 ## Acerca de Cisco Meraki
 
-The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
+**_Cisco Meraki_** es la solución de red gestionada en nube de **Cisco**. Ofrece un portafolio de productos de infraestructura de red que incluye Access points, Enterprise switches, routers, dispositivos de seguridad de red e incluso cámaras. Su versátil modelo de gestión basado en nube permite administrar la topología desde cualquier lugar del mundo, y provisionar equipos con tan solo una conexión a internet, y una fuente de poder.
 
 ## Switch to another file
 
@@ -157,6 +157,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcyMTU2NzcsLTE5Mjg2Njg2MTQsMzY4Mz
-M2MDUwLC0xMzI2MzE2NTY0XX0=
+eyJoaXN0b3J5IjpbLTI2NzQxMTM5MSw2NzIxNTY3NywtMTkyOD
+Y2ODYxNCwzNjgzMzYwNTAsLTEzMjYzMTY1NjRdfQ==
 -->
