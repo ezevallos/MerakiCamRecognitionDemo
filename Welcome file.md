@@ -18,7 +18,8 @@ Al completar este laboratorio, estará familiarizado con el uso básico de las *
 
 ## Pre-requisitos
 
- - Cuenta de ***DevNet*** para utli
+ - Cuenta de ***DevNet*** para utilizar el ***Sandbox Meraki Always-On***
+ - Cuenta de ***GitHub*** y un conocimiento básico de contol de versiones, según lo descrito en 
 
 ## Create files and folders
 
@@ -155,6 +156,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MzY1NTg5NSwtMTkyODY2ODYxNCwzNj
+eyJoaXN0b3J5IjpbLTUwOTU3ODM0MywtMTkyODY2ODYxNCwzNj
 gzMzYwNTAsLTEzMjYzMTY1NjRdfQ==
 -->
