@@ -34,6 +34,7 @@ Al completar este laboratorio, estará familiarizado con el uso básico de las *
 
 ![DevNet Sandbox](https://i.ibb.co/T2FpjXt/DN-SB.png)
 Aquí encontraremos la respuesta a muchas preguntas acerca de estos entornos virtuales, donde desarrolladores, ingenieros, administradores de red, arquitectos, y todos podemos desarrollar y probar las APIs, controladoras, equipos de red y suites de colaboración de Cisco.  Podremos correr nuestro código en infraestructura que se encuentra activa 24/7, en una variedad de laboratorios de acceso libre, y escoger entre entornos virtualizados, simuladores, e infraestructura física. Nos dirigimos al catálogo completo haciendo click en “_View all Sandboxes_”.
+![All DevNet Sa](https://i.ibb.co/xHCnR3f/DN-SB-2.png)
 ## El archivo GetSnap en ***Python***
 
 Para empezar, es necesario obtener una captura
@@ -165,6 +166,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg5NDc1ODgyLDM2NTM0MDE5OCwxOTU4OD
+eyJoaXN0b3J5IjpbOTEwMzQxMDY2LDM2NTM0MDE5OCwxOTU4OD
 gzMzQ3XX0=
 -->
