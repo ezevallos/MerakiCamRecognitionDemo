@@ -115,7 +115,7 @@ image = get_image(url)
 ### Recapitulemos
 Hasta este punto, nuestro código consta de tres funciones. La primera, `setHeaders_Meraki` se encarga de crear un diccionario y asignarlo a la variable header. Este será el *JSON* con el que realizaremos nuestra llamada al *Dashboard API* de *Meraki*. Luego la segunda función, `getSnap`, se encarga de la realización de esta llamada, utilizando el método *POST* del módulo `requests` y de esta forma recibe otro *JSON* como respuesta. Este *JSON* lo almacenamos en forma de diccionario en la variable `snapshot`, y lo indexamos para obtener la URL de la imagen, mediante `url = snapshot["url"]`. Finalmente, la tercera función se encarga de buscar la imagen en la URL mediante el método *GET* y guarda el contenido en la variable `image`.
 ### ⠀
-Habiendo obtenido la imagen, procedemos a enviarla 
+Habiendo obtenido la imagen, procedemos a enviarla a un software de reconocimiento de imágenes llamado *Imagga*. Esto lo haremos a través de 
 
 
 ## Rename a file
@@ -245,7 +245,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MjgzODE3OSwtMTc4OTk2NDMwMCwyOD
+eyJoaXN0b3J5IjpbMTk0NjUyNzgwMSwtMTc4OTk2NDMwMCwyOD
 c0MzU0NjUsLTMyMDYxMjQ5NCwxOTgzMDUyMjQ5LDY4Mjc3NDgx
 MSwtMzAwODY4NzcyLDE4NjYyMTMyMDUsLTE5MDQ1ODU3NjYsLT
 QwNjk3MjAzMSwtOTk1NDI2MDIzLDIyOTM5Mjc1LDE0ODk2MjM3
