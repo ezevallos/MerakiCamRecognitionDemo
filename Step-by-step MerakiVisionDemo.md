@@ -43,7 +43,8 @@ Encontraremos tres _Sandboxes_ de **_Meraki_**, el que utilizaremos se llama “
 
 ## El archivo GetSnap en ***Python***
 
-Nuestro código en ***Python*** va a obtener una captura de la cámara Meraki modelo MV12W, cuyo número serial es el Q2GV-7HEL-HC6C, y se ubica en la red con Id L_566327653141856854 llamada *DNEAlertsNet*. Esta red no la encontraremos dentro de la interfaz del Dashboard API, pero sí estará listada si hacemos las llamadas de Postman Get Organization Id y Get Networks Id, utilizando el *API Key* previamente mencionado. La organización lleva el nombre *DeLab* y su Id es el 681155.
+Nuestro código en ***Python*** va a obtener una captura de la cámara Meraki modelo MV12W, cuyo número serial es el Q2GV-7HEL-HC6C, y se ubica en la red con Id L_566327653141856854 llamada *DNEAlertsNet*. Esta red no la encontraremos dentro de la interfaz del Dashboard API, pero sí estará listada si hacemos las llamadas de Postman Get Organization Id y Get Networks Id, utilizando el *API Key* previamente mencionado. La organización lleva el nombre *DeLab* y su Id es el 681155. Esta cámara ha sido posicionada delante de una TV que se encuentra prendida 24/7, de forma que siempre tiene algo qué mostrar, y su contenido es dinámico.
+Para obtener una captura de lo que está registrando la cámara, debemos hacer uso del
 
 ## Rename a file
 
@@ -172,6 +173,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NTA5NTEwOSwyMjkzOTI3NSwxNDg5Nj
+eyJoaXN0b3J5IjpbLTU4ODY2ODk2MCwyMjkzOTI3NSwxNDg5Nj
 IzNzk4LDM2NTM0MDE5OCwxOTU4ODgzMzQ3XX0=
 -->
