@@ -74,7 +74,9 @@ Para obtener la imagen de la URL, debemos realizar un pequeño artificio:
 def get_image(url):
 	code = 404
 	while code != 200:
-		responde = requests.get(url)
+		response = requests.get(url)
+		code = response.status_code
+	return response.content
 ```
 Luego podemos obtener la imagen y asignarla en una variable `image = get_image(url)`.
 
@@ -206,8 +208,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgyNzc0ODExLC0zMDA4Njg3NzIsMTg2Nj
-IxMzIwNSwtMTkwNDU4NTc2NiwtNDA2OTcyMDMxLC05OTU0MjYw
-MjMsMjI5MzkyNzUsMTQ4OTYyMzc5OCwzNjUzNDAxOTgsMTk1OD
-g4MzM0N119
+eyJoaXN0b3J5IjpbMTU2MzM0NDkyNSw2ODI3NzQ4MTEsLTMwMD
+g2ODc3MiwxODY2MjEzMjA1LC0xOTA0NTg1NzY2LC00MDY5NzIw
+MzEsLTk5NTQyNjAyMywyMjkzOTI3NSwxNDg5NjIzNzk4LDM2NT
+M0MDE5OCwxOTU4ODgzMzQ3XX0=
 -->
