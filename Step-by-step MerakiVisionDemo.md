@@ -36,6 +36,7 @@ Al completar este laboratorio, estará familiarizado con el uso básico de las *
 Aquí encontraremos la respuesta a muchas preguntas acerca de estos entornos virtuales, donde desarrolladores, ingenieros, administradores de red, arquitectos, y todos podemos desarrollar y probar las APIs, controladoras, equipos de red y suites de colaboración de Cisco.  Podremos correr nuestro código en infraestructura que se encuentra activa 24/7, en una variedad de laboratorios de acceso libre, y escoger entre entornos virtualizados, simuladores, e infraestructura física. Nos dirigimos al catálogo completo haciendo click en “_View all Sandboxes_”.
 ![All DevNet Sandboxes](https://i.ibb.co/xHCnR3f/DN-SB-2.png)
 ![Buscador Sandboxes](https://i.ibb.co/sbhg02K/DN-SB-3.png)
+El catálogo cuenta con 70 _Sandboxes_ distintos. Para filtrar, podemos hacerlo por tipo, por categoría, por status, o simplemente hacer click en la búsqueda, y tipeamos la palabra “**_Meraki_**” para encontrar el que vamos a usar.
 
 ## El archivo GetSnap en ***Python***
 
@@ -168,6 +169,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc5MTgwMDc2LDM2NTM0MDE5OCwxOTU4OD
+eyJoaXN0b3J5IjpbMzQ4ODE4NjgwLDM2NTM0MDE5OCwxOTU4OD
 gzMzQ3XX0=
 -->
