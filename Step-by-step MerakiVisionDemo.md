@@ -120,7 +120,7 @@ Habiendo obtenido la imagen, procedemos a enviarla a un software de reconocimien
 Procedemos a llenar el formulario con los datos apropiados, para este caso de uso sólo es necesario una cuenta gratuita.
 ![SignUp Imagga Form](https://i.ibb.co/f2yRkm1/IG-SU-2.png)
 Con esto ya podemos acceder al [Dashboard de Imagga](https://imagga.com/profile/dashboard) y aquí encontraremos el *API Key* y *API Secret* necesarios para realizar el reconocimiento de la imagen.
-
+![Imagga API Keys](https://i.ibb.co/MBkqWdy/IG-SU-3.png)
 
 ## Rename a file
 
@@ -249,11 +249,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzMTgyNTcsMTkwMzg5OTEzNywxMzY2NT
-c5MTIsMjEyMjc1NjcwOCw5MDM3MjEyNzcsOTk3MDIyMTAwLDEy
-NjU0NDg4MzcsLTc3NTcwNDExNCwtMTc4OTk2NDMwMCwyODc0Mz
-U0NjUsLTMyMDYxMjQ5NCwxOTgzMDUyMjQ5LDY4Mjc3NDgxMSwt
-MzAwODY4NzcyLDE4NjYyMTMyMDUsLTE5MDQ1ODU3NjYsLTQwNj
-k3MjAzMSwtOTk1NDI2MDIzLDIyOTM5Mjc1LDE0ODk2MjM3OThd
+eyJoaXN0b3J5IjpbLTU4MzU1Njk4MywzOTMxODI1NywxOTAzOD
+k5MTM3LDEzNjY1NzkxMiwyMTIyNzU2NzA4LDkwMzcyMTI3Nyw5
+OTcwMjIxMDAsMTI2NTQ0ODgzNywtNzc1NzA0MTE0LC0xNzg5OT
+Y0MzAwLDI4NzQzNTQ2NSwtMzIwNjEyNDk0LDE5ODMwNTIyNDks
+NjgyNzc0ODExLC0zMDA4Njg3NzIsMTg2NjIxMzIwNSwtMTkwND
+U4NTc2NiwtNDA2OTcyMDMxLC05OTU0MjYwMjMsMjI5MzkyNzVd
 fQ==
 -->
