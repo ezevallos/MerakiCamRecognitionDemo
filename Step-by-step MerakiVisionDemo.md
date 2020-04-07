@@ -58,9 +58,9 @@ Para obtener una captura de lo registrado en la cámara, debemos hacer uso del *
 		resp = requests.post(uri, headers = theHeader,data={})
 		return resp.json()
 		
-		header = setHeaders_meraki()
-		snapshot = getSnap(header)
-
+	header = setHeaders_meraki()
+	snapshot = getSnap(header)
+En el código anterior
 
 ## Rename a file
 
@@ -189,6 +189,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjEwMDQwNjUsMjI5MzkyNzUsMTQ4OT
+eyJoaXN0b3J5IjpbLTE3NzExMTk0NjQsMjI5MzkyNzUsMTQ4OT
 YyMzc5OCwzNjUzNDAxOTgsMTk1ODg4MzM0N119
 -->
