@@ -23,7 +23,7 @@ Al completar este laboratorio, estará familiarizado con el uso básico de las *
  - Cuenta de ***GitHub*** y un conocimiento básico de contol de versiones, según lo descrito en [Introducción a Git](https://developer.cisco.com/learning/tracks/devnet-beginner-es/fundamentals-es/intro-to-git-es/step/1).
  - Cuenta de ***Imagga*** para contar con un *api_key* y *api_secret* y enviar imágenes a reconocer.
  - Cuenta de ***Heroku*** para acceder a nuestro código de ***Python*** desde una URL pública
- - Cuenta de 
+ - Cuenta de ***Google*** para acceder a ***DialogFlow***
 
 ## Acerca de Cisco Meraki
 
@@ -160,7 +160,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MzYyODk2MywxOTUxMDExNzg2LDE4Mz
-U2MjE2ODIsNjcyMTU2NzcsLTE5Mjg2Njg2MTQsMzY4MzM2MDUw
-LC0xMzI2MzE2NTY0XX0=
+eyJoaXN0b3J5IjpbLTE3MDk0OTQ1MjgsMTk1MTAxMTc4NiwxOD
+M1NjIxNjgyLDY3MjE1Njc3LC0xOTI4NjY4NjE0LDM2ODMzNjA1
+MCwtMTMyNjMxNjU2NF19
 -->
