@@ -117,7 +117,8 @@ Hasta este punto, nuestro código consta de tres funciones. La primera, `setHead
 
 Habiendo obtenido la imagen, procedemos a enviarla a un software de reconocimiento de imágenes llamado *Imagga*. Esto lo haremos a través de su *API*, para lo cual es necesario crearnos una cuenta. Ingresamos a la dirección [http://imagga.com/](http://imagga.com/)
 ![SignUp Imagga](https://i.ibb.co/vVvmfNw/IG-SU-1.png)
-Procedemos a llenar el formulario con los datos apropiados, 
+Procedemos a llenar el formulario con los datos apropiados, para este caso de uso sólo es necesario una cuenta gratuita.
+
 
 ## Rename a file
 
@@ -246,10 +247,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMjc1NjcwOCw5MDM3MjEyNzcsOTk3MD
-IyMTAwLDEyNjU0NDg4MzcsLTc3NTcwNDExNCwtMTc4OTk2NDMw
-MCwyODc0MzU0NjUsLTMyMDYxMjQ5NCwxOTgzMDUyMjQ5LDY4Mj
-c3NDgxMSwtMzAwODY4NzcyLDE4NjYyMTMyMDUsLTE5MDQ1ODU3
-NjYsLTQwNjk3MjAzMSwtOTk1NDI2MDIzLDIyOTM5Mjc1LDE0OD
-k2MjM3OTgsMzY1MzQwMTk4LDE5NTg4ODMzNDddfQ==
+eyJoaXN0b3J5IjpbNjUxNTkxNjM0LDIxMjI3NTY3MDgsOTAzNz
+IxMjc3LDk5NzAyMjEwMCwxMjY1NDQ4ODM3LC03NzU3MDQxMTQs
+LTE3ODk5NjQzMDAsMjg3NDM1NDY1LC0zMjA2MTI0OTQsMTk4Mz
+A1MjI0OSw2ODI3NzQ4MTEsLTMwMDg2ODc3MiwxODY2MjEzMjA1
+LC0xOTA0NTg1NzY2LC00MDY5NzIwMzEsLTk5NTQyNjAyMywyMj
+kzOTI3NSwxNDg5NjIzNzk4LDM2NTM0MDE5OCwxOTU4ODgzMzQ3
+XX0=
 -->
