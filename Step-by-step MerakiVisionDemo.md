@@ -116,6 +116,7 @@ image = get_image(url)
 Hasta este punto, nuestro código consta de tres funciones. La primera, `setHeaders_Meraki` se encarga de crear un diccionario y asignarlo a la variable header. Este será el *JSON* con el que realizaremos nuestra llamada al *Dashboard API* de *Meraki*. Luego la segunda función, `getSnap`, se encarga de la realización de esta llamada, utilizando el método *POST* del módulo `requests` y de esta forma recibe otro *JSON* como respuesta. Este *JSON* lo almacenamos en forma de diccionario en la variable `snapshot`, y lo indexamos para obtener la URL de la imagen, mediante `url = snapshot["url"]`. Finalmente, la tercera función se encarga de buscar la imagen en la URL mediante el método *GET* y guarda el contenido en la variable `image`.
 
 Habiendo obtenido la imagen, procedemos a enviarla a un software de reconocimiento de imágenes llamado *Imagga*. Esto lo haremos a través de su *API*, para lo cual es necesario crearnos una cuenta. Ingresamos a la dirección [http://imagga.com/](http://imagga.com/)
+![SignUp Imagga](https://i.ibb.co/vVvmfNw/IG-SU-1.png)
 
 
 ## Rename a file
@@ -245,9 +246,10 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NTQ0ODgzNywtNzc1NzA0MTE0LC0xNz
-g5OTY0MzAwLDI4NzQzNTQ2NSwtMzIwNjEyNDk0LDE5ODMwNTIy
-NDksNjgyNzc0ODExLC0zMDA4Njg3NzIsMTg2NjIxMzIwNSwtMT
-kwNDU4NTc2NiwtNDA2OTcyMDMxLC05OTU0MjYwMjMsMjI5Mzky
-NzUsMTQ4OTYyMzc5OCwzNjUzNDAxOTgsMTk1ODg4MzM0N119
+eyJoaXN0b3J5IjpbOTk3MDIyMTAwLDEyNjU0NDg4MzcsLTc3NT
+cwNDExNCwtMTc4OTk2NDMwMCwyODc0MzU0NjUsLTMyMDYxMjQ5
+NCwxOTgzMDUyMjQ5LDY4Mjc3NDgxMSwtMzAwODY4NzcyLDE4Nj
+YyMTMyMDUsLTE5MDQ1ODU3NjYsLTQwNjk3MjAzMSwtOTk1NDI2
+MDIzLDIyOTM5Mjc1LDE0ODk2MjM3OTgsMzY1MzQwMTk4LDE5NT
+g4ODMzNDddfQ==
 -->
