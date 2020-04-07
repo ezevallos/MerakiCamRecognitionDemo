@@ -45,7 +45,7 @@ Encontraremos tres _Sandboxes_ de **_Meraki_**, el que utilizaremos se llama “
 
 Nuestro código en ***Python*** va a obtener una captura de la cámara Meraki modelo MV12W, cuyo número serial es el Q2GV-7HEL-HC6C, y se ubica en la red con Id L_566327653141856854 llamada *DNEAlertsNet*. Esta red no la encontraremos dentro de la interfaz del Dashboard API, pero sí estará listada si hacemos las llamadas de Postman Get Organization Id y Get Networks Id, utilizando el *API Key* previamente mencionado. La organización lleva el nombre *DeLab* y su Id es el 681155. Esta cámara ha sido posicionada delante de una TV que se encuentra prendida 24/7, de forma que siempre tiene algo qué mostrar, y su contenido es dinámico.
 Para obtener una captura de lo registrado en la cámara, debemos hacer uso del *API* de la siguiente forma:
-```python{.linenums}
+```python
     def setHeaders_meraki():
 	    header = {
 		    "X-Cisco-Meraki-API-Key":"6bec40cf957de430a6f1f2baa056b99a4fac9ea0",
@@ -62,7 +62,13 @@ Para obtener una captura de lo registrado en la cámara, debemos hacer uso del *
 	snapshot = getSnap(header)
 ```
 En el código anterior, definimos primero los headers que enviaremos en nuestra llamada al *API* de *Meraki Dashboard*,  a través de la función *setHeaders_meraki*, especificamos el *API Key*, y los parámetros que debe aceptar y devolver nuestra llamada(JSON). Estos parámetros los alimentamos a nuestra función *getSnap*, la cual se encarga de hacer el llamado mediante el método *POST* y devuelve un *JSON* en forma de diccionario que podremos indexar para extraer la URL, `url = snapshot["url"]`.
-Para obtener la imagen de la URL, debemos realizar un pequeño artificio que nos permitirá 
+Para obtener la imagen de la URL, debemos realizar un pequeño artificio:
+```python
+def get_image(url):
+	code = 404
+	while code != 200
+	
+```
 
 
 ## Rename a file
@@ -192,7 +198,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MjY4ODU4MiwtMTkwNDU4NTc2NiwtND
+eyJoaXN0b3J5IjpbMTQ2NTYxMTMxOCwtMTkwNDU4NTc2NiwtND
 A2OTcyMDMxLC05OTU0MjYwMjMsMjI5MzkyNzUsMTQ4OTYyMzc5
 OCwzNjUzNDAxOTgsMTk1ODg4MzM0N119
 -->
