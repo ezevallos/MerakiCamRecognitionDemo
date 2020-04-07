@@ -43,7 +43,7 @@ Encontraremos tres _Sandboxes_ de **_Meraki_**, el que utilizaremos se llama “
 
 ## El archivo GetSnap en ***Python***
 
-Nuestro código en ***Python*** va a obtener una captura de la 
+Nuestro código en ***Python*** va a obtener una captura de la cámara Meraki modelo MV12W, cuyo número serial es el Q2GV-7HEL-HC6C, y se ubica en la red 
 
 ## Rename a file
 
@@ -172,6 +172,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI5MzkyNzUsMTQ4OTYyMzc5OCwzNjUzND
-AxOTgsMTk1ODg4MzM0N119
+eyJoaXN0b3J5IjpbMTIxODkyMTYzMCwyMjkzOTI3NSwxNDg5Nj
+IzNzk4LDM2NTM0MDE5OCwxOTU4ODgzMzQ3XX0=
 -->
