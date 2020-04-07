@@ -113,7 +113,7 @@ print(40*"-")
 image = get_image(url)
 ```
 ### Recapitulemos
-Hasta este punto, nuestro código consta de tres funciones. La primera, `setHeaders_Meraki` se encarga de crear un *JSON* con el que realizaremos nuestra llamada al *
+Hasta este punto, nuestro código consta de tres funciones. La primera, `setHeaders_Meraki` se encarga de crear un *JSON* con el que realizaremos nuestra llamada al *Dashboard API* de *Meraki*. Luego la segunda función, `getSnap` se encarga de la realización de la llamada, utilizando el método *POST* y de esta forma recibe otro *JSON* como respuesta
 
 
 ## Rename a file
@@ -243,9 +243,9 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDIwNDU0MywtMzIwNjEyNDk0LDE5OD
-MwNTIyNDksNjgyNzc0ODExLC0zMDA4Njg3NzIsMTg2NjIxMzIw
-NSwtMTkwNDU4NTc2NiwtNDA2OTcyMDMxLC05OTU0MjYwMjMsMj
-I5MzkyNzUsMTQ4OTYyMzc5OCwzNjUzNDAxOTgsMTk1ODg4MzM0
-N119
+eyJoaXN0b3J5IjpbLTMxMTg0MTIxLC0zMjA2MTI0OTQsMTk4Mz
+A1MjI0OSw2ODI3NzQ4MTEsLTMwMDg2ODc3MiwxODY2MjEzMjA1
+LC0xOTA0NTg1NzY2LC00MDY5NzIwMzEsLTk5NTQyNjAyMywyMj
+kzOTI3NSwxNDg5NjIzNzk4LDM2NTM0MDE5OCwxOTU4ODgzMzQ3
+XX0=
 -->
