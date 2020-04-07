@@ -78,7 +78,20 @@ def get_image(url):
 		code = response.status_code
 	return response.content
 ```
-Luego podemos obtener la imagen y asignarla en una variable `image = get_image(url)`.
+Luego podemos obtener la imagen y asignarla en una variable `image = get_image(url)`. Nuestro código hasta este punto:
+```python
+from pprint import pprint
+import requests
+import json
+
+def setHeaders_Meraki():
+	header = {
+		    "X-Cisco-Meraki-API-Key":"6bec40cf957de430a6f1f2baa056b99a4fac9ea0",
+		    "Accept":"application/json",
+		    "Content-Type":"application/json"
+		    }
+		    return header
+```
 
 
 ## Rename a file
@@ -208,8 +221,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MzM0NDkyNSw2ODI3NzQ4MTEsLTMwMD
-g2ODc3MiwxODY2MjEzMjA1LC0xOTA0NTg1NzY2LC00MDY5NzIw
-MzEsLTk5NTQyNjAyMywyMjkzOTI3NSwxNDg5NjIzNzk4LDM2NT
-M0MDE5OCwxOTU4ODgzMzQ3XX0=
+eyJoaXN0b3J5IjpbMjM0NTg0NTM4LDY4Mjc3NDgxMSwtMzAwOD
+Y4NzcyLDE4NjYyMTMyMDUsLTE5MDQ1ODU3NjYsLTQwNjk3MjAz
+MSwtOTk1NDI2MDIzLDIyOTM5Mjc1LDE0ODk2MjM3OTgsMzY1Mz
+QwMTk4LDE5NTg4ODMzNDddfQ==
 -->
