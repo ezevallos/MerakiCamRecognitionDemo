@@ -113,7 +113,7 @@ print(40*"-")
 image = get_image(url)
 ```
 ### Recapitulemos
-Hasta este punto, nuestro código consta de tres funciones. La primera, `setHeaders_Meraki` se encarga de crear un *JSON* 
+Hasta este punto, nuestro código consta de tres funciones. La primera, `setHeaders_Meraki` se encarga de crear un *JSON* con el que realizaremos nuestra llamada al *
 
 
 ## Rename a file
@@ -243,8 +243,9 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMDYxMjQ5NCwxOTgzMDUyMjQ5LDY4Mj
-c3NDgxMSwtMzAwODY4NzcyLDE4NjYyMTMyMDUsLTE5MDQ1ODU3
-NjYsLTQwNjk3MjAzMSwtOTk1NDI2MDIzLDIyOTM5Mjc1LDE0OD
-k2MjM3OTgsMzY1MzQwMTk4LDE5NTg4ODMzNDddfQ==
+eyJoaXN0b3J5IjpbLTIxMDIwNDU0MywtMzIwNjEyNDk0LDE5OD
+MwNTIyNDksNjgyNzc0ODExLC0zMDA4Njg3NzIsMTg2NjIxMzIw
+NSwtMTkwNDU4NTc2NiwtNDA2OTcyMDMxLC05OTU0MjYwMjMsMj
+I5MzkyNzUsMTQ4OTYyMzc5OCwzNjUzNDAxOTgsMTk1ODg4MzM0
+N119
 -->
