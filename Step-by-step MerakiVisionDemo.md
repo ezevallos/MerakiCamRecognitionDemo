@@ -113,7 +113,7 @@ print(40*"-")
 image = get_image(url)
 ```
 ### Recapitulemos
-Hasta este punto, nuestro código consta de tres funciones. La primera, `setHeaders_Meraki` se encarga de crear un diccionario y asignarlo a la variable header. Este será el *JSON* con el que realizaremos nuestra llamada al *Dashboard API* de *Meraki*. Luego la segunda función, `getSnap`, se encarga de la realización de esta llamada, utilizando el método *POST* del módulo `requests` y de esta forma recibe otro *JSON* como respuesta. Este *JSON* lo almacenamos en forma de diccionario en la variable `
+Hasta este punto, nuestro código consta de tres funciones. La primera, `setHeaders_Meraki` se encarga de crear un diccionario y asignarlo a la variable header. Este será el *JSON* con el que realizaremos nuestra llamada al *Dashboard API* de *Meraki*. Luego la segunda función, `getSnap`, se encarga de la realización de esta llamada, utilizando el método *POST* del módulo `requests` y de esta forma recibe otro *JSON* como respuesta. Este *JSON* lo almacenamos en forma de diccionario en la variable `snapshot`
 
 
 ## Rename a file
@@ -243,9 +243,9 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDk1ODIxMDcsLTMyMDYxMjQ5NCwxOT
-gzMDUyMjQ5LDY4Mjc3NDgxMSwtMzAwODY4NzcyLDE4NjYyMTMy
-MDUsLTE5MDQ1ODU3NjYsLTQwNjk3MjAzMSwtOTk1NDI2MDIzLD
-IyOTM5Mjc1LDE0ODk2MjM3OTgsMzY1MzQwMTk4LDE5NTg4ODMz
-NDddfQ==
+eyJoaXN0b3J5IjpbMjg3NDM1NDY1LC0zMjA2MTI0OTQsMTk4Mz
+A1MjI0OSw2ODI3NzQ4MTEsLTMwMDg2ODc3MiwxODY2MjEzMjA1
+LC0xOTA0NTg1NzY2LC00MDY5NzIwMzEsLTk5NTQyNjAyMywyMj
+kzOTI3NSwxNDg5NjIzNzk4LDM2NTM0MDE5OCwxOTU4ODgzMzQ3
+XX0=
 -->
