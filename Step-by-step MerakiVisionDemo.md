@@ -61,7 +61,7 @@ Para obtener una captura de lo registrado en la cámara, debemos hacer uso del *
 	header = setHeaders_meraki()
 	snapshot = getSnap(header)
 ```
-En el código anterior, definimos primero los headers que enviaremos en nuestra llamada al *API* de *Meraki Dashboard*,  especificamos el *API Key*, y 
+En el código anterior, definimos primero los headers que enviaremos en nuestra llamada al *API* de *Meraki Dashboard*,   especificamos el *API Key*, y los parámetros que debe aceptar y devolver (JSON). Estos parámetros 
 
 ## Rename a file
 
@@ -190,6 +190,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY1NzAzMTMzLDIyOTM5Mjc1LDE0ODk2Mj
+eyJoaXN0b3J5IjpbMjE5MzIzNzUzLDIyOTM5Mjc1LDE0ODk2Mj
 M3OTgsMzY1MzQwMTk4LDE5NTg4ODMzNDddfQ==
 -->
