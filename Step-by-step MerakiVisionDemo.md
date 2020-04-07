@@ -39,6 +39,7 @@ Aquí encontraremos la respuesta a muchas preguntas acerca de estos entornos vir
 El catálogo cuenta con 70 _Sandboxes_ distintos. Para filtrar, podemos hacerlo por tipo, por categoría, por status, o simplemente hacer click en la búsqueda, y tipeamos la palabra “**_Meraki_**” para encontrar el que vamos a usar.
 ![Sandbox Meraki Always-On](https://i.ibb.co/cK9pxQG/DN-SB-4.png)
 Encontraremos tres _Sandboxes_ de **_Meraki_**, el que utilizaremos se llama “**_Meraki Always On_**” y se trata de una red de prueba **_Meraki_** a la que podemos acceder en cualquier momento para realizar pruebas. En este _Sandbox_ podemos encontrar los detalles importantes para que el script funcione correctamente. En primer lugar, las credenciales de acceso al Dashboard API, Username: [devnetmeraki@cisco.com](mailto:devnetmeraki@cisco.com), Password: ilovemeraki, y por otro lado, el API Key que utilizaremos es 6bec40cf957de430a6f1f2baa056b99a4fac9ea0.
+
 ## El archivo GetSnap en ***Python***
 
 Para empezar, es necesario obtener una captura
@@ -170,6 +171,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4OTYyMzc5OCwzNjUzNDAxOTgsMTk1OD
-g4MzM0N119
+eyJoaXN0b3J5IjpbNDM3MDUzMDI4LDE0ODk2MjM3OTgsMzY1Mz
+QwMTk4LDE5NTg4ODMzNDddfQ==
 -->
