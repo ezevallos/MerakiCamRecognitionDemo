@@ -29,6 +29,9 @@ Al completar este laboratorio, estará familiarizado con el uso básico de las *
 
 ***Cisco Meraki*** es la solución de red gestionada en nube de **Cisco**. Ofrece un portafolio de productos de infraestructura de red que incluye Access points, Enterprise switches, routers, dispositivos de seguridad de red e incluso cámaras. Su versátil modelo de gestión basado en nube permite administrar la topología desde cualquier lugar del mundo, y provisionar equipos con tan solo una conexión a internet, y una fuente de poder.
 
+## Utilizar el ***SandBox Meraki Always-On***
+
+
 ## El archivo GetSnap en ***Python***
 
 Para empezar, es necesario obtener una captura
@@ -160,7 +163,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTEwMTg5NCwxOTUxMDExNzg2LDE4Mz
-U2MjE2ODIsNjcyMTU2NzcsLTE5Mjg2Njg2MTQsMzY4MzM2MDUw
-LC0xMzI2MzE2NTY0XX0=
+eyJoaXN0b3J5IjpbMjEwMDg2OTczMiwtMjU5MTAxODk0LDE5NT
+EwMTE3ODYsMTgzNTYyMTY4Miw2NzIxNTY3NywtMTkyODY2ODYx
+NCwzNjgzMzYwNTAsLTEzMjYzMTY1NjRdfQ==
 -->
