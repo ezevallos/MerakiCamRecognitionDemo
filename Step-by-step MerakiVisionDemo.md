@@ -119,7 +119,7 @@ Habiendo obtenido la imagen, procedemos a enviarla a un software de reconocimien
 ![SignUp Imagga](https://i.ibb.co/vVvmfNw/IG-SU-1.png)
 Procedemos a llenar el formulario con los datos apropiados, para este caso de uso sólo es necesario una cuenta gratuita.
 ![SignUp Imagga Form](https://i.ibb.co/f2yRkm1/IG-SU-2.png)
-
+Con esto ya podemos acceder al 
 
 ## Rename a file
 
@@ -248,11 +248,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NjU3OTEyLDIxMjI3NTY3MDgsOTAzNz
-IxMjc3LDk5NzAyMjEwMCwxMjY1NDQ4ODM3LC03NzU3MDQxMTQs
-LTE3ODk5NjQzMDAsMjg3NDM1NDY1LC0zMjA2MTI0OTQsMTk4Mz
-A1MjI0OSw2ODI3NzQ4MTEsLTMwMDg2ODc3MiwxODY2MjEzMjA1
-LC0xOTA0NTg1NzY2LC00MDY5NzIwMzEsLTk5NTQyNjAyMywyMj
-kzOTI3NSwxNDg5NjIzNzk4LDM2NTM0MDE5OCwxOTU4ODgzMzQ3
-XX0=
+eyJoaXN0b3J5IjpbMTE2OTc4MjUwLDEzNjY1NzkxMiwyMTIyNz
+U2NzA4LDkwMzcyMTI3Nyw5OTcwMjIxMDAsMTI2NTQ0ODgzNywt
+Nzc1NzA0MTE0LC0xNzg5OTY0MzAwLDI4NzQzNTQ2NSwtMzIwNj
+EyNDk0LDE5ODMwNTIyNDksNjgyNzc0ODExLC0zMDA4Njg3NzIs
+MTg2NjIxMzIwNSwtMTkwNDU4NTc2NiwtNDA2OTcyMDMxLC05OT
+U0MjYwMjMsMjI5MzkyNzUsMTQ4OTYyMzc5OCwzNjUzNDAxOThd
+fQ==
 -->
