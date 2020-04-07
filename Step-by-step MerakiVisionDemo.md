@@ -72,6 +72,7 @@ def get_image(url):
 	while code != 200:
 		responde = requests.get(url)
 ```
+Luego podemos obtener la imagen y asignarla en una variable `image = get_image(url)
 
 
 ## Rename a file
@@ -201,7 +202,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMDg2ODc3MiwxODY2MjEzMjA1LC0xOT
-A0NTg1NzY2LC00MDY5NzIwMzEsLTk5NTQyNjAyMywyMjkzOTI3
-NSwxNDg5NjIzNzk4LDM2NTM0MDE5OCwxOTU4ODgzMzQ3XX0=
+eyJoaXN0b3J5IjpbMTgxMjk3MDkyNiwtMzAwODY4NzcyLDE4Nj
+YyMTMyMDUsLTE5MDQ1ODU3NjYsLTQwNjk3MjAzMSwtOTk1NDI2
+MDIzLDIyOTM5Mjc1LDE0ODk2MjM3OTgsMzY1MzQwMTk4LDE5NT
+g4ODMzNDddfQ==
 -->
