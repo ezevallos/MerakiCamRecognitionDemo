@@ -52,16 +52,14 @@ Para obtener una captura de lo registrado en la cámara, debemos hacer uso del *
 		    "Accept":"application/json",
 		    "Content-Type":"application/json"
 		    }
-
-return header
-
-def getSnap(theHeader):
-
-uri = "https://api.meraki.com/api/v0/networks/L_566327653141856854/cameras/Q2GV-7HEL-HC6C/snapshot?X-Cisco-Meraki-API-Key=6bec40cf957de430a6f1f2baa056b99a4fac9ea0"
-
-resp = requests.post(uri, headers = theHeader,data={})
-
-return resp.json()
+		    return header
+	def getSnap(theHeader):
+		uri = "https://api.meraki.com/api/v0/networks/L_566327653141856854/cameras/Q2GV-7HEL-HC6C/snapshot?X-Cisco-Meraki-API-Key=6bec40cf957de430a6f1f2baa056b99a4fac9ea0"
+		resp = requests.post(uri, headers = theHeader,data={})
+		return resp.json()
+		
+		header = setHeaders_meraki()
+		snapshot = getSnap(header)
 
 
 ## Rename a file
@@ -191,6 +189,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTcxNTM4NjksMjI5MzkyNzUsMTQ4OT
+eyJoaXN0b3J5IjpbLTE2MjEwMDQwNjUsMjI5MzkyNzUsMTQ4OT
 YyMzc5OCwzNjUzNDAxOTgsMTk1ODg4MzM0N119
 -->
