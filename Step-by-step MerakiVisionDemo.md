@@ -112,6 +112,8 @@ print(url)
 print(40*"-")
 image = get_image(url)
 ```
+### Recapitulemos
+Hasta este punto, nuestro código está 
 
 
 ## Rename a file
@@ -241,8 +243,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NzM2MTI5LDY4Mjc3NDgxMSwtMzAwOD
-Y4NzcyLDE4NjYyMTMyMDUsLTE5MDQ1ODU3NjYsLTQwNjk3MjAz
-MSwtOTk1NDI2MDIzLDIyOTM5Mjc1LDE0ODk2MjM3OTgsMzY1Mz
-QwMTk4LDE5NTg4ODMzNDddfQ==
+eyJoaXN0b3J5IjpbMTk4MzA1MjI0OSw2ODI3NzQ4MTEsLTMwMD
+g2ODc3MiwxODY2MjEzMjA1LC0xOTA0NTg1NzY2LC00MDY5NzIw
+MzEsLTk5NTQyNjAyMywyMjkzOTI3NSwxNDg5NjIzNzk4LDM2NT
+M0MDE5OCwxOTU4ODgzMzQ3XX0=
 -->
