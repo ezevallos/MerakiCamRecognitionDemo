@@ -29,9 +29,9 @@ Al completar este laboratorio, estará familiarizado con el uso básico de las *
 
 ***Cisco Meraki*** es la solución de red gestionada en nube de **Cisco**. Ofrece un portafolio de productos de infraestructura de red que incluye Access points, Enterprise switches, routers, dispositivos de seguridad de red e incluso cámaras. Su versátil modelo de gestión basado en nube permite administrar la topología desde cualquier lugar del mundo, y provisionar equipos con tan solo una conexión a internet, y una fuente de poder.
 
-## El archivo Get
+## El archivo GetSnap en ***Python***
 
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
+Para empezar, es necesario obtener una captura
 
 ## Rename a file
 
@@ -160,7 +160,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU2NTcwNjk3LDE5NTEwMTE3ODYsMTgzNT
-YyMTY4Miw2NzIxNTY3NywtMTkyODY2ODYxNCwzNjgzMzYwNTAs
-LTEzMjYzMTY1NjRdfQ==
+eyJoaXN0b3J5IjpbLTI1OTEwMTg5NCwxOTUxMDExNzg2LDE4Mz
+U2MjE2ODIsNjcyMTU2NzcsLTE5Mjg2Njg2MTQsMzY4MzM2MDUw
+LC0xMzI2MzE2NTY0XX0=
 -->
