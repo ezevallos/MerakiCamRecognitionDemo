@@ -22,7 +22,7 @@ Al completar este laboratorio, estará familiarizado con el uso básico de las *
  - Cuenta de ***DevNet*** para utilizar el ***Sandbox Meraki Always-On***.
  - Cuenta de ***GitHub*** y un conocimiento básico de contol de versiones, según lo descrito en [Introducción a Git](https://developer.cisco.com/learning/tracks/devnet-beginner-es/fundamentals-es/intro-to-git-es/step/1).
  - Cuenta de ***Imagga*** para contar con un *api_key* y *api_secret* y enviar imágenes a reconocer.
- - Cuenta de ***
+ - Cuenta de ***Heroku*** para 
 
 ## Acerca de Cisco Meraki
 
@@ -159,6 +159,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNTYyMTY4Miw2NzIxNTY3NywtMTkyOD
-Y2ODYxNCwzNjgzMzYwNTAsLTEzMjYzMTY1NjRdfQ==
+eyJoaXN0b3J5IjpbNjU4Nzc0MjI4LDE4MzU2MjE2ODIsNjcyMT
+U2NzcsLTE5Mjg2Njg2MTQsMzY4MzM2MDUwLC0xMzI2MzE2NTY0
+XX0=
 -->
