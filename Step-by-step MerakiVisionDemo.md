@@ -62,7 +62,7 @@ Para obtener una captura de lo registrado en la cámara, debemos hacer uso del *
 	snapshot = getSnap(header)
 ```
 En el código anterior, definimos primero los headers que enviaremos en nuestra llamada al *API* de *Meraki Dashboard*,  a través de la función *setHeaders_meraki*, especificamos el *API Key*, y los parámetros que debe aceptar y devolver nuestra llamada(JSON). Estos parámetros los alimentamos a nuestra función *getSnap*, la cual se encarga de hacer el llamado mediante el método *POST* y devuelve un *JSON* en forma de diccionario que podremos indexar para extraer la URL, `url = snapshot["url"]`.
-
+Para 
 
 
 ## Rename a file
@@ -192,7 +192,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDQ1ODU3NjYsLTQwNjk3MjAzMSwtOT
-k1NDI2MDIzLDIyOTM5Mjc1LDE0ODk2MjM3OTgsMzY1MzQwMTk4
-LDE5NTg4ODMzNDddfQ==
+eyJoaXN0b3J5IjpbLTE3MTAwODUyMCwtMTkwNDU4NTc2NiwtND
+A2OTcyMDMxLC05OTU0MjYwMjMsMjI5MzkyNzUsMTQ4OTYyMzc5
+OCwzNjUzNDAxOTgsMTk1ODg4MzM0N119
 -->
