@@ -60,6 +60,7 @@ Para obtener una captura de lo registrado en la cámara, debemos hacer uso del *
 		
 	header = setHeaders_meraki()
 	snapshot = getSnap(header)
+```
 En el código anterior
 
 ## Rename a file
@@ -189,6 +190,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNjI3MzgxOSwyMjkzOTI3NSwxNDg5Nj
-IzNzk4LDM2NTM0MDE5OCwxOTU4ODgzMzQ3XX0=
+eyJoaXN0b3J5IjpbNTU1NTgzOTEzLDIyOTM5Mjc1LDE0ODk2Mj
+M3OTgsMzY1MzQwMTk4LDE5NTg4ODMzNDddfQ==
 -->
