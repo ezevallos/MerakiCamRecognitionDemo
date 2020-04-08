@@ -134,7 +134,7 @@ def analyze(url, image, key, secret):
 		files={'image':image})
 	return response
 
-response = analyze(imagga_url, image, api_key, 
+response = analyze(imagga_url, image, api_key, api_secret)
 ```
 
 
@@ -265,11 +265,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjk0MTc3MTYsLTU4MzU1Njk4MywzOT
-MxODI1NywxOTAzODk5MTM3LDEzNjY1NzkxMiwyMTIyNzU2NzA4
-LDkwMzcyMTI3Nyw5OTcwMjIxMDAsMTI2NTQ0ODgzNywtNzc1Nz
-A0MTE0LC0xNzg5OTY0MzAwLDI4NzQzNTQ2NSwtMzIwNjEyNDk0
-LDE5ODMwNTIyNDksNjgyNzc0ODExLC0zMDA4Njg3NzIsMTg2Nj
-IxMzIwNSwtMTkwNDU4NTc2NiwtNDA2OTcyMDMxLC05OTU0MjYw
-MjNdfQ==
+eyJoaXN0b3J5IjpbLTE5NzYxMTE4MjYsLTIxMjk0MTc3MTYsLT
+U4MzU1Njk4MywzOTMxODI1NywxOTAzODk5MTM3LDEzNjY1Nzkx
+MiwyMTIyNzU2NzA4LDkwMzcyMTI3Nyw5OTcwMjIxMDAsMTI2NT
+Q0ODgzNywtNzc1NzA0MTE0LC0xNzg5OTY0MzAwLDI4NzQzNTQ2
+NSwtMzIwNjEyNDk0LDE5ODMwNTIyNDksNjgyNzc0ODExLC0zMD
+A4Njg3NzIsMTg2NjIxMzIwNSwtMTkwNDU4NTc2NiwtNDA2OTcy
+MDMxXX0=
 -->
