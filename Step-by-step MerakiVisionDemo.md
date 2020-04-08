@@ -138,9 +138,9 @@ response = analyze(imagga_url, image, api_key, api_secret)
 ```
 Luego podemos indexar las etiquetas de reconocimiento y asignarlo a una variable de la siguiente manera:
 `tags = [item['tag']['en'] for item in response.json()['result']['tags']]`
-De esta manera, obtenemos una lista ordenada con las etiquetas, que procedemos a transformar en un *string*.
+De esta manera, obtenemos una lista ordenada con las etiquetas, que procedemos a transformar en un *string*. Para esto es necesario crear una última función que convierta una lista a un string:
 ```python
-
+def lis
 ```
 
 ## Rename a file
@@ -270,11 +270,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzY5Mzc1NjMsMTU4Nzg1NzE0OCwzNz
-QyNDI2NDMsLTIxMjk0MTc3MTYsLTU4MzU1Njk4MywzOTMxODI1
-NywxOTAzODk5MTM3LDEzNjY1NzkxMiwyMTIyNzU2NzA4LDkwMz
-cyMTI3Nyw5OTcwMjIxMDAsMTI2NTQ0ODgzNywtNzc1NzA0MTE0
-LC0xNzg5OTY0MzAwLDI4NzQzNTQ2NSwtMzIwNjEyNDk0LDE5OD
-MwNTIyNDksNjgyNzc0ODExLC0zMDA4Njg3NzIsMTg2NjIxMzIw
-NV19
+eyJoaXN0b3J5IjpbLTE2Mzg5Njk5MDIsLTE3MzY5Mzc1NjMsMT
+U4Nzg1NzE0OCwzNzQyNDI2NDMsLTIxMjk0MTc3MTYsLTU4MzU1
+Njk4MywzOTMxODI1NywxOTAzODk5MTM3LDEzNjY1NzkxMiwyMT
+IyNzU2NzA4LDkwMzcyMTI3Nyw5OTcwMjIxMDAsMTI2NTQ0ODgz
+NywtNzc1NzA0MTE0LC0xNzg5OTY0MzAwLDI4NzQzNTQ2NSwtMz
+IwNjEyNDk0LDE5ODMwNTIyNDksNjgyNzc0ODExLC0zMDA4Njg3
+NzJdfQ==
 -->
