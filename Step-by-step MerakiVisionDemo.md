@@ -123,7 +123,9 @@ Con esto ya podemos acceder al [Dashboard de Imagga](https://imagga.com/profile/
 ![Imagga API Keys](https://i.ibb.co/MBkqWdy/IG-SU-3.png)
 Habiendo obtenido estos parámetros, podemos proceder a realizar el reconocimiento de la imagen. Para esto definiremos las variables `imagga_url`, `api_key` y `api_secret`, y una función llamada `analyze` que se encarga de realizar la llamada mediante el método *POST* y asignarlo a una variable llamada `response`:
 ```python
-
+imagga_url = 'https://api.imagga.com/v2/tags'
+api_key = 'YOUR_API_KEY'
+api_secret = 'YOUR_API_SECRET'
 
 def analyze(url, image, key, secret):
 	response = requests.post(
@@ -131,6 +133,8 @@ def analyze(url, image, key, secret):
 		auth=(key, secret),
 		files={'image':image})
 	return response
+
+response = analyze(imagga_url, image, api_key, 
 ```
 
 
@@ -261,7 +265,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDUzODMxNzksLTU4MzU1Njk4MywzOT
+eyJoaXN0b3J5IjpbLTIxMjk0MTc3MTYsLTU4MzU1Njk4MywzOT
 MxODI1NywxOTAzODk5MTM3LDEzNjY1NzkxMiwyMTIyNzU2NzA4
 LDkwMzcyMTI3Nyw5OTcwMjIxMDAsMTI2NTQ0ODgzNywtNzc1Nz
 A0MTE0LC0xNzg5OTY0MzAwLDI4NzQzNTQ2NSwtMzIwNjEyNDk0
