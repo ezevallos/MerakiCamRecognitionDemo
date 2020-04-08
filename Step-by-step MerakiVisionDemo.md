@@ -138,7 +138,7 @@ response = analyze(imagga_url, image, api_key, api_secret)
 ```
 Luego podemos indexar las etiquetas de reconocimiento y asignarlo a una variable de la siguiente manera:
 `tags = [item['tag']['en'] for item in response.json()['result']['tags']]`
-De esta manera, obtenemos una lista ordenada
+De esta manera, obtenemos una lista ordenada con las etiquetas 
 
 ## Rename a file
 
@@ -267,11 +267,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc0MjQyNjQzLC0yMTI5NDE3NzE2LC01OD
-M1NTY5ODMsMzkzMTgyNTcsMTkwMzg5OTEzNywxMzY2NTc5MTIs
-MjEyMjc1NjcwOCw5MDM3MjEyNzcsOTk3MDIyMTAwLDEyNjU0ND
-g4MzcsLTc3NTcwNDExNCwtMTc4OTk2NDMwMCwyODc0MzU0NjUs
-LTMyMDYxMjQ5NCwxOTgzMDUyMjQ5LDY4Mjc3NDgxMSwtMzAwOD
-Y4NzcyLDE4NjYyMTMyMDUsLTE5MDQ1ODU3NjYsLTQwNjk3MjAz
-MV19
+eyJoaXN0b3J5IjpbMTU4Nzg1NzE0OCwzNzQyNDI2NDMsLTIxMj
+k0MTc3MTYsLTU4MzU1Njk4MywzOTMxODI1NywxOTAzODk5MTM3
+LDEzNjY1NzkxMiwyMTIyNzU2NzA4LDkwMzcyMTI3Nyw5OTcwMj
+IxMDAsMTI2NTQ0ODgzNywtNzc1NzA0MTE0LC0xNzg5OTY0MzAw
+LDI4NzQzNTQ2NSwtMzIwNjEyNDk0LDE5ODMwNTIyNDksNjgyNz
+c0ODExLC0zMDA4Njg3NzIsMTg2NjIxMzIwNSwtMTkwNDU4NTc2
+Nl19
 -->
