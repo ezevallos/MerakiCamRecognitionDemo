@@ -136,7 +136,8 @@ def analyze(url, image, key, secret):
 
 response = analyze(imagga_url, image, api_key, api_secret)
 ```
-Luego podemos indexar las etiquetas de reconocimiento y asignarlo a una variable `tags = [item['tag']['en']
+Luego podemos indexar las etiquetas de reconocimiento y asignarlo a una variable de la siguiente manera:
+`tags = [item['tag']['en'] for item in response.json()['result']['tags']]`
 
 ## Rename a file
 
@@ -265,11 +266,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njk5Njk4NTksLTIxMjk0MTc3MTYsLT
-U4MzU1Njk4MywzOTMxODI1NywxOTAzODk5MTM3LDEzNjY1Nzkx
-MiwyMTIyNzU2NzA4LDkwMzcyMTI3Nyw5OTcwMjIxMDAsMTI2NT
-Q0ODgzNywtNzc1NzA0MTE0LC0xNzg5OTY0MzAwLDI4NzQzNTQ2
-NSwtMzIwNjEyNDk0LDE5ODMwNTIyNDksNjgyNzc0ODExLC0zMD
-A4Njg3NzIsMTg2NjIxMzIwNSwtMTkwNDU4NTc2NiwtNDA2OTcy
-MDMxXX0=
+eyJoaXN0b3J5IjpbMTk4NjUwODc5NCwtMjEyOTQxNzcxNiwtNT
+gzNTU2OTgzLDM5MzE4MjU3LDE5MDM4OTkxMzcsMTM2NjU3OTEy
+LDIxMjI3NTY3MDgsOTAzNzIxMjc3LDk5NzAyMjEwMCwxMjY1ND
+Q4ODM3LC03NzU3MDQxMTQsLTE3ODk5NjQzMDAsMjg3NDM1NDY1
+LC0zMjA2MTI0OTQsMTk4MzA1MjI0OSw2ODI3NzQ4MTEsLTMwMD
+g2ODc3MiwxODY2MjEzMjA1LC0xOTA0NTg1NzY2LC00MDY5NzIw
+MzFdfQ==
 -->
