@@ -121,7 +121,15 @@ Procedemos a llenar el formulario con los datos apropiados, para este caso de us
 ![SignUp Imagga Form](https://i.ibb.co/f2yRkm1/IG-SU-2.png)
 Con esto ya podemos acceder al [Dashboard de Imagga](https://imagga.com/profile/dashboard) y aquí encontraremos el *API Key* y *API Secret* necesarios para realizar el reconocimiento de la imagen.
 ![Imagga API Keys](https://i.ibb.co/MBkqWdy/IG-SU-3.png)
-Habiendo obtenido estos parámetros, podemos proceder a realizar el reconocimiento de la imagen. Para esto definiremos una función llamada `analyze`
+Habiendo obtenido estos parámetros, podemos proceder a realizar el reconocimiento de la imagen. Para esto definiremos las variables api una función llamada `analyze` de la siguiente manera:
+```python
+def analyze(url, image, key, secret):
+	response = requests.post(
+		url,
+		auth=(key, secret),
+		files={'image':image})
+	return response
+```
 
 
 ## Rename a file
@@ -251,11 +259,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDU4NTYxNTEsLTU4MzU1Njk4MywzOT
-MxODI1NywxOTAzODk5MTM3LDEzNjY1NzkxMiwyMTIyNzU2NzA4
-LDkwMzcyMTI3Nyw5OTcwMjIxMDAsMTI2NTQ0ODgzNywtNzc1Nz
-A0MTE0LC0xNzg5OTY0MzAwLDI4NzQzNTQ2NSwtMzIwNjEyNDk0
-LDE5ODMwNTIyNDksNjgyNzc0ODExLC0zMDA4Njg3NzIsMTg2Nj
-IxMzIwNSwtMTkwNDU4NTc2NiwtNDA2OTcyMDMxLC05OTU0MjYw
-MjNdfQ==
+eyJoaXN0b3J5IjpbLTU3OTAwNzcyOCwtNTgzNTU2OTgzLDM5Mz
+E4MjU3LDE5MDM4OTkxMzcsMTM2NjU3OTEyLDIxMjI3NTY3MDgs
+OTAzNzIxMjc3LDk5NzAyMjEwMCwxMjY1NDQ4ODM3LC03NzU3MD
+QxMTQsLTE3ODk5NjQzMDAsMjg3NDM1NDY1LC0zMjA2MTI0OTQs
+MTk4MzA1MjI0OSw2ODI3NzQ4MTEsLTMwMDg2ODc3MiwxODY2Mj
+EzMjA1LC0xOTA0NTg1NzY2LC00MDY5NzIwMzEsLTk5NTQyNjAy
+M119
 -->
