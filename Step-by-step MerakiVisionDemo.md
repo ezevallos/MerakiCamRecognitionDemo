@@ -118,9 +118,9 @@ Hasta este punto, nuestro código consta de tres funciones. La primera, `setHead
 Habiendo obtenido la imagen, procedemos a enviarla a un software de reconocimiento de imágenes llamado *Imagga*. Esto lo haremos a través de su *API*, para lo cual es necesario crearnos una cuenta. Ingresamos a la dirección [http://imagga.com/](http://imagga.com/)
 ![SignUp Imagga](https://i.ibb.co/xGz65vT/IG-SU-1.png)
 Procedemos a llenar el formulario con los datos apropiados, para este caso de uso sólo es necesario una cuenta gratuita.
-![SignUp Imagga Form](https://i.ibb.co/f2yRkm1/IG-SU-2.png)
+![SignUp Imagga Form](https://i.ibb.co/F408zdG/IG-SU-2.png)
 Con esto ya podemos acceder al [Dashboard de Imagga](https://imagga.com/profile/dashboard) y aquí encontraremos el *API Key* y *API Secret* necesarios para realizar el reconocimiento de la imagen.
-![Imagga API Keys](https://i.ibb.co/MBkqWdy/IG-SU-3.png)
+![Imagga API Keys](https://i.ibb.co/gPwMJcx/IG-SU-3.png)
 Habiendo obtenido estos parámetros, podemos proceder a realizar el reconocimiento de la imagen. Para esto definiremos las variables `imagga_url`, `api_key` y `api_secret`, y una función llamada `analyze` que se encarga de realizar la llamada mediante el método *POST* y asignarlo a una variable llamada `response`:
 ```python
 imagga_url = 'https://api.imagga.com/v2/tags'
@@ -278,11 +278,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTk1NDIyMCw1MTI3MjM0NTksLTE3Mz
-Y5Mzc1NjMsMTU4Nzg1NzE0OCwzNzQyNDI2NDMsLTIxMjk0MTc3
-MTYsLTU4MzU1Njk4MywzOTMxODI1NywxOTAzODk5MTM3LDEzNj
-Y1NzkxMiwyMTIyNzU2NzA4LDkwMzcyMTI3Nyw5OTcwMjIxMDAs
-MTI2NTQ0ODgzNywtNzc1NzA0MTE0LC0xNzg5OTY0MzAwLDI4Nz
-QzNTQ2NSwtMzIwNjEyNDk0LDE5ODMwNTIyNDksNjgyNzc0ODEx
-XX0=
+eyJoaXN0b3J5IjpbODAyNDE1OTY4LDUxMjcyMzQ1OSwtMTczNj
+kzNzU2MywxNTg3ODU3MTQ4LDM3NDI0MjY0MywtMjEyOTQxNzcx
+NiwtNTgzNTU2OTgzLDM5MzE4MjU3LDE5MDM4OTkxMzcsMTM2Nj
+U3OTEyLDIxMjI3NTY3MDgsOTAzNzIxMjc3LDk5NzAyMjEwMCwx
+MjY1NDQ4ODM3LC03NzU3MDQxMTQsLTE3ODk5NjQzMDAsMjg3ND
+M1NDY1LC0zMjA2MTI0OTQsMTk4MzA1MjI0OSw2ODI3NzQ4MTFd
+fQ==
 -->
