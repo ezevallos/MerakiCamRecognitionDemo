@@ -150,7 +150,7 @@ speech = listToString(tags)
 ```
 ### Recapitulemos
 Hasta este punto, nuestro código obtiene una imagen de la siguiente manera: la función `setHeaders_Meraki`, se encarga de crear un diccionario(*JSON*) y asignarlo a la variable header. Con este *JSON* realizamos una llamada al *Dashboard API* de *Meraki*. Luego la segunda función, `getSnap`, se encarga de realizar esta llamada, utilizando el método *POST* del módulo `requests` y de esta forma recibe otro *JSON* como respuesta. Este *JSON* lo almacenamos en forma de diccionario en la variable `snapshot`, y lo indexamos para obtener la URL de la imagen, mediante `url = snapshot["url"]`. La tercera función, `get_image` se encarga de buscar la imagen en la URL mediante el método *GET* y guarda el contenido en la variable `image`. 
-Habiendo conseguido esta imagen, realizamos el análisis apalancando la *API* de *Imagga*. Para esto hemos obtenido un *API_Key* y un *API_Secret* en la web de [*Imagga*](https://imagga.com/), y creamos una función llamada `analyze`, que toma estos parámetros, además de utilizar un endpoint especificado por *Imagga*. Nos devuelve un nuevo *JSON* con la clasificación que realizado de nuestra imagen. Finalmente, la función `listToString` se encarga de convertir la lista de etiquetas que hemos obtenido, en un *String* que podrá enunciar el Asistente de nuestro dispositivo Android.
+Habiendo conseguido esta imagen, realizamos el análisis apalancando la *API* de *Imagga*. Para esto hemos obtenido un *API_Key* y un *API_Secret* en la web de [*Imagga*](https://imagga.com/), y creamos una función llamada `analyze`, que toma estos parámetros, además de utilizar un endpoint especificado por *Imagga*. Nos devuelve un nuevo *JSON* con la clasificación que realizado de nuestra imagen. Finalmente, la función `listToString` se encarga de convertir la lista de etiquetas que hemos obtenido, en un *String* que podrá enunciar el Asistente de nuestro dispositivo Android. 
 
 
 ## Rename a file
@@ -280,11 +280,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1Mjk4NjAwNiwyMjAyMDU5OTcsMTM1OD
-QzMDYyNCw4MDI0MTU5NjgsNTEyNzIzNDU5LC0xNzM2OTM3NTYz
-LDE1ODc4NTcxNDgsMzc0MjQyNjQzLC0yMTI5NDE3NzE2LC01OD
-M1NTY5ODMsMzkzMTgyNTcsMTkwMzg5OTEzNywxMzY2NTc5MTIs
-MjEyMjc1NjcwOCw5MDM3MjEyNzcsOTk3MDIyMTAwLDEyNjU0ND
-g4MzcsLTc3NTcwNDExNCwtMTc4OTk2NDMwMCwyODc0MzU0NjVd
-fQ==
+eyJoaXN0b3J5IjpbLTExMzEyOTQxNDgsMjIwMjA1OTk3LDEzNT
+g0MzA2MjQsODAyNDE1OTY4LDUxMjcyMzQ1OSwtMTczNjkzNzU2
+MywxNTg3ODU3MTQ4LDM3NDI0MjY0MywtMjEyOTQxNzcxNiwtNT
+gzNTU2OTgzLDM5MzE4MjU3LDE5MDM4OTkxMzcsMTM2NjU3OTEy
+LDIxMjI3NTY3MDgsOTAzNzIxMjc3LDk5NzAyMjEwMCwxMjY1ND
+Q4ODM3LC03NzU3MDQxMTQsLTE3ODk5NjQzMDAsMjg3NDM1NDY1
+XX0=
 -->
