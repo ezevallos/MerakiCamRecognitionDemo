@@ -238,7 +238,7 @@ def return_speech():
     speech = listToString(tags)
     return (speech,image, url)
 ```
-
+De esta forma, podemos importar el archivo `GetSnap.py` como un módulo en nuestro servidor web *Flask*, y utilizar todas sus funcionalidades. Este nos devuelve una tupla con 
 
 ## Rename a file
 
@@ -367,11 +367,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzYyNjMzMzEsODI4MDg5NDQsLTEwNT
-E4NDE5OCw2Mjk1NjUyNjIsMjIwMjA1OTk3LDEzNTg0MzA2MjQs
-ODAyNDE1OTY4LDUxMjcyMzQ1OSwtMTczNjkzNzU2MywxNTg3OD
-U3MTQ4LDM3NDI0MjY0MywtMjEyOTQxNzcxNiwtNTgzNTU2OTgz
-LDM5MzE4MjU3LDE5MDM4OTkxMzcsMTM2NjU3OTEyLDIxMjI3NT
-Y3MDgsOTAzNzIxMjc3LDk5NzAyMjEwMCwxMjY1NDQ4ODM3XX0=
+eyJoaXN0b3J5IjpbODQxNDUyNDYzLC0xOTM2MjYzMzMxLDgyOD
+A4OTQ0LC0xMDUxODQxOTgsNjI5NTY1MjYyLDIyMDIwNTk5Nywx
+MzU4NDMwNjI0LDgwMjQxNTk2OCw1MTI3MjM0NTksLTE3MzY5Mz
+c1NjMsMTU4Nzg1NzE0OCwzNzQyNDI2NDMsLTIxMjk0MTc3MTYs
+LTU4MzU1Njk4MywzOTMxODI1NywxOTAzODk5MTM3LDEzNjY1Nz
+kxMiwyMTIyNzU2NzA4LDkwMzcyMTI3Nyw5OTcwMjIxMDBdfQ==
 
 -->
