@@ -217,6 +217,7 @@ def main():
 if __name__ == '__main__':
 	main()
 ```
+Hasta este punto en nuestro desarrollo, hemos creado un código en *Python* que se encarga de obtener una captura en una cámara Meraki
 
 
 ## Rename a file
@@ -346,11 +347,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI5NTY1MjYyLDIyMDIwNTk5NywxMzU4ND
-MwNjI0LDgwMjQxNTk2OCw1MTI3MjM0NTksLTE3MzY5Mzc1NjMs
-MTU4Nzg1NzE0OCwzNzQyNDI2NDMsLTIxMjk0MTc3MTYsLTU4Mz
-U1Njk4MywzOTMxODI1NywxOTAzODk5MTM3LDEzNjY1NzkxMiwy
-MTIyNzU2NzA4LDkwMzcyMTI3Nyw5OTcwMjIxMDAsMTI2NTQ0OD
-gzNywtNzc1NzA0MTE0LC0xNzg5OTY0MzAwLDI4NzQzNTQ2NV19
+eyJoaXN0b3J5IjpbNDY4NzgxMzQ0LDYyOTU2NTI2MiwyMjAyMD
+U5OTcsMTM1ODQzMDYyNCw4MDI0MTU5NjgsNTEyNzIzNDU5LC0x
+NzM2OTM3NTYzLDE1ODc4NTcxNDgsMzc0MjQyNjQzLC0yMTI5ND
+E3NzE2LC01ODM1NTY5ODMsMzkzMTgyNTcsMTkwMzg5OTEzNywx
+MzY2NTc5MTIsMjEyMjc1NjcwOCw5MDM3MjEyNzcsOTk3MDIyMT
+AwLDEyNjU0NDg4MzcsLTc3NTcwNDExNCwtMTc4OTk2NDMwMF19
 
 -->
