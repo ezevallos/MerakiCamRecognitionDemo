@@ -248,7 +248,13 @@ Es importante que el archivo o fichero `GetSnap.py` se encuentre en el mismo dir
 ## El script app.py
 Nuestro código debe importar la funcionalidad del script `GetSnap.py` y servirlo desde un *web server* a través de rutas especificadas. Primero es necesario importar las librerías necesarias, y el script previamente mencionado:
 ```python
-from flask 
+from flask import Flask, Response, jsonify, request, render_template, send_file
+from flask_assistant import Assistant, tell, ask
+from flask_cors import CORS
+from pprint import pprint
+import json, jsonify, requests
+import GetSnap
+import base64
 ``` 
 
 ## Rename a file
@@ -378,7 +384,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3Njg0NjkzNiwtNjkxMTA0NjYxLC02OT
+eyJoaXN0b3J5IjpbMTE1NTgyMjQyOSwtNjkxMTA0NjYxLC02OT
 kxMDAyNzMsNTE4MTkzOTcxLC0xOTM2MjYzMzMxLDgyODA4OTQ0
 LC0xMDUxODQxOTgsNjI5NTY1MjYyLDIyMDIwNTk5NywxMzU4ND
 MwNjI0LDgwMjQxNTk2OCw1MTI3MjM0NTksLTE3MzY5Mzc1NjMs
