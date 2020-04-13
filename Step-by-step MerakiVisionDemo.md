@@ -149,7 +149,7 @@ def listToString(s):
 speech = listToString(tags)
 ```
 ### Recapitulemos
-Hasta este punto, nuestro código obtiene una imagen de la siguiente manera: la función `setHeaders_Meraki`, se encarga de crear un diccionario(*JSON*) y asignarlo a la variable header. Con este *JSON* realizamos una llamada al *Dashboard API* de *Meraki*. Luego la segunda función, `getSnap`, se encarga realizar esta llamada, utilizando el método *POST* del módulo `requests` y de esta forma recibe otro *JSON* como respuesta. Este *JSON* lo almacenamos en forma de diccionario en la variable `snapshot`, y lo indexamos para obtener la URL de la imagen, mediante `url = snapshot["url"]`. Finalmente, la tercera función se encarga de buscar la imagen en la URL mediante el método *GET* y guarda el contenido en la variable `image`.
+Hasta este punto, nuestro código obtiene una imagen de la siguiente manera: la función `setHeaders_Meraki`, se encarga de crear un diccionario(*JSON*) y asignarlo a la variable header. Con este *JSON* realizamos una llamada al *Dashboard API* de *Meraki*. Luego la segunda función, `getSnap`, se encarga de realizar esta llamada, utilizando el método *POST* del módulo `requests` y de esta forma recibe otro *JSON* como respuesta. Este *JSON* lo almacenamos en forma de diccionario en la variable `snapshot`, y lo indexamos para obtener la URL de la imagen, mediante `url = snapshot["url"]`. La tercera función, `get_image` se encarga de buscar la imagen en la URL mediante el método *GET* y guarda el contenido en la variable `image`. 
 
 
 ## Rename a file
@@ -279,11 +279,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NDQ4MjY0Niw4MDI0MTU5NjgsNTEyNz
-IzNDU5LC0xNzM2OTM3NTYzLDE1ODc4NTcxNDgsMzc0MjQyNjQz
-LC0yMTI5NDE3NzE2LC01ODM1NTY5ODMsMzkzMTgyNTcsMTkwMz
-g5OTEzNywxMzY2NTc5MTIsMjEyMjc1NjcwOCw5MDM3MjEyNzcs
-OTk3MDIyMTAwLDEyNjU0NDg4MzcsLTc3NTcwNDExNCwtMTc4OT
-k2NDMwMCwyODc0MzU0NjUsLTMyMDYxMjQ5NCwxOTgzMDUyMjQ5
-XX0=
+eyJoaXN0b3J5IjpbMTEwNDI4MjkwLDgwMjQxNTk2OCw1MTI3Mj
+M0NTksLTE3MzY5Mzc1NjMsMTU4Nzg1NzE0OCwzNzQyNDI2NDMs
+LTIxMjk0MTc3MTYsLTU4MzU1Njk4MywzOTMxODI1NywxOTAzOD
+k5MTM3LDEzNjY1NzkxMiwyMTIyNzU2NzA4LDkwMzcyMTI3Nyw5
+OTcwMjIxMDAsMTI2NTQ0ODgzNywtNzc1NzA0MTE0LC0xNzg5OT
+Y0MzAwLDI4NzQzNTQ2NSwtMzIwNjEyNDk0LDE5ODMwNTIyNDld
+fQ==
 -->
