@@ -246,7 +246,10 @@ Es importante que el archivo o fichero `GetSnap.py` se encuentre en el mismo dir
 
 
 ## El script app.py
-Nuestro código debe importar la funcionalidad del script `GetSnap.py` y servirlo desde un *web server* a través de distintas una ruta. 
+Nuestro código debe importar la funcionalidad del script `GetSnap.py` y servirlo desde un *web server* a través de rutas especificadas. Primero es necesario importar las librerías necesarias, y el script previamente mencionado:
+```python
+from flask 
+``` 
 
 ## Rename a file
 
@@ -375,11 +378,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MTEwNDY2MSwtNjk5MTAwMjczLDUxOD
-E5Mzk3MSwtMTkzNjI2MzMzMSw4MjgwODk0NCwtMTA1MTg0MTk4
-LDYyOTU2NTI2MiwyMjAyMDU5OTcsMTM1ODQzMDYyNCw4MDI0MT
-U5NjgsNTEyNzIzNDU5LC0xNzM2OTM3NTYzLDE1ODc4NTcxNDgs
-Mzc0MjQyNjQzLC0yMTI5NDE3NzE2LC01ODM1NTY5ODMsMzkzMT
-gyNTcsMTkwMzg5OTEzNywxMzY2NTc5MTIsMjEyMjc1NjcwOF19
+eyJoaXN0b3J5IjpbMTQ3Njg0NjkzNiwtNjkxMTA0NjYxLC02OT
+kxMDAyNzMsNTE4MTkzOTcxLC0xOTM2MjYzMzMxLDgyODA4OTQ0
+LC0xMDUxODQxOTgsNjI5NTY1MjYyLDIyMDIwNTk5NywxMzU4ND
+MwNjI0LDgwMjQxNTk2OCw1MTI3MjM0NTksLTE3MzY5Mzc1NjMs
+MTU4Nzg1NzE0OCwzNzQyNDI2NDMsLTIxMjk0MTc3MTYsLTU4Mz
+U1Njk4MywzOTMxODI1NywxOTAzODk5MTM3LDEzNjY1NzkxMl19
 
 -->
