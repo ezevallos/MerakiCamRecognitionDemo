@@ -217,9 +217,26 @@ def main():
 if __name__ == '__main__':
 	main()
 ```
-Hasta este punto en nuestro desarrollo, hemos creado un código en *Python* que se encarga de obtener una captura en una cámara Meraki, obtener la imagen que se encuentra en esta URL, y enviarla a un software de reconocimiento de imágenes llamado *Imagga*. Esto lo realiza nuestra función principal llamada `Main`.¡Fantástico! Si han llegado hasta este punto, lo han hecho muy bien. Sin embargo, ahora deseamos poder apalancar esta funcionalidad desde nuestro Asistente de Android, llamado *Google Assistant*. Para lograr esto, será necesario correr un servidor *Flask* haciendo uso de una librería en particular llamada *Flask Assistant* la cual permite la comunicación con asistentes de voz como es *Google Assistant* o *Alexa Skills* por nombrar algunos ejemplos. Este servidor web debemos almacenarlo en un lugar de acceso público en internet, de manera que el *API* de *Google Actions* pueda acceder a él. Para esto, vamos a renombrar esta función y eliminar las últimas dos líneas del código anterior. Se vería de la siguiente forma:
+Hasta este punto en nuestro desarrollo, hemos creado un código en *Python* que se encarga de obtener una captura en una cámara Meraki, obtener la imagen que se encuentra en esta URL, y enviarla a un software de reconocimiento de imágenes llamado *Imagga*. Esto lo realiza nuestra función principal llamada `Main`.¡Fantástico! Si han llegado hasta este punto, lo han hecho muy bien. Sin embargo, ahora deseamos poder apalancar esta funcionalidad desde nuestro Asistente de Android, llamado *Google Assistant*. Para lograr esto, será necesario correr un servidor *Flask* haciendo uso de una librería en particular llamada *Flask Assistant* la cual permite la comunicación con asistentes de voz como es *Google Assistant* o *Alexa Skills* por nombrar algunos ejemplos. Este servidor web debemos almacenarlo en un lugar de acceso público en internet, de manera que el *API* de *Google Actions* pueda acceder a él. Para esto, vamos a renombrar esta función y eliminar las últimas dos líneas del código anterior. Se vería de la siguiente forma (notar que el resto del código se ha omitido y colocado tres puntos "..." para enfocarnos en la parte :
 ```python
+...
+	return str1
 
+# return speech function
+def return_speech():
+    header = setHeaders_meraki()
+    snapshot = getSnap(header)
+    url = snapshot["url"]
+    print(40*"-")
+    print(url)
+    print(40*"-")
+    image = get_image(url)
+    response = analyze(imagga_url, image, api_key, api_secret)
+    pprint(response.json(), indent=2, width=200)
+    print(40*"-")
+    tags = [item['tag']['en'] for item in response.json()['result']['tags']]
+    speech = listToString(tags)
+    return (speech,image, url)
 ```
 
 
@@ -350,10 +367,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkxNTA3MDEzLDgyODA4OTQ0LC0xMDUxOD
-QxOTgsNjI5NTY1MjYyLDIyMDIwNTk5NywxMzU4NDMwNjI0LDgw
-MjQxNTk2OCw1MTI3MjM0NTksLTE3MzY5Mzc1NjMsMTU4Nzg1Nz
-E0OCwzNzQyNDI2NDMsLTIxMjk0MTc3MTYsLTU4MzU1Njk4Mywz
-OTMxODI1NywxOTAzODk5MTM3LDEzNjY1NzkxMiwyMTIyNzU2Nz
-A4LDkwMzcyMTI3Nyw5OTcwMjIxMDAsMTI2NTQ0ODgzN119
+eyJoaXN0b3J5IjpbMjAzNjM3NDk2Nyw4MjgwODk0NCwtMTA1MT
+g0MTk4LDYyOTU2NTI2MiwyMjAyMDU5OTcsMTM1ODQzMDYyNCw4
+MDI0MTU5NjgsNTEyNzIzNDU5LC0xNzM2OTM3NTYzLDE1ODc4NT
+cxNDgsMzc0MjQyNjQzLC0yMTI5NDE3NzE2LC01ODM1NTY5ODMs
+MzkzMTgyNTcsMTkwMzg5OTEzNywxMzY2NTc5MTIsMjEyMjc1Nj
+cwOCw5MDM3MjEyNzcsOTk3MDIyMTAwLDEyNjU0NDg4MzddfQ==
+
 -->
