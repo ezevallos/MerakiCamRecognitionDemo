@@ -198,20 +198,25 @@ def listToString(s):
     # return string
     return str1
     
-header = setHeaders_meraki()
-snapshot = getSnap(header)
-url = snapshot["url"]
-print(40*"-")
-print(url)
-print(40*"-")
-image = get_image(url)
-response = analyze(imagga_url, image, api_key, api_secret)
-pprint(response.json(), indent=2, width=200)
-print(40*"-")
-tags = [item['tag']['en'] for item in response.json()['result']['tags']]
-speech = listToString(tags)
+# return speech function
+def main():
+    header = setHeaders_meraki()
+    snapshot = getSnap(header)
+    url = snapshot["url"]
+    print(40*"-")
+    print(url)
+    print(40*"-")
+    image = get_image(url)
+    response = analyze(imagga_url, image, api_key, api_secret)
+    pprint(response.json(), indent=2, width=200)
+    print(40*"-")
+    tags = [item['tag']['en'] for item in response.json()['result']['tags']]
+    speech = listToString(tags)
+    return (speech,image, url)
+
+if __name__ == '__main__':
+	main()
 ```
-Finalmente, 
 
 
 ## Rename a file
@@ -341,11 +346,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTk1NDk2LDIyMDIwNTk5NywxMzU4ND
-MwNjI0LDgwMjQxNTk2OCw1MTI3MjM0NTksLTE3MzY5Mzc1NjMs
-MTU4Nzg1NzE0OCwzNzQyNDI2NDMsLTIxMjk0MTc3MTYsLTU4Mz
-U1Njk4MywzOTMxODI1NywxOTAzODk5MTM3LDEzNjY1NzkxMiwy
-MTIyNzU2NzA4LDkwMzcyMTI3Nyw5OTcwMjIxMDAsMTI2NTQ0OD
-gzNywtNzc1NzA0MTE0LC0xNzg5OTY0MzAwLDI4NzQzNTQ2NV19
-
+eyJoaXN0b3J5IjpbMTg2NTA1OTMyMSwyMjAyMDU5OTcsMTM1OD
+QzMDYyNCw4MDI0MTU5NjgsNTEyNzIzNDU5LC0xNzM2OTM3NTYz
+LDE1ODc4NTcxNDgsMzc0MjQyNjQzLC0yMTI5NDE3NzE2LC01OD
+M1NTY5ODMsMzkzMTgyNTcsMTkwMzg5OTEzNywxMzY2NTc5MTIs
+MjEyMjc1NjcwOCw5MDM3MjEyNzcsOTk3MDIyMTAwLDEyNjU0ND
+g4MzcsLTc3NTcwNDExNCwtMTc4OTk2NDMwMCwyODc0MzU0NjVd
+fQ==
 -->
