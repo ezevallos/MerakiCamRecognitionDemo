@@ -156,6 +156,15 @@ from pprint import pprint
 import requests
 import json
 
+#Vars
+imagga_url = 'https://api.imagga.com/v2/tags'
+api_key = 'YOUR_API_KEY'
+api_secret = 'YOUR_API_SECRET'
+
+#Helper functions
+def setHeaders_meraki():
+	header = {
+		"X-Cisco-Meraki-API-Key": 
 ```
 
 
@@ -286,11 +295,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODcwMzAwMjksMjIwMjA1OTk3LDEzNT
-g0MzA2MjQsODAyNDE1OTY4LDUxMjcyMzQ1OSwtMTczNjkzNzU2
-MywxNTg3ODU3MTQ4LDM3NDI0MjY0MywtMjEyOTQxNzcxNiwtNT
-gzNTU2OTgzLDM5MzE4MjU3LDE5MDM4OTkxMzcsMTM2NjU3OTEy
-LDIxMjI3NTY3MDgsOTAzNzIxMjc3LDk5NzAyMjEwMCwxMjY1ND
-Q4ODM3LC03NzU3MDQxMTQsLTE3ODk5NjQzMDAsMjg3NDM1NDY1
-XX0=
+eyJoaXN0b3J5IjpbMTE5NjgzNDQwNCwyMjAyMDU5OTcsMTM1OD
+QzMDYyNCw4MDI0MTU5NjgsNTEyNzIzNDU5LC0xNzM2OTM3NTYz
+LDE1ODc4NTcxNDgsMzc0MjQyNjQzLC0yMTI5NDE3NzE2LC01OD
+M1NTY5ODMsMzkzMTgyNTcsMTkwMzg5OTEzNywxMzY2NTc5MTIs
+MjEyMjc1NjcwOCw5MDM3MjEyNzcsOTk3MDIyMTAwLDEyNjU0ND
+g4MzcsLTc3NTcwNDExNCwtMTc4OTk2NDMwMCwyODc0MzU0NjVd
+fQ==
 -->
