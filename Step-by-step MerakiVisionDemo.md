@@ -240,6 +240,12 @@ def return_speech():
 ```
 De esta forma, podemos importar el archivo `GetSnap.py` como un módulo en nuestro servidor web *Flask*, y utilizar todas sus funcionalidades. Este nos devuelve una tupla con las etiquetas de categorización en formato *String*, el contenido de la imagen, y su URL.
 
+---
+**Nota:**
+Es importante que el archivo o fichero `GetSnap.py` se encuentre en el mismo directorio que nuestro servidor web
+---
+
+
 ## El script app.py
 
 ## Rename a file
@@ -369,11 +375,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE4MTkzOTcxLC0xOTM2MjYzMzMxLDgyOD
-A4OTQ0LC0xMDUxODQxOTgsNjI5NTY1MjYyLDIyMDIwNTk5Nywx
-MzU4NDMwNjI0LDgwMjQxNTk2OCw1MTI3MjM0NTksLTE3MzY5Mz
-c1NjMsMTU4Nzg1NzE0OCwzNzQyNDI2NDMsLTIxMjk0MTc3MTYs
-LTU4MzU1Njk4MywzOTMxODI1NywxOTAzODk5MTM3LDEzNjY1Nz
-kxMiwyMTIyNzU2NzA4LDkwMzcyMTI3Nyw5OTcwMjIxMDBdfQ==
+eyJoaXN0b3J5IjpbLTIwMDkxNDMyMSw1MTgxOTM5NzEsLTE5Mz
+YyNjMzMzEsODI4MDg5NDQsLTEwNTE4NDE5OCw2Mjk1NjUyNjIs
+MjIwMjA1OTk3LDEzNTg0MzA2MjQsODAyNDE1OTY4LDUxMjcyMz
+Q1OSwtMTczNjkzNzU2MywxNTg3ODU3MTQ4LDM3NDI0MjY0Mywt
+MjEyOTQxNzcxNiwtNTgzNTU2OTgzLDM5MzE4MjU3LDE5MDM4OT
+kxMzcsMTM2NjU3OTEyLDIxMjI3NTY3MDgsOTAzNzIxMjc3XX0=
 
 -->
