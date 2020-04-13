@@ -217,7 +217,7 @@ def main():
 if __name__ == '__main__':
 	main()
 ```
-Hasta este punto en nuestro desarrollo, hemos creado un código en *Python* que se encarga de obtener una captura en una cámara Meraki
+Hasta este punto en nuestro desarrollo, hemos creado un código en *Python* que se encarga de obtener una captura en una cámara Meraki, obtener la imagen que se encuentra en esta URL, y enviarla a un software de reconocimiento de imágenes llamado *Imagga*. ¡Fantástico! Si han llegado hasta este punto, lo han hecho muy bien. Sin embargo, ahora deseamos poder llamar 
 
 
 ## Rename a file
@@ -347,11 +347,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY4NzgxMzQ0LDYyOTU2NTI2MiwyMjAyMD
-U5OTcsMTM1ODQzMDYyNCw4MDI0MTU5NjgsNTEyNzIzNDU5LC0x
-NzM2OTM3NTYzLDE1ODc4NTcxNDgsMzc0MjQyNjQzLC0yMTI5ND
-E3NzE2LC01ODM1NTY5ODMsMzkzMTgyNTcsMTkwMzg5OTEzNywx
-MzY2NTc5MTIsMjEyMjc1NjcwOCw5MDM3MjEyNzcsOTk3MDIyMT
-AwLDEyNjU0NDg4MzcsLTc3NTcwNDExNCwtMTc4OTk2NDMwMF19
-
+eyJoaXN0b3J5IjpbLTEwNTE4NDE5OCw2Mjk1NjUyNjIsMjIwMj
+A1OTk3LDEzNTg0MzA2MjQsODAyNDE1OTY4LDUxMjcyMzQ1OSwt
+MTczNjkzNzU2MywxNTg3ODU3MTQ4LDM3NDI0MjY0MywtMjEyOT
+QxNzcxNiwtNTgzNTU2OTgzLDM5MzE4MjU3LDE5MDM4OTkxMzcs
+MTM2NjU3OTEyLDIxMjI3NTY3MDgsOTAzNzIxMjc3LDk5NzAyMj
+EwMCwxMjY1NDQ4ODM3LC03NzU3MDQxMTQsLTE3ODk5NjQzMDBd
+fQ==
 -->
