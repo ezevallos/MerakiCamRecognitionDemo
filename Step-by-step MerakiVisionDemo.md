@@ -149,6 +149,7 @@ def listToString(s):
 speech = listToString(tags)
 ```
 ### Recapitulemos
+Hasta este punto, obtiene una imagen mediante las funciones `setHeaders_Meraki`, la cual se encarga de crear un diccionario y asignarlo a la variable header. Con este *JSON* realizamos nuestra llamada al *Dashboard API* de *Meraki*. Luego la segunda función, `getSnap`, se encarga de la realización de esta llamada, utilizando el método *POST* del módulo `requests` y de esta forma recibe otro *JSON* como respuesta. Este *JSON* lo almacenamos en forma de diccionario en la variable `snapshot`, y lo indexamos para obtener la URL de la imagen, mediante `url = snapshot["url"]`. Finalmente, la tercera función se encarga de buscar la imagen en la URL mediante el método *GET* y guarda el contenido en la variable `image`.
 
 
 ## Rename a file
@@ -278,11 +279,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAyNDE1OTY4LDUxMjcyMzQ1OSwtMTczNj
-kzNzU2MywxNTg3ODU3MTQ4LDM3NDI0MjY0MywtMjEyOTQxNzcx
-NiwtNTgzNTU2OTgzLDM5MzE4MjU3LDE5MDM4OTkxMzcsMTM2Nj
-U3OTEyLDIxMjI3NTY3MDgsOTAzNzIxMjc3LDk5NzAyMjEwMCwx
-MjY1NDQ4ODM3LC03NzU3MDQxMTQsLTE3ODk5NjQzMDAsMjg3ND
-M1NDY1LC0zMjA2MTI0OTQsMTk4MzA1MjI0OSw2ODI3NzQ4MTFd
-fQ==
+eyJoaXN0b3J5IjpbMTA3MTIwMTk4MSw4MDI0MTU5NjgsNTEyNz
+IzNDU5LC0xNzM2OTM3NTYzLDE1ODc4NTcxNDgsMzc0MjQyNjQz
+LC0yMTI5NDE3NzE2LC01ODM1NTY5ODMsMzkzMTgyNTcsMTkwMz
+g5OTEzNywxMzY2NTc5MTIsMjEyMjc1NjcwOCw5MDM3MjEyNzcs
+OTk3MDIyMTAwLDEyNjU0NDg4MzcsLTc3NTcwNDExNCwtMTc4OT
+k2NDMwMCwyODc0MzU0NjUsLTMyMDYxMjQ5NCwxOTgzMDUyMjQ5
+XX0=
 -->
