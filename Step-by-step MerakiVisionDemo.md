@@ -33,12 +33,12 @@ Al completar este laboratorio, estará familiarizado con el uso básico de las *
 
 ***DevNet*** nos provee muchos SandBoxes. Estos son entornos virtuales que emulan equipos físicos o redes donde podemos aprender a realizar configuraciones como la que intentamos efectuar. En este caso en particular, haremos uso del ***SandBox Meraki Always On*** que nos permite acceder a una cámara de ***Cisco Meraki*** en caso no contemos con una para realizar el laboratorio. Esta cámara en particular, se encuentra apuntando a una TV que se encuentra prendida 24/7. Nos dirigimos a la página principal de ***DevNet*** y navegamos a _Discover_ --> _**Code**_ --> _Sandbox Remote Labs_ donde encontraremos más información acerca de los _Sandboxes_. Encontramos información sobre cómo utilizarlos, si se trata de un _Sandbox_ que siempre se encuentra activo, o si es necesario reservarlo por cierta cantidad de tiempo, caso en el que además debemos esperar unos minutos para que _DevNet_ prepare los recursos que utilizaremos. Es importante mencionar que todos los recursos que encontraremos en ***DevNet*** son totalmente libres para los miembros de nuestra comunidad. Para acceder, debemos crearnos una cuenta, o utilizar nuestro ***Cisco ID*** en caso ya contemos con uno. Los alumnos de ***Cisco Networking Academy*** tienen una pre-cuenta de _DevNet_ utilizando sus credenciales NetAcad.
 
-![DevNet Sandbox](https://i.ibb.co/T2FpjXt/DN-SB.png)
+![DevNet Sandbox](https://i.ibb.co/Lrf0X6y/DN-SB.png)
 Aquí encontraremos la respuesta a muchas preguntas acerca de estos entornos virtuales, donde desarrolladores, ingenieros, administradores de red, arquitectos, y todos podemos desarrollar y probar las APIs, controladoras, equipos de red y suites de colaboración de Cisco.  Podremos correr nuestro código en infraestructura que se encuentra activa 24/7, en una variedad de laboratorios de acceso libre, y escoger entre entornos virtualizados, simuladores, e infraestructura física. Nos dirigimos al catálogo completo haciendo click en “_View all Sandboxes_”.
-![All DevNet Sandboxes](https://i.ibb.co/xHCnR3f/DN-SB-2.png)
-![Buscador Sandboxes](https://i.ibb.co/sbhg02K/DN-SB-3.png)
+![All DevNet Sandboxes](https://i.ibb.co/hH8DkjN/DN-SB-2.png)
+![Buscador Sandboxes](https://i.ibb.co/jvBXdxS/DN-SB-3.png)
 El catálogo cuenta con 70 _Sandboxes_ distintos. Para filtrar, podemos hacerlo por tipo, por categoría, por status, o simplemente hacer click en la búsqueda, y tipeamos la palabra “**_Meraki_**” para encontrar el que vamos a usar.
-![Sandbox Meraki Always-On](https://i.ibb.co/cK9pxQG/DN-SB-4.png)
+![Sandbox Meraki Always-On](https://i.ibb.co/MfcwkGM/DN-SB-4.png)
 Encontraremos tres _Sandboxes_ de **_Meraki_**, el que utilizaremos se llama “**_Meraki Always On_**” y se trata de una red de prueba **_Meraki_** a la que podemos acceder en cualquier momento para realizar pruebas. En este _Sandbox_ podemos encontrar los detalles importantes para que el script funcione correctamente. En primer lugar, las credenciales de acceso al Dashboard API, Username: [devnetmeraki@cisco.com](mailto:devnetmeraki@cisco.com), Password: ilovemeraki, y por otro lado, el *API Key* que utilizaremos es 6bec40cf957de430a6f1f2baa056b99a4fac9ea0.
 
 ## El archivo GetSnap en ***Python***
@@ -116,7 +116,7 @@ image = get_image(url)
 Hasta este punto, nuestro código consta de tres funciones. La primera, `setHeaders_Meraki` se encarga de crear un diccionario y asignarlo a la variable header. Este será el *JSON* con el que realizaremos nuestra llamada al *Dashboard API* de *Meraki*. Luego la segunda función, `getSnap`, se encarga de la realización de esta llamada, utilizando el método *POST* del módulo `requests` y de esta forma recibe otro *JSON* como respuesta. Este *JSON* lo almacenamos en forma de diccionario en la variable `snapshot`, y lo indexamos para obtener la URL de la imagen, mediante `url = snapshot["url"]`. Finalmente, la tercera función se encarga de buscar la imagen en la URL mediante el método *GET* y guarda el contenido en la variable `image`.
 
 Habiendo obtenido la imagen, procedemos a enviarla a un software de reconocimiento de imágenes llamado *Imagga*. Esto lo haremos a través de su *API*, para lo cual es necesario crearnos una cuenta. Ingresamos a la dirección [http://imagga.com/](http://imagga.com/)
-![SignUp Imagga](https://i.ibb.co/vVvmfNw/IG-SU-1.png)
+![SignUp Imagga](https://i.ibb.co/xGz65vT/IG-SU-1.png)
 Procedemos a llenar el formulario con los datos apropiados, para este caso de uso sólo es necesario una cuenta gratuita.
 ![SignUp Imagga Form](https://i.ibb.co/f2yRkm1/IG-SU-2.png)
 Con esto ya podemos acceder al [Dashboard de Imagga](https://imagga.com/profile/dashboard) y aquí encontraremos el *API Key* y *API Secret* necesarios para realizar el reconocimiento de la imagen.
@@ -278,11 +278,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEyNzIzNDU5LC0xNzM2OTM3NTYzLDE1OD
-c4NTcxNDgsMzc0MjQyNjQzLC0yMTI5NDE3NzE2LC01ODM1NTY5
-ODMsMzkzMTgyNTcsMTkwMzg5OTEzNywxMzY2NTc5MTIsMjEyMj
-c1NjcwOCw5MDM3MjEyNzcsOTk3MDIyMTAwLDEyNjU0NDg4Mzcs
-LTc3NTcwNDExNCwtMTc4OTk2NDMwMCwyODc0MzU0NjUsLTMyMD
-YxMjQ5NCwxOTgzMDUyMjQ5LDY4Mjc3NDgxMSwtMzAwODY4Nzcy
+eyJoaXN0b3J5IjpbLTQ4NTk1NDIyMCw1MTI3MjM0NTksLTE3Mz
+Y5Mzc1NjMsMTU4Nzg1NzE0OCwzNzQyNDI2NDMsLTIxMjk0MTc3
+MTYsLTU4MzU1Njk4MywzOTMxODI1NywxOTAzODk5MTM3LDEzNj
+Y1NzkxMiwyMTIyNzU2NzA4LDkwMzcyMTI3Nyw5OTcwMjIxMDAs
+MTI2NTQ0ODgzNywtNzc1NzA0MTE0LC0xNzg5OTY0MzAwLDI4Nz
+QzNTQ2NSwtMzIwNjEyNDk0LDE5ODMwNTIyNDksNjgyNzc0ODEx
 XX0=
 -->
