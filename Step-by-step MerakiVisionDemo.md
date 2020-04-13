@@ -217,7 +217,7 @@ def main():
 if __name__ == '__main__':
 	main()
 ```
-Hasta este punto en nuestro desarrollo, hemos creado un código en *Python* que se encarga de obtener una captura en una cámara Meraki, obtener la imagen que se encuentra en esta URL, y enviarla a un software de reconocimiento de imágenes llamado *Imagga*. ¡Fantástico! Si han llegado hasta este punto, lo han hecho muy bien. Sin embargo, ahora deseamos poder apalancar esta funcionalidad desde nuestro Asistente de Android, llamado *Google Assistant*. Para lograr esto, será necesario correr un servidor *Flask* haciendo uso de una librería en particular llamada *Flask Assistant* la cual permite la comunicación con asistentes de voz como es *Google Assistant* o *Alexa Skills* por nombrar algunos ejemplos. Este servidor web debemos almacenarlo en un lugar de acceso público 
+Hasta este punto en nuestro desarrollo, hemos creado un código en *Python* que se encarga de obtener una captura en una cámara Meraki, obtener la imagen que se encuentra en esta URL, y enviarla a un software de reconocimiento de imágenes llamado *Imagga*. Esto lo realiza nuestra función principal llamada `Main`.¡Fantástico! Si han llegado hasta este punto, lo han hecho muy bien. Sin embargo, ahora deseamos poder apalancar esta funcionalidad desde nuestro Asistente de Android, llamado *Google Assistant*. Para lograr esto, será necesario correr un servidor *Flask* haciendo uso de una librería en particular llamada *Flask Assistant* la cual permite la comunicación con asistentes de voz como es *Google Assistant* o *Alexa Skills* por nombrar algunos ejemplos. Este servidor web debemos almacenarlo en un lugar de acceso público en internet, de manera que el *API* de *Google Actions* pueda acceder a él. Para esto, vamos a 
 
 
 ## Rename a file
@@ -347,7 +347,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMjk4Mjk2NCw4MjgwODk0NCwtMTA1MT
+eyJoaXN0b3J5IjpbMTQ5MDAwMDAwMyw4MjgwODk0NCwtMTA1MT
 g0MTk4LDYyOTU2NTI2MiwyMjAyMDU5OTcsMTM1ODQzMDYyNCw4
 MDI0MTU5NjgsNTEyNzIzNDU5LC0xNzM2OTM3NTYzLDE1ODc4NT
 cxNDgsMzc0MjQyNjQzLC0yMTI5NDE3NzE2LC01ODM1NTY5ODMs
