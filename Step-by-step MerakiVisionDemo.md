@@ -217,7 +217,7 @@ def main():
 if __name__ == '__main__':
 	main()
 ```
-Hasta este punto en nuestro desarrollo, hemos creado un código en *Python* que se encarga de obtener una captura en una cámara Meraki, obtener la imagen que se encuentra en esta URL, y enviarla a un software de reconocimiento de imágenes llamado *Imagga*. ¡Fantástico! Si han llegado hasta este punto, lo han hecho muy bien. Sin embargo, ahora deseamos poder apalancar esta funcionalidad desde nuestro Asistente de Android, llamado *Google Assistant*. Para lograr esto, será necesario correr un servidor *Flask* haciendo uso de una librería en particular llamada *Flask Assistant* la cual permite la comunicación con asistentes de voz como es *Google Assistant* o *Alexa Skills* por nombrar algunos ejemplos.
+Hasta este punto en nuestro desarrollo, hemos creado un código en *Python* que se encarga de obtener una captura en una cámara Meraki, obtener la imagen que se encuentra en esta URL, y enviarla a un software de reconocimiento de imágenes llamado *Imagga*. ¡Fantástico! Si han llegado hasta este punto, lo han hecho muy bien. Sin embargo, ahora deseamos poder apalancar esta funcionalidad desde nuestro Asistente de Android, llamado *Google Assistant*. Para lograr esto, será necesario correr un servidor *Flask* haciendo uso de una librería en particular llamada *Flask Assistant* la cual permite la comunicación con asistentes de voz como es *Google Assistant* o *Alexa Skills* por nombrar algunos ejemplos. Este servidor web debemos almacenarlo en un lugar de acceso público 
 
 
 ## Rename a file
@@ -347,11 +347,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI4MDg5NDQsLTEwNTE4NDE5OCw2Mjk1Nj
-UyNjIsMjIwMjA1OTk3LDEzNTg0MzA2MjQsODAyNDE1OTY4LDUx
-MjcyMzQ1OSwtMTczNjkzNzU2MywxNTg3ODU3MTQ4LDM3NDI0Mj
-Y0MywtMjEyOTQxNzcxNiwtNTgzNTU2OTgzLDM5MzE4MjU3LDE5
-MDM4OTkxMzcsMTM2NjU3OTEyLDIxMjI3NTY3MDgsOTAzNzIxMj
-c3LDk5NzAyMjEwMCwxMjY1NDQ4ODM3LC03NzU3MDQxMTRdfQ==
+eyJoaXN0b3J5IjpbLTkxMjk4Mjk2NCw4MjgwODk0NCwtMTA1MT
+g0MTk4LDYyOTU2NTI2MiwyMjAyMDU5OTcsMTM1ODQzMDYyNCw4
+MDI0MTU5NjgsNTEyNzIzNDU5LC0xNzM2OTM3NTYzLDE1ODc4NT
+cxNDgsMzc0MjQyNjQzLC0yMTI5NDE3NzE2LC01ODM1NTY5ODMs
+MzkzMTgyNTcsMTkwMzg5OTEzNywxMzY2NTc5MTIsMjEyMjc1Nj
+cwOCw5MDM3MjEyNzcsOTk3MDIyMTAwLDEyNjU0NDg4MzddfQ==
 
 -->
