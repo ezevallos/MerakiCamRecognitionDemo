@@ -189,14 +189,15 @@ def analyze(url, image, key, secret):
         files={'image': image})
     return response
 
-def listToString(s):    
-    # initialize an empty string 
-    str1 = ""    
-    # traverse in the string   
-    for ele in s:  
-        str1 = str1 + ele + ","    
-    # return string   
-    return str1  }
+def listToString(s):
+    # initialize an empty string
+    str1 = ""
+    # traverse in the string
+    for ele in s:
+        str1 = str1 + ele + ","
+    # return string
+    return str1
+    
 # return speech function
 def return_speech():
     header = setHeaders_meraki()
@@ -342,11 +343,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk1MDgwMTU5LDIyMDIwNTk5NywxMzU4ND
-MwNjI0LDgwMjQxNTk2OCw1MTI3MjM0NTksLTE3MzY5Mzc1NjMs
-MTU4Nzg1NzE0OCwzNzQyNDI2NDMsLTIxMjk0MTc3MTYsLTU4Mz
-U1Njk4MywzOTMxODI1NywxOTAzODk5MTM3LDEzNjY1NzkxMiwy
-MTIyNzU2NzA4LDkwMzcyMTI3Nyw5OTcwMjIxMDAsMTI2NTQ0OD
-gzNywtNzc1NzA0MTE0LC0xNzg5OTY0MzAwLDI4NzQzNTQ2NV19
-
+eyJoaXN0b3J5IjpbLTExOTU0MzY3MDIsMjIwMjA1OTk3LDEzNT
+g0MzA2MjQsODAyNDE1OTY4LDUxMjcyMzQ1OSwtMTczNjkzNzU2
+MywxNTg3ODU3MTQ4LDM3NDI0MjY0MywtMjEyOTQxNzcxNiwtNT
+gzNTU2OTgzLDM5MzE4MjU3LDE5MDM4OTkxMzcsMTM2NjU3OTEy
+LDIxMjI3NTY3MDgsOTAzNzIxMjc3LDk5NzAyMjEwMCwxMjY1ND
+Q4ODM3LC03NzU3MDQxMTQsLTE3ODk5NjQzMDAsMjg3NDM1NDY1
+XX0=
 -->
