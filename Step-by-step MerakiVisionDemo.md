@@ -150,7 +150,7 @@ speech = listToString(tags)
 ```
 ### Recapitulemos
 Hasta este punto, nuestro código obtiene una imagen de la siguiente manera: la función `setHeaders_Meraki`, se encarga de crear un diccionario(*JSON*) y asignarlo a la variable header. Con este *JSON* realizamos una llamada al *Dashboard API* de *Meraki*. Luego la segunda función, `getSnap`, se encarga de realizar esta llamada, utilizando el método *POST* del módulo `requests` y de esta forma recibe otro *JSON* como respuesta. Este *JSON* lo almacenamos en forma de diccionario en la variable `snapshot`, y lo indexamos para obtener la URL de la imagen, mediante `url = snapshot["url"]`. La tercera función, `get_image` se encarga de buscar la imagen en la URL mediante el método *GET* y guarda el contenido en la variable `image`. 
-Habiendo conseguido esta imagen, realizamos el análisis apalancando la *API* de *Imagga*. Para esto hemos obtenido un *API_Key* y un *API_Secret* en la web de [*Imagga*](https://imagga.com/), y creamos una función llamada `analyze`, que toma estos parámetros, además de utilizar un endpoint especificado por *Imagga*. 
+Habiendo conseguido esta imagen, realizamos el análisis apalancando la *API* de *Imagga*. Para esto hemos obtenido un *API_Key* y un *API_Secret* en la web de [*Imagga*](https://imagga.com/), y creamos una función llamada `analyze`, que toma estos parámetros, además de utilizar un endpoint especificado por *Imagga*. Nos devuelve un nuevo *JSON* con la clasificación que rea
 
 
 ## Rename a file
@@ -280,11 +280,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1OTk2MjE5NywxMzU4NDMwNjI0LDgwMj
-QxNTk2OCw1MTI3MjM0NTksLTE3MzY5Mzc1NjMsMTU4Nzg1NzE0
-OCwzNzQyNDI2NDMsLTIxMjk0MTc3MTYsLTU4MzU1Njk4MywzOT
-MxODI1NywxOTAzODk5MTM3LDEzNjY1NzkxMiwyMTIyNzU2NzA4
-LDkwMzcyMTI3Nyw5OTcwMjIxMDAsMTI2NTQ0ODgzNywtNzc1Nz
-A0MTE0LC0xNzg5OTY0MzAwLDI4NzQzNTQ2NSwtMzIwNjEyNDk0
-XX0=
+eyJoaXN0b3J5IjpbMjIwMjA1OTk3LDEzNTg0MzA2MjQsODAyND
+E1OTY4LDUxMjcyMzQ1OSwtMTczNjkzNzU2MywxNTg3ODU3MTQ4
+LDM3NDI0MjY0MywtMjEyOTQxNzcxNiwtNTgzNTU2OTgzLDM5Mz
+E4MjU3LDE5MDM4OTkxMzcsMTM2NjU3OTEyLDIxMjI3NTY3MDgs
+OTAzNzIxMjc3LDk5NzAyMjEwMCwxMjY1NDQ4ODM3LC03NzU3MD
+QxMTQsLTE3ODk5NjQzMDAsMjg3NDM1NDY1LC0zMjA2MTI0OTRd
+fQ==
 -->
