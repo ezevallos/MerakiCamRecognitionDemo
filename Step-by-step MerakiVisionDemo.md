@@ -217,7 +217,7 @@ def main():
 if __name__ == '__main__':
 	main()
 ```
-Hasta este punto en nuestro desarrollo, hemos creado un código en *Python* que se encarga de obtener una captura en una cámara Meraki, obtener la imagen que se encuentra en esta URL, y enviarla a un software de reconocimiento de imágenes llamado *Imagga*. ¡Fantástico! Si han llegado hasta este punto, lo han hecho muy bien. Sin embargo, ahora deseamos poder llamar 
+Hasta este punto en nuestro desarrollo, hemos creado un código en *Python* que se encarga de obtener una captura en una cámara Meraki, obtener la imagen que se encuentra en esta URL, y enviarla a un software de reconocimiento de imágenes llamado *Imagga*. ¡Fantástico! Si han llegado hasta este punto, lo han hecho muy bien. Sin embargo, ahora deseamos poder apalancar esta funcionalidad desde nuestro Asistente de Android, llamado *Google Assistant*. Para lograr esto, será necesario correr un servidor *Flask*
 
 
 ## Rename a file
@@ -347,11 +347,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTE4NDE5OCw2Mjk1NjUyNjIsMjIwMj
-A1OTk3LDEzNTg0MzA2MjQsODAyNDE1OTY4LDUxMjcyMzQ1OSwt
-MTczNjkzNzU2MywxNTg3ODU3MTQ4LDM3NDI0MjY0MywtMjEyOT
-QxNzcxNiwtNTgzNTU2OTgzLDM5MzE4MjU3LDE5MDM4OTkxMzcs
-MTM2NjU3OTEyLDIxMjI3NTY3MDgsOTAzNzIxMjc3LDk5NzAyMj
-EwMCwxMjY1NDQ4ODM3LC03NzU3MDQxMTQsLTE3ODk5NjQzMDBd
-fQ==
+eyJoaXN0b3J5IjpbNjY0NTEyMDYxLC0xMDUxODQxOTgsNjI5NT
+Y1MjYyLDIyMDIwNTk5NywxMzU4NDMwNjI0LDgwMjQxNTk2OCw1
+MTI3MjM0NTksLTE3MzY5Mzc1NjMsMTU4Nzg1NzE0OCwzNzQyND
+I2NDMsLTIxMjk0MTc3MTYsLTU4MzU1Njk4MywzOTMxODI1Nywx
+OTAzODk5MTM3LDEzNjY1NzkxMiwyMTIyNzU2NzA4LDkwMzcyMT
+I3Nyw5OTcwMjIxMDAsMTI2NTQ0ODgzNywtNzc1NzA0MTE0XX0=
+
 -->
