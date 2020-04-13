@@ -171,7 +171,47 @@ def setHeaders_meraki():
 	return header
 
 def getSnap(theHeader):
-	uri = 
+	uri = "https://api.meraki.com/api/v0/networks/L_566327653141856854/cameras/Q2GV-7HEL-HC6C/snapshot?X-Cisco-Meraki-API-Key=6bec40cf957de430a6f1f2baa056b99a4fac9ea0"
+    resp = requests.post(uri, headers = theHeader,data={})
+    return resp.json()
+
+def get_image(url):
+    code = 404
+    while code != 200:
+        response = requests.get(url)
+        code = response.status_code
+    return response.content
+
+def analyze(url, image, key, secret):
+    response = requests.post(
+        url,
+        auth=(key, secret),
+        files={'image': image})
+    return response
+
+def listToString(s):    
+    # initialize an empty string 
+    str1 = ""    
+    # traverse in the string   
+    for ele in s:  
+        str1 = str1 + ele + ","    
+    # return string   
+    return str1  }
+# return speech function
+def return_speech():
+    header = setHeaders_meraki()
+    snapshot = getSnap(header)
+    url = snapshot["url"]
+    print(40*"-")
+    print(url)
+    print(40*"-")
+    image = get_image(url)
+    response = analyze(imagga_url, image, api_key, api_secret)
+    pprint(response.json(), indent=2, width=200)
+    print(40*"-")
+    tags = [item['tag']['en'] for item in response.json()['result']['tags']]
+    speech = listToString(tags)
+    return (speech,image, url)
 ```
 
 
@@ -302,7 +342,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgxMjk0OTkwLDIyMDIwNTk5NywxMzU4ND
+eyJoaXN0b3J5IjpbNTk1MDgwMTU5LDIyMDIwNTk5NywxMzU4ND
 MwNjI0LDgwMjQxNTk2OCw1MTI3MjM0NTksLTE3MzY5Mzc1NjMs
 MTU4Nzg1NzE0OCwzNzQyNDI2NDMsLTIxMjk0MTc3MTYsLTU4Mz
 U1Njk4MywzOTMxODI1NywxOTAzODk5MTM3LDEzNjY1NzkxMiwy
