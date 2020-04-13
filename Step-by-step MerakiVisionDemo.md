@@ -41,8 +41,7 @@ El catálogo cuenta con 70 _Sandboxes_ distintos. Para filtrar, podemos hacerlo 
 ![Sandbox Meraki Always-On](https://i.ibb.co/MfcwkGM/DN-SB-4.png)
 Encontraremos tres _Sandboxes_ de **_Meraki_**, el que utilizaremos se llama “**_Meraki Always On_**” y se trata de una red de prueba **_Meraki_** a la que podemos acceder en cualquier momento para realizar pruebas. En este _Sandbox_ podemos encontrar los detalles importantes para que el script funcione correctamente. En primer lugar, las credenciales de acceso al Dashboard API, Username: [devnetmeraki@cisco.com](mailto:devnetmeraki@cisco.com), Password: ilovemeraki, y por otro lado, el *API Key* que utilizaremos es 6bec40cf957de430a6f1f2baa056b99a4fac9ea0.
 
-## El script GetSnap en ***Python***
-
+## El script GetSnap.py
 Nuestro código en ***Python*** va a obtener una captura de la cámara Meraki modelo MV12W, cuyo número serial es el Q2GV-7HEL-HC6C, y se ubica en la red con Id L_566327653141856854 llamada *DNEAlertsNet*. Esta red no la encontraremos dentro de la interfaz del Dashboard API, pero sí estará listada si hacemos las llamadas de **Postman** *Get Organization Id* y *Get Networks Id*, utilizando el *API Key* previamente mencionado. La organización lleva el nombre *DeLab* y su Id es el 681155. Esta cámara ha sido posicionada delante de una TV que se encuentra prendida 24/7, de forma que siempre tiene algo qué mostrar, y su contenido es dinámico.
 
 En primer lugar, debemos especificar las librerías que estaremos utilizando. Estas son *pprint*, *requests* y *json*, las importamos a continuación:
@@ -248,6 +247,7 @@ Es importante que el archivo o fichero `GetSnap.py` se encuentre en el mismo dir
 
 ## El script app.py
 
+
 ## Rename a file
 
 You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
@@ -375,11 +375,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5OTEwMDI3Myw1MTgxOTM5NzEsLTE5Mz
-YyNjMzMzEsODI4MDg5NDQsLTEwNTE4NDE5OCw2Mjk1NjUyNjIs
-MjIwMjA1OTk3LDEzNTg0MzA2MjQsODAyNDE1OTY4LDUxMjcyMz
-Q1OSwtMTczNjkzNzU2MywxNTg3ODU3MTQ4LDM3NDI0MjY0Mywt
-MjEyOTQxNzcxNiwtNTgzNTU2OTgzLDM5MzE4MjU3LDE5MDM4OT
-kxMzcsMTM2NjU3OTEyLDIxMjI3NTY3MDgsOTAzNzIxMjc3XX0=
-
+eyJoaXN0b3J5IjpbLTEzODUwMzAyMzksLTY5OTEwMDI3Myw1MT
+gxOTM5NzEsLTE5MzYyNjMzMzEsODI4MDg5NDQsLTEwNTE4NDE5
+OCw2Mjk1NjUyNjIsMjIwMjA1OTk3LDEzNTg0MzA2MjQsODAyND
+E1OTY4LDUxMjcyMzQ1OSwtMTczNjkzNzU2MywxNTg3ODU3MTQ4
+LDM3NDI0MjY0MywtMjEyOTQxNzcxNiwtNTgzNTU2OTgzLDM5Mz
+E4MjU3LDE5MDM4OTkxMzcsMTM2NjU3OTEyLDIxMjI3NTY3MDhd
+fQ==
 -->
