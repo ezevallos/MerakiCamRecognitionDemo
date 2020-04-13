@@ -246,7 +246,7 @@ Es importante que el archivo o fichero `GetSnap.py` se encuentre en el mismo dir
 
 
 ## El script app.py
-
+Nuestro código debe importar la funcionalidad del script `GetSnap.py` y servirlo desde un *web server* a través de distintas una ruta. 
 
 ## Rename a file
 
@@ -375,11 +375,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODUwMzAyMzksLTY5OTEwMDI3Myw1MT
-gxOTM5NzEsLTE5MzYyNjMzMzEsODI4MDg5NDQsLTEwNTE4NDE5
-OCw2Mjk1NjUyNjIsMjIwMjA1OTk3LDEzNTg0MzA2MjQsODAyND
-E1OTY4LDUxMjcyMzQ1OSwtMTczNjkzNzU2MywxNTg3ODU3MTQ4
-LDM3NDI0MjY0MywtMjEyOTQxNzcxNiwtNTgzNTU2OTgzLDM5Mz
-E4MjU3LDE5MDM4OTkxMzcsMTM2NjU3OTEyLDIxMjI3NTY3MDhd
-fQ==
+eyJoaXN0b3J5IjpbLTY5MTEwNDY2MSwtNjk5MTAwMjczLDUxOD
+E5Mzk3MSwtMTkzNjI2MzMzMSw4MjgwODk0NCwtMTA1MTg0MTk4
+LDYyOTU2NTI2MiwyMjAyMDU5OTcsMTM1ODQzMDYyNCw4MDI0MT
+U5NjgsNTEyNzIzNDU5LC0xNzM2OTM3NTYzLDE1ODc4NTcxNDgs
+Mzc0MjQyNjQzLC0yMTI5NDE3NzE2LC01ODM1NTY5ODMsMzkzMT
+gyNTcsMTkwMzg5OTEzNywxMzY2NTc5MTIsMjEyMjc1NjcwOF19
+
 -->
