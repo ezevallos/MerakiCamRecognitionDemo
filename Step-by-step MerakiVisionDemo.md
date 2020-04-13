@@ -242,7 +242,7 @@ De esta forma, podemos importar el archivo `GetSnap.py` como un módulo en nuest
 
 ---
 **Nota:**
-Es importante que el archivo o fichero `GetSnap.py` se encuentre en el mismo directorio que nuestro servidor web
+Es importante que el archivo o fichero `GetSnap.py` se encuentre en el mismo directorio que nuestro servidor web.
 ---
 
 
@@ -375,7 +375,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDkxNDMyMSw1MTgxOTM5NzEsLTE5Mz
+eyJoaXN0b3J5IjpbLTY5OTEwMDI3Myw1MTgxOTM5NzEsLTE5Mz
 YyNjMzMzEsODI4MDg5NDQsLTEwNTE4NDE5OCw2Mjk1NjUyNjIs
 MjIwMjA1OTk3LDEzNTg0MzA2MjQsODAyNDE1OTY4LDUxMjcyMz
 Q1OSwtMTczNjkzNzU2MywxNTg3ODU3MTQ4LDM3NDI0MjY0Mywt
