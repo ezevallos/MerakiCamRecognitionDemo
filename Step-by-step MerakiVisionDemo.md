@@ -150,7 +150,7 @@ speech = listToString(tags)
 ```
 ### Recapitulemos
 Hasta este punto, nuestro código obtiene una imagen de la siguiente manera: la función `setHeaders_Meraki`, se encarga de crear un diccionario(*JSON*) y asignarlo a la variable header. Con este *JSON* realizamos una llamada al *Dashboard API* de *Meraki*. Luego la segunda función, `getSnap`, se encarga de realizar esta llamada, utilizando el método *POST* del módulo `requests` y de esta forma recibe otro *JSON* como respuesta. Este *JSON* lo almacenamos en forma de diccionario en la variable `snapshot`, y lo indexamos para obtener la URL de la imagen, mediante `url = snapshot["url"]`. La tercera función, `get_image` se encarga de buscar la imagen en la URL mediante el método *GET* y guarda el contenido en la variable `image`. 
-Habiendo conseguido esta imagen, realizamos el análisis apalancando la *API* de *Imagga*. Para esto hemos obtenido un *API_Key* y un *API_Secret* en la web de [*Imagga*](https://imagga.com/)
+Habiendo conseguido esta imagen, realizamos el análisis apalancando la *API* de *Imagga*. Para esto hemos obtenido un *API_Key* y un *API_Secret* en la web de [*Imagga*](https://imagga.com/), y creamos una función llamada `analyze`, que toma estos parámetros, además de utilizar un endpoint especificado por *Imagga*. 
 
 
 ## Rename a file
@@ -280,11 +280,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1ODQzMDYyNCw4MDI0MTU5NjgsNTEyNz
-IzNDU5LC0xNzM2OTM3NTYzLDE1ODc4NTcxNDgsMzc0MjQyNjQz
-LC0yMTI5NDE3NzE2LC01ODM1NTY5ODMsMzkzMTgyNTcsMTkwMz
-g5OTEzNywxMzY2NTc5MTIsMjEyMjc1NjcwOCw5MDM3MjEyNzcs
-OTk3MDIyMTAwLDEyNjU0NDg4MzcsLTc3NTcwNDExNCwtMTc4OT
-k2NDMwMCwyODc0MzU0NjUsLTMyMDYxMjQ5NCwxOTgzMDUyMjQ5
+eyJoaXN0b3J5IjpbLTQ1OTk2MjE5NywxMzU4NDMwNjI0LDgwMj
+QxNTk2OCw1MTI3MjM0NTksLTE3MzY5Mzc1NjMsMTU4Nzg1NzE0
+OCwzNzQyNDI2NDMsLTIxMjk0MTc3MTYsLTU4MzU1Njk4MywzOT
+MxODI1NywxOTAzODk5MTM3LDEzNjY1NzkxMiwyMTIyNzU2NzA4
+LDkwMzcyMTI3Nyw5OTcwMjIxMDAsMTI2NTQ0ODgzNywtNzc1Nz
+A0MTE0LC0xNzg5OTY0MzAwLDI4NzQzNTQ2NSwtMzIwNjEyNDk0
 XX0=
 -->
