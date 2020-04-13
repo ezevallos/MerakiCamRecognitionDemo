@@ -41,7 +41,7 @@ El catálogo cuenta con 70 _Sandboxes_ distintos. Para filtrar, podemos hacerlo 
 ![Sandbox Meraki Always-On](https://i.ibb.co/MfcwkGM/DN-SB-4.png)
 Encontraremos tres _Sandboxes_ de **_Meraki_**, el que utilizaremos se llama “**_Meraki Always On_**” y se trata de una red de prueba **_Meraki_** a la que podemos acceder en cualquier momento para realizar pruebas. En este _Sandbox_ podemos encontrar los detalles importantes para que el script funcione correctamente. En primer lugar, las credenciales de acceso al Dashboard API, Username: [devnetmeraki@cisco.com](mailto:devnetmeraki@cisco.com), Password: ilovemeraki, y por otro lado, el *API Key* que utilizaremos es 6bec40cf957de430a6f1f2baa056b99a4fac9ea0.
 
-## El archivo GetSnap en ***Python***
+## El script GetSnap en ***Python***
 
 Nuestro código en ***Python*** va a obtener una captura de la cámara Meraki modelo MV12W, cuyo número serial es el Q2GV-7HEL-HC6C, y se ubica en la red con Id L_566327653141856854 llamada *DNEAlertsNet*. Esta red no la encontraremos dentro de la interfaz del Dashboard API, pero sí estará listada si hacemos las llamadas de **Postman** *Get Organization Id* y *Get Networks Id*, utilizando el *API Key* previamente mencionado. La organización lleva el nombre *DeLab* y su Id es el 681155. Esta cámara ha sido posicionada delante de una TV que se encuentra prendida 24/7, de forma que siempre tiene algo qué mostrar, y su contenido es dinámico.
 
@@ -238,7 +238,9 @@ def return_speech():
     speech = listToString(tags)
     return (speech,image, url)
 ```
-De esta forma, podemos importar el archivo `GetSnap.py` como un módulo en nuestro servidor web *Flask*, y utilizar todas sus funcionalidades. Este nos devuelve una tupla con 
+De esta forma, podemos importar el archivo `GetSnap.py` como un módulo en nuestro servidor web *Flask*, y utilizar todas sus funcionalidades. Este nos devuelve una tupla con las etiquetas de categorización en formato *String*, el contenido de la imagen, y su URL.
+
+## El script app.py
 
 ## Rename a file
 
@@ -367,7 +369,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQxNDUyNDYzLC0xOTM2MjYzMzMxLDgyOD
+eyJoaXN0b3J5IjpbNTE4MTkzOTcxLC0xOTM2MjYzMzMxLDgyOD
 A4OTQ0LC0xMDUxODQxOTgsNjI5NTY1MjYyLDIyMDIwNTk5Nywx
 MzU4NDMwNjI0LDgwMjQxNTk2OCw1MTI3MjM0NTksLTE3MzY5Mz
 c1NjMsMTU4Nzg1NzE0OCwzNzQyNDI2NDMsLTIxMjk0MTc3MTYs
