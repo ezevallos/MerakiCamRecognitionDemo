@@ -1,10 +1,10 @@
-from flask import Flask, Response, jsonify, request, render_template, send_file
-from flask_assistant import Assistant, tell, ask
+from flask import Flask
+#from flask import Response, jsonify, request, render_template, send_file
+from flask_assistant import Assistant, tell
 from flask_cors import CORS
-from pprint import pprint
-import json, jsonify, requests
+#from pprint import pprint
+#import json, jsonify, requests
 import GetSnap
-import base64
 
 app = Flask(__name__)
 
@@ -16,13 +16,7 @@ assist = Assistant(app, route='/google')
 
 @app.route("/", methods=['GET'])
 def main():
-    return "Smile"
-
-
-@app.route("/img", methods=['GET'])
-def get_image():
-    return send_file('img.jpg', mimetype='image/jpg')
-
+    return "Eureka"
 
 @assist.action('tv-watch')
 def google_tv_watch():
