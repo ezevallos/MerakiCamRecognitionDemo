@@ -24,7 +24,7 @@ def google_tv_watch():
     f = open('img.jpg',"wb")
     f.write(image)
     f.close()
-    return tell("I see " + speech[:154]).card(
+    return tell("I see " + speech[:541]).card(
         text="See...",
         title="Image:",
         img_url=url
