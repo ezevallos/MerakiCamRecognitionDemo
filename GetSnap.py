@@ -44,7 +44,7 @@ def listToString(s):
     for ele in s:  
         str1 = str1 + ele + ","
     
-    if(len(str1 >= 415)):
+    if(len(str1) >= 415):
         i=-1
         while(str1[i]!=','):
             i=i-1
