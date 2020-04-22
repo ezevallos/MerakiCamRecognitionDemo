@@ -47,7 +47,7 @@ def listToString(s):
     if(len(str1 >= 415)):
         i=-1
         while(str1[i]!=','):
-            i--
+            i=i-1
     # return string   
     return str1[:i]
 
