@@ -1,9 +1,6 @@
 from flask import Flask
-#from flask import Response, jsonify, request, render_template, send_file
 from flask_assistant import Assistant, tell
 from flask_cors import CORS
-#from pprint import pprint
-#import json, jsonify, requests
 import GetSnap
 
 app = Flask(__name__)
@@ -24,7 +21,7 @@ def google_tv_watch():
     f = open('img.jpg',"wb")
     f.write(image)
     f.close()
-    return tell("I see " + speech[:541]).card(
+    return tell("I see " + speech[:415]).card(
         text="See...",
         title="Image:",
         img_url=url

@@ -44,8 +44,12 @@ def listToString(s):
     for ele in s:  
         str1 = str1 + ele + ","
     
+    if(len(str1 >= 415)):
+        i=-1
+        while(str1[i]!=','):
+            i--
     # return string   
-    return str1  
+    return str1[:i]
 
 
 # return speech function
