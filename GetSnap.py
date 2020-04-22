@@ -49,7 +49,7 @@ def listToString(s):
         while(str1[i]!=','):
             i=i-1
     # return string   
-    return str1[:i]
+    return str1[:i+2]
 
 
 # return speech function
