@@ -43,13 +43,13 @@ def listToString(s):
     # traverse in the string   
     for ele in s:  
         str1 = str1 + ele + ","
-    
+    i=-1
     if(len(str1) >= 415):
-        i=-1
         while(str1[i]!=','):
             i=i-1
+    i=i+2
     # return string   
-    return str1[:i+2]
+    return str1[:i]
 
 
 # return speech function
