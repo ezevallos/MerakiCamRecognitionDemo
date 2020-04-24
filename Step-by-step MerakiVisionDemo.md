@@ -140,14 +140,12 @@ Luego podemos indexar las etiquetas de reconocimiento y asignarlo a una variable
 De esta manera, obtenemos una lista ordenada con las etiquetas, que procedemos a transformar en un *string*. Para esto es necesario crear una última función que convierta una lista a un string y acorte la lista luego de cierta cantidad de caracteres sin dejar palabras cortadas o comas flotantes, y lo asignamos a la variable `speech`:
 ```python
 def listToString(s):  
-    
     # initialize an empty string 
     str1 = ""  
-    
     # traverse in the string   
     for ele in s:  
         str1 = str1 + ele + ","
-    
+    # cut string without leaving floating characters or slashed words
     str1 = str1[:415]
     while(str1[-1]!=','):
         str1 = str1[:-1]
@@ -198,13 +196,17 @@ def analyze(url, image, key, secret):
         files={'image': image})
     return response
 
-def listToString(s):
-    # initialize an empty string
-    str1 = ""
-    # traverse in the string
-    for ele in s:
+def listToString(s):  
+    # initialize an empty string 
+    str1 = ""  
+    # traverse in the string   
+    for ele in s:  
         str1 = str1 + ele + ","
-    # return string
+    str1 = str1[:415]
+    while(str1[-1]!=','):
+        str1 = str1[:-1]
+    str1 = str1[:-1]
+    # return string   
     return str1
     
 # Main function
@@ -394,11 +396,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NTk4MzYyNSwxMTU1ODIyNDI5LC02OT
-ExMDQ2NjEsLTY5OTEwMDI3Myw1MTgxOTM5NzEsLTE5MzYyNjMz
-MzEsODI4MDg5NDQsLTEwNTE4NDE5OCw2Mjk1NjUyNjIsMjIwMj
-A1OTk3LDEzNTg0MzA2MjQsODAyNDE1OTY4LDUxMjcyMzQ1OSwt
-MTczNjkzNzU2MywxNTg3ODU3MTQ4LDM3NDI0MjY0MywtMjEyOT
-QxNzcxNiwtNTgzNTU2OTgzLDM5MzE4MjU3LDE5MDM4OTkxMzdd
-fQ==
+eyJoaXN0b3J5IjpbLTE3MzU1NTExNDIsMTE1NTgyMjQyOSwtNj
+kxMTA0NjYxLC02OTkxMDAyNzMsNTE4MTkzOTcxLC0xOTM2MjYz
+MzMxLDgyODA4OTQ0LC0xMDUxODQxOTgsNjI5NTY1MjYyLDIyMD
+IwNTk5NywxMzU4NDMwNjI0LDgwMjQxNTk2OCw1MTI3MjM0NTks
+LTE3MzY5Mzc1NjMsMTU4Nzg1NzE0OCwzNzQyNDI2NDMsLTIxMj
+k0MTc3MTYsLTU4MzU1Njk4MywzOTMxODI1NywxOTAzODk5MTM3
+XX0=
 -->
