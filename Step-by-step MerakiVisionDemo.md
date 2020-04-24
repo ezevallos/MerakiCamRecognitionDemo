@@ -216,7 +216,7 @@ def main():
 if __name__ == '__main__':
 	main()
 ```
-Hasta este punto en nuestro desarrollo, hemos creado un código en *Python* que se encarga de obtener una captura en una cámara Meraki, obtener la imagen que se encuentra en esta URL, y enviarla a un software de reconocimiento de imágenes llamado *Imagga*. Esto lo realiza nuestra función principal llamada `Main`.¡Fantástico! Si han llegado hasta este punto, lo han hecho muy bien. Sin embargo, ahora deseamos poder apalancar esta funcionalidad desde nuestro Asistente de Android, llamado *Google Assistant*. Para lograr esto, será necesario correr un servidor *Flask* haciendo uso de una librería en particular llamada *Flask Assistant* la cual permite la comunicación con asistentes de voz como es *Google Assistant* o *Alexa Skills* por nombrar algunos ejemplos. Este servidor web debemos almacenarlo en un lugar de acceso público en internet, de manera que el *API* de *Google Actions* pueda acceder a él. Para crear este servidor, importaremos el código que creamos llamado Get, vamos a renombrar esta función y eliminar las últimas dos líneas del código anterior. Se vería de la siguiente forma (notar que el resto del código se ha omitido y colocado tres puntos "..." para enfocarnos en la parte clave que estamos modificando):
+Hasta este punto en nuestro desarrollo, hemos creado un código en *Python* que se encarga de obtener una captura en una cámara Meraki, obtener la imagen que se encuentra en esta URL, y enviarla a un software de reconocimiento de imágenes llamado *Imagga*. Esto lo realiza nuestra función principal llamada `Main`.¡Fantástico! Si han llegado hasta este punto, lo han hecho muy bien. Sin embargo, ahora deseamos poder apalancar esta funcionalidad desde nuestro Asistente de Android, llamado *Google Assistant*. Para lograr esto, será necesario correr un servidor *Flask* haciendo uso de una librería en particular llamada *Flask Assistant* la cual permite la comunicación con asistentes de voz como es *Google Assistant* o *Alexa Skills* por nombrar algunos ejemplos. Este servidor web debemos almacenarlo en un lugar de acceso público en internet, de manera que el *API* de *Google Actions* pueda acceder a él, y para esto utilizaremos *Herok. Para crear este servidor, importaremos el código que creamos llamado Get, vamos a renombrar esta función y eliminar las últimas dos líneas del código anterior. Se vería de la siguiente forma (notar que el resto del código se ha omitido y colocado tres puntos "..." para enfocarnos en la parte clave que estamos modificando):
 ```python
 ...
 	return str1
@@ -384,11 +384,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NTgyMjQyOSwtNjkxMTA0NjYxLC02OT
-kxMDAyNzMsNTE4MTkzOTcxLC0xOTM2MjYzMzMxLDgyODA4OTQ0
-LC0xMDUxODQxOTgsNjI5NTY1MjYyLDIyMDIwNTk5NywxMzU4ND
-MwNjI0LDgwMjQxNTk2OCw1MTI3MjM0NTksLTE3MzY5Mzc1NjMs
-MTU4Nzg1NzE0OCwzNzQyNDI2NDMsLTIxMjk0MTc3MTYsLTU4Mz
-U1Njk4MywzOTMxODI1NywxOTAzODk5MTM3LDEzNjY1NzkxMl19
-
+eyJoaXN0b3J5IjpbLTE3ODQ0NTY3OCwxMTU1ODIyNDI5LC02OT
+ExMDQ2NjEsLTY5OTEwMDI3Myw1MTgxOTM5NzEsLTE5MzYyNjMz
+MzEsODI4MDg5NDQsLTEwNTE4NDE5OCw2Mjk1NjUyNjIsMjIwMj
+A1OTk3LDEzNTg0MzA2MjQsODAyNDE1OTY4LDUxMjcyMzQ1OSwt
+MTczNjkzNzU2MywxNTg3ODU3MTQ4LDM3NDI0MjY0MywtMjEyOT
+QxNzcxNiwtNTgzNTU2OTgzLDM5MzE4MjU3LDE5MDM4OTkxMzdd
+fQ==
 -->
