@@ -265,7 +265,7 @@ from flask_assistant import Assistant, tell
 from flask_cors import CORS
 import GetSnap
 ``` 
-La librería *Flask* nos permite la creación del servidor web. Por otro lado, 
+La librería *Flask* nos permite la creación del servidor web. Por otro lado, la librería *Flask Assistant* 
 
 ## Rename a file
 
@@ -394,11 +394,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NTM1OTI3NCwtMTczNTU1MTE0MiwxMT
-U1ODIyNDI5LC02OTExMDQ2NjEsLTY5OTEwMDI3Myw1MTgxOTM5
-NzEsLTE5MzYyNjMzMzEsODI4MDg5NDQsLTEwNTE4NDE5OCw2Mj
-k1NjUyNjIsMjIwMjA1OTk3LDEzNTg0MzA2MjQsODAyNDE1OTY4
-LDUxMjcyMzQ1OSwtMTczNjkzNzU2MywxNTg3ODU3MTQ4LDM3ND
-I0MjY0MywtMjEyOTQxNzcxNiwtNTgzNTU2OTgzLDM5MzE4MjU3
-XX0=
+eyJoaXN0b3J5IjpbLTIxMDc5OTM5MDYsMTQ4NTM1OTI3NCwtMT
+czNTU1MTE0MiwxMTU1ODIyNDI5LC02OTExMDQ2NjEsLTY5OTEw
+MDI3Myw1MTgxOTM5NzEsLTE5MzYyNjMzMzEsODI4MDg5NDQsLT
+EwNTE4NDE5OCw2Mjk1NjUyNjIsMjIwMjA1OTk3LDEzNTg0MzA2
+MjQsODAyNDE1OTY4LDUxMjcyMzQ1OSwtMTczNjkzNzU2MywxNT
+g3ODU3MTQ4LDM3NDI0MjY0MywtMjEyOTQxNzcxNiwtNTgzNTU2
+OTgzXX0=
 -->
