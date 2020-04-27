@@ -266,7 +266,7 @@ from flask_cors import CORS
 import GetSnap
 ``` 
 La librería *Flask* nos permite la creación del servidor web en forma local. Por otro lado, la librería *Flask Assistant* habilita el uso de asistentes como *Google Assistant* o *Alexa Skills*, en particular utilizaremos el módulo *tell* que nos devolverá la respuesta en forma enunciada. Adicionalmente, importamos *Flask CORS* que habilita el intercambio de recursos de distintos orígenes. Finalmente, importamos el script GetSnap que creamos previamente que contiene la lógica para obtener la imagen de la captura y realizar el reconocimiento.
-Ahora es necesario crear el aplicativo que se encontrará en el *web server*, mediante la línea de código `app = Flask(__name__)`. 
+Ahora es necesario crear el aplicativo que se encontrará en el *web server*, mediante la línea de código `app = Flask(__name__)`. Lo configuramos para *Google Actions* con `app.config['ASSIST_ACTIONS_ON_GOOGLE'] = True`
 
 ## Rename a file
 
@@ -395,11 +395,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3Mzg4Njk0NSwtMTAyNDk2NDcyOSwtMT
-Y4ODg3MDcxNCwxNDg1MzU5Mjc0LC0xNzM1NTUxMTQyLDExNTU4
-MjI0MjksLTY5MTEwNDY2MSwtNjk5MTAwMjczLDUxODE5Mzk3MS
-wtMTkzNjI2MzMzMSw4MjgwODk0NCwtMTA1MTg0MTk4LDYyOTU2
-NTI2MiwyMjAyMDU5OTcsMTM1ODQzMDYyNCw4MDI0MTU5NjgsNT
-EyNzIzNDU5LC0xNzM2OTM3NTYzLDE1ODc4NTcxNDgsMzc0MjQy
-NjQzXX0=
+eyJoaXN0b3J5IjpbMTk1MzMxMzM0LC0xMDI0OTY0NzI5LC0xNj
+g4ODcwNzE0LDE0ODUzNTkyNzQsLTE3MzU1NTExNDIsMTE1NTgy
+MjQyOSwtNjkxMTA0NjYxLC02OTkxMDAyNzMsNTE4MTkzOTcxLC
+0xOTM2MjYzMzMxLDgyODA4OTQ0LC0xMDUxODQxOTgsNjI5NTY1
+MjYyLDIyMDIwNTk5NywxMzU4NDMwNjI0LDgwMjQxNTk2OCw1MT
+I3MjM0NTksLTE3MzY5Mzc1NjMsMTU4Nzg1NzE0OCwzNzQyNDI2
+NDNdfQ==
 -->
