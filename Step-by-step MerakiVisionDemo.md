@@ -265,7 +265,7 @@ from flask_assistant import Assistant, tell
 from flask_cors import CORS
 import GetSnap
 ``` 
-La librería *Flask* nos permite la creación del servidor web en forma local. Por otro lado, la librería *Flask Assistant* habilita el uso de asistentes como *Google Assistant* o *Alexa Skills*, en particular utilizaremos el módulo *tell* que nos devolverá la respuesta en forma enunciada.
+La librería *Flask* nos permite la creación del servidor web en forma local. Por otro lado, la librería *Flask Assistant* habilita el uso de asistentes como *Google Assistant* o *Alexa Skills*, en particular utilizaremos el módulo *tell* que nos devolverá la respuesta en forma enunciada. Adicionalmente, importamos *Flask CORS* que habilita el intercambio de recursos de distintos orígenes. Finalmente, importamos el script Get
 
 ## Rename a file
 
@@ -394,11 +394,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODg4NzA3MTQsMTQ4NTM1OTI3NCwtMT
-czNTU1MTE0MiwxMTU1ODIyNDI5LC02OTExMDQ2NjEsLTY5OTEw
-MDI3Myw1MTgxOTM5NzEsLTE5MzYyNjMzMzEsODI4MDg5NDQsLT
-EwNTE4NDE5OCw2Mjk1NjUyNjIsMjIwMjA1OTk3LDEzNTg0MzA2
-MjQsODAyNDE1OTY4LDUxMjcyMzQ1OSwtMTczNjkzNzU2MywxNT
-g3ODU3MTQ4LDM3NDI0MjY0MywtMjEyOTQxNzcxNiwtNTgzNTU2
-OTgzXX0=
+eyJoaXN0b3J5IjpbNzU4NTg5NDk4LC0xNjg4ODcwNzE0LDE0OD
+UzNTkyNzQsLTE3MzU1NTExNDIsMTE1NTgyMjQyOSwtNjkxMTA0
+NjYxLC02OTkxMDAyNzMsNTE4MTkzOTcxLC0xOTM2MjYzMzMxLD
+gyODA4OTQ0LC0xMDUxODQxOTgsNjI5NTY1MjYyLDIyMDIwNTk5
+NywxMzU4NDMwNjI0LDgwMjQxNTk2OCw1MTI3MjM0NTksLTE3Mz
+Y5Mzc1NjMsMTU4Nzg1NzE0OCwzNzQyNDI2NDMsLTIxMjk0MTc3
+MTZdfQ==
 -->
