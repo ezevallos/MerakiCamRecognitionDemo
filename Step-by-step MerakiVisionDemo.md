@@ -21,6 +21,7 @@ Al completar este laboratorio, estará familiarizado con el uso básico de las *
  - Manejo de ***Python*** y sus librerías, en particular ***Flask*** para desplegar *web servers*
  - Cuenta de ***DevNet*** para utilizar el ***Sandbox Meraki Always-On***.
  - Cuenta de ***GitHub*** y un conocimiento básico de contol de versiones, según lo descrito en [Introducción a Git](https://developer.cisco.com/learning/tracks/devnet-beginner-es/fundamentals-es/intro-to-git-es/step/1).
+ - ***Git Bash*** instalado en , 
  - Cuenta de ***Imagga*** para contar con un *api_key* y *api_secret* y enviar imágenes a reconocer.
  - Cuenta de ***Heroku*** para acceder a nuestro código de ***Python*** desde una URL pública
  - Cuenta de ***Google*** para acceder a ***DialogFlow***
@@ -293,7 +294,7 @@ if __name__ == '__main__':
 ```
 Es decir, nuestro aplicativo estará habilitado para utilizar hilos, y se encontrará disponible en el puerto 5000.
 ### Recapitulemos
-Hasta este punto, nuestro código obtiene la imagen de una cámara *Meraki Vision* utilizando el *Dashboard API* y realiza un análisis mediante el API de *Imagga*, un software de reconocimiento de imágenes. Obtiene el url de la imagen, y las etiquetas del análisis y lo asigna a una tupla que será enunciada y mostrada utilizando un servidor web de *Flask* que utiliza la librería *Flask Assistant*. Sin embargo, para que podamos realizar llamadas a nuestro servidor web, será necesario que este se encuentre en una dirección pública. Mientras nos encontremos en estado de prueba, podemos hacer uso de algún servicio de *tunneling* como *Ngrok*, para exponer nuestro aplicativo a la web. En este caso en particular, utilizaremos *Heroku* que ofrece la opción de guardar nuestro aplicativo en la nube, con una dirección pública a la cual nuestro *webhook* de
+Hasta este punto, nuestro código obtiene la imagen de una cámara *Meraki Vision* utilizando el *Dashboard API* y realiza un análisis mediante el API de *Imagga*, un software de reconocimiento de imágenes. Obtiene el url de la imagen, y las etiquetas del análisis y lo asigna a una tupla que será enunciada y mostrada utilizando un servidor web de *Flask* que utiliza la librería *Flask Assistant*. Sin embargo, para que podamos realizar llamadas a nuestro servidor web, será necesario que este se encuentre en una dirección pública. Mientras nos encontremos en estado de prueba, podemos hacer uso de algún servicio de *tunneling* como *Ngrok*, para exponer nuestro aplicativo a la web. En este caso en particular, utilizaremos *Heroku* que ofrece la opción de guardar nuestro aplicativo en la nube, con una dirección pública a la cual nuestro *webhook* de *Dialogflow* puede acceder para hacer las llamadas correspondientes.
 
 ## Rename a file
 
@@ -422,11 +423,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwODg2MTUzOCwxMjY4MzA5MjQ1LC0yMT
-gyOTA5MzIsLTkzOTk0NDA0OSwxMjExNDcyOTA1LC03NDMyNDY3
-MDIsMTIzNDU0MjAwNSwtMTg1MzIwNzUyMywxMTY1MzgzNDc1LC
-05NTk5NTg0MTMsMTQ2OTcyMjk0NSwtMTAyNDk2NDcyOSwtMTY4
-ODg3MDcxNCwxNDg1MzU5Mjc0LC0xNzM1NTUxMTQyLDExNTU4Mj
-I0MjksLTY5MTEwNDY2MSwtNjk5MTAwMjczLDUxODE5Mzk3MSwt
-MTkzNjI2MzMzMV19
+eyJoaXN0b3J5IjpbMjYyNjkwODUwLDEyNjgzMDkyNDUsLTIxOD
+I5MDkzMiwtOTM5OTQ0MDQ5LDEyMTE0NzI5MDUsLTc0MzI0Njcw
+MiwxMjM0NTQyMDA1LC0xODUzMjA3NTIzLDExNjUzODM0NzUsLT
+k1OTk1ODQxMywxNDY5NzIyOTQ1LC0xMDI0OTY0NzI5LC0xNjg4
+ODcwNzE0LDE0ODUzNTkyNzQsLTE3MzU1NTExNDIsMTE1NTgyMj
+QyOSwtNjkxMTA0NjYxLC02OTkxMDAyNzMsNTE4MTkzOTcxLC0x
+OTM2MjYzMzMxXX0=
 -->
