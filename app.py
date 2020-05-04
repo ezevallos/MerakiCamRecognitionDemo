@@ -11,11 +11,11 @@ app.config['INTEGRATIONS'] = ['ACTIONS_ON_GOOGLE']
 cors = CORS(app)
 assist = Assistant(app, route='/google')
 
-"""
+
 @app.route("/", methods=['GET'])
 def main():
     return "Eureka"
-"""
+
 @assist.action('tv-watch')
 def google_tv_watch():
     speech,url = GetSnap.return_speech()
