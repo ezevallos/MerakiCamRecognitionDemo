@@ -327,6 +327,9 @@ def google_tv_watch():
 if __name__ == '__main__':
     app.run(threaded=True, port=5000)
 ```
+## Debemos subir nuestro proyecto a Heroku
+Nuestro código debe importar la funcionalidad del script `GetSnap.py` y servirlo desde un *web server* a través de rutas 
+
 
 ## Rename a file
 
@@ -455,11 +458,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MDY5OTUzMCwtMTIwNTQzMzU0NCwxMj
-Y4MzA5MjQ1LC0yMTgyOTA5MzIsLTkzOTk0NDA0OSwxMjExNDcy
-OTA1LC03NDMyNDY3MDIsMTIzNDU0MjAwNSwtMTg1MzIwNzUyMy
-wxMTY1MzgzNDc1LC05NTk5NTg0MTMsMTQ2OTcyMjk0NSwtMTAy
-NDk2NDcyOSwtMTY4ODg3MDcxNCwxNDg1MzU5Mjc0LC0xNzM1NT
-UxMTQyLDExNTU4MjI0MjksLTY5MTEwNDY2MSwtNjk5MTAwMjcz
-LDUxODE5Mzk3MV19
+eyJoaXN0b3J5IjpbMTkzNjcwODczNCwxNTgwNjk5NTMwLC0xMj
+A1NDMzNTQ0LDEyNjgzMDkyNDUsLTIxODI5MDkzMiwtOTM5OTQ0
+MDQ5LDEyMTE0NzI5MDUsLTc0MzI0NjcwMiwxMjM0NTQyMDA1LC
+0xODUzMjA3NTIzLDExNjUzODM0NzUsLTk1OTk1ODQxMywxNDY5
+NzIyOTQ1LC0xMDI0OTY0NzI5LC0xNjg4ODcwNzE0LDE0ODUzNT
+kyNzQsLTE3MzU1NTExNDIsMTE1NTgyMjQyOSwtNjkxMTA0NjYx
+LC02OTkxMDAyNzNdfQ==
 -->
