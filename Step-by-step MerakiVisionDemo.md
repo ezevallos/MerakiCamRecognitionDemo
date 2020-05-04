@@ -42,7 +42,7 @@ El catálogo cuenta con 70 _Sandboxes_ distintos. Para filtrar, podemos hacerlo 
 ![Sandbox Meraki Always-On](https://i.ibb.co/MfcwkGM/DN-SB-4.png)
 Encontraremos tres _Sandboxes_ de **_Meraki_**, el que utilizaremos se llama “**_Meraki Always On_**” y se trata de una red de prueba **_Meraki_** a la que podemos acceder en cualquier momento para realizar pruebas. En este _Sandbox_ podemos encontrar los detalles importantes para que el script funcione correctamente. En primer lugar, las credenciales de acceso al Dashboard API, Username: [devnetmeraki@cisco.com](mailto:devnetmeraki@cisco.com), Password: ilovemeraki, y por otro lado, el *API Key* que utilizaremos es 6bec40cf957de430a6f1f2baa056b99a4fac9ea0.
 
-## El script GetSnap.py
+## El script `GetSnap.py`
 Nuestro código en ***Python*** va a obtener una captura de la cámara Meraki modelo MV12W, cuyo número serial es el Q2GV-7HEL-HC6C, y se ubica en la red con Id L_566327653141856854 llamada *DNEAlertsNet*. Esta red no la encontraremos dentro de la interfaz del Dashboard API, pero sí estará listada si hacemos las llamadas de **Postman** *Get Organization Id* y *Get Networks Id*, utilizando el *API Key* previamente mencionado. La organización lleva el nombre *DeLab* y su Id es el 681155. Esta cámara ha sido posicionada delante de una TV que se encuentra prendida 24/7, de forma que siempre tiene algo qué mostrar, y su contenido es dinámico.
 
 En primer lugar, debemos especificar las librerías que estaremos utilizando. Estas son *pprint*, *requests* y *json*, las importamos a continuación:
@@ -229,7 +229,7 @@ def main():
 if __name__ == '__main__':
 	main()
 ```
-Hasta este punto en nuestro desarrollo, hemos creado un código en *Python* que se encarga de obtener una captura en una cámara Meraki, obtener la imagen que se encuentra en esta URL, y enviarla a un software de reconocimiento de imágenes llamado *Imagga*. Esto lo realiza nuestra función principal llamada `Main`.¡Fantástico! Si han llegado hasta este punto, lo han hecho muy bien. Sin embargo, ahora deseamos poder apalancar esta funcionalidad desde nuestro Asistente de Android, llamado *Google Assistant*. Para lograr esto, será necesario correr un servidor *Flask* haciendo uso de una librería en particular llamada *Flask Assistant* la cual permite la comunicación con asistentes de voz como es *Google Assistant* o *Alexa Skills* por nombrar algunos ejemplos. Este servidor web debemos almacenarlo en un lugar de acceso público en internet, de manera que el *API* de *Google Actions* pueda acceder a él, y para esto utilizaremos *Heroku*. Para crear este servidor, importaremos el script GetSnap.py,  por lo que vamos a renombrar la función principal y eliminar las últimas dos líneas del código. Se vería de la siguiente forma (notar que el resto del código se ha omitido y colocado tres puntos "..." para enfocarnos en la parte clave que estamos modificando):
+Hasta este punto en nuestro desarrollo, hemos creado un código en *Python* que se encarga de obtener una captura en una cámara Meraki, obtener la imagen que se encuentra en esta URL, y enviarla a un software de reconocimiento de imágenes llamado *Imagga*. Esto lo realiza nuestra función principal llamada `Main`.¡Fantástico! Si han llegado hasta este punto, lo han hecho muy bien. Sin embargo, ahora deseamos poder apalancar esta funcionalidad desde nuestro Asistente de Android, llamado *Google Assistant*. Para lograr esto, será necesario correr un servidor *Flask* haciendo uso de una librería en particular llamada *Flask Assistant* la cual permite la comunicación con asistentes de voz como es *Google Assistant* o *Alexa Skills* por nombrar algunos ejemplos. Este servidor web debemos almacenarlo en un lugar de acceso público en internet, de manera que el *API* de *Google Actions* pueda acceder a él, y para esto utilizaremos *Heroku*. Para crear este servidor, importaremos el script `GetSnap.py`,  por lo que vamos a renombrar la función principal y eliminar las últimas dos líneas del código. Se vería de la siguiente forma (notar que el resto del código se ha omitido y colocado tres puntos "..." para enfocarnos en la parte clave que estamos modificando):
 ```python
 ...
 	return str1
@@ -266,7 +266,7 @@ from flask_assistant import Assistant, tell
 from flask_cors import CORS
 import GetSnap
 ``` 
-La librería *Flask* nos permite la creación del servidor web en forma local. Por otro lado, la librería *Flask Assistant* habilita el uso de asistentes como *Google Assistant* o *Alexa Skills*, en particular utilizaremos el módulo *tell* que nos devolverá la respuesta en forma enunciada. Adicionalmente, importamos *Flask CORS* que habilita el intercambio de recursos de distintos orígenes. Finalmente, importamos el script `GetSnap.py** que creamos previamente que contiene la lógica para obtener la imagen de la captura y realizar el reconocimiento.
+La librería *Flask* nos permite la creación del servidor web en forma local. Por otro lado, la librería *Flask Assistant* habilita el uso de asistentes como *Google Assistant* o *Alexa Skills*, en particular utilizaremos el módulo *tell* que nos devolverá la respuesta en forma enunciada. Adicionalmente, importamos *Flask CORS* que habilita el intercambio de recursos de distintos orígenes. Finalmente, importamos el script `GetSnap.py` que creamos previamente que contiene la lógica para obtener la imagen de la captura y realizar el reconocimiento.
 Ahora es necesario crear el aplicativo que se encontrará en el *web server*, mediante la línea de código `app = Flask(__name__)`. Lo configuramos para *Google Actions* con `app.config['ASSIST_ACTIONS_ON_GOOGLE'] = True` y `app.config['INTEGRATIONS'] = ['ACTIONS_ON_GOOGLE']`.  Inicializamos la extensión de *Flask-Cors* con los argumentos por defecto que permite el *CORS* para todos los dominios, en todas las rutas, `cors = CORS(app)`. Inicializamos un objeto de tipo *Assistant* utilizando el *Flask app*, y la ruta a la URL de nuestro *webhook*, `assist = Assistant(app, route='/google')`.
 A continuación creamos nuestras rutas: 
 - La primera será para propósitos de debugging cuando hacemos una llamada de tipo *GET* al servidor, nos devuelve un mensaje de prueba como "Eureka".
@@ -455,7 +455,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NDg0MjQyNiwtMTIwNTQzMzU0NCwxMj
+eyJoaXN0b3J5IjpbMTU4MDY5OTUzMCwtMTIwNTQzMzU0NCwxMj
 Y4MzA5MjQ1LC0yMTgyOTA5MzIsLTkzOTk0NDA0OSwxMjExNDcy
 OTA1LC03NDMyNDY3MDIsMTIzNDU0MjAwNSwtMTg1MzIwNzUyMy
 wxMTY1MzgzNDc1LC05NTk5NTg0MTMsMTQ2OTcyMjk0NSwtMTAy
