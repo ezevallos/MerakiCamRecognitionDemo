@@ -66,4 +66,4 @@ def return_speech():
     print(40*"-")
     tags = [item['tag']['en'] for item in response.json()['result']['tags']]
     speech = listToString(tags)
-    return (speech,image, url)
+    return (speech, url)

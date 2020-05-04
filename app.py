@@ -11,16 +11,14 @@ app.config['INTEGRATIONS'] = ['ACTIONS_ON_GOOGLE']
 cors = CORS(app)
 assist = Assistant(app, route='/google')
 
+
 @app.route("/", methods=['GET'])
 def main():
     return "Eureka"
 
 @assist.action('tv-watch')
 def google_tv_watch():
-    speech,image,url = GetSnap.return_speech()
-    f = open('img.jpg',"wb")
-    f.write(image)
-    f.close()
+    speech,url = GetSnap.return_speech()
     return tell("I see " + speech[:415]).card(
         text="See...",
         title="Image:",
