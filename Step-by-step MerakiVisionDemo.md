@@ -285,7 +285,7 @@ def google_tv_watch():
 		img_url=url
 	)
 ```
-
+Hacemos uso de una tarjeta para presentar la información, mostrando un texto, título e imagen
 
 ## Rename a file
 
@@ -414,7 +414,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMjUxNjc1MSwxMjY4MzA5MjQ1LC0yMT
+eyJoaXN0b3J5IjpbMTkwNDQxMTk3MSwxMjY4MzA5MjQ1LC0yMT
 gyOTA5MzIsLTkzOTk0NDA0OSwxMjExNDcyOTA1LC03NDMyNDY3
 MDIsMTIzNDU0MjAwNSwtMTg1MzIwNzUyMywxMTY1MzgzNDc1LC
 05NTk5NTg0MTMsMTQ2OTcyMjk0NSwtMTAyNDk2NDcyOSwtMTY4
