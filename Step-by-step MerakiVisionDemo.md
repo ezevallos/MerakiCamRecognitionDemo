@@ -266,7 +266,7 @@ from flask_assistant import Assistant, tell
 from flask_cors import CORS
 import GetSnap
 ``` 
-La librería *Flask* nos permite la creación del servidor web en forma local. Por otro lado, la librería *Flask Assistant* habilita el uso de asistentes como *Google Assistant* o *Alexa Skills*, en particular utilizaremos el módulo *tell* que nos devolverá la respuesta en forma enunciada. Adicionalmente, importamos *Flask CORS* que habilita el intercambio de recursos de distintos orígenes. Finalmente, importamos el script GetSnap que creamos previamente que contiene la lógica para obtener la imagen de la captura y realizar el reconocimiento.
+La librería *Flask* nos permite la creación del servidor web en forma local. Por otro lado, la librería *Flask Assistant* habilita el uso de asistentes como *Google Assistant* o *Alexa Skills*, en particular utilizaremos el módulo *tell* que nos devolverá la respuesta en forma enunciada. Adicionalmente, importamos *Flask CORS* que habilita el intercambio de recursos de distintos orígenes. Finalmente, importamos el script `GetSnap.py** que creamos previamente que contiene la lógica para obtener la imagen de la captura y realizar el reconocimiento.
 Ahora es necesario crear el aplicativo que se encontrará en el *web server*, mediante la línea de código `app = Flask(__name__)`. Lo configuramos para *Google Actions* con `app.config['ASSIST_ACTIONS_ON_GOOGLE'] = True` y `app.config['INTEGRATIONS'] = ['ACTIONS_ON_GOOGLE']`.  Inicializamos la extensión de *Flask-Cors* con los argumentos por defecto que permite el *CORS* para todos los dominios, en todas las rutas, `cors = CORS(app)`. Inicializamos un objeto de tipo *Assistant* utilizando el *Flask app*, y la ruta a la URL de nuestro *webhook*, `assist = Assistant(app, route='/google')`.
 A continuación creamos nuestras rutas: 
 - La primera será para propósitos de debugging cuando hacemos una llamada de tipo *GET* al servidor, nos devuelve un mensaje de prueba como "Eureka".
@@ -295,6 +295,38 @@ if __name__ == '__main__':
 Es decir, nuestro aplicativo estará habilitado para utilizar hilos, y se encontrará disponible en el puerto 5000.
 ### Recapitulemos
 Hasta este punto, nuestro código obtiene la imagen de una cámara *Meraki Vision* utilizando el *Dashboard API* y realiza un análisis mediante el API de *Imagga*, un software de reconocimiento de imágenes. Obtiene el url de la imagen, y las etiquetas del análisis y lo asigna a una tupla que será enunciada y mostrada utilizando un servidor web de *Flask* que utiliza la librería *Flask Assistant*. Sin embargo, para que podamos realizar llamadas a nuestro servidor web, será necesario que este se encuentre en una dirección pública. Mientras nos encontremos en estado de prueba, podemos hacer uso de algún servicio de *tunneling* como *Ngrok*, para exponer nuestro aplicativo a la web. En este caso en particular, utilizaremos *Heroku* que ofrece la opción de guardar nuestro aplicativo en la nube, con una dirección pública a la cual nuestro *webhook* de *Dialogflow* puede acceder para hacer las llamadas correspondientes.
+Nuestro script **app.py** hasta este punto es el siguiente:
+```python
+from flask import Flask
+from flask_assistant import Assistant, tell
+from flask_cors import CORS
+import GetSnap
+
+app = Flask(__name__)
+
+app.config['ASSIST_ACTIONS_ON_GOOGLE'] = True
+app.config['INTEGRATIONS'] = ['ACTIONS_ON_GOOGLE']
+
+cors = CORS(app)
+assist = Assistant(app, route='/google')
+
+
+@app.route("/", methods=['GET'])
+def main():
+    return "Eureka"
+
+@assist.action('tv-watch')
+def google_tv_watch():
+    speech,url = GetSnap.return_speech()
+    return tell("I see " + speech[:415]).card(
+        text="See...",
+        title="Image:",
+        img_url=url
+    )
+
+if __name__ == '__main__':
+    app.run(threaded=True, port=5000)
+```
 
 ## Rename a file
 
@@ -423,11 +455,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTQ4MzcwMTIsLTEyMDU0MzM1NDQsMT
-I2ODMwOTI0NSwtMjE4MjkwOTMyLC05Mzk5NDQwNDksMTIxMTQ3
-MjkwNSwtNzQzMjQ2NzAyLDEyMzQ1NDIwMDUsLTE4NTMyMDc1Mj
-MsMTE2NTM4MzQ3NSwtOTU5OTU4NDEzLDE0Njk3MjI5NDUsLTEw
-MjQ5NjQ3MjksLTE2ODg4NzA3MTQsMTQ4NTM1OTI3NCwtMTczNT
-U1MTE0MiwxMTU1ODIyNDI5LC02OTExMDQ2NjEsLTY5OTEwMDI3
-Myw1MTgxOTM5NzFdfQ==
+eyJoaXN0b3J5IjpbMTk2NDg0MjQyNiwtMTIwNTQzMzU0NCwxMj
+Y4MzA5MjQ1LC0yMTgyOTA5MzIsLTkzOTk0NDA0OSwxMjExNDcy
+OTA1LC03NDMyNDY3MDIsMTIzNDU0MjAwNSwtMTg1MzIwNzUyMy
+wxMTY1MzgzNDc1LC05NTk5NTg0MTMsMTQ2OTcyMjk0NSwtMTAy
+NDk2NDcyOSwtMTY4ODg3MDcxNCwxNDg1MzU5Mjc0LC0xNzM1NT
+UxMTQyLDExNTU4MjI0MjksLTY5MTEwNDY2MSwtNjk5MTAwMjcz
+LDUxODE5Mzk3MV19
 -->
