@@ -328,7 +328,7 @@ if __name__ == '__main__':
     app.run(threaded=True, port=5000)
 ```
 ## Debemos subir nuestro proyecto a Heroku
-Nuestro código debe importar la funcionalidad del script `GetSnap.py` y servirlo desde un *web server* a través de rutas 
+Nuestro *web server* actualmente corre desde nuestro *Local Host*. Esto para probar que nuestro código funciona, está muy bien. Sin embargo, para que podamos activarlo mediante el *Google Assistant*, 
 
 
 ## Rename a file
@@ -458,11 +458,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNjcwODczNCwxNTgwNjk5NTMwLC0xMj
-A1NDMzNTQ0LDEyNjgzMDkyNDUsLTIxODI5MDkzMiwtOTM5OTQ0
-MDQ5LDEyMTE0NzI5MDUsLTc0MzI0NjcwMiwxMjM0NTQyMDA1LC
-0xODUzMjA3NTIzLDExNjUzODM0NzUsLTk1OTk1ODQxMywxNDY5
-NzIyOTQ1LC0xMDI0OTY0NzI5LC0xNjg4ODcwNzE0LDE0ODUzNT
-kyNzQsLTE3MzU1NTExNDIsMTE1NTgyMjQyOSwtNjkxMTA0NjYx
-LC02OTkxMDAyNzNdfQ==
+eyJoaXN0b3J5IjpbNjEzMzYxNDI0LDE1ODA2OTk1MzAsLTEyMD
+U0MzM1NDQsMTI2ODMwOTI0NSwtMjE4MjkwOTMyLC05Mzk5NDQw
+NDksMTIxMTQ3MjkwNSwtNzQzMjQ2NzAyLDEyMzQ1NDIwMDUsLT
+E4NTMyMDc1MjMsMTE2NTM4MzQ3NSwtOTU5OTU4NDEzLDE0Njk3
+MjI5NDUsLTEwMjQ5NjQ3MjksLTE2ODg4NzA3MTQsMTQ4NTM1OT
+I3NCwtMTczNTU1MTE0MiwxMTU1ODIyNDI5LC02OTExMDQ2NjEs
+LTY5OTEwMDI3M119
 -->
