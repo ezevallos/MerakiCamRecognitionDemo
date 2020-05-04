@@ -286,6 +286,7 @@ def google_tv_watch():
 	)
 ```
 
+
 ## Rename a file
 
 You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
@@ -413,11 +414,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODMwOTI0NSwtMjE4MjkwOTMyLC05Mz
-k5NDQwNDksMTIxMTQ3MjkwNSwtNzQzMjQ2NzAyLDEyMzQ1NDIw
-MDUsLTE4NTMyMDc1MjMsMTE2NTM4MzQ3NSwtOTU5OTU4NDEzLD
-E0Njk3MjI5NDUsLTEwMjQ5NjQ3MjksLTE2ODg4NzA3MTQsMTQ4
-NTM1OTI3NCwtMTczNTU1MTE0MiwxMTU1ODIyNDI5LC02OTExMD
-Q2NjEsLTY5OTEwMDI3Myw1MTgxOTM5NzEsLTE5MzYyNjMzMzEs
-ODI4MDg5NDRdfQ==
+eyJoaXN0b3J5IjpbMTcyMjUxNjc1MSwxMjY4MzA5MjQ1LC0yMT
+gyOTA5MzIsLTkzOTk0NDA0OSwxMjExNDcyOTA1LC03NDMyNDY3
+MDIsMTIzNDU0MjAwNSwtMTg1MzIwNzUyMywxMTY1MzgzNDc1LC
+05NTk5NTg0MTMsMTQ2OTcyMjk0NSwtMTAyNDk2NDcyOSwtMTY4
+ODg3MDcxNCwxNDg1MzU5Mjc0LC0xNzM1NTUxMTQyLDExNTU4Mj
+I0MjksLTY5MTEwNDY2MSwtNjk5MTAwMjczLDUxODE5Mzk3MSwt
+MTkzNjI2MzMzMV19
 -->
