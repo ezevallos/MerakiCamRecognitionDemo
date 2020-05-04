@@ -337,7 +337,7 @@ Posteriormente, es necesario validar nuestra cuenta desde nuestro correo.
 ![ConfirmHerkouAccount](https://i.ibb.co/vZrHp5C/HK-SU-3.png)
 Y finalmente, crear una contraseña.
 ![CreatePasswordHerokuAccount](https://i.ibb.co/SrXyFrb/HK-SU-4.png)
-
+*Heroku*  
 ## Rename a file
 
 You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
@@ -465,11 +465,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzU4NzAyNzMsLTE3MDkzOTM5MjgsOD
-ExNjM3MTc3LDk5NjI0MTYyNiwtMjc5MDQyMDE0LDE1ODA2OTk1
-MzAsLTEyMDU0MzM1NDQsMTI2ODMwOTI0NSwtMjE4MjkwOTMyLC
-05Mzk5NDQwNDksMTIxMTQ3MjkwNSwtNzQzMjQ2NzAyLDEyMzQ1
-NDIwMDUsLTE4NTMyMDc1MjMsMTE2NTM4MzQ3NSwtOTU5OTU4ND
-EzLDE0Njk3MjI5NDUsLTEwMjQ5NjQ3MjksLTE2ODg4NzA3MTQs
-MTQ4NTM1OTI3NF19
+eyJoaXN0b3J5IjpbLTI2MTM0MjA4NSwtMTM3NTg3MDI3MywtMT
+cwOTM5MzkyOCw4MTE2MzcxNzcsOTk2MjQxNjI2LC0yNzkwNDIw
+MTQsMTU4MDY5OTUzMCwtMTIwNTQzMzU0NCwxMjY4MzA5MjQ1LC
+0yMTgyOTA5MzIsLTkzOTk0NDA0OSwxMjExNDcyOTA1LC03NDMy
+NDY3MDIsMTIzNDU0MjAwNSwtMTg1MzIwNzUyMywxMTY1MzgzND
+c1LC05NTk5NTg0MTMsMTQ2OTcyMjk0NSwtMTAyNDk2NDcyOSwt
+MTY4ODg3MDcxNF19
 -->
