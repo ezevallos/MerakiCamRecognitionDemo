@@ -279,7 +279,11 @@ def main():
 @assist.action('tv-watch')
 def google_tv_watch():
 	speech,url = GetSnap.return_speech()
-	return tell
+	return tell("I see " + speech[:415]).card(
+		text="See...",
+		title="Image:",
+		img_url=url
+	)
 ```
 
 ## Rename a file
@@ -409,11 +413,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxODI5MDkzMiwtOTM5OTQ0MDQ5LDEyMT
-E0NzI5MDUsLTc0MzI0NjcwMiwxMjM0NTQyMDA1LC0xODUzMjA3
-NTIzLDExNjUzODM0NzUsLTk1OTk1ODQxMywxNDY5NzIyOTQ1LC
-0xMDI0OTY0NzI5LC0xNjg4ODcwNzE0LDE0ODUzNTkyNzQsLTE3
-MzU1NTExNDIsMTE1NTgyMjQyOSwtNjkxMTA0NjYxLC02OTkxMD
-AyNzMsNTE4MTkzOTcxLC0xOTM2MjYzMzMxLDgyODA4OTQ0LC0x
-MDUxODQxOThdfQ==
+eyJoaXN0b3J5IjpbMTI2ODMwOTI0NSwtMjE4MjkwOTMyLC05Mz
+k5NDQwNDksMTIxMTQ3MjkwNSwtNzQzMjQ2NzAyLDEyMzQ1NDIw
+MDUsLTE4NTMyMDc1MjMsMTE2NTM4MzQ3NSwtOTU5OTU4NDEzLD
+E0Njk3MjI5NDUsLTEwMjQ5NjQ3MjksLTE2ODg4NzA3MTQsMTQ4
+NTM1OTI3NCwtMTczNTU1MTE0MiwxMTU1ODIyNDI5LC02OTExMD
+Q2NjEsLTY5OTEwMDI3Myw1MTgxOTM5NzEsLTE5MzYyNjMzMzEs
+ODI4MDg5NDRdfQ==
 -->
