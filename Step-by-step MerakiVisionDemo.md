@@ -21,7 +21,7 @@ Al completar este laboratorio, estará familiarizado con el uso básico de las *
  - Manejo de ***Python*** y sus librerías, en particular ***Flask*** para desplegar *web servers*
  - Cuenta de ***DevNet*** para utilizar el ***Sandbox Meraki Always-On***.
  - Cuenta de ***GitHub*** y un conocimiento básico de contol de versiones, según lo descrito en [Introducción a Git](https://developer.cisco.com/learning/tracks/devnet-beginner-es/fundamentals-es/intro-to-git-es/step/1).
- - ***Git Bash*** instalado en nuestro entorno de desarrol, 
+ - [***Git Bash***](https://git-scm.com/downloads) instalado en nuestro entorno de desarrollo. 
  - Cuenta de ***Imagga*** para contar con un *api_key* y *api_secret* y enviar imágenes a reconocer.
  - Cuenta de ***Heroku*** para acceder a nuestro código de ***Python*** desde una URL pública
  - Cuenta de ***Google*** para acceder a ***DialogFlow***
@@ -423,11 +423,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDU0MzM1NDQsMTI2ODMwOTI0NSwtMj
-E4MjkwOTMyLC05Mzk5NDQwNDksMTIxMTQ3MjkwNSwtNzQzMjQ2
-NzAyLDEyMzQ1NDIwMDUsLTE4NTMyMDc1MjMsMTE2NTM4MzQ3NS
-wtOTU5OTU4NDEzLDE0Njk3MjI5NDUsLTEwMjQ5NjQ3MjksLTE2
-ODg4NzA3MTQsMTQ4NTM1OTI3NCwtMTczNTU1MTE0MiwxMTU1OD
-IyNDI5LC02OTExMDQ2NjEsLTY5OTEwMDI3Myw1MTgxOTM5NzEs
-LTE5MzYyNjMzMzFdfQ==
+eyJoaXN0b3J5IjpbLTExNTQ4MzcwMTIsLTEyMDU0MzM1NDQsMT
+I2ODMwOTI0NSwtMjE4MjkwOTMyLC05Mzk5NDQwNDksMTIxMTQ3
+MjkwNSwtNzQzMjQ2NzAyLDEyMzQ1NDIwMDUsLTE4NTMyMDc1Mj
+MsMTE2NTM4MzQ3NSwtOTU5OTU4NDEzLDE0Njk3MjI5NDUsLTEw
+MjQ5NjQ3MjksLTE2ODg4NzA3MTQsMTQ4NTM1OTI3NCwtMTczNT
+U1MTE0MiwxMTU1ODIyNDI5LC02OTExMDQ2NjEsLTY5OTEwMDI3
+Myw1MTgxOTM5NzFdfQ==
 -->
