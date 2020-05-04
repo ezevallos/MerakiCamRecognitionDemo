@@ -269,7 +269,10 @@ La librería *Flask* nos permite la creación del servidor web en forma local. P
 Ahora es necesario crear el aplicativo que se encontrará en el *web server*, mediante la línea de código `app = Flask(__name__)`. Lo configuramos para *Google Actions* con `app.config['ASSIST_ACTIONS_ON_GOOGLE'] = True` y `app.config['INTEGRATIONS'] = ['ACTIONS_ON_GOOGLE']`.  Inicializamos la extensión de *Flask-Cors* con los argumentos por defecto que permite el *CORS* para todos los dominios, en todas las rutas, `cors = CORS(app)`. Inicializamos un objeto de tipo *Assistant* utilizando el *Flask app*, y la ruta a la URL de nuestro *webhook*, `assist = Assistant(app, route='/google')`.
 A continuación creamos nuestras rutas: 
 - La primera será para propósitos de debugging cuando hacemos una llamada de tipo *GET* al servidor,
-
+```python
+@app.route("/", methods=['GET'])
+	def main():
+		return "Eureka"```
 - La segunda
 
 ## Rename a file
@@ -399,11 +402,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzQxMzg5MDksMTIzNDU0MjAwNSwtMT
-g1MzIwNzUyMywxMTY1MzgzNDc1LC05NTk5NTg0MTMsMTQ2OTcy
-Mjk0NSwtMTAyNDk2NDcyOSwtMTY4ODg3MDcxNCwxNDg1MzU5Mj
-c0LC0xNzM1NTUxMTQyLDExNTU4MjI0MjksLTY5MTEwNDY2MSwt
-Njk5MTAwMjczLDUxODE5Mzk3MSwtMTkzNjI2MzMzMSw4MjgwOD
-k0NCwtMTA1MTg0MTk4LDYyOTU2NTI2MiwyMjAyMDU5OTcsMTM1
-ODQzMDYyNF19
+eyJoaXN0b3J5IjpbMjE0MDc5NjU2MiwxMjM0NTQyMDA1LC0xOD
+UzMjA3NTIzLDExNjUzODM0NzUsLTk1OTk1ODQxMywxNDY5NzIy
+OTQ1LC0xMDI0OTY0NzI5LC0xNjg4ODcwNzE0LDE0ODUzNTkyNz
+QsLTE3MzU1NTExNDIsMTE1NTgyMjQyOSwtNjkxMTA0NjYxLC02
+OTkxMDAyNzMsNTE4MTkzOTcxLC0xOTM2MjYzMzMxLDgyODA4OT
+Q0LC0xMDUxODQxOTgsNjI5NTY1MjYyLDIyMDIwNTk5NywxMzU4
+NDMwNjI0XX0=
 -->
