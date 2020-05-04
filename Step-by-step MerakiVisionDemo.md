@@ -274,7 +274,7 @@ A continuación creamos nuestras rutas:
 def main():
 	return "Eureka"
 ```
-- La segunda es la principal, utilizaremos el decorador *action* para mapear nuestro *intent* o propósito llamado "*tv-watch*", a la función apropiada. El decorador acepta el nombre de nuestro propósito como parámetro, y hace la función de visor de nuestra acción, cuando recibimos el pedido de Dialogflow. Utilizaremos 
+- La segunda es la principal, utilizaremos el decorador *action* para mapear nuestro *intent* o propósito llamado "*tv-watch*", a la función apropiada. El decorador acepta el nombre de nuestro propósito como parámetro, y hace la función de visor de nuestra acción, cuando recibimos el pedido de Dialogflow. La función de acción devolverá un *tell* como respuesta enunciada,  
 ```python
 @assist.action('tv-watch')
 def google_tv_watch():
@@ -409,11 +409,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzOTk0NDA0OSwxMjExNDcyOTA1LC03ND
-MyNDY3MDIsMTIzNDU0MjAwNSwtMTg1MzIwNzUyMywxMTY1Mzgz
-NDc1LC05NTk5NTg0MTMsMTQ2OTcyMjk0NSwtMTAyNDk2NDcyOS
-wtMTY4ODg3MDcxNCwxNDg1MzU5Mjc0LC0xNzM1NTUxMTQyLDEx
-NTU4MjI0MjksLTY5MTEwNDY2MSwtNjk5MTAwMjczLDUxODE5Mz
-k3MSwtMTkzNjI2MzMzMSw4MjgwODk0NCwtMTA1MTg0MTk4LDYy
-OTU2NTI2Ml19
+eyJoaXN0b3J5IjpbLTIxODI5MDkzMiwtOTM5OTQ0MDQ5LDEyMT
+E0NzI5MDUsLTc0MzI0NjcwMiwxMjM0NTQyMDA1LC0xODUzMjA3
+NTIzLDExNjUzODM0NzUsLTk1OTk1ODQxMywxNDY5NzIyOTQ1LC
+0xMDI0OTY0NzI5LC0xNjg4ODcwNzE0LDE0ODUzNTkyNzQsLTE3
+MzU1NTExNDIsMTE1NTgyMjQyOSwtNjkxMTA0NjYxLC02OTkxMD
+AyNzMsNTE4MTkzOTcxLC0xOTM2MjYzMzMxLDgyODA4OTQ0LC0x
+MDUxODQxOThdfQ==
 -->
