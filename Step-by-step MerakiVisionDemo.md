@@ -266,7 +266,7 @@ from flask_cors import CORS
 import GetSnap
 ``` 
 La librería *Flask* nos permite la creación del servidor web en forma local. Por otro lado, la librería *Flask Assistant* habilita el uso de asistentes como *Google Assistant* o *Alexa Skills*, en particular utilizaremos el módulo *tell* que nos devolverá la respuesta en forma enunciada. Adicionalmente, importamos *Flask CORS* que habilita el intercambio de recursos de distintos orígenes. Finalmente, importamos el script GetSnap que creamos previamente que contiene la lógica para obtener la imagen de la captura y realizar el reconocimiento.
-Ahora es necesario crear el aplicativo que se encontrará en el *web server*, mediante la línea de código `app = Flask(__name__)`. Lo configuramos para *Google Actions* con `app.config['ASSIST_ACTIONS_ON_GOOGLE'] = True` y `app.config['INTEGRATIONS'] = ['ACTIONS_ON_GOOGLE']`.  Inicializamos la extensión de *Flask-Cors* con los argumentos por defecto que permite el *CORS* para todos los dominios, en todas las rutas, `cors = CORS(app)`. Inicializamos un objeto de tipo *Assistant* utilizando el *Flask app*, y la ruta a la URL de nuestro *webhook*, `assist = Assistant(app, route='/google')`.
+Ahora es necesario crear el aplicativo que se encontrará en el *web server*, mediante la línea de código `app = Flask(__name__)`. Lo configuramos para *Google Actions* con `app.config['ASSIST_ACTIONS_ON_GOOGLE'] = True` y `app.config['INTEGRATIONS'] = ['ACTIONS_ON_GOOGLE']`.  Inicializamos la extensión de *Flask-Cors* con los argumentos por defecto que permite el *CORS* para todos los dominios, en todas las rutas, `cors = CORS(app)`. Inicializamos un objeto de tipo *Assistant* utilizando el *Flask app*, y la ruta a la URL de nuestro *webhook*, `assist = Assistant(app, route='/google')`. A continuación creamos nuestras rutas: la primera será para propósitos de debugging
 
 ## Rename a file
 
@@ -395,7 +395,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NTAzODMxOSwtMTg1MzIwNzUyMywxMT
+eyJoaXN0b3J5IjpbMTIzNDU0MjAwNSwtMTg1MzIwNzUyMywxMT
 Y1MzgzNDc1LC05NTk5NTg0MTMsMTQ2OTcyMjk0NSwtMTAyNDk2
 NDcyOSwtMTY4ODg3MDcxNCwxNDg1MzU5Mjc0LC0xNzM1NTUxMT
 QyLDExNTU4MjI0MjksLTY5MTEwNDY2MSwtNjk5MTAwMjczLDUx
