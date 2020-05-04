@@ -266,7 +266,7 @@ from flask_cors import CORS
 import GetSnap
 ``` 
 La librería *Flask* nos permite la creación del servidor web en forma local. Por otro lado, la librería *Flask Assistant* habilita el uso de asistentes como *Google Assistant* o *Alexa Skills*, en particular utilizaremos el módulo *tell* que nos devolverá la respuesta en forma enunciada. Adicionalmente, importamos *Flask CORS* que habilita el intercambio de recursos de distintos orígenes. Finalmente, importamos el script GetSnap que creamos previamente que contiene la lógica para obtener la imagen de la captura y realizar el reconocimiento.
-Ahora es necesario crear el aplicativo que se encontrará en el *web server*, mediante la línea de código `app = Flask(__name__)`. Lo configuramos para *Google Actions* con `app.config['ASSIST_ACTIONS_ON_GOOGLE'] = True` y `app.config['INTEGRATIONS'] = ['ACTIONS_ON_GOOGLE']`.  Inicializamos la extensión de *Flask-Cors* con los argumentos por defecto que permite el *CORS* para todos los dominios, en todas las rutas, `cors = CORS(app)`. Inicializamos un objeto de tipo *Assistant* utilizando el *Flask app*, y la ruta a la URL de nuestro *webhook*.
+Ahora es necesario crear el aplicativo que se encontrará en el *web server*, mediante la línea de código `app = Flask(__name__)`. Lo configuramos para *Google Actions* con `app.config['ASSIST_ACTIONS_ON_GOOGLE'] = True` y `app.config['INTEGRATIONS'] = ['ACTIONS_ON_GOOGLE']`.  Inicializamos la extensión de *Flask-Cors* con los argumentos por defecto que permite el *CORS* para todos los dominios, en todas las rutas, `cors = CORS(app)`. Inicializamos un objeto de tipo *Assistant* utilizando el *Flask app*, y la ruta a la URL de nuestro *webhook*, `assist = Assistant(app, route='/google')`.
 
 ## Rename a file
 
@@ -395,11 +395,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTMyMDc1MjMsMTE2NTM4MzQ3NSwtOT
-U5OTU4NDEzLDE0Njk3MjI5NDUsLTEwMjQ5NjQ3MjksLTE2ODg4
-NzA3MTQsMTQ4NTM1OTI3NCwtMTczNTU1MTE0MiwxMTU1ODIyND
-I5LC02OTExMDQ2NjEsLTY5OTEwMDI3Myw1MTgxOTM5NzEsLTE5
-MzYyNjMzMzEsODI4MDg5NDQsLTEwNTE4NDE5OCw2Mjk1NjUyNj
-IsMjIwMjA1OTk3LDEzNTg0MzA2MjQsODAyNDE1OTY4LDUxMjcy
-MzQ1OV19
+eyJoaXN0b3J5IjpbLTQ1NTAzODMxOSwtMTg1MzIwNzUyMywxMT
+Y1MzgzNDc1LC05NTk5NTg0MTMsMTQ2OTcyMjk0NSwtMTAyNDk2
+NDcyOSwtMTY4ODg3MDcxNCwxNDg1MzU5Mjc0LC0xNzM1NTUxMT
+QyLDExNTU4MjI0MjksLTY5MTEwNDY2MSwtNjk5MTAwMjczLDUx
+ODE5Mzk3MSwtMTkzNjI2MzMzMSw4MjgwODk0NCwtMTA1MTg0MT
+k4LDYyOTU2NTI2MiwyMjAyMDU5OTcsMTM1ODQzMDYyNCw4MDI0
+MTU5NjhdfQ==
 -->
