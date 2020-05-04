@@ -334,7 +334,7 @@ En primer lugar, nos dirijmos a [Heroku](https://www.heroku.com/), y nos registr
 Ingresamos nuestra información... Luego damos click en crear cuenta.
 ![Heroku SignUp](https://i.ibb.co/K0KVy3t/HK-SU-2.png)
 Posteriormente, es necesario validar nuestra cuenta desde nuestro correo.
-
+![ConfirmHerkouAccount](https://i.ibb.co/fxrkK6Z/HK-SU-3.png)
 
 ## Rename a file
 
@@ -463,7 +463,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAxNDUyOTEzLDgxMTYzNzE3Nyw5OTYyND
+eyJoaXN0b3J5IjpbNDM0MjMzOTc2LDgxMTYzNzE3Nyw5OTYyND
 E2MjYsLTI3OTA0MjAxNCwxNTgwNjk5NTMwLC0xMjA1NDMzNTQ0
 LDEyNjgzMDkyNDUsLTIxODI5MDkzMiwtOTM5OTQ0MDQ5LDEyMT
 E0NzI5MDUsLTc0MzI0NjcwMiwxMjM0NTQyMDA1LC0xODUzMjA3
