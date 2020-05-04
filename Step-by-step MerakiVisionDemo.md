@@ -223,7 +223,7 @@ def main():
     print(40*"-")
     tags = [item['tag']['en'] for item in response.json()['result']['tags']]
     speech = listToString(tags)
-    return (speech,image, url)
+    return (speech, url)
 
 if __name__ == '__main__':
 	main()
@@ -247,9 +247,9 @@ def return_speech():
     print(40*"-")
     tags = [item['tag']['en'] for item in response.json()['result']['tags']]
     speech = listToString(tags)
-    return (speech,image, url)
+    return (speech, url)
 ```
-De esta forma, podemos importar el archivo `GetSnap.py` como un módulo en nuestro servidor web *Flask*, y utilizar todas sus funcionalidades. Este nos devuelve una tupla con las etiquetas de categorización en formato *String*, el contenido de la imagen, y su URL.
+De esta forma, podemos importar el archivo `GetSnap.py` como un módulo en nuestro servidor web *Flask*, y utilizar todas sus funcionalidades. Este nos devuelve una tupla con las etiquetas de categorización en formato *String* y el URL de la imagen.
 
 ---
 **Nota:**
@@ -409,11 +409,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MzI0NjcwMiwxMjM0NTQyMDA1LC0xOD
-UzMjA3NTIzLDExNjUzODM0NzUsLTk1OTk1ODQxMywxNDY5NzIy
-OTQ1LC0xMDI0OTY0NzI5LC0xNjg4ODcwNzE0LDE0ODUzNTkyNz
-QsLTE3MzU1NTExNDIsMTE1NTgyMjQyOSwtNjkxMTA0NjYxLC02
-OTkxMDAyNzMsNTE4MTkzOTcxLC0xOTM2MjYzMzMxLDgyODA4OT
-Q0LC0xMDUxODQxOTgsNjI5NTY1MjYyLDIyMDIwNTk5NywxMzU4
-NDMwNjI0XX0=
+eyJoaXN0b3J5IjpbMTIxMTQ3MjkwNSwtNzQzMjQ2NzAyLDEyMz
+Q1NDIwMDUsLTE4NTMyMDc1MjMsMTE2NTM4MzQ3NSwtOTU5OTU4
+NDEzLDE0Njk3MjI5NDUsLTEwMjQ5NjQ3MjksLTE2ODg4NzA3MT
+QsMTQ4NTM1OTI3NCwtMTczNTU1MTE0MiwxMTU1ODIyNDI5LC02
+OTExMDQ2NjEsLTY5OTEwMDI3Myw1MTgxOTM5NzEsLTE5MzYyNj
+MzMzEsODI4MDg5NDQsLTEwNTE4NDE5OCw2Mjk1NjUyNjIsMjIw
+MjA1OTk3XX0=
 -->
