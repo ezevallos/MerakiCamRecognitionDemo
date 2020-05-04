@@ -274,7 +274,7 @@ A continuación creamos nuestras rutas:
 def main():
 	return "Eureka"
 ```
-- La segunda es la principal, utilizaremos el decorador *action* 
+- La segunda es la principal, utilizaremos el decorador *action* para mapear nuestro *intent* o propósito llamado "*tv-watch*", a la funció
 
 ## Rename a file
 
@@ -403,11 +403,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMDE4MzI3NiwxMjM0NTQyMDA1LC0xOD
-UzMjA3NTIzLDExNjUzODM0NzUsLTk1OTk1ODQxMywxNDY5NzIy
-OTQ1LC0xMDI0OTY0NzI5LC0xNjg4ODcwNzE0LDE0ODUzNTkyNz
-QsLTE3MzU1NTExNDIsMTE1NTgyMjQyOSwtNjkxMTA0NjYxLC02
-OTkxMDAyNzMsNTE4MTkzOTcxLC0xOTM2MjYzMzMxLDgyODA4OT
-Q0LC0xMDUxODQxOTgsNjI5NTY1MjYyLDIyMDIwNTk5NywxMzU4
-NDMwNjI0XX0=
+eyJoaXN0b3J5IjpbOTM5ODY3MDI0LDEyMzQ1NDIwMDUsLTE4NT
+MyMDc1MjMsMTE2NTM4MzQ3NSwtOTU5OTU4NDEzLDE0Njk3MjI5
+NDUsLTEwMjQ5NjQ3MjksLTE2ODg4NzA3MTQsMTQ4NTM1OTI3NC
+wtMTczNTU1MTE0MiwxMTU1ODIyNDI5LC02OTExMDQ2NjEsLTY5
+OTEwMDI3Myw1MTgxOTM5NzEsLTE5MzYyNjMzMzEsODI4MDg5ND
+QsLTEwNTE4NDE5OCw2Mjk1NjUyNjIsMjIwMjA1OTk3LDEzNTg0
+MzA2MjRdfQ==
 -->
