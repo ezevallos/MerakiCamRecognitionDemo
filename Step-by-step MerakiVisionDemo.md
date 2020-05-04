@@ -329,8 +329,8 @@ if __name__ == '__main__':
 ```
 ## Debemos subir nuestro proyecto a Heroku
 Nuestro *web server* actualmente corre desde nuestro *Local Host*. Esto para probar que nuestro código funciona, está muy bien. Sin embargo, para que podamos activarlo mediante el *Google Assistant*, será necesario que se encuentre expuesto desde una dirección pública. Aquí será muy útil el uso de *Heroku*, una plataforma basada en nube que soporta diversos lenguajes de programación y se utiliza mediante *Git*.
-En primer lugar, nos dirijmos a [Heroku](https://dashboard.heroku.com/), y nos registramos si no contamos con una cuenta.
-![Heroku SignUp](https://i.ibb.co/9Wmj9Rx/image.png)
+En primer lugar, nos dirijmos a [Heroku](https://www.heroku.com/), y nos registramos si no contamos con una cuenta.
+
 
 
 ## Rename a file
@@ -460,11 +460,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNTQ4ODMyMCwtMjc5MDQyMDE0LDE1OD
-A2OTk1MzAsLTEyMDU0MzM1NDQsMTI2ODMwOTI0NSwtMjE4Mjkw
-OTMyLC05Mzk5NDQwNDksMTIxMTQ3MjkwNSwtNzQzMjQ2NzAyLD
-EyMzQ1NDIwMDUsLTE4NTMyMDc1MjMsMTE2NTM4MzQ3NSwtOTU5
-OTU4NDEzLDE0Njk3MjI5NDUsLTEwMjQ5NjQ3MjksLTE2ODg4Nz
-A3MTQsMTQ4NTM1OTI3NCwtMTczNTU1MTE0MiwxMTU1ODIyNDI5
-LC02OTExMDQ2NjFdfQ==
+eyJoaXN0b3J5IjpbOTk2MjQxNjI2LC0yNzkwNDIwMTQsMTU4MD
+Y5OTUzMCwtMTIwNTQzMzU0NCwxMjY4MzA5MjQ1LC0yMTgyOTA5
+MzIsLTkzOTk0NDA0OSwxMjExNDcyOTA1LC03NDMyNDY3MDIsMT
+IzNDU0MjAwNSwtMTg1MzIwNzUyMywxMTY1MzgzNDc1LC05NTk5
+NTg0MTMsMTQ2OTcyMjk0NSwtMTAyNDk2NDcyOSwtMTY4ODg3MD
+cxNCwxNDg1MzU5Mjc0LC0xNzM1NTUxMTQyLDExNTU4MjI0Mjks
+LTY5MTEwNDY2MV19
 -->
