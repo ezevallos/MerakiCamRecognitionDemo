@@ -334,8 +334,8 @@ En primer lugar, nos dirijmos a [Heroku](https://www.heroku.com/), y nos registr
 Ingresamos nuestra información... Luego damos click en crear cuenta.
 ![Heroku SignUp](https://i.ibb.co/K0KVy3t/HK-SU-2.png)
 Posteriormente, es necesario validar nuestra cuenta desde nuestro correo.
-![ConfirmHerkouAccount](https://i.ibb.co/fxrkK6Z/HK-SU-3.png)
-
+![ConfirmHerkouAccount](https://i.ibb.co/vZrHp5C/HK-SU-3.png)
+Y finalmente, crear una contraseña
 ## Rename a file
 
 You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
@@ -463,11 +463,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM0MjMzOTc2LDgxMTYzNzE3Nyw5OTYyND
-E2MjYsLTI3OTA0MjAxNCwxNTgwNjk5NTMwLC0xMjA1NDMzNTQ0
-LDEyNjgzMDkyNDUsLTIxODI5MDkzMiwtOTM5OTQ0MDQ5LDEyMT
-E0NzI5MDUsLTc0MzI0NjcwMiwxMjM0NTQyMDA1LC0xODUzMjA3
-NTIzLDExNjUzODM0NzUsLTk1OTk1ODQxMywxNDY5NzIyOTQ1LC
-0xMDI0OTY0NzI5LC0xNjg4ODcwNzE0LDE0ODUzNTkyNzQsLTE3
-MzU1NTExNDJdfQ==
+eyJoaXN0b3J5IjpbLTE3MDkzOTM5MjgsODExNjM3MTc3LDk5Nj
+I0MTYyNiwtMjc5MDQyMDE0LDE1ODA2OTk1MzAsLTEyMDU0MzM1
+NDQsMTI2ODMwOTI0NSwtMjE4MjkwOTMyLC05Mzk5NDQwNDksMT
+IxMTQ3MjkwNSwtNzQzMjQ2NzAyLDEyMzQ1NDIwMDUsLTE4NTMy
+MDc1MjMsMTE2NTM4MzQ3NSwtOTU5OTU4NDEzLDE0Njk3MjI5ND
+UsLTEwMjQ5NjQ3MjksLTE2ODg4NzA3MTQsMTQ4NTM1OTI3NCwt
+MTczNTU1MTE0Ml19
 -->
