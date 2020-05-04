@@ -223,7 +223,7 @@ def main():
     print(40*"-")
     tags = [item['tag']['en'] for item in response.json()['result']['tags']]
     speech = listToString(tags)
-    return (speech,image, url)
+    return (speech, url)
 
 if __name__ == '__main__':
 	main()
@@ -247,9 +247,9 @@ def return_speech():
     print(40*"-")
     tags = [item['tag']['en'] for item in response.json()['result']['tags']]
     speech = listToString(tags)
-    return (speech,image, url)
+    return (speech, url)
 ```
-De esta forma, podemos importar el archivo `GetSnap.py` como un módulo en nuestro servidor web *Flask*, y utilizar todas sus funcionalidades. Este nos devuelve una tupla con las etiquetas de categorización en formato *String*, el contenido de la imagen, y su URL.
+De esta forma, podemos importar el archivo `GetSnap.py` como un módulo en nuestro servidor web *Flask*, y utilizar todas sus funcionalidades. Este nos devuelve una tupla con las etiquetas de categorización en formato *String* y el URL de la imagen.
 
 ---
 **Nota:**
@@ -274,12 +274,12 @@ A continuación creamos nuestras rutas:
 def main():
 	return "Eureka"
 ```
-- La segunda es la principal, utilizaremos el decorador *action* para mapear nuestro *intent* o propósito llamado "*tv-watch*", a la función apropiada. El decorador acepta el nombre de nuestro propósito como parámetro, y hace la función de visor de nuestra acción, cuando recibimos el pedido de Dialogflow.
+- La segunda es la principal, utilizaremos el decorador *action* para mapear nuestro *intent* o propósito llamado "*tv-watch*", a la función apropiada. El decorador acepta el nombre de nuestro propósito como parámetro, y hace la función de visor de nuestra acción, cuando recibimos el pedido de Dialogflow. La función de acción devolverá un *tell* como respuesta enunciada,  
 ```python
 @assist.action('tv-watch')
 def google_tv_watch():
-	speech,image,url = GetSnap.return_speech()
-	f
+	speech,url = GetSnap.return_speech()
+	return tell
 ```
 
 ## Rename a file
@@ -409,11 +409,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MzI0NjcwMiwxMjM0NTQyMDA1LC0xOD
-UzMjA3NTIzLDExNjUzODM0NzUsLTk1OTk1ODQxMywxNDY5NzIy
-OTQ1LC0xMDI0OTY0NzI5LC0xNjg4ODcwNzE0LDE0ODUzNTkyNz
-QsLTE3MzU1NTExNDIsMTE1NTgyMjQyOSwtNjkxMTA0NjYxLC02
-OTkxMDAyNzMsNTE4MTkzOTcxLC0xOTM2MjYzMzMxLDgyODA4OT
-Q0LC0xMDUxODQxOTgsNjI5NTY1MjYyLDIyMDIwNTk5NywxMzU4
-NDMwNjI0XX0=
+eyJoaXN0b3J5IjpbLTIxODI5MDkzMiwtOTM5OTQ0MDQ5LDEyMT
+E0NzI5MDUsLTc0MzI0NjcwMiwxMjM0NTQyMDA1LC0xODUzMjA3
+NTIzLDExNjUzODM0NzUsLTk1OTk1ODQxMywxNDY5NzIyOTQ1LC
+0xMDI0OTY0NzI5LC0xNjg4ODcwNzE0LDE0ODUzNTkyNzQsLTE3
+MzU1NTExNDIsMTE1NTgyMjQyOSwtNjkxMTA0NjYxLC02OTkxMD
+AyNzMsNTE4MTkzOTcxLC0xOTM2MjYzMzMxLDgyODA4OTQ0LC0x
+MDUxODQxOThdfQ==
 -->
