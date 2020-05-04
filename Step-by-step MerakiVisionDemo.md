@@ -286,6 +286,7 @@ def google_tv_watch():
 	)
 ```
 Hacemos uso de una tarjeta para presentar la información, mostrando las etiquetas como texto, un título y la imagen analizada.
+Esta será nuestra función principal, y será un *web server* que se engargue de servir los recursos llamados mediante los *requests* realizados desde el *Google Assistant* 
 
 ## Rename a file
 
@@ -414,11 +415,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTE4NzY2ODYsMTI2ODMwOTI0NSwtMj
-E4MjkwOTMyLC05Mzk5NDQwNDksMTIxMTQ3MjkwNSwtNzQzMjQ2
-NzAyLDEyMzQ1NDIwMDUsLTE4NTMyMDc1MjMsMTE2NTM4MzQ3NS
-wtOTU5OTU4NDEzLDE0Njk3MjI5NDUsLTEwMjQ5NjQ3MjksLTE2
-ODg4NzA3MTQsMTQ4NTM1OTI3NCwtMTczNTU1MTE0MiwxMTU1OD
-IyNDI5LC02OTExMDQ2NjEsLTY5OTEwMDI3Myw1MTgxOTM5NzEs
-LTE5MzYyNjMzMzFdfQ==
+eyJoaXN0b3J5IjpbMTg5MTg3NTQ0NCwxMjY4MzA5MjQ1LC0yMT
+gyOTA5MzIsLTkzOTk0NDA0OSwxMjExNDcyOTA1LC03NDMyNDY3
+MDIsMTIzNDU0MjAwNSwtMTg1MzIwNzUyMywxMTY1MzgzNDc1LC
+05NTk5NTg0MTMsMTQ2OTcyMjk0NSwtMTAyNDk2NDcyOSwtMTY4
+ODg3MDcxNCwxNDg1MzU5Mjc0LC0xNzM1NTUxMTQyLDExNTU4Mj
+I0MjksLTY5MTEwNDY2MSwtNjk5MTAwMjczLDUxODE5Mzk3MSwt
+MTkzNjI2MzMzMV19
 -->
