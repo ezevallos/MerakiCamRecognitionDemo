@@ -337,7 +337,7 @@ Posteriormente, es necesario validar nuestra cuenta desde nuestro correo.
 ![ConfirmHerkouAccount](https://i.ibb.co/vZrHp5C/HK-SU-3.png)
 Y finalmente, crear una contraseña.
 ![CreatePasswordHerokuAccount](https://i.ibb.co/SrXyFrb/HK-SU-4.png)
-*Heroku*  
+*Heroku* funciona a través de su línea de comandos 
 ## Rename a file
 
 You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
@@ -465,7 +465,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MTM0MjA4NSwtMTM3NTg3MDI3MywtMT
+eyJoaXN0b3J5IjpbMTE1MzUyNDkwOSwtMTM3NTg3MDI3MywtMT
 cwOTM5MzkyOCw4MTE2MzcxNzcsOTk2MjQxNjI2LC0yNzkwNDIw
 MTQsMTU4MDY5OTUzMCwtMTIwNTQzMzU0NCwxMjY4MzA5MjQ1LC
 0yMTgyOTA5MzIsLTkzOTk0NDA0OSwxMjExNDcyOTA1LC03NDMy
