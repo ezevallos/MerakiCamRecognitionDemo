@@ -286,7 +286,11 @@ def google_tv_watch():
 	)
 ```
 Hacemos uso de una tarjeta para presentar la información, mostrando las etiquetas como texto, un título y la imagen analizada.
-Esta será nuestra función principal, y será un *web server* que se engargue de servir los recursos llamados mediante los *requests* realizados desde el *Google Assistant* a través de *Dialogflow*. Es por esto que incluímos una última línea de código `if __name__ == '
+Esta será nuestra función principal, y será un *web server* que se engargue de servir los recursos llamados mediante los *requests* realizados desde el *Google Assistant* a través de *Dialogflow*. Es por esto que incluímos una última línea de código 
+```python
+if __name__ == '__main__':
+	app.run(threaded=True, port=5000)
+```
 
 ## Rename a file
 
@@ -415,7 +419,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjM3NTc4NjAsMTI2ODMwOTI0NSwtMj
+eyJoaXN0b3J5IjpbLTEyNzYxNTQwODIsMTI2ODMwOTI0NSwtMj
 E4MjkwOTMyLC05Mzk5NDQwNDksMTIxMTQ3MjkwNSwtNzQzMjQ2
 NzAyLDEyMzQ1NDIwMDUsLTE4NTMyMDc1MjMsMTE2NTM4MzQ3NS
 wtOTU5OTU4NDEzLDE0Njk3MjI5NDUsLTEwMjQ5NjQ3MjksLTE2
