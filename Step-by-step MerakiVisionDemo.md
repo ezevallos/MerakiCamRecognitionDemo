@@ -293,7 +293,7 @@ if __name__ == '__main__':
 ```
 Es decir, nuestro aplicativo estará habilitado para utilizar hilos, y se encontrará disponible en el puerto 5000.
 ### Recapitulemos
-Hasta este punto, nuestro código obtiene la imagen de una cámara 
+Hasta este punto, nuestro código obtiene la imagen de una cámara *Meraki Vision* utilizando el *Dashboard API* y realiza un análisis mediante el API de *Imagga*, un software de reconocimiento de imágenes. 
 
 ## Rename a file
 
@@ -422,7 +422,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk5NTQ4MTY3LDEyNjgzMDkyNDUsLTIxOD
+eyJoaXN0b3J5IjpbNDAzNzkwMTgyLDEyNjgzMDkyNDUsLTIxOD
 I5MDkzMiwtOTM5OTQ0MDQ5LDEyMTE0NzI5MDUsLTc0MzI0Njcw
 MiwxMjM0NTQyMDA1LC0xODUzMjA3NTIzLDExNjUzODM0NzUsLT
 k1OTk1ODQxMywxNDY5NzIyOTQ1LC0xMDI0OTY0NzI5LC0xNjg4
