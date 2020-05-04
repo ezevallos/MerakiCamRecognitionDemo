@@ -271,9 +271,10 @@ A continuación creamos nuestras rutas:
 - La primera será para propósitos de debugging cuando hacemos una llamada de tipo *GET* al servidor, nos devuelve un mensaje de prueba como "Eureka".
 ```python
 @app.route("/", methods=['GET'])
-	def main():
-		return "Eureka"```
-- La segunda
+def main():
+	return "Eureka"
+```
+- La segunda es la principal, utilizaremos el decorador *action* 
 
 ## Rename a file
 
@@ -402,11 +403,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjc4MTc4MjksMTIzNDU0MjAwNSwtMT
-g1MzIwNzUyMywxMTY1MzgzNDc1LC05NTk5NTg0MTMsMTQ2OTcy
-Mjk0NSwtMTAyNDk2NDcyOSwtMTY4ODg3MDcxNCwxNDg1MzU5Mj
-c0LC0xNzM1NTUxMTQyLDExNTU4MjI0MjksLTY5MTEwNDY2MSwt
-Njk5MTAwMjczLDUxODE5Mzk3MSwtMTkzNjI2MzMzMSw4MjgwOD
-k0NCwtMTA1MTg0MTk4LDYyOTU2NTI2MiwyMjAyMDU5OTcsMTM1
-ODQzMDYyNF19
+eyJoaXN0b3J5IjpbLTcyMDE4MzI3NiwxMjM0NTQyMDA1LC0xOD
+UzMjA3NTIzLDExNjUzODM0NzUsLTk1OTk1ODQxMywxNDY5NzIy
+OTQ1LC0xMDI0OTY0NzI5LC0xNjg4ODcwNzE0LDE0ODUzNTkyNz
+QsLTE3MzU1NTExNDIsMTE1NTgyMjQyOSwtNjkxMTA0NjYxLC02
+OTkxMDAyNzMsNTE4MTkzOTcxLC0xOTM2MjYzMzMxLDgyODA4OT
+Q0LC0xMDUxODQxOTgsNjI5NTY1MjYyLDIyMDIwNTk5NywxMzU4
+NDMwNjI0XX0=
 -->
