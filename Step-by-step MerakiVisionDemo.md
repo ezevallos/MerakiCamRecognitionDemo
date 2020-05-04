@@ -268,7 +268,7 @@ import GetSnap
 La librería *Flask* nos permite la creación del servidor web en forma local. Por otro lado, la librería *Flask Assistant* habilita el uso de asistentes como *Google Assistant* o *Alexa Skills*, en particular utilizaremos el módulo *tell* que nos devolverá la respuesta en forma enunciada. Adicionalmente, importamos *Flask CORS* que habilita el intercambio de recursos de distintos orígenes. Finalmente, importamos el script GetSnap que creamos previamente que contiene la lógica para obtener la imagen de la captura y realizar el reconocimiento.
 Ahora es necesario crear el aplicativo que se encontrará en el *web server*, mediante la línea de código `app = Flask(__name__)`. Lo configuramos para *Google Actions* con `app.config['ASSIST_ACTIONS_ON_GOOGLE'] = True` y `app.config['INTEGRATIONS'] = ['ACTIONS_ON_GOOGLE']`.  Inicializamos la extensión de *Flask-Cors* con los argumentos por defecto que permite el *CORS* para todos los dominios, en todas las rutas, `cors = CORS(app)`. Inicializamos un objeto de tipo *Assistant* utilizando el *Flask app*, y la ruta a la URL de nuestro *webhook*, `assist = Assistant(app, route='/google')`.
 A continuación creamos nuestras rutas: 
-- La primera será para propósitos de debugging cuando hacemos una llamada de tipo *GET* al servidor,
+- La primera será para propósitos de debugging cuando hacemos una llamada de tipo *GET* al servidor, nos devuelve un mensaje de prueba como "Eureka".
 ```python
 @app.route("/", methods=['GET'])
 	def main():
@@ -402,11 +402,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MDc5NjU2MiwxMjM0NTQyMDA1LC0xOD
-UzMjA3NTIzLDExNjUzODM0NzUsLTk1OTk1ODQxMywxNDY5NzIy
-OTQ1LC0xMDI0OTY0NzI5LC0xNjg4ODcwNzE0LDE0ODUzNTkyNz
-QsLTE3MzU1NTExNDIsMTE1NTgyMjQyOSwtNjkxMTA0NjYxLC02
-OTkxMDAyNzMsNTE4MTkzOTcxLC0xOTM2MjYzMzMxLDgyODA4OT
-Q0LC0xMDUxODQxOTgsNjI5NTY1MjYyLDIyMDIwNTk5NywxMzU4
-NDMwNjI0XX0=
+eyJoaXN0b3J5IjpbLTEwMjc4MTc4MjksMTIzNDU0MjAwNSwtMT
+g1MzIwNzUyMywxMTY1MzgzNDc1LC05NTk5NTg0MTMsMTQ2OTcy
+Mjk0NSwtMTAyNDk2NDcyOSwtMTY4ODg3MDcxNCwxNDg1MzU5Mj
+c0LC0xNzM1NTUxMTQyLDExNTU4MjI0MjksLTY5MTEwNDY2MSwt
+Njk5MTAwMjczLDUxODE5Mzk3MSwtMTkzNjI2MzMzMSw4MjgwOD
+k0NCwtMTA1MTg0MTk4LDYyOTU2NTI2MiwyMjAyMDU5OTcsMTM1
+ODQzMDYyNF19
 -->
