@@ -274,7 +274,13 @@ A continuación creamos nuestras rutas:
 def main():
 	return "Eureka"
 ```
-- La segunda es la principal, utilizaremos el decorador *action* para mapear nuestro *intent* o propósito llamado "*tv-watch*", a la función apropiada. El decorador acepta el nombre de nuestro propósito como parámetro, y hace la función de visor de nuestra acción, cuando recibimos 
+- La segunda es la principal, utilizaremos el decorador *action* para mapear nuestro *intent* o propósito llamado "*tv-watch*", a la función apropiada. El decorador acepta el nombre de nuestro propósito como parámetro, y hace la función de visor de nuestra acción, cuando recibimos el pedido de Dialogflow.
+```python
+@assist.action('tv-watch')
+def google_tv_watch():
+	speech,image,url = GetSnap.return_speech()
+	f
+```
 
 ## Rename a file
 
@@ -403,7 +409,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTc5MDM0MCwxMjM0NTQyMDA1LC0xOD
+eyJoaXN0b3J5IjpbLTc0MzI0NjcwMiwxMjM0NTQyMDA1LC0xOD
 UzMjA3NTIzLDExNjUzODM0NzUsLTk1OTk1ODQxMywxNDY5NzIy
 OTQ1LC0xMDI0OTY0NzI5LC0xNjg4ODcwNzE0LDE0ODUzNTkyNz
 QsLTE3MzU1NTExNDIsMTE1NTgyMjQyOSwtNjkxMTA0NjYxLC02
