@@ -337,7 +337,7 @@ Posteriormente, es necesario validar nuestra cuenta desde nuestro correo.
 ![ConfirmHerkouAccount](https://i.ibb.co/vZrHp5C/HK-SU-3.png)
 Y finalmente, crear una contraseña.
 ![CreatePasswordHerokuAccount](https://i.ibb.co/SrXyFrb/HK-SU-4.png)
-*Heroku* funciona a través de su línea de comandos 
+*Heroku* funciona a través de su línea de comandos, es por esto que es importante haber instalado el ***Git Bash*** y 
 ## Rename a file
 
 You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
@@ -465,11 +465,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MzUyNDkwOSwtMTM3NTg3MDI3MywtMT
-cwOTM5MzkyOCw4MTE2MzcxNzcsOTk2MjQxNjI2LC0yNzkwNDIw
-MTQsMTU4MDY5OTUzMCwtMTIwNTQzMzU0NCwxMjY4MzA5MjQ1LC
-0yMTgyOTA5MzIsLTkzOTk0NDA0OSwxMjExNDcyOTA1LC03NDMy
-NDY3MDIsMTIzNDU0MjAwNSwtMTg1MzIwNzUyMywxMTY1MzgzND
-c1LC05NTk5NTg0MTMsMTQ2OTcyMjk0NSwtMTAyNDk2NDcyOSwt
-MTY4ODg3MDcxNF19
+eyJoaXN0b3J5IjpbLTIwMTM2NzYzMCwxMTUzNTI0OTA5LC0xMz
+c1ODcwMjczLC0xNzA5MzkzOTI4LDgxMTYzNzE3Nyw5OTYyNDE2
+MjYsLTI3OTA0MjAxNCwxNTgwNjk5NTMwLC0xMjA1NDMzNTQ0LD
+EyNjgzMDkyNDUsLTIxODI5MDkzMiwtOTM5OTQ0MDQ5LDEyMTE0
+NzI5MDUsLTc0MzI0NjcwMiwxMjM0NTQyMDA1LC0xODUzMjA3NT
+IzLDExNjUzODM0NzUsLTk1OTk1ODQxMywxNDY5NzIyOTQ1LC0x
+MDI0OTY0NzI5XX0=
 -->
