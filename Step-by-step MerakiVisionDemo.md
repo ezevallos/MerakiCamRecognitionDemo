@@ -338,7 +338,7 @@ Posteriormente, es necesario validar nuestra cuenta desde nuestro correo.
 Y finalmente, crear una contraseña.
 ![CreatePasswordHerokuAccount](https://i.ibb.co/SrXyFrb/HK-SU-4.png)
 *Heroku* funciona a través de su línea de comandos, es por esto que es importante haber instalado el ***Git Bash*** pues es ahí donde correremos los comandos.
-Debemos ingresar a [*Heroku Set up*](https://devcenter.heroku.com/articles/getting-started-with-python#set-up) y elegir la descarga apropiada para nuestra plataforma (Windows, macOS, o Ubuntu). Habiendo instalado el *Heroku CLI*, ingresamos el comando `heroku login` y seremos redireccionados a 
+Debemos ingresar a [*Heroku Set up*](https://devcenter.heroku.com/articles/getting-started-with-python#set-up) y elegir la descarga apropiada para nuestra plataforma (Windows, macOS, o Ubuntu). Habiendo instalado el *Heroku CLI*, ingresamos el comando `heroku login` y aparece un prompt en el que ingresamos cualquier tecla (excepto "q" que saldrá) para ser redireccionados al navegador en el que d
 ## Rename a file
 
 You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
@@ -466,7 +466,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NzM5Njk4OCwxNzgxMDYwMzEzLDExNT
+eyJoaXN0b3J5IjpbLTUzOTI5NTY2NywxNzgxMDYwMzEzLDExNT
 M1MjQ5MDksLTEzNzU4NzAyNzMsLTE3MDkzOTM5MjgsODExNjM3
 MTc3LDk5NjI0MTYyNiwtMjc5MDQyMDE0LDE1ODA2OTk1MzAsLT
 EyMDU0MzM1NDQsMTI2ODMwOTI0NSwtMjE4MjkwOTMyLC05Mzk5
