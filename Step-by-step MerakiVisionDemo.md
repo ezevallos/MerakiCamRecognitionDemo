@@ -338,13 +338,14 @@ Posteriormente, es necesario validar nuestra cuenta desde nuestro correo.
 Y finalmente, crear una contraseña.
 ![CreatePasswordHerokuAccount](https://i.ibb.co/SrXyFrb/HK-SU-4.png)
 *Heroku* funciona a través de su línea de comandos, es por esto que es importante haber instalado el ***Git Bash*** pues es ahí donde correremos los comandos.
-Debemos ingresar a [*Heroku Set up*](https://devcenter.heroku.com/articles/getting-started-with-python#set-up) y elegir la descarga apropiada para nuestra plataforma (Windows, macOS, o Ubuntu). Habiendo instalado el *Heroku CLI*, ingresamos el comando `heroku login` y aparece un prompt en el que ingresamos cualquier tecla (excepto "q" que saldrá) para ser redireccionados al navegador () en el que debemos autenticarnos con las credenciales previamente generadas.
+Debemos ingresar a [*Heroku Set up*](https://devcenter.heroku.com/articles/getting-started-with-python#set-up) y elegir la descarga apropiada para nuestra plataforma (Windows, macOS, o Ubuntu). Habiendo instalado el *Heroku CLI*, ingresamos el comando `heroku login` y aparece un prompt en el que ingresamos cualquier tecla (excepto "q" que saldrá) para ser redireccionados al navegador ([Heroku Login](https://cli-auth.heroku.com/auth/browser/)) en el que debemos autenticarnos con las credenciales previamente generadas. Es necesario este paso para que funcionen correctamente los comandos `heroku`y `git`.
+Habiendo instalado y configurado apropiadamente el *Heroku CLI*, de
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjE4OTUxMDgsMTc4MTA2MDMxMywxMT
-UzNTI0OTA5LC0xMzc1ODcwMjczLC0xNzA5MzkzOTI4LDgxMTYz
-NzE3Nyw5OTYyNDE2MjYsLTI3OTA0MjAxNCwxNTgwNjk5NTMwLC
-0xMjA1NDMzNTQ0LDEyNjgzMDkyNDUsLTIxODI5MDkzMiwtOTM5
-OTQ0MDQ5LDEyMTE0NzI5MDUsLTc0MzI0NjcwMiwxMjM0NTQyMD
-A1LC0xODUzMjA3NTIzLDExNjUzODM0NzUsLTk1OTk1ODQxMywx
-NDY5NzIyOTQ1XX0=
+eyJoaXN0b3J5IjpbMzg4NjE5NDA3LDE3ODEwNjAzMTMsMTE1Mz
+UyNDkwOSwtMTM3NTg3MDI3MywtMTcwOTM5MzkyOCw4MTE2Mzcx
+NzcsOTk2MjQxNjI2LC0yNzkwNDIwMTQsMTU4MDY5OTUzMCwtMT
+IwNTQzMzU0NCwxMjY4MzA5MjQ1LC0yMTgyOTA5MzIsLTkzOTk0
+NDA0OSwxMjExNDcyOTA1LC03NDMyNDY3MDIsMTIzNDU0MjAwNS
+wtMTg1MzIwNzUyMywxMTY1MzgzNDc1LC05NTk5NTg0MTMsMTQ2
+OTcyMjk0NV19
 -->
