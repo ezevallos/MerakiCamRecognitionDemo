@@ -337,15 +337,15 @@ Posteriormente, es necesario validar nuestra cuenta desde nuestro correo.
 ![ConfirmHerkouAccount](https://i.ibb.co/vZrHp5C/HK-SU-3.png)
 Y finalmente, crear una contraseña.
 ![CreatePasswordHerokuAccount](https://i.ibb.co/SrXyFrb/HK-SU-4.png)
-*Heroku* funciona a través de su línea de comandos, es por esto que es importante haber instalado el ***Git Bash*** pues es ahí donde correremos los comandos.
+*Heroku* funciona a través de la línea de comandos *Heroku CLI*, es por esto que es importante haber instalado el ***Git Bash*** pues es ahí donde correremos los comandos.
 Debemos ingresar a [*Heroku Set up*](https://devcenter.heroku.com/articles/getting-started-with-python#set-up) y elegir la descarga apropiada para nuestra plataforma (Windows, macOS, o Ubuntu). Habiendo instalado el *Heroku CLI*, ingresamos el comando `heroku login` y aparece un prompt en el que ingresamos cualquier tecla (excepto "q" que saldrá) para ser redireccionados al navegador ([Heroku Login](https://cli-auth.heroku.com/auth/browser/)) en el que debemos autenticarnos con las credenciales previamente generadas. Es necesario este paso para que funcionen correctamente los comandos `heroku`y `git`.
 Habiendo instalado y configurado apropiadamente el *Heroku CLI*, debemos crear nuestro repositorio de *GitHub*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1ODA3MTAxMSw3MTgyMDAwNjgsMTc4MT
-A2MDMxMywxMTUzNTI0OTA5LC0xMzc1ODcwMjczLC0xNzA5Mzkz
-OTI4LDgxMTYzNzE3Nyw5OTYyNDE2MjYsLTI3OTA0MjAxNCwxNT
-gwNjk5NTMwLC0xMjA1NDMzNTQ0LDEyNjgzMDkyNDUsLTIxODI5
-MDkzMiwtOTM5OTQ0MDQ5LDEyMTE0NzI5MDUsLTc0MzI0NjcwMi
-wxMjM0NTQyMDA1LC0xODUzMjA3NTIzLDExNjUzODM0NzUsLTk1
-OTk1ODQxM119
+eyJoaXN0b3J5IjpbMTE4OTUxOTkxNCwxODU4MDcxMDExLDcxOD
+IwMDA2OCwxNzgxMDYwMzEzLDExNTM1MjQ5MDksLTEzNzU4NzAy
+NzMsLTE3MDkzOTM5MjgsODExNjM3MTc3LDk5NjI0MTYyNiwtMj
+c5MDQyMDE0LDE1ODA2OTk1MzAsLTEyMDU0MzM1NDQsMTI2ODMw
+OTI0NSwtMjE4MjkwOTMyLC05Mzk5NDQwNDksMTIxMTQ3MjkwNS
+wtNzQzMjQ2NzAyLDEyMzQ1NDIwMDUsLTE4NTMyMDc1MjMsMTE2
+NTM4MzQ3NV19
 -->
