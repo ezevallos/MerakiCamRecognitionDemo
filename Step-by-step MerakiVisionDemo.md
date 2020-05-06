@@ -359,9 +359,10 @@ $ git add .
 $ git commit -m "Primer commit"
 ```
  4. En la sección superior de la página de GitHub que acabamos de crear aparecerá la URL del repositorio remoto.
+ 
  5. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTMxNjUxMjMsODc3MjYxMjMsLTUwND
+eyJoaXN0b3J5IjpbLTE5NjM5MjExOTMsODc3MjYxMjMsLTUwND
 EwOTY2OSwtNjgzNTMxMDIxLDExODk1MTk5MTQsMTg1ODA3MTAx
 MSw3MTgyMDAwNjgsMTc4MTA2MDMxMywxMTUzNTI0OTA5LC0xMz
 c1ODcwMjczLC0xNzA5MzkzOTI4LDgxMTYzNzE3Nyw5OTYyNDE2
