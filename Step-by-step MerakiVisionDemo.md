@@ -359,14 +359,14 @@ $ git add .
 $ git commit -m "Primer commit"
 ```
  4. En la sección superior de la página de GitHub que acabamos de crear aparecerá la URL del repositorio remoto.
- 
- 5. 
+ ![GitHubRepoLink](https://i.ibb.co/gy8m314/GH-R-3.png)
+ 5. En la línea de comando, agregamos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjM5MjExOTMsODc3MjYxMjMsLTUwND
-EwOTY2OSwtNjgzNTMxMDIxLDExODk1MTk5MTQsMTg1ODA3MTAx
-MSw3MTgyMDAwNjgsMTc4MTA2MDMxMywxMTUzNTI0OTA5LC0xMz
-c1ODcwMjczLC0xNzA5MzkzOTI4LDgxMTYzNzE3Nyw5OTYyNDE2
-MjYsLTI3OTA0MjAxNCwxNTgwNjk5NTMwLC0xMjA1NDMzNTQ0LD
-EyNjgzMDkyNDUsLTIxODI5MDkzMiwtOTM5OTQ0MDQ5LDEyMTE0
-NzI5MDVdfQ==
+eyJoaXN0b3J5IjpbNzc4NDE5NjgsODc3MjYxMjMsLTUwNDEwOT
+Y2OSwtNjgzNTMxMDIxLDExODk1MTk5MTQsMTg1ODA3MTAxMSw3
+MTgyMDAwNjgsMTc4MTA2MDMxMywxMTUzNTI0OTA5LC0xMzc1OD
+cwMjczLC0xNzA5MzkzOTI4LDgxMTYzNzE3Nyw5OTYyNDE2MjYs
+LTI3OTA0MjAxNCwxNTgwNjk5NTMwLC0xMjA1NDMzNTQ0LDEyNj
+gzMDkyNDUsLTIxODI5MDkzMiwtOTM5OTQ0MDQ5LDEyMTE0NzI5
+MDVdfQ==
 -->
