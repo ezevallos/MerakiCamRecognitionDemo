@@ -367,9 +367,12 @@ $ git remote add origin <URL repositorio remoto>
 $ git remote -v
 # Este comando verifica el nuevo URL remoto
 ```
- 6. Finalmente, 
+ 6. Finalmente, publicamos nuestro proyecto al repositorio de GitHub.
+```git
+$ git push origin master
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MDgwMzUwMSw4NzcyNjEyMywtNTA0MT
+eyJoaXN0b3J5IjpbMTgzNzkwOTA3OSw4NzcyNjEyMywtNTA0MT
 A5NjY5LC02ODM1MzEwMjEsMTE4OTUxOTkxNCwxODU4MDcxMDEx
 LDcxODIwMDA2OCwxNzgxMDYwMzEzLDExNTM1MjQ5MDksLTEzNz
 U4NzAyNzMsLTE3MDkzOTM5MjgsODExNjM3MTc3LDk5NjI0MTYy
