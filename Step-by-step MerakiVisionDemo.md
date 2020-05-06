@@ -349,18 +349,22 @@ Luego accedemos a nuestro directorio local desde el *Git Bash*, y ejecutamos los
  1. Inicializar el directorio local como un repositorio de Git
 ```git
 $ git init
- ```
+```
  2. Agregar los archivos de nuestro nuevo repositorio local. Esto lo añadimos al área de ensayo, para el primer *commit*.
 ```git
 $ git add .
 ```
+ 3. Realizamos el commit de los archivos que hemos añadido al área de ensayo en nuestro repositorio local.
+```git
+
+```
  4. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjQwNzA5ODMsLTUwNDEwOTY2OSwtNj
-gzNTMxMDIxLDExODk1MTk5MTQsMTg1ODA3MTAxMSw3MTgyMDAw
-NjgsMTc4MTA2MDMxMywxMTUzNTI0OTA5LC0xMzc1ODcwMjczLC
-0xNzA5MzkzOTI4LDgxMTYzNzE3Nyw5OTYyNDE2MjYsLTI3OTA0
-MjAxNCwxNTgwNjk5NTMwLC0xMjA1NDMzNTQ0LDEyNjgzMDkyND
-UsLTIxODI5MDkzMiwtOTM5OTQ0MDQ5LDEyMTE0NzI5MDUsLTc0
-MzI0NjcwMl19
+eyJoaXN0b3J5IjpbNjg5NTI4MjI0LC01MDQxMDk2NjksLTY4Mz
+UzMTAyMSwxMTg5NTE5OTE0LDE4NTgwNzEwMTEsNzE4MjAwMDY4
+LDE3ODEwNjAzMTMsMTE1MzUyNDkwOSwtMTM3NTg3MDI3MywtMT
+cwOTM5MzkyOCw4MTE2MzcxNzcsOTk2MjQxNjI2LC0yNzkwNDIw
+MTQsMTU4MDY5OTUzMCwtMTIwNTQzMzU0NCwxMjY4MzA5MjQ1LC
+0yMTgyOTA5MzIsLTkzOTk0NDA0OSwxMjExNDcyOTA1LC03NDMy
+NDY3MDJdfQ==
 -->
