@@ -342,9 +342,9 @@ Debemos ingresar a [*Heroku Set up*](https://devcenter.heroku.com/articles/getti
 Habiendo instalado y configurado apropiadamente el *Heroku CLI*, debemos crear nuestro repositorio de *GitHub* y vincularlo con nuestro directorio local. 
 En primer lugar creamos nuestro repositorio desde [GitHub](https://github.com/).
 ![GitHubRepoCreate](https://i.ibb.co/MCNbBjp/GH-R-1.png)
-Le damos un nombre al reposiorio
+Le damos un nombre al repositorio, y 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NTE5MzAzMiwtNjgzNTMxMDIxLDExOD
+eyJoaXN0b3J5IjpbLTUwNDEwOTY2OSwtNjgzNTMxMDIxLDExOD
 k1MTk5MTQsMTg1ODA3MTAxMSw3MTgyMDAwNjgsMTc4MTA2MDMx
 MywxMTUzNTI0OTA5LC0xMzc1ODcwMjczLC0xNzA5MzkzOTI4LD
 gxMTYzNzE3Nyw5OTYyNDE2MjYsLTI3OTA0MjAxNCwxNTgwNjk5
