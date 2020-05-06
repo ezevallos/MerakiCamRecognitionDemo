@@ -360,13 +360,20 @@ $ git commit -m "Primer commit"
 ```
  4. En la sección superior de la página de GitHub que acabamos de crear aparecerá la URL del repositorio remoto.
  ![GitHubRepoLink](https://i.ibb.co/gy8m314/GH-R-3.png)
- 5. En la línea de comando, agregamos 
+ 5. En la línea de comando, agregamos el URL para el repositorio remoto, desde nuestro repositorio local.
+```git
+$ git remote add origin <URL repositorio remoto>
+# Este comando configura el nuevo URL remoto
+$ git remote -v
+# Este comando verifica el nuevo URL remoto
+```
+ 6. Finalmente, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc4NDE5NjgsODc3MjYxMjMsLTUwNDEwOT
-Y2OSwtNjgzNTMxMDIxLDExODk1MTk5MTQsMTg1ODA3MTAxMSw3
-MTgyMDAwNjgsMTc4MTA2MDMxMywxMTUzNTI0OTA5LC0xMzc1OD
-cwMjczLC0xNzA5MzkzOTI4LDgxMTYzNzE3Nyw5OTYyNDE2MjYs
-LTI3OTA0MjAxNCwxNTgwNjk5NTMwLC0xMjA1NDMzNTQ0LDEyNj
-gzMDkyNDUsLTIxODI5MDkzMiwtOTM5OTQ0MDQ5LDEyMTE0NzI5
-MDVdfQ==
+eyJoaXN0b3J5IjpbLTk2MDgwMzUwMSw4NzcyNjEyMywtNTA0MT
+A5NjY5LC02ODM1MzEwMjEsMTE4OTUxOTkxNCwxODU4MDcxMDEx
+LDcxODIwMDA2OCwxNzgxMDYwMzEzLDExNTM1MjQ5MDksLTEzNz
+U4NzAyNzMsLTE3MDkzOTM5MjgsODExNjM3MTc3LDk5NjI0MTYy
+NiwtMjc5MDQyMDE0LDE1ODA2OTk1MzAsLTEyMDU0MzM1NDQsMT
+I2ODMwOTI0NSwtMjE4MjkwOTMyLC05Mzk5NDQwNDksMTIxMTQ3
+MjkwNV19
 -->
