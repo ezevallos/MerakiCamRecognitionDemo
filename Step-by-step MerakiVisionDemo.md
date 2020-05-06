@@ -347,13 +347,16 @@ Le damos un nombre al repositorio, y lo creamos.
 Luego accedemos a nuestro directorio local desde el *Git Bash*, y ejecutamos los comandos para subir nuestro proyecto.
 
  1. Inicializar el directorio local como un repositorio de Git
- ```git
+```git
 $ git init
  ```
  2. Agregar los archivos de nuestro nuevo repositorio local. Esto lo añadimos al área de ensayo, para el primer *commit*.
-
+```git
+$ git add .
+```
+ 4. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzg5NzQxMTgsLTUwNDEwOTY2OSwtNj
+eyJoaXN0b3J5IjpbLTE5MjQwNzA5ODMsLTUwNDEwOTY2OSwtNj
 gzNTMxMDIxLDExODk1MTk5MTQsMTg1ODA3MTAxMSw3MTgyMDAw
 NjgsMTc4MTA2MDMxMywxMTUzNTI0OTA5LC0xMzc1ODcwMjczLC
 0xNzA5MzkzOTI4LDgxMTYzNzE3Nyw5OTYyNDE2MjYsLTI3OTA0
