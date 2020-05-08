@@ -371,13 +371,16 @@ $ git remote -v
 ```git
 $ git push origin master
 ```
-Ahora finalmente pasamos a desplegar nuestro aplicativo en Heroku
+Ahora finalmente pasamos a desplegar nuestro aplicativo en Heroku, debemos ejecutar los siguientes comandos:
+```git
+$ heroku create
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NjcwNDMsLTI5MTM3NDQyNCwtMTI2Mj
-MxNTMyMyw4NzcyNjEyMywtNTA0MTA5NjY5LC02ODM1MzEwMjEs
-MTE4OTUxOTkxNCwxODU4MDcxMDExLDcxODIwMDA2OCwxNzgxMD
-YwMzEzLDExNTM1MjQ5MDksLTEzNzU4NzAyNzMsLTE3MDkzOTM5
-MjgsODExNjM3MTc3LDk5NjI0MTYyNiwtMjc5MDQyMDE0LDE1OD
-A2OTk1MzAsLTEyMDU0MzM1NDQsMTI2ODMwOTI0NSwtMjE4Mjkw
-OTMyXX0=
+eyJoaXN0b3J5IjpbMjA5MDMwNjE0MywtMjkxMzc0NDI0LC0xMj
+YyMzE1MzIzLDg3NzI2MTIzLC01MDQxMDk2NjksLTY4MzUzMTAy
+MSwxMTg5NTE5OTE0LDE4NTgwNzEwMTEsNzE4MjAwMDY4LDE3OD
+EwNjAzMTMsMTE1MzUyNDkwOSwtMTM3NTg3MDI3MywtMTcwOTM5
+MzkyOCw4MTE2MzcxNzcsOTk2MjQxNjI2LC0yNzkwNDIwMTQsMT
+U4MDY5OTUzMCwtMTIwNTQzMzU0NCwxMjY4MzA5MjQ1LC0yMTgy
+OTA5MzJdfQ==
 -->
