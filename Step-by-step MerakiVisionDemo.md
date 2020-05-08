@@ -374,9 +374,12 @@ $ git push origin master
 Ahora finalmente pasamos a desplegar nuestro aplicativo en Heroku, debemos ejecutar los siguientes comandos:
 ```git
 $ heroku create
+# Este comando crea el app
+$ git push heroku master
+# Este comando desplieg
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MDMwNjE0MywtMjkxMzc0NDI0LC0xMj
+eyJoaXN0b3J5IjpbLTU1NjA1MDMxMywtMjkxMzc0NDI0LC0xMj
 YyMzE1MzIzLDg3NzI2MTIzLC01MDQxMDk2NjksLTY4MzUzMTAy
 MSwxMTg5NTE5OTE0LDE4NTgwNzEwMTEsNzE4MjAwMDY4LDE3OD
 EwNjAzMTMsMTE1MzUyNDkwOSwtMTM3NTg3MDI3MywtMTcwOTM5
