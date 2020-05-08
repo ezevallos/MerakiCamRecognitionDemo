@@ -6,6 +6,10 @@
 
 # Cisco DevNet
 _Cisco Developer’s Network_ o _Cisco DevNet_ es nuestra comunidad de práctica para desarrolladores y profesionales de TI que buscan escribir aplicaciones y desarrollar integraciones con productos, plataformas y APIs de Cisco. A continuación, navegaremos por los componentes principales que conforman la plataforma de Cisco DevNet, a la que podemos acceder mediante la dirección: [https://developer.cisco.com/](https://developer.cisco.com/).
+![DevNet](https://ibb.co/h7Yzsn6)
+
+## Start Now
+<![endif]--> Aquí ([https://developer.cisco.com/startnow/](https://developer.cisco.com/startnow/)) encontraremos una lista curada de contenidos para empezar nuestro viaje, es el lugar ideal para aquellos que desean tomar el primer paso en programación, o llevar sus habilidades al siguiente nivel. Es el lugar para tener una experiencia de aprendizaje guiada y aplicada, en las plataformas y tecnologías de Cisco.
 
 <div id='para4'/>
 
@@ -400,11 +404,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzgyMTY5MSwtOTQ1NDkzODMxLDcwND
-QxODMyNiwxNjczMzIzNzEzLC0yOTEzNzQ0MjQsLTEyNjIzMTUz
-MjMsODc3MjYxMjMsLTUwNDEwOTY2OSwtNjgzNTMxMDIxLDExOD
-k1MTk5MTQsMTg1ODA3MTAxMSw3MTgyMDAwNjgsMTc4MTA2MDMx
-MywxMTUzNTI0OTA5LC0xMzc1ODcwMjczLC0xNzA5MzkzOTI4LD
-gxMTYzNzE3Nyw5OTYyNDE2MjYsLTI3OTA0MjAxNCwxNTgwNjk5
-NTMwXX0=
+eyJoaXN0b3J5IjpbLTEzNDI0NDk2ODQsLTE0NzgyMTY5MSwtOT
+Q1NDkzODMxLDcwNDQxODMyNiwxNjczMzIzNzEzLC0yOTEzNzQ0
+MjQsLTEyNjIzMTUzMjMsODc3MjYxMjMsLTUwNDEwOTY2OSwtNj
+gzNTMxMDIxLDExODk1MTk5MTQsMTg1ODA3MTAxMSw3MTgyMDAw
+NjgsMTc4MTA2MDMxMywxMTUzNTI0OTA5LC0xMzc1ODcwMjczLC
+0xNzA5MzkzOTI4LDgxMTYzNzE3Nyw5OTYyNDE2MjYsLTI3OTA0
+MjAxNF19
 -->
