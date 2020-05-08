@@ -359,7 +359,7 @@ $ git add .
 $ git commit -m "Primer commit"
 ```
  4. En la sección superior de la página de GitHub que acabamos de crear aparecerá la URL del repositorio remoto.
- ![GitHubRepoLink](https://i.ibb.co/gy8m314/GH-R-3.png)
+ ![GitHubRepoLink](https://ibb.co/D45pkBZ)
  5. En la línea de comando, agregamos el URL para el repositorio remoto, desde nuestro repositorio local.
 ```git
 $ git remote add origin <URL repositorio remoto>
@@ -385,11 +385,11 @@ $ heroku logs --tail
 # Este comando nos permitirá 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MzMyMzcxMywtMjkxMzc0NDI0LC0xMj
-YyMzE1MzIzLDg3NzI2MTIzLC01MDQxMDk2NjksLTY4MzUzMTAy
-MSwxMTg5NTE5OTE0LDE4NTgwNzEwMTEsNzE4MjAwMDY4LDE3OD
-EwNjAzMTMsMTE1MzUyNDkwOSwtMTM3NTg3MDI3MywtMTcwOTM5
-MzkyOCw4MTE2MzcxNzcsOTk2MjQxNjI2LC0yNzkwNDIwMTQsMT
-U4MDY5OTUzMCwtMTIwNTQzMzU0NCwxMjY4MzA5MjQ1LC0yMTgy
-OTA5MzJdfQ==
+eyJoaXN0b3J5IjpbLTExMDc0NjE5MDEsMTY3MzMyMzcxMywtMj
+kxMzc0NDI0LC0xMjYyMzE1MzIzLDg3NzI2MTIzLC01MDQxMDk2
+NjksLTY4MzUzMTAyMSwxMTg5NTE5OTE0LDE4NTgwNzEwMTEsNz
+E4MjAwMDY4LDE3ODEwNjAzMTMsMTE1MzUyNDkwOSwtMTM3NTg3
+MDI3MywtMTcwOTM5MzkyOCw4MTE2MzcxNzcsOTk2MjQxNjI2LC
+0yNzkwNDIwMTQsMTU4MDY5OTUzMCwtMTIwNTQzMzU0NCwxMjY4
+MzA5MjQ1XX0=
 -->
