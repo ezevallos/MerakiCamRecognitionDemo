@@ -376,14 +376,16 @@ Ahora finalmente pasamos a desplegar nuestro aplicativo en Heroku, debemos ejecu
 $ heroku create
 # Este comando crea el app
 $ git push heroku master
-# Este comando desplieg
+# Este comando despliega nuestro proyecto al app que hemos creado
+$ heroku ps:scale web=1
+# Este comando asegura que al meno
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NjA1MDMxMywtMjkxMzc0NDI0LC0xMj
-YyMzE1MzIzLDg3NzI2MTIzLC01MDQxMDk2NjksLTY4MzUzMTAy
-MSwxMTg5NTE5OTE0LDE4NTgwNzEwMTEsNzE4MjAwMDY4LDE3OD
-EwNjAzMTMsMTE1MzUyNDkwOSwtMTM3NTg3MDI3MywtMTcwOTM5
-MzkyOCw4MTE2MzcxNzcsOTk2MjQxNjI2LC0yNzkwNDIwMTQsMT
-U4MDY5OTUzMCwtMTIwNTQzMzU0NCwxMjY4MzA5MjQ1LC0yMTgy
-OTA5MzJdfQ==
+eyJoaXN0b3J5IjpbNzcwNzU0ODY3LC0yOTEzNzQ0MjQsLTEyNj
+IzMTUzMjMsODc3MjYxMjMsLTUwNDEwOTY2OSwtNjgzNTMxMDIx
+LDExODk1MTk5MTQsMTg1ODA3MTAxMSw3MTgyMDAwNjgsMTc4MT
+A2MDMxMywxMTUzNTI0OTA5LC0xMzc1ODcwMjczLC0xNzA5Mzkz
+OTI4LDgxMTYzNzE3Nyw5OTYyNDE2MjYsLTI3OTA0MjAxNCwxNT
+gwNjk5NTMwLC0xMjA1NDMzNTQ0LDEyNjgzMDkyNDUsLTIxODI5
+MDkzMl19
 -->
