@@ -378,14 +378,18 @@ $ heroku create
 $ git push heroku master
 # Este comando despliega nuestro proyecto al app que hemos creado
 $ heroku ps:scale web=1
-# Este comando asegura que al meno
+# Este comando asegura que al menos una instancia del aplicativo esté corriendo
+$ heroku open
+# Si todo ha salido bien hasta este punto, deberíamos ver una página que dice "Eureka"
+$ heroku logs --tail
+# Este comando nos permitirá 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcwNzU0ODY3LC0yOTEzNzQ0MjQsLTEyNj
-IzMTUzMjMsODc3MjYxMjMsLTUwNDEwOTY2OSwtNjgzNTMxMDIx
-LDExODk1MTk5MTQsMTg1ODA3MTAxMSw3MTgyMDAwNjgsMTc4MT
-A2MDMxMywxMTUzNTI0OTA5LC0xMzc1ODcwMjczLC0xNzA5Mzkz
-OTI4LDgxMTYzNzE3Nyw5OTYyNDE2MjYsLTI3OTA0MjAxNCwxNT
-gwNjk5NTMwLC0xMjA1NDMzNTQ0LDEyNjgzMDkyNDUsLTIxODI5
-MDkzMl19
+eyJoaXN0b3J5IjpbMTY3MzMyMzcxMywtMjkxMzc0NDI0LC0xMj
+YyMzE1MzIzLDg3NzI2MTIzLC01MDQxMDk2NjksLTY4MzUzMTAy
+MSwxMTg5NTE5OTE0LDE4NTgwNzEwMTEsNzE4MjAwMDY4LDE3OD
+EwNjAzMTMsMTE1MzUyNDkwOSwtMTM3NTg3MDI3MywtMTcwOTM5
+MzkyOCw4MTE2MzcxNzcsOTk2MjQxNjI2LC0yNzkwNDIwMTQsMT
+U4MDY5OTUzMCwtMTIwNTQzMzU0NCwxMjY4MzA5MjQ1LC0yMTgy
+OTA5MzJdfQ==
 -->
