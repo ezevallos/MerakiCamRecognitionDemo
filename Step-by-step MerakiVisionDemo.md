@@ -1,6 +1,11 @@
 # Table of contents
-1. [Introduc](#para1)
+1. [Introducción - Cisco DevNet](#intro)
 2. [Lab 4: Reconocimiento de imágenes mediante un comando de voz.](#para4)
+
+<div id='intro'/>
+
+# Cisco DevNet
+_Cisco Developer’s Network_ o _Cisco DevNet_ es nuestra comunidad de práctica para desarrolladores y profesionales de TI que buscan escribir aplicaciones y desarrollar integraciones con productos, plataformas y APIs de Cisco. A continuación, navegaremos por los componentes principales que conforman la plataforma de Cisco DevNet, a la que podemos acceder mediante la dirección: [https://developer.cisco.com/](https://developer.cisco.com/).
 
 <div id='para4'/>
 
@@ -395,7 +400,7 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1ODM5MTcxNywtOTQ1NDkzODMxLDcwND
+eyJoaXN0b3J5IjpbLTE0NzgyMTY5MSwtOTQ1NDkzODMxLDcwND
 QxODMyNiwxNjczMzIzNzEzLC0yOTEzNzQ0MjQsLTEyNjIzMTUz
 MjMsODc3MjYxMjMsLTUwNDEwOTY2OSwtNjgzNTMxMDIxLDExOD
 k1MTk5MTQsMTg1ODA3MTAxMSw3MTgyMDAwNjgsMTc4MTA2MDMx
