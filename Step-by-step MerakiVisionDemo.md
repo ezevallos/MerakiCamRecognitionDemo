@@ -1,8 +1,6 @@
 # Table of contents
 1. [Introduction](#para1)
-2. [Some paragraph](#paragraph1)
-    1. [Sub paragraph](#subparagraph1)
-3. [Another paragraph](#paragraph2)
+2. [Some paragraph](#para2)
 
 # Lab: Reconocimiento de imágenes mediante un comando de voz. Utilice las *APIs* de *Cisco Meraki*, *Imagga* y *Google Actions* para analizar la captura de una cámara de Meraki, mediante un comando de voz en un dispositivo *Android* con *Google Assistant* <a name="para1"></a>
 
@@ -48,7 +46,7 @@ El catálogo cuenta con 70 _Sandboxes_ distintos. Para filtrar, podemos hacerlo 
 ![Sandbox Meraki Always-On](https://i.ibb.co/MfcwkGM/DN-SB-4.png)
 Encontraremos tres _Sandboxes_ de **_Meraki_**, el que utilizaremos se llama “**_Meraki Always On_**” y se trata de una red de prueba **_Meraki_** a la que podemos acceder en cualquier momento para realizar pruebas. En este _Sandbox_ podemos encontrar los detalles importantes para que el script funcione correctamente. En primer lugar, las credenciales de acceso al Dashboard API, Username: [devnetmeraki@cisco.com](mailto:devnetmeraki@cisco.com), Password: ilovemeraki, y por otro lado, el *API Key* que utilizaremos es 6bec40cf957de430a6f1f2baa056b99a4fac9ea0.
 
-## El script `GetSnap.py`
+## El script `GetSnap.py`<a name="para2"></a>
 Nuestro código en ***Python*** va a obtener una captura de la cámara Meraki modelo MV12W, cuyo número serial es el Q2GV-7HEL-HC6C, y se ubica en la red con Id L_566327653141856854 llamada *DNEAlertsNet*. Esta red no la encontraremos dentro de la interfaz del Dashboard API, pero sí estará listada si hacemos las llamadas de **Postman** *Get Organization Id* y *Get Networks Id*, utilizando el *API Key* previamente mencionado. La organización lleva el nombre *DeLab* y su Id es el 681155. Esta cámara ha sido posicionada delante de una TV que se encuentra prendida 24/7, de forma que siempre tiene algo qué mostrar, y su contenido es dinámico.
 
 En primer lugar, debemos especificar las librerías que estaremos utilizando. Estas son *pprint*, *requests* y *json*, las importamos a continuación:
@@ -395,11 +393,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTUzMTQ3MTIsMTY3MzMyMzcxMywtMj
-kxMzc0NDI0LC0xMjYyMzE1MzIzLDg3NzI2MTIzLC01MDQxMDk2
-NjksLTY4MzUzMTAyMSwxMTg5NTE5OTE0LDE4NTgwNzEwMTEsNz
-E4MjAwMDY4LDE3ODEwNjAzMTMsMTE1MzUyNDkwOSwtMTM3NTg3
-MDI3MywtMTcwOTM5MzkyOCw4MTE2MzcxNzcsOTk2MjQxNjI2LC
-0yNzkwNDIwMTQsMTU4MDY5OTUzMCwtMTIwNTQzMzU0NCwxMjY4
-MzA5MjQ1XX0=
+eyJoaXN0b3J5IjpbLTE1MDEwOTA2MCwxNjczMzIzNzEzLC0yOT
+EzNzQ0MjQsLTEyNjIzMTUzMjMsODc3MjYxMjMsLTUwNDEwOTY2
+OSwtNjgzNTMxMDIxLDExODk1MTk5MTQsMTg1ODA3MTAxMSw3MT
+gyMDAwNjgsMTc4MTA2MDMxMywxMTUzNTI0OTA5LC0xMzc1ODcw
+MjczLC0xNzA5MzkzOTI4LDgxMTYzNzE3Nyw5OTYyNDE2MjYsLT
+I3OTA0MjAxNCwxNTgwNjk5NTMwLC0xMjA1NDMzNTQ0LDEyNjgz
+MDkyNDVdfQ==
 -->
