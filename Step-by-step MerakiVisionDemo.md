@@ -1,4 +1,10 @@
-# Lab: Reconocimiento de imágenes mediante un comando de voz. Utilice las *APIs* de *Cisco Meraki*, *Imagga* y *Google Actions* para analizar la captura de una cámara de Meraki, mediante un comando de voz en un dispositivo *Android* con *Google Assistant*
+# Table of contents
+1. [Introduction](#para1)
+2. [Some paragraph](#paragraph1)
+    1. [Sub paragraph](#subparagraph1)
+3. [Another paragraph](#paragraph2)
+
+# Lab: Reconocimiento de imágenes mediante un comando de voz. Utilice las *APIs* de *Cisco Meraki*, *Imagga* y *Google Actions* para analizar la captura de una cámara de Meraki, mediante un comando de voz en un dispositivo *Android* con *Google Assistant* <a name="para1"></a>
 
 ## Introducción
 En este laboratorio obtenemos un *snapshot* de una cámara *Cisco Meraki*, haciendo uso del *Dashboard API*. Luego, envíamos la imagen a un software de reconocimiento de imágenes llamado *Imagga*, cuyo *API* es de uso abierto. Finalmente, utilizamos la *API* de *Google Actions* para que nos lea las características de la imagen en voz alta, y nos muestre la imagen; mediante un comando de voz de *Google Assistant*.
@@ -389,11 +395,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY0MTAyODAxLDE2NzMzMjM3MTMsLTI5MT
-M3NDQyNCwtMTI2MjMxNTMyMyw4NzcyNjEyMywtNTA0MTA5NjY5
-LC02ODM1MzEwMjEsMTE4OTUxOTkxNCwxODU4MDcxMDExLDcxOD
-IwMDA2OCwxNzgxMDYwMzEzLDExNTM1MjQ5MDksLTEzNzU4NzAy
-NzMsLTE3MDkzOTM5MjgsODExNjM3MTc3LDk5NjI0MTYyNiwtMj
-c5MDQyMDE0LDE1ODA2OTk1MzAsLTEyMDU0MzM1NDQsMTI2ODMw
-OTI0NV19
+eyJoaXN0b3J5IjpbLTE1OTUzMTQ3MTIsMTY3MzMyMzcxMywtMj
+kxMzc0NDI0LC0xMjYyMzE1MzIzLDg3NzI2MTIzLC01MDQxMDk2
+NjksLTY4MzUzMTAyMSwxMTg5NTE5OTE0LDE4NTgwNzEwMTEsNz
+E4MjAwMDY4LDE3ODEwNjAzMTMsMTE1MzUyNDkwOSwtMTM3NTg3
+MDI3MywtMTcwOTM5MzkyOCw4MTE2MzcxNzcsOTk2MjQxNjI2LC
+0yNzkwNDIwMTQsMTU4MDY5OTUzMCwtMTIwNTQzMzU0NCwxMjY4
+MzA5MjQ1XX0=
 -->
