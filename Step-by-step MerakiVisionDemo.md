@@ -9,7 +9,8 @@ _Cisco Developer’s Network_ o _Cisco DevNet_ es nuestra comunidad de práctica
 ![DevNet](https://ibb.co/h7Yzsn6)
 
 ## Start Now
-<![endif]--> Aquí ([https://developer.cisco.com/startnow/](https://developer.cisco.com/startnow/)) encontraremos una lista curada de contenidos para empezar nuestro viaje, es el lugar ideal para aquellos que desean tomar el primer paso en programación, o llevar sus habilidades al siguiente nivel. Es el lugar para tener una experiencia de aprendizaje guiada y aplicada, en las plataformas y tecnologías de Cisco.
+Aquí ([https://developer.cisco.com/startnow/](https://developer.cisco.com/startnow/)) encontraremos una lista curada de contenidos para empezar nuestro viaje, es el lugar ideal para aquellos que desean tomar el primer paso en programación, o llevar sus habilidades al siguiente nivel. Es el lugar para tener una experiencia de aprendizaje guiada y aplicada, en las plataformas y tecnologías de Cisco.
+
 
 <div id='para4'/>
 
@@ -404,11 +405,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDI0NDk2ODQsLTE0NzgyMTY5MSwtOT
-Q1NDkzODMxLDcwNDQxODMyNiwxNjczMzIzNzEzLC0yOTEzNzQ0
-MjQsLTEyNjIzMTUzMjMsODc3MjYxMjMsLTUwNDEwOTY2OSwtNj
-gzNTMxMDIxLDExODk1MTk5MTQsMTg1ODA3MTAxMSw3MTgyMDAw
-NjgsMTc4MTA2MDMxMywxMTUzNTI0OTA5LC0xMzc1ODcwMjczLC
-0xNzA5MzkzOTI4LDgxMTYzNzE3Nyw5OTYyNDE2MjYsLTI3OTA0
-MjAxNF19
+eyJoaXN0b3J5IjpbMTA0NTEzNDg3OSwtMTQ3ODIxNjkxLC05ND
+U0OTM4MzEsNzA0NDE4MzI2LDE2NzMzMjM3MTMsLTI5MTM3NDQy
+NCwtMTI2MjMxNTMyMyw4NzcyNjEyMywtNTA0MTA5NjY5LC02OD
+M1MzEwMjEsMTE4OTUxOTkxNCwxODU4MDcxMDExLDcxODIwMDA2
+OCwxNzgxMDYwMzEzLDExNTM1MjQ5MDksLTEzNzU4NzAyNzMsLT
+E3MDkzOTM5MjgsODExNjM3MTc3LDk5NjI0MTYyNiwtMjc5MDQy
+MDE0XX0=
 -->
