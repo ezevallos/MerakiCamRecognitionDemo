@@ -1,5 +1,5 @@
 # Table of contents
-1. [Introduction](#para1)
+1. [Introduc](#para1)
 2. [Lab 4: Reconocimiento de imágenes mediante un comando de voz.](#para4)
 
 <div id='para4'/>
@@ -395,11 +395,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NTQ5MzgzMSw3MDQ0MTgzMjYsMTY3Mz
-MyMzcxMywtMjkxMzc0NDI0LC0xMjYyMzE1MzIzLDg3NzI2MTIz
-LC01MDQxMDk2NjksLTY4MzUzMTAyMSwxMTg5NTE5OTE0LDE4NT
-gwNzEwMTEsNzE4MjAwMDY4LDE3ODEwNjAzMTMsMTE1MzUyNDkw
-OSwtMTM3NTg3MDI3MywtMTcwOTM5MzkyOCw4MTE2MzcxNzcsOT
-k2MjQxNjI2LC0yNzkwNDIwMTQsMTU4MDY5OTUzMCwtMTIwNTQz
-MzU0NF19
+eyJoaXN0b3J5IjpbMTY1ODM5MTcxNywtOTQ1NDkzODMxLDcwND
+QxODMyNiwxNjczMzIzNzEzLC0yOTEzNzQ0MjQsLTEyNjIzMTUz
+MjMsODc3MjYxMjMsLTUwNDEwOTY2OSwtNjgzNTMxMDIxLDExOD
+k1MTk5MTQsMTg1ODA3MTAxMSw3MTgyMDAwNjgsMTc4MTA2MDMx
+MywxMTUzNTI0OTA5LC0xMzc1ODcwMjczLC0xNzA5MzkzOTI4LD
+gxMTYzNzE3Nyw5OTYyNDE2MjYsLTI3OTA0MjAxNCwxNTgwNjk5
+NTMwXX0=
 -->
