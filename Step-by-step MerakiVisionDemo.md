@@ -382,10 +382,14 @@ $ heroku ps:scale web=1
 $ heroku open
 # Si todo ha salido bien hasta este punto, deberíamos ver una página que dice "Eureka"
 $ heroku logs --tail
-# Este comando nos permitirá 
+# Este comando nos permitirá ver los logs y hacer debugging y troubleshooting luego de desplegar la app.
 ```
+
+## Conectar con Dialogflow
+
+Una vez que hemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDc0NjE5MDEsMTY3MzMyMzcxMywtMj
+eyJoaXN0b3J5IjpbLTE3NzM3NzQyMDksMTY3MzMyMzcxMywtMj
 kxMzc0NDI0LC0xMjYyMzE1MzIzLDg3NzI2MTIzLC01MDQxMDk2
 NjksLTY4MzUzMTAyMSwxMTg5NTE5OTE0LDE4NTgwNzEwMTEsNz
 E4MjAwMDY4LDE3ODEwNjAzMTMsMTE1MzUyNDkwOSwtMTM3NTg3
