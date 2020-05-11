@@ -191,8 +191,10 @@ GitHub es un sistema de gestión de proyectos y control de versiones de código,
  1. Hemos accedido al repositorio donde podremos encontrar todos los scripts de automatización. Como lo mencionamos en el taller ETW: Network Programmability, **_GitHub_** es una plataforma y comunidad de práctica donde los desarrolladores archivan su código en la nube. Entre los ficheros, buscaremos el que lleva por nombre “**_get_dnac_devices.py_**” y accedemos a este.
 ![DNACAutoScriptGitHubRepo](https://i.ibb.co/mB9KdHy/DN-SB-14.png)
  2. En el fichero, buscamos la opción para visualizar el código en "_raw_".
+![DNACAutoScriptGitHubRaw](https://i.ibb.co/T8n7HQd/DN-SB-15.png)
+ 3. De esta forma podemos obtener la versión del código que podemos copiar (Ctrl – A y Ctrl – C) y pegar (Ctrl – V) al interpretador de Python de nuestra preferencia.
 
- 3. 
+ 4. En caso no contemos con un interpretador en nuestro entorno de desarrollo, podemos utilizar uno basado en web, un ejemplo es repl.it ([https://repl.it/@enaard/Python-3](https://repl.it/@enaard/Python-3)) donde podemos interpretar Python3. Pegamos el código que obtuvimos en el paso anterior. Este código se autentica en un **_DNA Center_**, y procede crear una tabla con los dispositivos que se encuentran conectados. Sin embargo, aún no contamos con el entorno necesario para el laboratorio. Este se implementará utilizando un **_Sandbox_**, que instanciaremos mediante un fichero llamado “**_env_lab.py_**”.
 
 [↑](#toc)
 <div id='para4'/>
@@ -588,11 +590,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MTI3OTgyMiwxNzgzOTgyODY1LDE4NT
-I5NTEzMiwyMzA5NTM5NTgsMTk5NTE1NDEzOCwyMDUwMjkxNjkz
-LC0yMDM5NTIxMTAyLDE1NTMxNzIyMDQsLTExMzM2MjQxOSwxNj
-QwMTAyMTY1LC0xMzE4MzA3MzcwLC02NjI3NDM3OTYsLTEyODY4
-NzAyNTEsLTEyODY4NzAyNTEsLTk1ODY3Mjg2MSw0NDcyMDk2Mj
-YsLTExMDg2Mjc1MjksMTA0NTEzNDg3OSwtMTQ3ODIxNjkxLC05
-NDU0OTM4MzFdfQ==
+eyJoaXN0b3J5IjpbLTE3MTIxNTYzNDcsMTY4MTI3OTgyMiwxNz
+gzOTgyODY1LDE4NTI5NTEzMiwyMzA5NTM5NTgsMTk5NTE1NDEz
+OCwyMDUwMjkxNjkzLC0yMDM5NTIxMTAyLDE1NTMxNzIyMDQsLT
+ExMzM2MjQxOSwxNjQwMTAyMTY1LC0xMzE4MzA3MzcwLC02NjI3
+NDM3OTYsLTEyODY4NzAyNTEsLTEyODY4NzAyNTEsLTk1ODY3Mj
+g2MSw0NDcyMDk2MjYsLTExMDg2Mjc1MjksMTA0NTEzNDg3OSwt
+MTQ3ODIxNjkxXX0=
 -->
