@@ -134,6 +134,7 @@ Para lograr que funcione nuestro script, debemos modificar la última línea que
 main(['-k','6bec40cf957de430a6f1f2baa056b99a4fac9ea0', '-o', 'DevNet Sandbox'])
 ```
 donde le estamos pasando los parámetros mencionados. En caso estemos corriendo el script para nuestra propia red, mantenemos los parámetros ‘-k’ y ‘-o’, y donde hemos colocado el API Key y el nombre de organización del Sandbox, ingresaremos la información obtenida en el paso 3 de la parte 2. Procedemos a correr el script.
+![
  2. Finalmente, obtenemos el resultado esperado, una lista de equipos que conforman la topología de red, junto con la información pertinente.
 
 [↑](#toc)
@@ -530,7 +531,7 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzk1MDk0OTIsMjA1MDI5MTY5MywtMj
+eyJoaXN0b3J5IjpbLTE0MjUyOTgyNzIsMjA1MDI5MTY5MywtMj
 AzOTUyMTEwMiwxNTUzMTcyMjA0LC0xMTMzNjI0MTksMTY0MDEw
 MjE2NSwtMTMxODMwNzM3MCwtNjYyNzQzNzk2LC0xMjg2ODcwMj
 UxLC0xMjg2ODcwMjUxLC05NTg2NzI4NjEsNDQ3MjA5NjI2LC0x
