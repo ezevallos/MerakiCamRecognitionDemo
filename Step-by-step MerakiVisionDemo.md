@@ -72,6 +72,7 @@ Para hacer más simple el proceso, se han establecido estados en los que se podr
 
 Adicionalmente, se puede filtrar basado en el escenario, dominio, y producto.
 
+3. Al ingresar al _Automation Exchange_, hacer click en el botón de _View all use cases_ para acceder a la biblioteca completa de casos de uso.
 
 [↑](#toc)
 <div id='para4'/>
@@ -467,11 +468,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MTUwMzMxOCwtNjYyNzQzNzk2LC0xMj
-g2ODcwMjUxLC0xMjg2ODcwMjUxLC05NTg2NzI4NjEsNDQ3MjA5
-NjI2LC0xMTA4NjI3NTI5LDEwNDUxMzQ4NzksLTE0NzgyMTY5MS
-wtOTQ1NDkzODMxLDcwNDQxODMyNiwxNjczMzIzNzEzLC0yOTEz
-NzQ0MjQsLTEyNjIzMTUzMjMsODc3MjYxMjMsLTUwNDEwOTY2OS
-wtNjgzNTMxMDIxLDExODk1MTk5MTQsMTg1ODA3MTAxMSw3MTgy
-MDAwNjhdfQ==
+eyJoaXN0b3J5IjpbLTE1MTg0MjU2MDgsLTY2Mjc0Mzc5NiwtMT
+I4Njg3MDI1MSwtMTI4Njg3MDI1MSwtOTU4NjcyODYxLDQ0NzIw
+OTYyNiwtMTEwODYyNzUyOSwxMDQ1MTM0ODc5LC0xNDc4MjE2OT
+EsLTk0NTQ5MzgzMSw3MDQ0MTgzMjYsMTY3MzMyMzcxMywtMjkx
+Mzc0NDI0LC0xMjYyMzE1MzIzLDg3NzI2MTIzLC01MDQxMDk2Nj
+ksLTY4MzUzMTAyMSwxMTg5NTE5OTE0LDE4NTgwNzEwMTEsNzE4
+MjAwMDY4XX0=
 -->
