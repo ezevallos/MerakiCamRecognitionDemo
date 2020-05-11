@@ -173,8 +173,12 @@ Para hacer más simple el proceso, se han establecido estados en los que se podr
 Adicionalmente, se puede filtrar basado en el escenario, dominio, y producto.
 
  1. Al ingresar al _Automation Exchange_, desplazarse hacia abajo hasta la sección de _Cisco Infraestructure_, pasar el cursor por encima del botón de **_Cisco DNA Center_** y dar click en el botón _‘see use cases’_ para acceder a la biblioteca de casos de uso de **_DNA-C_**.
+![DNACUseCases](https://i.ibb.co/Hg00kZq/DN-SB-10.png)
 
 ### Paso 3: Identificar el caso de uso para automatizar el listado de dispositivos conectados al DNA-C
+Dentro de _DevNet_ existe **_DevNet Code Exchange_**, que compendia repositorios de proyectos en _GitHub_ con los que podemos descubrir, aprender, construir y colaborar, de forma que podamos impulsar nuestro trabajo en plataformas, productos, APIs, y SDKs de Cisco.
+
+ 1. El caso de uso que utilizaremos lleva el nombre de “_Display device information from Cisco DNA Center_”. Hacemos click en el caso de uso.
 
 [↑](#toc)
 <div id='para4'/>
@@ -570,7 +574,7 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxOTMxMzQwNywxNzgzOTgyODY1LDE4NT
+eyJoaXN0b3J5IjpbMTU4NzQzMTI4OSwxNzgzOTgyODY1LDE4NT
 I5NTEzMiwyMzA5NTM5NTgsMTk5NTE1NDEzOCwyMDUwMjkxNjkz
 LC0yMDM5NTIxMTAyLDE1NTMxNzIyMDQsLTExMzM2MjQxOSwxNj
 QwMTAyMTY1LC0xMzE4MzA3MzcwLC02NjI3NDM3OTYsLTEyODY4
