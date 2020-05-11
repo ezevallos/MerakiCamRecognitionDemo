@@ -52,7 +52,8 @@ Aquí ([https://developer.cisco.com/codeexchange/](https://developer.cisco.com/c
 
 ## Contexto / Escenario
 **_Cisco Meraki_** es la solución de red gestionada en nube de **Cisco**. Ofrece un portafolio de productos de infraestructura de red que incluye Access points, Enterprise switches, routers e incluso cámaras. Su versátil modelo de gestión basado en nube permite administrar la topología desde cualquier lugar del mundo, y provisionar equipos con tan solo una conexión a internet, y una fuente de poder. Este caso de uso sirve para crear un inventario de la red de forma automatizada. En el día a día de un administrador de red, esta es una tarea muy común pues cada dispositivo tiene una dirección IP única, y estas pueden variar bien sea porque se asignan dinámicamente, o porque se realiza algún cambio en la topología. Realizar este proceso de forma repetitiva es simple, pero puede consumir tiempo y el error humano puede causar complicaciones. Este laboratorio utiliza las herramientas que nos ofrece **_Cisco DevNet_** para automatizar tareas frecuentes que realizan los ingenieros de red, en particular obtener un inventario de los equipos que conforman una topología **_Cisco Meraki_**. Se explica cómo navegar dentro de la plataforma de nuestra comunidad de práctica **_DevNet_** para realizarlo, haciendo uso solamente de un navegador web, del **_SandBox Meraki Always On_** en caso no contemos con una red propia **_Meraki_**, y de un interpretador de Python bien sea en el entorno local de desarrollo o en su defecto podemos utilizar uno basado en la web.
-![LabMerakihttps://i.ibb.co/31fNcwR/DM-CM-1.jpg
+![LabMerakiInventory](https://i.ibb.co/31fNcwR/DM-CM-1.jpg)
+
 
 [↑](#toc)
 <div id='para4'/>
@@ -448,11 +449,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMTg5MDI4MSwtOTU4NjcyODYxLDQ0Nz
-IwOTYyNiwtMTEwODYyNzUyOSwxMDQ1MTM0ODc5LC0xNDc4MjE2
-OTEsLTk0NTQ5MzgzMSw3MDQ0MTgzMjYsMTY3MzMyMzcxMywtMj
-kxMzc0NDI0LC0xMjYyMzE1MzIzLDg3NzI2MTIzLC01MDQxMDk2
-NjksLTY4MzUzMTAyMSwxMTg5NTE5OTE0LDE4NTgwNzEwMTEsNz
-E4MjAwMDY4LDE3ODEwNjAzMTMsMTE1MzUyNDkwOSwtMTM3NTg3
-MDI3M119
+eyJoaXN0b3J5IjpbLTEyODY4NzAyNTEsLTk1ODY3Mjg2MSw0ND
+cyMDk2MjYsLTExMDg2Mjc1MjksMTA0NTEzNDg3OSwtMTQ3ODIx
+NjkxLC05NDU0OTM4MzEsNzA0NDE4MzI2LDE2NzMzMjM3MTMsLT
+I5MTM3NDQyNCwtMTI2MjMxNTMyMyw4NzcyNjEyMywtNTA0MTA5
+NjY5LC02ODM1MzEwMjEsMTE4OTUxOTkxNCwxODU4MDcxMDExLD
+cxODIwMDA2OCwxNzgxMDYwMzEzLDExNTM1MjQ5MDksLTEzNzU4
+NzAyNzNdfQ==
 -->
