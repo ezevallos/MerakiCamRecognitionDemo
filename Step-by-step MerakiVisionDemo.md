@@ -65,7 +65,7 @@ DevNet Automation Exchange es una biblioteca donde encontraremos casos de uso do
 
  1. Abrir el navegador, acceder a [https://developer.cisco.com](https://developer.cisco.com), e ingresar con su cuenta.
 ![DevNetLogin](https://i.ibb.co/FbJ3SWt/DN-DM-1.png)
- 2. En la barra superior, dirigirse _Discover_ à _**Inspire**_  à _DevNet Automation Exchange._
+ 2. En la barra superior, dirigirse _Discover_ → **Inspire** → _DevNet Automation Exchange_.
  3. 
 
 [↑](#toc)
@@ -462,7 +462,7 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NTk4OTQ4NywtNjYyNzQzNzk2LC0xMj
+eyJoaXN0b3J5IjpbMTgxNDMwMjEyNSwtNjYyNzQzNzk2LC0xMj
 g2ODcwMjUxLC0xMjg2ODcwMjUxLC05NTg2NzI4NjEsNDQ3MjA5
 NjI2LC0xMTA4NjI3NTI5LDEwNDUxMzQ4NzksLTE0NzgyMTY5MS
 wtOTQ1NDkzODMxLDcwNDQxODMyNiwxNjczMzIzNzEzLC0yOTEz
