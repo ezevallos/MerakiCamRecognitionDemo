@@ -152,7 +152,7 @@ donde le estamos pasando los parámetros mencionados. En caso estemos corriendo 
 
 ## Contexto / Escenario
 **_Cisco Digital Network Architecture – Center (DNA Center)_** es la arquitectura de Cisco para redes empresariales. Proporciona un enfoque abierto, extensible e impulsado por software que hace que la red sea más simple de administrar y más ágil y receptiva a las necesidades del negocio. Este caso de uso sirve para tener visibilidad de los dispositivos conectados a la red de forma automatizada. En el día a día de un administrador de red, esta es una tarea muy común pues. Realizar este proceso de forma repetitiva es simple, pero puede consumir tiempo y el error humano puede causar complicaciones. Este laboratorio utiliza las herramientas que nos ofrece **_Cisco DevNet_** para automatizar tareas frecuentes que realizan los ingenieros de red, en particular . Se explica cómo navegar dentro de la plataforma de nuestra comunidad de práctica **_DevNet_** para realizarlo, haciendo uso solamente de un navegador web, de un **_SandBox Always On_** que invocamos directamente desde el código, y de un interpretador de Python bien sea en el entorno local de desarrollo o en su defecto podemos utilizar uno basado en la web.
-![DNAC-Python]([https://i.pinimg.com/originals/43/bc/17/43bc1772bd748f043cfd1bd7d91ec2c4.png](https://i.pinimg.com/originals/43/bc/17/43bc1772bd748f043cfd1bd7d91ec2c4.png)
+![DNAC-Python](https://i.pinimg.com/originals/43/bc/17/43bc1772bd748f043cfd1bd7d91ec2c4.png)
 
 
 
@@ -549,11 +549,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1Mjk1MTMyLDIzMDk1Mzk1OCwxOTk1MT
-U0MTM4LDIwNTAyOTE2OTMsLTIwMzk1MjExMDIsMTU1MzE3MjIw
-NCwtMTEzMzYyNDE5LDE2NDAxMDIxNjUsLTEzMTgzMDczNzAsLT
-Y2Mjc0Mzc5NiwtMTI4Njg3MDI1MSwtMTI4Njg3MDI1MSwtOTU4
-NjcyODYxLDQ0NzIwOTYyNiwtMTEwODYyNzUyOSwxMDQ1MTM0OD
-c5LC0xNDc4MjE2OTEsLTk0NTQ5MzgzMSw3MDQ0MTgzMjYsMTY3
-MzMyMzcxM119
+eyJoaXN0b3J5IjpbLTE4MTg0NjA4MzQsMTg1Mjk1MTMyLDIzMD
+k1Mzk1OCwxOTk1MTU0MTM4LDIwNTAyOTE2OTMsLTIwMzk1MjEx
+MDIsMTU1MzE3MjIwNCwtMTEzMzYyNDE5LDE2NDAxMDIxNjUsLT
+EzMTgzMDczNzAsLTY2Mjc0Mzc5NiwtMTI4Njg3MDI1MSwtMTI4
+Njg3MDI1MSwtOTU4NjcyODYxLDQ0NzIwOTYyNiwtMTEwODYyNz
+UyOSwxMDQ1MTM0ODc5LC0xNDc4MjE2OTEsLTk0NTQ5MzgzMSw3
+MDQ0MTgzMjZdfQ==
 -->
