@@ -212,7 +212,6 @@ GitHub es un sistema de gestión de proyectos y control de versiones de código,
 ![DNACAutoScriptReplIt](https://i.ibb.co/9p4F4Lv/DN-SB-25.png)
 Notamos en esta última captura de pantalla que los dispositivos son diferentes, pues se trata de un **_DNA Center_** distinto al primero. Pensemos en la posibilidad de tener muchos más clientes para los que deseamos obtener la misma información, y mediante una lógica básica podemos crear un script que nos entregue de forma automatizada los dispositivos de todos los **_DNA Center_** que podamos tener a nuestra disposición.
 
-
 [↑](#toc)
 <div id='para4'/>
 
@@ -607,11 +606,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU1NDE5MiwxNjU0NTY4NzgwLC03NjQwMT
-M1ODQsMTQwMDY4NzM1OCwxNjgxMjc5ODIyLDE3ODM5ODI4NjUs
-MTg1Mjk1MTMyLDIzMDk1Mzk1OCwxOTk1MTU0MTM4LDIwNTAyOT
-E2OTMsLTIwMzk1MjExMDIsMTU1MzE3MjIwNCwtMTEzMzYyNDE5
-LDE2NDAxMDIxNjUsLTEzMTgzMDczNzAsLTY2Mjc0Mzc5NiwtMT
-I4Njg3MDI1MSwtMTI4Njg3MDI1MSwtOTU4NjcyODYxLDQ0NzIw
-OTYyNl19
+eyJoaXN0b3J5IjpbMTEwMDAxMjM1MCw0NTU0MTkyLDE2NTQ1Nj
+g3ODAsLTc2NDAxMzU4NCwxNDAwNjg3MzU4LDE2ODEyNzk4MjIs
+MTc4Mzk4Mjg2NSwxODUyOTUxMzIsMjMwOTUzOTU4LDE5OTUxNT
+QxMzgsMjA1MDI5MTY5MywtMjAzOTUyMTEwMiwxNTUzMTcyMjA0
+LC0xMTMzNjI0MTksMTY0MDEwMjE2NSwtMTMxODMwNzM3MCwtNj
+YyNzQzNzk2LC0xMjg2ODcwMjUxLC0xMjg2ODcwMjUxLC05NTg2
+NzI4NjFdfQ==
 -->
