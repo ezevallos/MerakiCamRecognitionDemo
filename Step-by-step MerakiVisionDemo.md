@@ -201,7 +201,7 @@ GitHub es un sistema de gestión de proyectos y control de versiones de código,
  6. En el fichero, buscamos la opción para visualizar el código en “_raw_”.
 ![DNACAutoScriptGitHubRaw](https://i.ibb.co/pvHnTFB/DN-SB-19.png)
  7. De esta forma podemos obtener la versión del código que podemos copiar (Ctrl – A y Ctrl – C) y pegar (Ctrl – V) al interpretador de Python de nuestra preferencia.
-
+![DNACAutoScriptGitHubRawCode](https://i.ibb.co/NFyTFjs/DN-SB-20.png)
  8. 
 
 [↑](#toc)
@@ -598,7 +598,7 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MjIxODA5OSwxNDAwNjg3MzU4LDE2OD
+eyJoaXN0b3J5IjpbLTc2NDAxMzU4NCwxNDAwNjg3MzU4LDE2OD
 EyNzk4MjIsMTc4Mzk4Mjg2NSwxODUyOTUxMzIsMjMwOTUzOTU4
 LDE5OTUxNTQxMzgsMjA1MDI5MTY5MywtMjAzOTUyMTEwMiwxNT
 UzMTcyMjA0LC0xMTMzNjI0MTksMTY0MDEwMjE2NSwtMTMxODMw
