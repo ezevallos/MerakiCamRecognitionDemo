@@ -46,7 +46,6 @@ Aquí ([https://developer.cisco.com/codeexchange/](https://developer.cisco.com/c
 ### (Duración - 45 minutos)
 
 ## Objetivos
-
  - **Parte 1: Aprender a navegar en DevNet para encontrar recursos valiosos**
  - **Parte 2: Utilizar scripts de automatización para realizar pruebas y aprender**
 
@@ -56,15 +55,12 @@ Aquí ([https://developer.cisco.com/codeexchange/](https://developer.cisco.com/c
 [Video Corto sobre Meraki]((https://www.youtube.com/watch?v=xKEIVLYGWWA))
 
 ## Recursos requeridos
-Acceso a Internet
-Navegador web
+ - Acceso a Internet
+ - Navegador web
+ - Cuenta de **_Cisco DevNet_**
 
-<![if !supportLists]>· <![endif]>Cuenta de **_Cisco DevNet_**
-
-**Parte 1: Navegar por los recursos necesarios en DevNet**
-
-**Paso 1: Echamos un vistazo en DevNet Automation Exchange**
-
+## Parte 1: Navegar por los recursos necesarios en DevNet
+### Paso 1: Echamos un vistazo en DevNet Automation Exchange
 DevNet Automation Exchange es una biblioteca donde encontraremos casos de uso donde la programabilidad ha sido utilizada para automatizar tareas comunes en networking. La comunidad de desarrolladores de **_Cisco_** llamada **_DevNet_**, actualiza y crea continuamente código para inspirar a la comunidad a seguir desenvolviéndose en la creación de software orientado a las redes.
 
 Abrir el navegador, acceder a [https://developer.cisco.com](https://developer.cisco.com), e ingresar con su cuenta.
@@ -463,11 +459,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjI1Mzg4MzYsLTEyODY4NzAyNTEsLT
-EyODY4NzAyNTEsLTk1ODY3Mjg2MSw0NDcyMDk2MjYsLTExMDg2
-Mjc1MjksMTA0NTEzNDg3OSwtMTQ3ODIxNjkxLC05NDU0OTM4Mz
-EsNzA0NDE4MzI2LDE2NzMzMjM3MTMsLTI5MTM3NDQyNCwtMTI2
-MjMxNTMyMyw4NzcyNjEyMywtNTA0MTA5NjY5LC02ODM1MzEwMj
-EsMTE4OTUxOTkxNCwxODU4MDcxMDExLDcxODIwMDA2OCwxNzgx
-MDYwMzEzXX0=
+eyJoaXN0b3J5IjpbMTU3NjExMTkxOSwtMTI4Njg3MDI1MSwtMT
+I4Njg3MDI1MSwtOTU4NjcyODYxLDQ0NzIwOTYyNiwtMTEwODYy
+NzUyOSwxMDQ1MTM0ODc5LC0xNDc4MjE2OTEsLTk0NTQ5MzgzMS
+w3MDQ0MTgzMjYsMTY3MzMyMzcxMywtMjkxMzc0NDI0LC0xMjYy
+MzE1MzIzLDg3NzI2MTIzLC01MDQxMDk2NjksLTY4MzUzMTAyMS
+wxMTg5NTE5OTE0LDE4NTgwNzEwMTEsNzE4MjAwMDY4LDE3ODEw
+NjAzMTNdfQ==
 -->
