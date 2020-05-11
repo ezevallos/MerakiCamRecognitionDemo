@@ -129,6 +129,9 @@ En caso contemos con una red de Cisco Meraki, también podemos utilizar el scrip
 ### Paso 1: Ingresar el API Key y el nombre de la organización
 Para lograr que funcione nuestro script, debemos modificar la última línea que es la que se encarga de ejecutar el código en su integridad.
 
+ 1. Esta es “main(sys.argv[1:])”, la cual está pidiendo los argumentos API Key y Organization Name. Previamente obtuvimos esta información, y es por eso que reemplazaremos esta línea de código con
+“main(['-k','6bec40cf957de430a6f1f2baa056b99a4fac9ea0', '-o', 'DevNet Sandbox'])” donde le estamos pasando los parámetros mencionados. En caso estemos corriendo el script para nuestra propia red, mantenemos los parámetros ‘-k’ y ‘-o’, y donde hemos colocado el API Key y el nombre de organización del Sandbox, ingresaremos la información obtenida en el paso 3 de la parte 2. Procedemos a correr el script.
+
 
 [↑](#toc)
 <div id='para4'/>
@@ -524,11 +527,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODcwNTkzMTMsMjA1MDI5MTY5MywtMj
-AzOTUyMTEwMiwxNTUzMTcyMjA0LC0xMTMzNjI0MTksMTY0MDEw
-MjE2NSwtMTMxODMwNzM3MCwtNjYyNzQzNzk2LC0xMjg2ODcwMj
-UxLC0xMjg2ODcwMjUxLC05NTg2NzI4NjEsNDQ3MjA5NjI2LC0x
-MTA4NjI3NTI5LDEwNDUxMzQ4NzksLTE0NzgyMTY5MSwtOTQ1ND
-kzODMxLDcwNDQxODMyNiwxNjczMzIzNzEzLC0yOTEzNzQ0MjQs
-LTEyNjIzMTUzMjNdfQ==
+eyJoaXN0b3J5IjpbMjAwMTUzNzM2OCwyMDUwMjkxNjkzLC0yMD
+M5NTIxMTAyLDE1NTMxNzIyMDQsLTExMzM2MjQxOSwxNjQwMTAy
+MTY1LC0xMzE4MzA3MzcwLC02NjI3NDM3OTYsLTEyODY4NzAyNT
+EsLTEyODY4NzAyNTEsLTk1ODY3Mjg2MSw0NDcyMDk2MjYsLTEx
+MDg2Mjc1MjksMTA0NTEzNDg3OSwtMTQ3ODIxNjkxLC05NDU0OT
+M4MzEsNzA0NDE4MzI2LDE2NzMzMjM3MTMsLTI5MTM3NDQyNCwt
+MTI2MjMxNTMyM119
 -->
