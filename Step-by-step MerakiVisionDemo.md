@@ -118,7 +118,7 @@ Meraki Dashboard API es una interfaz para que el software interactúe directamen
 ![SandBox Meraki Always-On Dashboard](https://i.ibb.co/FsHjc6x/DN-SB-6.png)
 ![SandBox Meraki Always-On DashboardAccess](https://i.ibb.co/RS4RHTT/DN-SB-7.png)
  2. Para encontrar el nombre de la organización, nos dirigimos a _Organization_ → _Configure_ → _Settings_ encontraremos que el primer campo nos provee el nombre “_DevNet Sandbox_”.
-
+![SandBox Meraki Always-On Dashboard Orgs](https://i.ibb.co/dBzG7Wy/DN-SB-8.png)
  3. 
 
 [↑](#toc)
@@ -515,11 +515,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTg4MTE0OTMsLTIwMzk1MjExMDIsMT
-U1MzE3MjIwNCwtMTEzMzYyNDE5LDE2NDAxMDIxNjUsLTEzMTgz
-MDczNzAsLTY2Mjc0Mzc5NiwtMTI4Njg3MDI1MSwtMTI4Njg3MD
-I1MSwtOTU4NjcyODYxLDQ0NzIwOTYyNiwtMTEwODYyNzUyOSwx
-MDQ1MTM0ODc5LC0xNDc4MjE2OTEsLTk0NTQ5MzgzMSw3MDQ0MT
-gzMjYsMTY3MzMyMzcxMywtMjkxMzc0NDI0LC0xMjYyMzE1MzIz
-LDg3NzI2MTIzXX0=
+eyJoaXN0b3J5IjpbMTMxODE5NDM0MiwtMjAzOTUyMTEwMiwxNT
+UzMTcyMjA0LC0xMTMzNjI0MTksMTY0MDEwMjE2NSwtMTMxODMw
+NzM3MCwtNjYyNzQzNzk2LC0xMjg2ODcwMjUxLC0xMjg2ODcwMj
+UxLC05NTg2NzI4NjEsNDQ3MjA5NjI2LC0xMTA4NjI3NTI5LDEw
+NDUxMzQ4NzksLTE0NzgyMTY5MSwtOTQ1NDkzODMxLDcwNDQxOD
+MyNiwxNjczMzIzNzEzLC0yOTEzNzQ0MjQsLTEyNjIzMTUzMjMs
+ODc3MjYxMjNdfQ==
 -->
