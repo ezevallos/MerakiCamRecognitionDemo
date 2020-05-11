@@ -143,12 +143,16 @@ donde le estamos pasando los parámetros mencionados. En caso estemos corriendo 
 <div id='para2'/>
 # Lab: Mostrar información de los dispositivos de una red conectados a un DNA-Center
 
+### (Duración - 45 minutos)
+
 ## Objetivos
 
  - **Parte 1: Aprender a navegar en DevNet para encontrar recursos valiosos**
  - **Parte 2: Utilizar scripts de automatización para realizar pruebas y aprender**
 
 ## Contexto / Escenario
+**_Cisco Digital Network Architecture – Center (DNA Center)_** es la arquitectura de Cisco para redes empresariales. Proporciona un enfoque abierto, extensible e impulsado por software que hace que la red sea más simple de administrar y más ágil y receptiva a las necesidades del negocio. Este caso de uso sirve para tener visibilidad de los dispositivos conectados a la red de forma automatizada. En el día a día de un administrador de red, esta es una tarea muy común pues. Realizar este proceso de forma repetitiva es simple, pero puede consumir tiempo y el error humano puede causar complicaciones. Este laboratorio utiliza las herramientas que nos ofrece **_Cisco DevNet_** para automatizar tareas frecuentes que realizan los ingenieros de red, en particular . Se explica cómo navegar dentro de la plataforma de nuestra comunidad de práctica **_DevNet_** para realizarlo, haciendo uso solamente de un navegador web, de un **_SandBox Always On_** que invocamos directamente desde el código, y de un interpretador de Python bien sea en el entorno local de desarrollo o en su defecto podemos utilizar uno basado en la web.
+
 
 <div id='para4'/>
 
@@ -543,11 +547,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzOTQ1NzExMiwyMzA5NTM5NTgsMTk5NT
-E1NDEzOCwyMDUwMjkxNjkzLC0yMDM5NTIxMTAyLDE1NTMxNzIy
-MDQsLTExMzM2MjQxOSwxNjQwMTAyMTY1LC0xMzE4MzA3MzcwLC
-02NjI3NDM3OTYsLTEyODY4NzAyNTEsLTEyODY4NzAyNTEsLTk1
-ODY3Mjg2MSw0NDcyMDk2MjYsLTExMDg2Mjc1MjksMTA0NTEzND
-g3OSwtMTQ3ODIxNjkxLC05NDU0OTM4MzEsNzA0NDE4MzI2LDE2
-NzMzMjM3MTNdfQ==
+eyJoaXN0b3J5IjpbNjMxMzkyOTQ1LDIzMDk1Mzk1OCwxOTk1MT
+U0MTM4LDIwNTAyOTE2OTMsLTIwMzk1MjExMDIsMTU1MzE3MjIw
+NCwtMTEzMzYyNDE5LDE2NDAxMDIxNjUsLTEzMTgzMDczNzAsLT
+Y2Mjc0Mzc5NiwtMTI4Njg3MDI1MSwtMTI4Njg3MDI1MSwtOTU4
+NjcyODYxLDQ0NzIwOTYyNiwtMTEwODYyNzUyOSwxMDQ1MTM0OD
+c5LC0xNDc4MjE2OTEsLTk0NTQ5MzgzMSw3MDQ0MTgzMjYsMTY3
+MzMyMzcxM119
 -->
