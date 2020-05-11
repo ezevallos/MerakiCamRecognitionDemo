@@ -102,7 +102,6 @@ GitHub es un sistema de gestión de proyectos y control de versiones de código,
 ## Parte 2: Utilizar el SandBox Meraki Always On
 ### Paso 1: Acceder y utilizar el SandBox Meraki Always On
 **_DevNet_** nos provee muchos SandBoxes. Estos son entornos virtuales que emulan equipos físicos o redes donde podemos aprender a realizar configuraciones como la que intentamos efectuar. En este caso en particular, haremos uso del **_SandBox Meraki Always On_** que nos permite recrear una topología de red de **_Cisco Meraki_** en caso no contemos con una para realizar el laboratorio.
-
  1. Regresamos a la página principal de **_Cisco DevNet_** y navegamos a _Discover_ à _**Code**_ à _Sandbox Remote Labs_ donde encontraremos más información acerca de los Sandbox. Cómo utilizarlos, si se trata de un _Sandbox_ que siempre se encuentra activo, o si es necesario reservarlo por cierta cantidad de tiempo, caso en el que además debemos esperar cierto tiempo para que _DevNet_ prepare los recursos que utilizaremos. Es importante mencionar que todos los recursos que encontraremos en _DevNet_ son totalmente libres para los miembros de nuestra comunidad. Para acceder, debemos crearnos una cuenta, o utilizar nuestro Cisco ID en caso ya contemos con uno. Los alumnos de Cisco Networking Academy tienen una pre-cuenta de _DevNet_ utilizando sus credenciales NetAcad.
 ![DevNet Sandbox](https://i.ibb.co/Lrf0X6y/DN-SB.png)
  2. Aquí encontraremos la respuesta a muchas preguntas acerca de estos entornos virtuales, donde desarrolladores, ingenieros, administradores de red, arquitectos, y todos podemos desarrollar y probar las APIs, controladoras, equipos de red y suites de colaboración de Cisco.  Podremos correr nuestro código en infraestructura que se encuentra activa 24/7, en una variedad de laboratorios de acceso libre, y escoger entre entornos virtualizados, simuladores, e infraestructura física. Nos dirigimos al catálogo completo haciendo click en “_View all Sandboxes_”.
@@ -113,6 +112,9 @@ GitHub es un sistema de gestión de proyectos y control de versiones de código,
  4. Encontraremos tres _Sandboxes_ de **_Meraki_**, el que utilizaremos se llama “**_Meraki Always On_**” y se trata de una red de prueba **_Meraki_** a la que podemos acceder en cualquier momento para realizar pruebas. En este _Sandbox_ podemos encontrar los detalles importantes que nos faltan para que el script funcione correctamente. En primer lugar, las credenciales de acceso al Dashboard API, Username: [devnetmeraki@cisco.com](mailto:devnetmeraki@cisco.com), Password: ilovemeraki, y por otro lado, el API Key que utilizaremos es 6bec40cf957de430a6f1f2baa056b99a4fac9ea0.
 ![SandBox Meraki Always-On Overview](https://i.ibb.co/zfKNwzv/DN-SB-5.png)
 
+### Paso 2: Acceder al Dashboard API de Meraki
+Meraki Dashboard API es una interfaz para que el software interactúe directamente con la plataforma en la nube de Meraki y los dispositivos administrados por Meraki.
+ 1. Luego, nos dirigimos a [http://dashboard.meraki.com/](http://dashboard.meraki.com/) donde encontraremos el último detalle que nos falta, el nombre de la organización. Damos click en “Log in to personal account” e ingresamos las credenciales que nos otorga el Sandbox.
 
 [↑](#toc)
 <div id='para4'/>
@@ -508,7 +510,7 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTYwNTUxMSwtMTEzMzYyNDE5LDE2ND
+eyJoaXN0b3J5IjpbLTE3NjA0MTIxMiwtMTEzMzYyNDE5LDE2ND
 AxMDIxNjUsLTEzMTgzMDczNzAsLTY2Mjc0Mzc5NiwtMTI4Njg3
 MDI1MSwtMTI4Njg3MDI1MSwtOTU4NjcyODYxLDQ0NzIwOTYyNi
 wtMTEwODYyNzUyOSwxMDQ1MTM0ODc5LC0xNDc4MjE2OTEsLTk0
