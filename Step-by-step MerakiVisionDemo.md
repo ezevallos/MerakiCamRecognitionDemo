@@ -47,6 +47,13 @@ Aquí ([https://developer.cisco.com/codeexchange/](https://developer.cisco.com/c
 
 ## Objetivos
 
+ - **Parte 1: Aprender a navegar en DevNet para encontrar recursos valiosos**
+ - **Parte 2: Utilizar scripts de automatización para realizar pruebas y aprender**
+
+## Contexto / Escenario
+**_Cisco Meraki_** es la solución de red gestionada en nube de **Cisco**. Ofrece un portafolio de productos de infraestructura de red que incluye Access points, Enterprise switches, routers e incluso cámaras. Su versátil modelo de gestión basado en nube permite administrar la topología desde cualquier lugar del mundo, y provisionar equipos con tan solo una conexión a internet, y una fuente de poder. Este caso de uso sirve para crear un inventario de la red de forma automatizada. En el día a día de un administrador de red, esta es una tarea muy común pues cada dispositivo tiene una dirección IP única, y estas pueden variar bien sea porque se asignan dinámicamente, o porque se realiza algún cambio en la topología. Realizar este proceso de forma repetitiva es simple, pero puede consumir tiempo y el error humano puede causar complicaciones. Este laboratorio utiliza las herramientas que nos ofrece **_Cisco DevNet_** para automatizar tareas frecuentes que realizan los ingenieros de red, en particular obtener un inventario de los equipos que conforman una topología **_Cisco Meraki_**. Se explica cómo navegar dentro de la plataforma de nuestra comunidad de práctica **_DevNet_** para realizarlo, haciendo uso solamente de un navegador web, del **_SandBox Meraki Always On_** en caso no contemos con una red propia **_Meraki_**, y de un interpretador de Python bien sea en el entorno local de desarrollo o en su defecto podemos utilizar uno basado en la web.
+
+
 [↑](#toc)
 <div id='para4'/>
 
@@ -441,7 +448,7 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MzQxODUyOSw0NDcyMDk2MjYsLTExMD
+eyJoaXN0b3J5IjpbLTk1ODY3Mjg2MSw0NDcyMDk2MjYsLTExMD
 g2Mjc1MjksMTA0NTEzNDg3OSwtMTQ3ODIxNjkxLC05NDU0OTM4
 MzEsNzA0NDE4MzI2LDE2NzMzMjM3MTMsLTI5MTM3NDQyNCwtMT
 I2MjMxNTMyMyw4NzcyNjEyMywtNTA0MTA5NjY5LC02ODM1MzEw
