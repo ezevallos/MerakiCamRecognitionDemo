@@ -172,7 +172,7 @@ Para hacer más simple el proceso, se han establecido estados en los que se podr
 
 Adicionalmente, se puede filtrar basado en el escenario, dominio, y producto.
 
-
+[↑](#toc)
 <div id='para4'/>
 
 # Lab: Reconocimiento de imágenes mediante un comando de voz. Utilice las *APIs* de *Cisco Meraki*, *Imagga* y *Google Actions* para analizar la captura de una cámara de Meraki, mediante un comando de voz en un dispositivo *Android* con *Google Assistant* 
@@ -566,7 +566,7 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1Mjc0MTg4NywxODUyOTUxMzIsMjMwOT
+eyJoaXN0b3J5IjpbMTc3MzU2Nzg4NCwxODUyOTUxMzIsMjMwOT
 UzOTU4LDE5OTUxNTQxMzgsMjA1MDI5MTY5MywtMjAzOTUyMTEw
 MiwxNTUzMTcyMjA0LC0xMTMzNjI0MTksMTY0MDEwMjE2NSwtMT
 MxODMwNzM3MCwtNjYyNzQzNzk2LC0xMjg2ODcwMjUxLC0xMjg2
