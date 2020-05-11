@@ -103,7 +103,10 @@ GitHub es un sistema de gestión de proyectos y control de versiones de código,
 ### Paso 1: Acceder y utilizar el SandBox Meraki Always On
 **_DevNet_** nos provee muchos SandBoxes. Estos son entornos virtuales que emulan equipos físicos o redes donde podemos aprender a realizar configuraciones como la que intentamos efectuar. En este caso en particular, haremos uso del **_SandBox Meraki Always On_** que nos permite recrear una topología de red de **_Cisco Meraki_** en caso no contemos con una para realizar el laboratorio.
 
- 1. List item
+ 1. Regresamos a la página principal de **_Cisco DevNet_** y navegamos a _Discover_ à _**Code**_ à _Sandbox Remote Labs_ donde encontraremos más información acerca de los Sandbox. Cómo utilizarlos, si se trata de un _Sandbox_ que siempre se encuentra activo, o si es necesario reservarlo por cierta cantidad de tiempo, caso en el que además debemos esperar cierto tiempo para que _DevNet_ prepare los recursos que utilizaremos. Es importante mencionar que todos los recursos que encontraremos en _DevNet_ son totalmente libres para los miembros de nuestra comunidad. Para acceder, debemos crearnos una cuenta, o utilizar nuestro Cisco ID en caso ya contemos con uno. Los alumnos de Cisco Networking Academy tienen una pre-cuenta de _DevNet_ utilizando sus credenciales NetAcad.
+![DevNet Sandbox](https://i.ibb.co/Lrf0X6y/DN-SB.png)
+ 2. Aquí encontraremos la respuesta a muchas preguntas acerca de estos entornos virtuales, donde desarrolladores, ingenieros, administradores de red, arquitectos, y todos podemos desarrollar y probar las APIs, controladoras, equipos de red y suites de colaboración de Cisco.  Podremos correr nuestro código en infraestructura que se encuentra activa 24/7, en una variedad de laboratorios de acceso libre, y escoger entre entornos virtualizados, simuladores, e infraestructura física. Nos dirigimos al catálogo completo haciendo click en “_View all Sandboxes_”.
+
 
 [↑](#toc)
 <div id='para4'/>
@@ -499,7 +502,7 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNzk0NDI4NywxNjQwMTAyMTY1LC0xMz
+eyJoaXN0b3J5IjpbLTg3MDgyNDIxMCwxNjQwMTAyMTY1LC0xMz
 E4MzA3MzcwLC02NjI3NDM3OTYsLTEyODY4NzAyNTEsLTEyODY4
 NzAyNTEsLTk1ODY3Mjg2MSw0NDcyMDk2MjYsLTExMDg2Mjc1Mj
 ksMTA0NTEzNDg3OSwtMTQ3ODIxNjkxLC05NDU0OTM4MzEsNzA0
