@@ -13,13 +13,10 @@ Aquí ([https://developer.cisco.com/startnow/](https://developer.cisco.com/start
 ![DevNetStartNow](https://i.ibb.co/BCqvtR7/DN-IN-2.png)
 
 ## Learning Tracks
-<![endif]-->
-
 Aquí ([https://developer.cisco.com/learning/tracks](https://developer.cisco.com/learning/tracks)) encontraremos una ruta guiada de aprendizaje en tecnologías de Cisco selectas. Están basadas en los DevNet Learning Labs, un track está conformado por módulos, que a su vez están conformados por los learning labs. Algunos módulos se enfocan en conocimientos generales de programación, redes y otros temas.
 
-<![if !supportLists]>· <![endif]>[https://developer.cisco.com/learning/modules](https://developer.cisco.com/learning/modules)
-
-<![if !supportLists]>· <![endif]>[https://developer.cisco.com/learning/labs](https://developer.cisco.com/learning/labs)
+ - [https://developer.cisco.com/learning/modules](https://developer.cisco.com/learning/modules)
+ - [https://developer.cisco.com/learning/labs](https://developer.cisco.com/learning/labs)
 
 <div id='para4'/>
 
@@ -414,11 +411,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjE3OTY5MjMsMTA0NTEzNDg3OSwtMT
-Q3ODIxNjkxLC05NDU0OTM4MzEsNzA0NDE4MzI2LDE2NzMzMjM3
-MTMsLTI5MTM3NDQyNCwtMTI2MjMxNTMyMyw4NzcyNjEyMywtNT
-A0MTA5NjY5LC02ODM1MzEwMjEsMTE4OTUxOTkxNCwxODU4MDcx
-MDExLDcxODIwMDA2OCwxNzgxMDYwMzEzLDExNTM1MjQ5MDksLT
-EzNzU4NzAyNzMsLTE3MDkzOTM5MjgsODExNjM3MTc3LDk5NjI0
-MTYyNl19
+eyJoaXN0b3J5IjpbMTE3MjkzMjc0OCwxMDQ1MTM0ODc5LC0xND
+c4MjE2OTEsLTk0NTQ5MzgzMSw3MDQ0MTgzMjYsMTY3MzMyMzcx
+MywtMjkxMzc0NDI0LC0xMjYyMzE1MzIzLDg3NzI2MTIzLC01MD
+QxMDk2NjksLTY4MzUzMTAyMSwxMTg5NTE5OTE0LDE4NTgwNzEw
+MTEsNzE4MjAwMDY4LDE3ODEwNjAzMTMsMTE1MzUyNDkwOSwtMT
+M3NTg3MDI3MywtMTcwOTM5MzkyOCw4MTE2MzcxNzcsOTk2MjQx
+NjI2XX0=
 -->
