@@ -111,6 +111,7 @@ GitHub es un sistema de gestión de proyectos y control de versiones de código,
  3. El catálogo cuenta con 70 _Sandboxes_ distintos. Para filtrar, podemos hacerlo por tipo, por categoría, por status, o podemos simplemente hacer click en la búsqueda, y tipeamos la palabra “**_Meraki_**” para encontrar el que vamos a usar.
 ![Sandbox Meraki Always-On](https://i.ibb.co/MfcwkGM/DN-SB-4.png)
  4. Encontraremos tres _Sandboxes_ de **_Meraki_**, el que utilizaremos se llama “**_Meraki Always On_**” y se trata de una red de prueba **_Meraki_** a la que podemos acceder en cualquier momento para realizar pruebas. En este _Sandbox_ podemos encontrar los detalles importantes que nos faltan para que el script funcione correctamente. En primer lugar, las credenciales de acceso al Dashboard API, Username: [devnetmeraki@cisco.com](mailto:devnetmeraki@cisco.com), Password: ilovemeraki, y por otro lado, el API Key que utilizaremos es 6bec40cf957de430a6f1f2baa056b99a4fac9ea0.
+![SandBox Meraki Always-On Overview](https://i.ibb.co/zfKNwzv/DN-SB-5.png)
 
 
 [↑](#toc)
@@ -507,11 +508,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzM2MjQxOSwxNjQwMTAyMTY1LC0xMz
-E4MzA3MzcwLC02NjI3NDM3OTYsLTEyODY4NzAyNTEsLTEyODY4
-NzAyNTEsLTk1ODY3Mjg2MSw0NDcyMDk2MjYsLTExMDg2Mjc1Mj
-ksMTA0NTEzNDg3OSwtMTQ3ODIxNjkxLC05NDU0OTM4MzEsNzA0
-NDE4MzI2LDE2NzMzMjM3MTMsLTI5MTM3NDQyNCwtMTI2MjMxNT
-MyMyw4NzcyNjEyMywtNTA0MTA5NjY5LC02ODM1MzEwMjEsMTE4
-OTUxOTkxNF19
+eyJoaXN0b3J5IjpbLTE2MTYwNTUxMSwtMTEzMzYyNDE5LDE2ND
+AxMDIxNjUsLTEzMTgzMDczNzAsLTY2Mjc0Mzc5NiwtMTI4Njg3
+MDI1MSwtMTI4Njg3MDI1MSwtOTU4NjcyODYxLDQ0NzIwOTYyNi
+wtMTEwODYyNzUyOSwxMDQ1MTM0ODc5LC0xNDc4MjE2OTEsLTk0
+NTQ5MzgzMSw3MDQ0MTgzMjYsMTY3MzMyMzcxMywtMjkxMzc0ND
+I0LC0xMjYyMzE1MzIzLDg3NzI2MTIzLC01MDQxMDk2NjksLTY4
+MzUzMTAyMV19
 -->
