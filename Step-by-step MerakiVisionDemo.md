@@ -197,7 +197,7 @@ GitHub es un sistema de gestión de proyectos y control de versiones de código,
  4. En caso no contemos con un interpretador en nuestro entorno de desarrollo, podemos utilizar uno basado en web, un ejemplo es repl.it ([https://repl.it/@enaard/Python-3](https://repl.it/@enaard/Python-3)) donde podemos interpretar Python3. Pegamos el código que obtuvimos en el paso anterior. Este código se autentica en un **_DNA Center_**, y procede crear una tabla con los dispositivos que se encuentran conectados. Sin embargo, aún no contamos con el entorno necesario para el laboratorio. Este se implementará utilizando un **_Sandbox_**, que instanciaremos mediante un fichero llamado “**_env_lab.py_**”.
 ![DNACAutoScriptReplIt](https://i.ibb.co/z2LH5Wx/DN-SB-17.png)
  5. Volvemos al repositorio de **Github** y esta vez buscamos el fichero llamado “**_env_lab.py_**”.
-
+![DNACAutoScriptGitHub](https://i.ibb.co/2sZttcq/DN-SB-18.png)
  6. 
 
 [↑](#toc)
@@ -594,11 +594,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1NTYyNDY5LDE0MDA2ODczNTgsMTY4MT
-I3OTgyMiwxNzgzOTgyODY1LDE4NTI5NTEzMiwyMzA5NTM5NTgs
-MTk5NTE1NDEzOCwyMDUwMjkxNjkzLC0yMDM5NTIxMTAyLDE1NT
-MxNzIyMDQsLTExMzM2MjQxOSwxNjQwMTAyMTY1LC0xMzE4MzA3
-MzcwLC02NjI3NDM3OTYsLTEyODY4NzAyNTEsLTEyODY4NzAyNT
-EsLTk1ODY3Mjg2MSw0NDcyMDk2MjYsLTExMDg2Mjc1MjksMTA0
-NTEzNDg3OV19
+eyJoaXN0b3J5IjpbLTE0NTkzOTg2MTEsMTQwMDY4NzM1OCwxNj
+gxMjc5ODIyLDE3ODM5ODI4NjUsMTg1Mjk1MTMyLDIzMDk1Mzk1
+OCwxOTk1MTU0MTM4LDIwNTAyOTE2OTMsLTIwMzk1MjExMDIsMT
+U1MzE3MjIwNCwtMTEzMzYyNDE5LDE2NDAxMDIxNjUsLTEzMTgz
+MDczNzAsLTY2Mjc0Mzc5NiwtMTI4Njg3MDI1MSwtMTI4Njg3MD
+I1MSwtOTU4NjcyODYxLDQ0NzIwOTYyNiwtMTEwODYyNzUyOSwx
+MDQ1MTM0ODc5XX0=
 -->
