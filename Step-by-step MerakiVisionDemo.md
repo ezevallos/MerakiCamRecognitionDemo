@@ -134,7 +134,7 @@ Para lograr que funcione nuestro script, debemos modificar la última línea que
 main(['-k','6bec40cf957de430a6f1f2baa056b99a4fac9ea0', '-o', 'DevNet Sandbox'])
 ```
 donde le estamos pasando los parámetros mencionados. En caso estemos corriendo el script para nuestra propia red, mantenemos los parámetros ‘-k’ y ‘-o’, y donde hemos colocado el API Key y el nombre de organización del Sandbox, ingresaremos la información obtenida en el paso 3 de la parte 2. Procedemos a correr el script.
-![
+![SandBoxMerakiAlways-OnReplIt](https://i.ibb.co/stRg3jP/DN-SB-9.png)
  2. Finalmente, obtenemos el resultado esperado, una lista de equipos que conforman la topología de red, junto con la información pertinente.
 
 [↑](#toc)
@@ -531,11 +531,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjUyOTgyNzIsMjA1MDI5MTY5MywtMj
-AzOTUyMTEwMiwxNTUzMTcyMjA0LC0xMTMzNjI0MTksMTY0MDEw
-MjE2NSwtMTMxODMwNzM3MCwtNjYyNzQzNzk2LC0xMjg2ODcwMj
-UxLC0xMjg2ODcwMjUxLC05NTg2NzI4NjEsNDQ3MjA5NjI2LC0x
-MTA4NjI3NTI5LDEwNDUxMzQ4NzksLTE0NzgyMTY5MSwtOTQ1ND
-kzODMxLDcwNDQxODMyNiwxNjczMzIzNzEzLC0yOTEzNzQ0MjQs
-LTEyNjIzMTUzMjNdfQ==
+eyJoaXN0b3J5IjpbMTk5NTE1NDEzOCwyMDUwMjkxNjkzLC0yMD
+M5NTIxMTAyLDE1NTMxNzIyMDQsLTExMzM2MjQxOSwxNjQwMTAy
+MTY1LC0xMzE4MzA3MzcwLC02NjI3NDM3OTYsLTEyODY4NzAyNT
+EsLTEyODY4NzAyNTEsLTk1ODY3Mjg2MSw0NDcyMDk2MjYsLTEx
+MDg2Mjc1MjksMTA0NTEzNDg3OSwtMTQ3ODIxNjkxLC05NDU0OT
+M4MzEsNzA0NDE4MzI2LDE2NzMzMjM3MTMsLTI5MTM3NDQyNCwt
+MTI2MjMxNTMyM119
 -->
