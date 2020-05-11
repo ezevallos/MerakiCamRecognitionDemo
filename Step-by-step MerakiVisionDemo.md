@@ -186,7 +186,9 @@ Dentro de _DevNet_ existe **_DevNet Code Exchange_**, que compendia repositorios
 ![DNACUseCaseGitHubCodeExchange](https://i.ibb.co/Vq2HHqZ/DN-SB-13.png)
 
 ### Paso 4: Acceder y utilizar el repositorio en GitHub
+GitHub es un sistema de gestión de proyectos y control de versiones de código, así como una plataforma de red social diseñada para desarrolladores. Permite trabajar en colaboración con otras personas de todo el mundo, planificar proyectos y realizar un seguimiento del trabajo.
 
+ 1. Hemos accedido al repositorio donde podremos encontrar todos los scripts de automatización. Como lo mencionamos en el taller ETW: Network Programmability, **_GitHub_** es una plataforma y comunidad de práctica donde los desarrolladores archivan su código en la nube. Entre los ficheros, buscaremos el que lleva por nombre “**_get_dnac_devices.py_**” y accedemos a este.
 
 [↑](#toc)
 <div id='para4'/>
@@ -582,11 +584,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAxMzIwMjc1LDE3ODM5ODI4NjUsMTg1Mj
-k1MTMyLDIzMDk1Mzk1OCwxOTk1MTU0MTM4LDIwNTAyOTE2OTMs
-LTIwMzk1MjExMDIsMTU1MzE3MjIwNCwtMTEzMzYyNDE5LDE2ND
-AxMDIxNjUsLTEzMTgzMDczNzAsLTY2Mjc0Mzc5NiwtMTI4Njg3
-MDI1MSwtMTI4Njg3MDI1MSwtOTU4NjcyODYxLDQ0NzIwOTYyNi
-wtMTEwODYyNzUyOSwxMDQ1MTM0ODc5LC0xNDc4MjE2OTEsLTk0
-NTQ5MzgzMV19
+eyJoaXN0b3J5IjpbMTM5MjcwNDQwMSwxNzgzOTgyODY1LDE4NT
+I5NTEzMiwyMzA5NTM5NTgsMTk5NTE1NDEzOCwyMDUwMjkxNjkz
+LC0yMDM5NTIxMTAyLDE1NTMxNzIyMDQsLTExMzM2MjQxOSwxNj
+QwMTAyMTY1LC0xMzE4MzA3MzcwLC02NjI3NDM3OTYsLTEyODY4
+NzAyNTEsLTEyODY4NzAyNTEsLTk1ODY3Mjg2MSw0NDcyMDk2Mj
+YsLTExMDg2Mjc1MjksMTA0NTEzNDg3OSwtMTQ3ODIxNjkxLC05
+NDU0OTM4MzFdfQ==
 -->
