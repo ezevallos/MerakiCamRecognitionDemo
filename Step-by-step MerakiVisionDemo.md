@@ -172,6 +172,8 @@ Para hacer más simple el proceso, se han establecido estados en los que se podr
 
 Adicionalmente, se puede filtrar basado en el escenario, dominio, y producto.
 
+ 1. Al ingresar al _Automation Exchange_, desplazarse hacia abajo hasta la sección de _Cisco Infraestructure_, pasar el cursor por encima del botón de **_Cisco DNA Center_** y dar click en el botón _‘see use cases’_ para acceder a la biblioteca de casos de uso de **_DNA-C_**.
+
 [↑](#toc)
 <div id='para4'/>
 
@@ -566,7 +568,7 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MzU2Nzg4NCwxODUyOTUxMzIsMjMwOT
+eyJoaXN0b3J5IjpbMTc4Mzk4Mjg2NSwxODUyOTUxMzIsMjMwOT
 UzOTU4LDE5OTUxNTQxMzgsMjA1MDI5MTY5MywtMjAzOTUyMTEw
 MiwxNTUzMTcyMjA0LC0xMTMzNjI0MTksMTY0MDEwMjE2NSwtMT
 MxODMwNzM3MCwtNjYyNzQzNzk2LC0xMjg2ODcwMjUxLC0xMjg2
