@@ -206,8 +206,8 @@ GitHub es un sistema de gestión de proyectos y control de versiones de código,
 ![DNACAutoScriptReplIt](https://i.ibb.co/dKnpbSf/DN-SB-21.png)
  9. Habiendo establecido el entorno al que accederá nuestro fichero principal, volvemos a este, y lo ejecutamos. Observamos que luego de instalar los módulos necesarios para el correcto funcionamiento del script, este nos arroja una tabla en la que figura el host, la plataforma, el software que utiliza, la versión que se encuentra ejecutando, y el tiempo que tiene en marcha.
 ![DNACAutoScriptReplIt](https://i.ibb.co/y4jmShp/DN-SB-22.png)
-![DNACAutoScriptReplIt]()
- 10. 
+![DNACAutoScriptReplIt](https://i.ibb.co/d0mShXk/DN-SB-23.png)
+ 10. (Opcional) Este caso es particularmente útil pues podemos encontrar casos donde nuestro cliente cuenta con más de un **_DNA Center_**, o podemos contar con varios clientes, cada uno con su **_DNA Center_**. Podemos utilizar el mismo script cambiando sólo el entorno en el que se ejecuta. Para esto volvemos al fichero “**_env_lab.py_**”, y modificamos el nombre del **_Sandbox_** que se está utilizando. En lugar de que el script indique **_sandboxdnac.cisco.com_**, colocaremos un número 2 luego de “**_sandboxdnac_**”, de forma que figure **_sandboxdnac2.cisco.com_**. Corremos el script principal (**_get_dnac_devices.py_**) nuevamente, y observamos el resultado.
 
 [↑](#toc)
 <div id='para4'/>
@@ -603,7 +603,7 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MDAyNjYyMSwtNzY0MDEzNTg0LDE0MD
+eyJoaXN0b3J5IjpbMTY1NDU2ODc4MCwtNzY0MDEzNTg0LDE0MD
 A2ODczNTgsMTY4MTI3OTgyMiwxNzgzOTgyODY1LDE4NTI5NTEz
 MiwyMzA5NTM5NTgsMTk5NTE1NDEzOCwyMDUwMjkxNjkzLC0yMD
 M5NTIxMTAyLDE1NTMxNzIyMDQsLTExMzM2MjQxOSwxNjQwMTAy
