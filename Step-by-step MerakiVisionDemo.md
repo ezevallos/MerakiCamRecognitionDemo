@@ -106,6 +106,9 @@ GitHub es un sistema de gestión de proyectos y control de versiones de código,
  1. Regresamos a la página principal de **_Cisco DevNet_** y navegamos a _Discover_ à _**Code**_ à _Sandbox Remote Labs_ donde encontraremos más información acerca de los Sandbox. Cómo utilizarlos, si se trata de un _Sandbox_ que siempre se encuentra activo, o si es necesario reservarlo por cierta cantidad de tiempo, caso en el que además debemos esperar cierto tiempo para que _DevNet_ prepare los recursos que utilizaremos. Es importante mencionar que todos los recursos que encontraremos en _DevNet_ son totalmente libres para los miembros de nuestra comunidad. Para acceder, debemos crearnos una cuenta, o utilizar nuestro Cisco ID en caso ya contemos con uno. Los alumnos de Cisco Networking Academy tienen una pre-cuenta de _DevNet_ utilizando sus credenciales NetAcad.
 ![DevNet Sandbox](https://i.ibb.co/Lrf0X6y/DN-SB.png)
  2. Aquí encontraremos la respuesta a muchas preguntas acerca de estos entornos virtuales, donde desarrolladores, ingenieros, administradores de red, arquitectos, y todos podemos desarrollar y probar las APIs, controladoras, equipos de red y suites de colaboración de Cisco.  Podremos correr nuestro código en infraestructura que se encuentra activa 24/7, en una variedad de laboratorios de acceso libre, y escoger entre entornos virtualizados, simuladores, e infraestructura física. Nos dirigimos al catálogo completo haciendo click en “_View all Sandboxes_”.
+![All DevNet Sandboxes](https://i.ibb.co/hH8DkjN/DN-SB-2.png)
+![Buscador Sandboxes](https://i.ibb.co/jvBXdxS/DN-SB-3.png)
+ 3. El catálogo cuenta con 70 _Sandboxes_ distintos. Para filtrar, podemos hacerlo por tipo, por categoría, por status, o podemos simplemente hacer click en la búsqueda, y tipeamos la palabra “**_Meraki_**” para encontrar el que vamos a usar.
 
 
 [↑](#toc)
@@ -502,11 +505,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MDgyNDIxMCwxNjQwMTAyMTY1LC0xMz
-E4MzA3MzcwLC02NjI3NDM3OTYsLTEyODY4NzAyNTEsLTEyODY4
-NzAyNTEsLTk1ODY3Mjg2MSw0NDcyMDk2MjYsLTExMDg2Mjc1Mj
-ksMTA0NTEzNDg3OSwtMTQ3ODIxNjkxLC05NDU0OTM4MzEsNzA0
-NDE4MzI2LDE2NzMzMjM3MTMsLTI5MTM3NDQyNCwtMTI2MjMxNT
-MyMyw4NzcyNjEyMywtNTA0MTA5NjY5LC02ODM1MzEwMjEsMTE4
-OTUxOTkxNF19
+eyJoaXN0b3J5IjpbMTAwNzgzMDY1LDE2NDAxMDIxNjUsLTEzMT
+gzMDczNzAsLTY2Mjc0Mzc5NiwtMTI4Njg3MDI1MSwtMTI4Njg3
+MDI1MSwtOTU4NjcyODYxLDQ0NzIwOTYyNiwtMTEwODYyNzUyOS
+wxMDQ1MTM0ODc5LC0xNDc4MjE2OTEsLTk0NTQ5MzgzMSw3MDQ0
+MTgzMjYsMTY3MzMyMzcxMywtMjkxMzc0NDI0LC0xMjYyMzE1Mz
+IzLDg3NzI2MTIzLC01MDQxMDk2NjksLTY4MzUzMTAyMSwxMTg5
+NTE5OTE0XX0=
 -->
