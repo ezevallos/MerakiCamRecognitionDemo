@@ -94,6 +94,8 @@ GitHub es un sistema de gestión de proyectos y control de versiones de código,
  2. En el fichero, buscamos la opción para visualizar el código en “_raw_”.
 ![DevNetCodeExchangeGitHubAutomationScriptsRaw](https://i.ibb.co/C6bd8km/DN-DX-7.png)
  3. De esta forma podemos obtener la versión del código que podemos copiar (Ctrl – A y Ctrl – C) y pegar (Ctrl – V) al interpretador de Python de nuestra preferencia.
+![DevNetCodeExchangeGitHubAutomationScriptsListIPRaw](https://i.ibb.co/x8g1wtr/DN-DX-8.png)
+ 4. En caso no contemos con un interpretador en nuestro entorno de desarrollo, podemos utilizar uno basado en web, un ejemplo es repl.it ([https://repl.it/@enaard/Python-3](https://repl.it/@enaard/Python-3)) donde podemos interpretar Python3. Pegamos el código que obtuvimos en el paso anterior.
 
 [↑](#toc)
 <div id='para4'/>
@@ -489,11 +491,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0OTM1MjY4NSwxNjQwMTAyMTY1LC0xMz
-E4MzA3MzcwLC02NjI3NDM3OTYsLTEyODY4NzAyNTEsLTEyODY4
-NzAyNTEsLTk1ODY3Mjg2MSw0NDcyMDk2MjYsLTExMDg2Mjc1Mj
-ksMTA0NTEzNDg3OSwtMTQ3ODIxNjkxLC05NDU0OTM4MzEsNzA0
-NDE4MzI2LDE2NzMzMjM3MTMsLTI5MTM3NDQyNCwtMTI2MjMxNT
-MyMyw4NzcyNjEyMywtNTA0MTA5NjY5LC02ODM1MzEwMjEsMTE4
-OTUxOTkxNF19
+eyJoaXN0b3J5IjpbNDUyOTQ0MzA2LDE2NDAxMDIxNjUsLTEzMT
+gzMDczNzAsLTY2Mjc0Mzc5NiwtMTI4Njg3MDI1MSwtMTI4Njg3
+MDI1MSwtOTU4NjcyODYxLDQ0NzIwOTYyNiwtMTEwODYyNzUyOS
+wxMDQ1MTM0ODc5LC0xNDc4MjE2OTEsLTk0NTQ5MzgzMSw3MDQ0
+MTgzMjYsMTY3MzMyMzcxMywtMjkxMzc0NDI0LC0xMjYyMzE1Mz
+IzLDg3NzI2MTIzLC01MDQxMDk2NjksLTY4MzUzMTAyMSwxMTg5
+NTE5OTE0XX0=
 -->
