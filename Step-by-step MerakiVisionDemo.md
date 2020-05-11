@@ -99,6 +99,12 @@ GitHub es un sistema de gestión de proyectos y control de versiones de código,
 ![DevNetCodeExchangeListIPReplIt](https://i.ibb.co/qnN1jjT/DN-DX-9.png)
  5. Realizaremos un cambio en la última línea, para eso necesitaremos los detalles de la red **_Meraki_** que se busca inventariar. En caso no contemos con una red de este tipo, utilizaremos el SandBox que podremos encontrar en **_DevNet_**.
 
+## Parte 2: Utilizar el SandBox Meraki Always On
+### Paso 1: Acceder y utilizar el SandBox Meraki Always On
+**_DevNet_** nos provee muchos SandBoxes. Estos son entornos virtuales que emulan equipos físicos o redes donde podemos aprender a realizar configuraciones como la que intentamos efectuar. En este caso en particular, haremos uso del **_SandBox Meraki Always On_** que nos permite recrear una topología de red de **_Cisco Meraki_** en caso no contemos con una para realizar el laboratorio.
+
+ 1. List item
+
 [↑](#toc)
 <div id='para4'/>
 
@@ -493,11 +499,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDQyOTUyNDgsMTY0MDEwMjE2NSwtMT
-MxODMwNzM3MCwtNjYyNzQzNzk2LC0xMjg2ODcwMjUxLC0xMjg2
-ODcwMjUxLC05NTg2NzI4NjEsNDQ3MjA5NjI2LC0xMTA4NjI3NT
-I5LDEwNDUxMzQ4NzksLTE0NzgyMTY5MSwtOTQ1NDkzODMxLDcw
-NDQxODMyNiwxNjczMzIzNzEzLC0yOTEzNzQ0MjQsLTEyNjIzMT
-UzMjMsODc3MjYxMjMsLTUwNDEwOTY2OSwtNjgzNTMxMDIxLDEx
-ODk1MTk5MTRdfQ==
+eyJoaXN0b3J5IjpbMjAwNzk0NDI4NywxNjQwMTAyMTY1LC0xMz
+E4MzA3MzcwLC02NjI3NDM3OTYsLTEyODY4NzAyNTEsLTEyODY4
+NzAyNTEsLTk1ODY3Mjg2MSw0NDcyMDk2MjYsLTExMDg2Mjc1Mj
+ksMTA0NTEzNDg3OSwtMTQ3ODIxNjkxLC05NDU0OTM4MzEsNzA0
+NDE4MzI2LDE2NzMzMjM3MTMsLTI5MTM3NDQyNCwtMTI2MjMxNT
+MyMyw4NzcyNjEyMywtNTA0MTA5NjY5LC02ODM1MzEwMjEsMTE4
+OTUxOTkxNF19
 -->
