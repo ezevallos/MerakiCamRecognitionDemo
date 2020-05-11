@@ -198,7 +198,9 @@ GitHub es un sistema de gestión de proyectos y control de versiones de código,
 ![DNACAutoScriptReplIt](https://i.ibb.co/z2LH5Wx/DN-SB-17.png)
  5. Volvemos al repositorio de **Github** y esta vez buscamos el fichero llamado “**_env_lab.py_**”.
 ![DNACAutoScriptGitHub](https://i.ibb.co/2sZttcq/DN-SB-18.png)
- 6. 
+ 6. En el fichero, buscamos la opción para visualizar el código en “_raw_”.
+
+ 7. 
 
 [↑](#toc)
 <div id='para4'/>
@@ -594,11 +596,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTkzOTg2MTEsMTQwMDY4NzM1OCwxNj
-gxMjc5ODIyLDE3ODM5ODI4NjUsMTg1Mjk1MTMyLDIzMDk1Mzk1
-OCwxOTk1MTU0MTM4LDIwNTAyOTE2OTMsLTIwMzk1MjExMDIsMT
-U1MzE3MjIwNCwtMTEzMzYyNDE5LDE2NDAxMDIxNjUsLTEzMTgz
-MDczNzAsLTY2Mjc0Mzc5NiwtMTI4Njg3MDI1MSwtMTI4Njg3MD
-I1MSwtOTU4NjcyODYxLDQ0NzIwOTYyNiwtMTEwODYyNzUyOSwx
-MDQ1MTM0ODc5XX0=
+eyJoaXN0b3J5IjpbMTEzNDk0NzQxNCwxNDAwNjg3MzU4LDE2OD
+EyNzk4MjIsMTc4Mzk4Mjg2NSwxODUyOTUxMzIsMjMwOTUzOTU4
+LDE5OTUxNTQxMzgsMjA1MDI5MTY5MywtMjAzOTUyMTEwMiwxNT
+UzMTcyMjA0LC0xMTMzNjI0MTksMTY0MDEwMjE2NSwtMTMxODMw
+NzM3MCwtNjYyNzQzNzk2LC0xMjg2ODcwMjUxLC0xMjg2ODcwMj
+UxLC05NTg2NzI4NjEsNDQ3MjA5NjI2LC0xMTA4NjI3NTI5LDEw
+NDUxMzQ4NzldfQ==
 -->
