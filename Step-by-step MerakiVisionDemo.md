@@ -8,7 +8,6 @@
 <div id='intro'/>
 
 # Cisco DevNet 
-[↑](#toc)
 _Cisco Developer’s Network_ o _Cisco DevNet_ es nuestra comunidad de práctica para desarrolladores y profesionales de TI que buscan escribir aplicaciones y desarrollar integraciones con productos, plataformas y APIs de Cisco. A continuación, navegaremos por los componentes principales que conforman la plataforma de Cisco DevNet, a la que podemos acceder mediante la dirección: [https://developer.cisco.com/](https://developer.cisco.com/).
 ![DevNet](https://i.ibb.co/dDrKd7d/DN-IN-1.png)
 
@@ -39,13 +38,16 @@ Aquí ([https://developer.cisco.com/codeexchange/](https://developer.cisco.com/c
 Aquí ([https://developer.cisco.com/codeexchange/](https://developer.cisco.com/codeexchange/)) encontraremos una plataforma para conectar el ecosistema global de los socios de Cisco que están creando soluciones y servicios utilizando las API de Cisco, a los clientes que buscan aprovechar o integrar las soluciones existentes para impulsar los resultados comerciales.
 ![DevNetEcosystemExchange](https://i.ibb.co/0MVWTKL/DN-IN-7.png)
 
+[↑](#toc)
 <div id='para1'/>
 
 # Lab: Cómo usar Python para obtener un inventario de red en Meraki
+
 ### (Duración - 45 minutos)
 
 ## Objetivos
 
+[↑](#toc)
 <div id='para4'/>
 
 # Lab: Reconocimiento de imágenes mediante un comando de voz. Utilice las *APIs* de *Cisco Meraki*, *Imagga* y *Google Actions* para analizar la captura de una cámara de Meraki, mediante un comando de voz en un dispositivo *Android* con *Google Assistant* 
@@ -439,11 +441,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkxNzkyNTQ4LDQ0NzIwOTYyNiwtMTEwOD
-YyNzUyOSwxMDQ1MTM0ODc5LC0xNDc4MjE2OTEsLTk0NTQ5Mzgz
-MSw3MDQ0MTgzMjYsMTY3MzMyMzcxMywtMjkxMzc0NDI0LC0xMj
-YyMzE1MzIzLDg3NzI2MTIzLC01MDQxMDk2NjksLTY4MzUzMTAy
-MSwxMTg5NTE5OTE0LDE4NTgwNzEwMTEsNzE4MjAwMDY4LDE3OD
-EwNjAzMTMsMTE1MzUyNDkwOSwtMTM3NTg3MDI3MywtMTcwOTM5
-MzkyOF19
+eyJoaXN0b3J5IjpbLTk3MzQxODUyOSw0NDcyMDk2MjYsLTExMD
+g2Mjc1MjksMTA0NTEzNDg3OSwtMTQ3ODIxNjkxLC05NDU0OTM4
+MzEsNzA0NDE4MzI2LDE2NzMzMjM3MTMsLTI5MTM3NDQyNCwtMT
+I2MjMxNTMyMyw4NzcyNjEyMywtNTA0MTA5NjY5LC02ODM1MzEw
+MjEsMTE4OTUxOTkxNCwxODU4MDcxMDExLDcxODIwMDA2OCwxNz
+gxMDYwMzEzLDExNTM1MjQ5MDksLTEzNzU4NzAyNzMsLTE3MDkz
+OTM5MjhdfQ==
 -->
