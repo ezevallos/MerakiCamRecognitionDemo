@@ -140,8 +140,8 @@ donde le estamos pasando los parámetros mencionados. En caso estemos corriendo 
  2. Finalmente, obtenemos el resultado esperado, una lista de equipos que conforman la topología de red, junto con la información pertinente.
 
 [↑](#toc)
-<div id='para2' /
-
+<div id='para2'/>
+# Lab: Mostrar información de los dispositivos de una red conectados a un DNA-Center
 
 <div id='para4'/>
 
@@ -536,7 +536,7 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjgxMTc2OTQsMjMwOTUzOTU4LDE5OT
+eyJoaXN0b3J5IjpbLTIwMTc0NjU2MDYsMjMwOTUzOTU4LDE5OT
 UxNTQxMzgsMjA1MDI5MTY5MywtMjAzOTUyMTEwMiwxNTUzMTcy
 MjA0LC0xMTMzNjI0MTksMTY0MDEwMjE2NSwtMTMxODMwNzM3MC
 wtNjYyNzQzNzk2LC0xMjg2ODcwMjUxLC0xMjg2ODcwMjUxLC05
