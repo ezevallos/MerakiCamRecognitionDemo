@@ -72,12 +72,11 @@ Para hacer más simple el proceso, se han establecido estados en los que se podr
 
 Adicionalmente, se puede filtrar basado en el escenario, dominio, y producto.
 
- 1. Al ingresar al _Automation Exchange_, hacer click en el botón de _View all use cases_ para acceder a la biblioteca completa de casos de uso.
+3. Al ingresar al _Automation Exchange_, hacer click en el botón de _View all use cases_ para acceder a la biblioteca completa de casos de uso.
 ![DevNetAutomationExchange](https://i.ibb.co/ftwPDNp/DN-DX-1.png)
- 2. Entre las opciones de filtrado, elegir el producto **Cisco-Meraki**
+ 4. Entre las opciones de filtrado, elegir el producto **Cisco-Meraki**
 ![DevNetAutomationExchangeMeraki](https://i.ibb.co/RgYDvw8/DN-DX-2.png)
- 3. 
- 4. List item
+ 5. List item
 
 [↑](#toc)
 <div id='para4'/>
@@ -473,11 +472,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDU2ODU1NjYsLTY2Mjc0Mzc5NiwtMT
-I4Njg3MDI1MSwtMTI4Njg3MDI1MSwtOTU4NjcyODYxLDQ0NzIw
-OTYyNiwtMTEwODYyNzUyOSwxMDQ1MTM0ODc5LC0xNDc4MjE2OT
-EsLTk0NTQ5MzgzMSw3MDQ0MTgzMjYsMTY3MzMyMzcxMywtMjkx
-Mzc0NDI0LC0xMjYyMzE1MzIzLDg3NzI2MTIzLC01MDQxMDk2Nj
-ksLTY4MzUzMTAyMSwxMTg5NTE5OTE0LDE4NTgwNzEwMTEsNzE4
-MjAwMDY4XX0=
+eyJoaXN0b3J5IjpbLTEyMDE5ODI1NiwtNjYyNzQzNzk2LC0xMj
+g2ODcwMjUxLC0xMjg2ODcwMjUxLC05NTg2NzI4NjEsNDQ3MjA5
+NjI2LC0xMTA4NjI3NTI5LDEwNDUxMzQ4NzksLTE0NzgyMTY5MS
+wtOTQ1NDkzODMxLDcwNDQxODMyNiwxNjczMzIzNzEzLC0yOTEz
+NzQ0MjQsLTEyNjIzMTUzMjMsODc3MjYxMjMsLTUwNDEwOTY2OS
+wtNjgzNTMxMDIxLDExODk1MTk5MTQsMTg1ODA3MTAxMSw3MTgy
+MDAwNjhdfQ==
 -->
