@@ -66,7 +66,12 @@ DevNet Automation Exchange es una biblioteca donde encontraremos casos de uso do
  1. Abrir el navegador, acceder a [https://developer.cisco.com](https://developer.cisco.com), e ingresar con su cuenta.
 ![DevNetLogin](https://i.ibb.co/FbJ3SWt/DN-DM-1.png)
  2. En la barra superior, dirigirse _Discover_ → **Inspire** → _DevNet Automation Exchange_. ![DevNet Sandbox](https://i.ibb.co/Lrf0X6y/DN-SB.png)
- 3. 
+
+### Paso 2: Aprendemos a navegar entre los casos de uso
+Para hacer más simple el proceso, se han establecido estados en los que se podría encontrar el desarrollador. Estos son Caminar – Correr – Volar, donde el primero representa casos más fáciles de implementar y el posterior, casos más complicados. Por otro lado, los casos se encuentran clasificados dependiendo del ciclo de vida en el que se encuentra la red, día 0, día 1, día 2, o día N.
+
+Adicionalmente, se puede filtrar basado en el escenario, dominio, y producto.
+
 
 [↑](#toc)
 <div id='para4'/>
@@ -462,7 +467,7 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NTc0MDY0MywtNjYyNzQzNzk2LC0xMj
+eyJoaXN0b3J5IjpbLTk3MTUwMzMxOCwtNjYyNzQzNzk2LC0xMj
 g2ODcwMjUxLC0xMjg2ODcwMjUxLC05NTg2NzI4NjEsNDQ3MjA5
 NjI2LC0xMTA4NjI3NTI5LDEwNDUxMzQ4NzksLTE0NzgyMTY5MS
 wtOTQ1NDkzODMxLDcwNDQxODMyNiwxNjczMzIzNzEzLC0yOTEz
