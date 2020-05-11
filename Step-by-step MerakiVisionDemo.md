@@ -20,7 +20,8 @@ Aquí ([https://developer.cisco.com/learning/tracks](https://developer.cisco.com
 ![DevNetStartNow](https://i.ibb.co/kg9shVs/DN-IN-3.png)
 
 ## Video-Course
-Aquí ([https://developer.cisco.com/video/net-prog-basics/](https://developer.cisco.com/video/net-prog-basics/)) encontraremos un inicio al viaje hacia la programabilidad de la red con este video curso dirigido por expertos. Tenemos 6 módulos, cada uno con lecciones que incluyen API y ejemplos de código que puede usar en su computadora para seguir junto con los videos.
+Aquí ([https://developer.cisco.com/video/net-prog-basics/](https://developer.cisco.com/video/net-prog-basics/)) encontraremos un inicio al viaje hacia la programabilidad de la red con este video curso dirigido por expertos. Tenemos 6 módulos, cada uno con lecciones que incluyen API y ejemplos de código que puede usar en su propio entorno de desarrollo para seguir junto con los videos.
+![DevNet
 
 <div id='para4'/>
 
@@ -415,7 +416,7 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzE5NDc3NjgsLTExMDg2Mjc1MjksMT
+eyJoaXN0b3J5IjpbLTExNzgxNTAzMzksLTExMDg2Mjc1MjksMT
 A0NTEzNDg3OSwtMTQ3ODIxNjkxLC05NDU0OTM4MzEsNzA0NDE4
 MzI2LDE2NzMzMjM3MTMsLTI5MTM3NDQyNCwtMTI2MjMxNTMyMy
 w4NzcyNjEyMywtNTA0MTA5NjY5LC02ODM1MzEwMjEsMTE4OTUx
