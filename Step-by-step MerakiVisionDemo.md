@@ -193,8 +193,10 @@ GitHub es un sistema de gestión de proyectos y control de versiones de código,
  2. En el fichero, buscamos la opción para visualizar el código en "_raw_".
 ![DNACAutoScriptGitHubRaw](https://i.ibb.co/T8n7HQd/DN-SB-15.png)
  3. De esta forma podemos obtener la versión del código que podemos copiar (Ctrl – A y Ctrl – C) y pegar (Ctrl – V) al interpretador de Python de nuestra preferencia.
-
+![DNACAutoScriptGitHubRawCode](https://i.ibb.co/pWPv785/DN-SB-16.png)
  4. En caso no contemos con un interpretador en nuestro entorno de desarrollo, podemos utilizar uno basado en web, un ejemplo es repl.it ([https://repl.it/@enaard/Python-3](https://repl.it/@enaard/Python-3)) donde podemos interpretar Python3. Pegamos el código que obtuvimos en el paso anterior. Este código se autentica en un **_DNA Center_**, y procede crear una tabla con los dispositivos que se encuentran conectados. Sin embargo, aún no contamos con el entorno necesario para el laboratorio. Este se implementará utilizando un **_Sandbox_**, que instanciaremos mediante un fichero llamado “**_env_lab.py_**”.
+
+ 5. Volvemos al repositorio de **Github** y esta vez buscamos el fichero llamado “**_env_lab.py_**”.
 
 [↑](#toc)
 <div id='para4'/>
@@ -590,11 +592,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTIxNTYzNDcsMTY4MTI3OTgyMiwxNz
-gzOTgyODY1LDE4NTI5NTEzMiwyMzA5NTM5NTgsMTk5NTE1NDEz
-OCwyMDUwMjkxNjkzLC0yMDM5NTIxMTAyLDE1NTMxNzIyMDQsLT
-ExMzM2MjQxOSwxNjQwMTAyMTY1LC0xMzE4MzA3MzcwLC02NjI3
-NDM3OTYsLTEyODY4NzAyNTEsLTEyODY4NzAyNTEsLTk1ODY3Mj
-g2MSw0NDcyMDk2MjYsLTExMDg2Mjc1MjksMTA0NTEzNDg3OSwt
-MTQ3ODIxNjkxXX0=
+eyJoaXN0b3J5IjpbMTQwMDY4NzM1OCwxNjgxMjc5ODIyLDE3OD
+M5ODI4NjUsMTg1Mjk1MTMyLDIzMDk1Mzk1OCwxOTk1MTU0MTM4
+LDIwNTAyOTE2OTMsLTIwMzk1MjExMDIsMTU1MzE3MjIwNCwtMT
+EzMzYyNDE5LDE2NDAxMDIxNjUsLTEzMTgzMDczNzAsLTY2Mjc0
+Mzc5NiwtMTI4Njg3MDI1MSwtMTI4Njg3MDI1MSwtOTU4NjcyOD
+YxLDQ0NzIwOTYyNiwtMTEwODYyNzUyOSwxMDQ1MTM0ODc5LC0x
+NDc4MjE2OTFdfQ==
 -->
