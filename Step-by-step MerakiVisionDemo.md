@@ -91,7 +91,7 @@ GitHub es un sistema de gestión de proyectos y control de versiones de código,
 
  1. Hemos accedido al repositorio donde podremos encontrar todos los scripts de automatización. Como lo mencionamos en el taller ETW: Experimenting with REST APIs, **_GitHub_** es una plataforma y comunidad de práctica donde los desarrolladores archivan su código en la nube. Entre los ficheros, buscaremos el que lleva por nombre ”**_listip.py_**“ y accedemos a este.
 ![DevNetCodeExchangeGitHubAutomationScripts](https://i.ibb.co/Z2MnMZw/DN-DX-6.png)
- 2. 
+ 2. En el fichero, buscamos la opción para visualizar el código en “_raw_”.
 
 [↑](#toc)
 <div id='para4'/>
@@ -487,11 +487,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjI0MTkzMDEsMTY0MDEwMjE2NSwtMT
-MxODMwNzM3MCwtNjYyNzQzNzk2LC0xMjg2ODcwMjUxLC0xMjg2
-ODcwMjUxLC05NTg2NzI4NjEsNDQ3MjA5NjI2LC0xMTA4NjI3NT
-I5LDEwNDUxMzQ4NzksLTE0NzgyMTY5MSwtOTQ1NDkzODMxLDcw
-NDQxODMyNiwxNjczMzIzNzEzLC0yOTEzNzQ0MjQsLTEyNjIzMT
-UzMjMsODc3MjYxMjMsLTUwNDEwOTY2OSwtNjgzNTMxMDIxLDEx
-ODk1MTk5MTRdfQ==
+eyJoaXN0b3J5IjpbMjA2NTUxODM5NSwxNjQwMTAyMTY1LC0xMz
+E4MzA3MzcwLC02NjI3NDM3OTYsLTEyODY4NzAyNTEsLTEyODY4
+NzAyNTEsLTk1ODY3Mjg2MSw0NDcyMDk2MjYsLTExMDg2Mjc1Mj
+ksMTA0NTEzNDg3OSwtMTQ3ODIxNjkxLC05NDU0OTM4MzEsNzA0
+NDE4MzI2LDE2NzMzMjM3MTMsLTI5MTM3NDQyNCwtMTI2MjMxNT
+MyMyw4NzcyNjEyMywtNTA0MTA5NjY5LC02ODM1MzEwMjEsMTE4
+OTUxOTkxNF19
 -->
