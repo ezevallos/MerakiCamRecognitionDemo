@@ -140,6 +140,9 @@ donde le estamos pasando los parámetros mencionados. En caso estemos corriendo 
  2. Finalmente, obtenemos el resultado esperado, una lista de equipos que conforman la topología de red, junto con la información pertinente.
 
 [↑](#toc)
+<div id='para2' /
+
+
 <div id='para4'/>
 
 # Lab: Reconocimiento de imágenes mediante un comando de voz. Utilice las *APIs* de *Cisco Meraki*, *Imagga* y *Google Actions* para analizar la captura de una cámara de Meraki, mediante un comando de voz en un dispositivo *Android* con *Google Assistant* 
@@ -533,11 +536,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMwOTUzOTU4LDE5OTUxNTQxMzgsMjA1MD
-I5MTY5MywtMjAzOTUyMTEwMiwxNTUzMTcyMjA0LC0xMTMzNjI0
-MTksMTY0MDEwMjE2NSwtMTMxODMwNzM3MCwtNjYyNzQzNzk2LC
-0xMjg2ODcwMjUxLC0xMjg2ODcwMjUxLC05NTg2NzI4NjEsNDQ3
-MjA5NjI2LC0xMTA4NjI3NTI5LDEwNDUxMzQ4NzksLTE0NzgyMT
-Y5MSwtOTQ1NDkzODMxLDcwNDQxODMyNiwxNjczMzIzNzEzLC0y
-OTEzNzQ0MjRdfQ==
+eyJoaXN0b3J5IjpbLTE4MjgxMTc2OTQsMjMwOTUzOTU4LDE5OT
+UxNTQxMzgsMjA1MDI5MTY5MywtMjAzOTUyMTEwMiwxNTUzMTcy
+MjA0LC0xMTMzNjI0MTksMTY0MDEwMjE2NSwtMTMxODMwNzM3MC
+wtNjYyNzQzNzk2LC0xMjg2ODcwMjUxLC0xMjg2ODcwMjUxLC05
+NTg2NzI4NjEsNDQ3MjA5NjI2LC0xMTA4NjI3NTI5LDEwNDUxMz
+Q4NzksLTE0NzgyMTY5MSwtOTQ1NDkzODMxLDcwNDQxODMyNiwx
+NjczMzIzNzEzXX0=
 -->
