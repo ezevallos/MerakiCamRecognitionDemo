@@ -79,7 +79,7 @@ Adicionalmente, se puede filtrar basado en el escenario, dominio, y producto.
 
 ### Paso 3: Identificar el caso de uso para automatizar la creación de un inventario de red.
 Dentro de _DevNet_ existe **_DevNet Code Exchange_**, que compendia repositorios de proyectos en _GitHub_ con los que podemos descubrir, aprender, construir y colaborar, de forma que podamos impulsar nuestro trabajo en plataformas, productos, APIs, y SDKs de Cisco.
- 5. El caso de uso que utili
+ 5. El caso de uso que utilizaremos lleva el nombre de "_Manage Multiple Meraki organizations_". Hacemos click en el caso de uso.
 
 [↑](#toc)
 <div id='para4'/>
@@ -475,11 +475,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU1MDg3MTA0LC02NjI3NDM3OTYsLTEyOD
-Y4NzAyNTEsLTEyODY4NzAyNTEsLTk1ODY3Mjg2MSw0NDcyMDk2
-MjYsLTExMDg2Mjc1MjksMTA0NTEzNDg3OSwtMTQ3ODIxNjkxLC
-05NDU0OTM4MzEsNzA0NDE4MzI2LDE2NzMzMjM3MTMsLTI5MTM3
-NDQyNCwtMTI2MjMxNTMyMyw4NzcyNjEyMywtNTA0MTA5NjY5LC
-02ODM1MzEwMjEsMTE4OTUxOTkxNCwxODU4MDcxMDExLDcxODIw
-MDA2OF19
+eyJoaXN0b3J5IjpbLTEzMTgzMDczNzAsLTY2Mjc0Mzc5NiwtMT
+I4Njg3MDI1MSwtMTI4Njg3MDI1MSwtOTU4NjcyODYxLDQ0NzIw
+OTYyNiwtMTEwODYyNzUyOSwxMDQ1MTM0ODc5LC0xNDc4MjE2OT
+EsLTk0NTQ5MzgzMSw3MDQ0MTgzMjYsMTY3MzMyMzcxMywtMjkx
+Mzc0NDI0LC0xMjYyMzE1MzIzLDg3NzI2MTIzLC01MDQxMDk2Nj
+ksLTY4MzUzMTAyMSwxMTg5NTE5OTE0LDE4NTgwNzEwMTEsNzE4
+MjAwMDY4XX0=
 -->
