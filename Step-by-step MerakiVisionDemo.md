@@ -127,6 +127,7 @@ En caso contemos con una red de Cisco Meraki, también podemos utilizar el scrip
 
 ## Parte 3: Modificar el script para nuestro caso de uso
 ### Paso 1: Ingresar el API Key y el nombre de la organización
+Para lograr que funcione nuestro script, debemos modificar la última línea que es la que se encarga de ejecutar el código en su integridad.
 
 
 [↑](#toc)
@@ -523,11 +524,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MDI5MTY5MywtMjAzOTUyMTEwMiwxNT
-UzMTcyMjA0LC0xMTMzNjI0MTksMTY0MDEwMjE2NSwtMTMxODMw
-NzM3MCwtNjYyNzQzNzk2LC0xMjg2ODcwMjUxLC0xMjg2ODcwMj
-UxLC05NTg2NzI4NjEsNDQ3MjA5NjI2LC0xMTA4NjI3NTI5LDEw
-NDUxMzQ4NzksLTE0NzgyMTY5MSwtOTQ1NDkzODMxLDcwNDQxOD
-MyNiwxNjczMzIzNzEzLC0yOTEzNzQ0MjQsLTEyNjIzMTUzMjMs
-ODc3MjYxMjNdfQ==
+eyJoaXN0b3J5IjpbLTE5ODcwNTkzMTMsMjA1MDI5MTY5MywtMj
+AzOTUyMTEwMiwxNTUzMTcyMjA0LC0xMTMzNjI0MTksMTY0MDEw
+MjE2NSwtMTMxODMwNzM3MCwtNjYyNzQzNzk2LC0xMjg2ODcwMj
+UxLC0xMjg2ODcwMjUxLC05NTg2NzI4NjEsNDQ3MjA5NjI2LC0x
+MTA4NjI3NTI5LDEwNDUxMzQ4NzksLTE0NzgyMTY5MSwtOTQ1ND
+kzODMxLDcwNDQxODMyNiwxNjczMzIzNzEzLC0yOTEzNzQ0MjQs
+LTEyNjIzMTUzMjNdfQ==
 -->
