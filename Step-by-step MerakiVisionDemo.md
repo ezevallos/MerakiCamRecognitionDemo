@@ -29,6 +29,10 @@ Aquí ([https://developer.cisco.com/site/sandbox/](https://developer.cisco.com/s
 
 ## Code-Exchange
 Aquí ([https://developer.cisco.com/codeexchange/](https://developer.cisco.com/codeexchange/)) encontraremos un conjunto de repositorios de código en línea, públicos en GitHub, que han sido seleccionados y están relacionados con todas las áreas de tecnología de Cisco. En Code Exchange, contamos con cientos de repositorios de código, puede encontrar código creado y mantenido por equipos de ingenieros de Cisco, colaboradores de la comunidad, socios del ecosistema, comunidades de tecnología y de código abierto y desarrolladores individuales. Los miembros de la comunidad DevNet de Cisco pueden usar este código para impulsar su desarrollo de aplicaciones e integraciones usando las API de Cisco.
+![DevNetCodeExchange](https://i.ibb.co/t3ctc3j/DN-IN-6.png)
+
+## Ecosystem-Exchange
+
 
 <div id='para4'/>
 
@@ -423,7 +427,7 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4ODM5OTE1NCwtMTEwODYyNzUyOSwxMD
+eyJoaXN0b3J5IjpbMTMwNTQ0NjQ0OSwtMTEwODYyNzUyOSwxMD
 Q1MTM0ODc5LC0xNDc4MjE2OTEsLTk0NTQ5MzgzMSw3MDQ0MTgz
 MjYsMTY3MzMyMzcxMywtMjkxMzc0NDI0LC0xMjYyMzE1MzIzLD
 g3NzI2MTIzLC01MDQxMDk2NjksLTY4MzUzMTAyMSwxMTg5NTE5
