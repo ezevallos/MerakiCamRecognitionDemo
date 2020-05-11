@@ -102,7 +102,7 @@ GitHub es un sistema de gestión de proyectos y control de versiones de código,
 ## Parte 2: Utilizar el SandBox Meraki Always On
 ### Paso 1: Acceder y utilizar el SandBox Meraki Always On
 **_DevNet_** nos provee muchos SandBoxes. Estos son entornos virtuales que emulan equipos físicos o redes donde podemos aprender a realizar configuraciones como la que intentamos efectuar. En este caso en particular, haremos uso del **_SandBox Meraki Always On_** que nos permite recrear una topología de red de **_Cisco Meraki_** en caso no contemos con una para realizar el laboratorio.
- 1. Regresamos a la página principal de **_Cisco DevNet_** y navegamos a _Discover_ à _**Code**_ à _Sandbox Remote Labs_ donde encontraremos más información acerca de los Sandbox. Cómo utilizarlos, si se trata de un _Sandbox_ que siempre se encuentra activo, o si es necesario reservarlo por cierta cantidad de tiempo, caso en el que además debemos esperar cierto tiempo para que _DevNet_ prepare los recursos que utilizaremos. Es importante mencionar que todos los recursos que encontraremos en _DevNet_ son totalmente libres para los miembros de nuestra comunidad. Para acceder, debemos crearnos una cuenta, o utilizar nuestro Cisco ID en caso ya contemos con uno. Los alumnos de Cisco Networking Academy tienen una pre-cuenta de _DevNet_ utilizando sus credenciales NetAcad.
+ 1. Regresamos a la página principal de **_Cisco DevNet_** y navegamos a _Discover_ → _**Code**_ → _Sandbox Remote Labs_ donde encontraremos más información acerca de los Sandbox. Cómo utilizarlos, si se trata de un _Sandbox_ que siempre se encuentra activo, o si es necesario reservarlo por cierta cantidad de tiempo, caso en el que además debemos esperar cierto tiempo para que _DevNet_ prepare los recursos que utilizaremos. Es importante mencionar que todos los recursos que encontraremos en _DevNet_ son totalmente libres para los miembros de nuestra comunidad. Para acceder, debemos crearnos una cuenta, o utilizar nuestro Cisco ID en caso ya contemos con uno. Los alumnos de Cisco Networking Academy tienen una pre-cuenta de _DevNet_ utilizando sus credenciales NetAcad.
 ![DevNet Sandbox](https://i.ibb.co/Lrf0X6y/DN-SB.png)
  2. Aquí encontraremos la respuesta a muchas preguntas acerca de estos entornos virtuales, donde desarrolladores, ingenieros, administradores de red, arquitectos, y todos podemos desarrollar y probar las APIs, controladoras, equipos de red y suites de colaboración de Cisco.  Podremos correr nuestro código en infraestructura que se encuentra activa 24/7, en una variedad de laboratorios de acceso libre, y escoger entre entornos virtualizados, simuladores, e infraestructura física. Nos dirigimos al catálogo completo haciendo click en “_View all Sandboxes_”.
 ![All DevNet Sandboxes](https://i.ibb.co/hH8DkjN/DN-SB-2.png)
@@ -117,7 +117,7 @@ Meraki Dashboard API es una interfaz para que el software interactúe directamen
  1. Luego, nos dirigimos a [http://dashboard.meraki.com/](http://dashboard.meraki.com/) donde encontraremos el último detalle que nos falta, el nombre de la organización. Damos click en “Log in to personal account” e ingresamos las credenciales que nos otorga el Sandbox.
 ![SandBox Meraki Always-On Dashboard](https://i.ibb.co/FsHjc6x/DN-SB-6.png)
 ![SandBox Meraki Always-On DashboardAccess](https://i.ibb.co/RS4RHTT/DN-SB-7.png)
- 2. Para encontrar el nombre de la organización, nos dirigimos a _Organization_ à _Configure_ à _Settings_ encontraremos que el primer campo nos provee el nombre “_DevNet Sandbox_”.
+ 2. Para encontrar el nombre de la organización, nos dirigimos a _Organization_ → _Configure_ → _Settings_ encontraremos que el primer campo nos provee el nombre “_DevNet Sandbox_”.
 
 [↑](#toc)
 <div id='para4'/>
@@ -513,11 +513,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNTg5MjIzOCwxNTUzMTcyMjA0LC0xMT
-MzNjI0MTksMTY0MDEwMjE2NSwtMTMxODMwNzM3MCwtNjYyNzQz
-Nzk2LC0xMjg2ODcwMjUxLC0xMjg2ODcwMjUxLC05NTg2NzI4Nj
-EsNDQ3MjA5NjI2LC0xMTA4NjI3NTI5LDEwNDUxMzQ4NzksLTE0
-NzgyMTY5MSwtOTQ1NDkzODMxLDcwNDQxODMyNiwxNjczMzIzNz
-EzLC0yOTEzNzQ0MjQsLTEyNjIzMTUzMjMsODc3MjYxMjMsLTUw
-NDEwOTY2OV19
+eyJoaXN0b3J5IjpbLTIwMzk1MjExMDIsMTU1MzE3MjIwNCwtMT
+EzMzYyNDE5LDE2NDAxMDIxNjUsLTEzMTgzMDczNzAsLTY2Mjc0
+Mzc5NiwtMTI4Njg3MDI1MSwtMTI4Njg3MDI1MSwtOTU4NjcyOD
+YxLDQ0NzIwOTYyNiwtMTEwODYyNzUyOSwxMDQ1MTM0ODc5LC0x
+NDc4MjE2OTEsLTk0NTQ5MzgzMSw3MDQ0MTgzMjYsMTY3MzMyMz
+cxMywtMjkxMzc0NDI0LC0xMjYyMzE1MzIzLDg3NzI2MTIzLC01
+MDQxMDk2NjldfQ==
 -->
