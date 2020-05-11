@@ -37,7 +37,8 @@ Aquí ([https://developer.cisco.com/codeexchange/](https://developer.cisco.com/c
 
 <div id='para1'/>
 
-# Lab: Cómo usar 
+# Lab: Cómo usar Python para obtener un inventario de red en Meraki
+### (Duración - 45 minutos)
 
 <div id='para4'/>
 
@@ -432,7 +433,7 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5Nzg1OTY3LC0xMTA4NjI3NTI5LDEwND
+eyJoaXN0b3J5IjpbNDQ3MjA5NjI2LC0xMTA4NjI3NTI5LDEwND
 UxMzQ4NzksLTE0NzgyMTY5MSwtOTQ1NDkzODMxLDcwNDQxODMy
 NiwxNjczMzIzNzEzLC0yOTEzNzQ0MjQsLTEyNjIzMTUzMjMsOD
 c3MjYxMjMsLTUwNDEwOTY2OSwtNjgzNTMxMDIxLDExODk1MTk5
