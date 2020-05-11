@@ -63,7 +63,7 @@ Aquí ([https://developer.cisco.com/codeexchange/](https://developer.cisco.com/c
 ### Paso 1: Echamos un vistazo en DevNet Automation Exchange
 DevNet Automation Exchange es una biblioteca donde encontraremos casos de uso donde la programabilidad ha sido utilizada para automatizar tareas comunes en networking. La comunidad de desarrolladores de **_Cisco_** llamada **_DevNet_**, actualiza y crea continuamente código para inspirar a la comunidad a seguir desenvolviéndose en la creación de software orientado a las redes.
 
-Abrir el navegador, acceder a [https://developer.cisco.com](https://developer.cisco.com), e ingresar con su cuenta.
+ 1. Abrir el navegador, acceder a [https://developer.cisco.com](https://developer.cisco.com), e ingresar con su cuenta.
 
 [↑](#toc)
 <div id='para4'/>
@@ -459,7 +459,7 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NjExMTkxOSwtMTI4Njg3MDI1MSwtMT
+eyJoaXN0b3J5IjpbLTY2Mjc0Mzc5NiwtMTI4Njg3MDI1MSwtMT
 I4Njg3MDI1MSwtOTU4NjcyODYxLDQ0NzIwOTYyNiwtMTEwODYy
 NzUyOSwxMDQ1MTM0ODc5LC0xNDc4MjE2OTEsLTk0NTQ5MzgzMS
 w3MDQ0MTgzMjYsMTY3MzMyMzcxMywtMjkxMzc0NDI0LC0xMjYy
