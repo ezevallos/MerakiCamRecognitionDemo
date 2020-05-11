@@ -143,6 +143,13 @@ donde le estamos pasando los parámetros mencionados. En caso estemos corriendo 
 <div id='para2'/>
 # Lab: Mostrar información de los dispositivos de una red conectados a un DNA-Center
 
+## Objetivos
+
+ - **Parte 1: Aprender a navegar en DevNet para encontrar recursos valiosos**
+ - **Parte 2: Utilizar scripts de automatización para realizar pruebas y aprender**
+
+## Contexto / Escenario
+
 <div id='para4'/>
 
 # Lab: Reconocimiento de imágenes mediante un comando de voz. Utilice las *APIs* de *Cisco Meraki*, *Imagga* y *Google Actions* para analizar la captura de una cámara de Meraki, mediante un comando de voz en un dispositivo *Android* con *Google Assistant* 
@@ -536,11 +543,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTc0NjU2MDYsMjMwOTUzOTU4LDE5OT
-UxNTQxMzgsMjA1MDI5MTY5MywtMjAzOTUyMTEwMiwxNTUzMTcy
-MjA0LC0xMTMzNjI0MTksMTY0MDEwMjE2NSwtMTMxODMwNzM3MC
-wtNjYyNzQzNzk2LC0xMjg2ODcwMjUxLC0xMjg2ODcwMjUxLC05
-NTg2NzI4NjEsNDQ3MjA5NjI2LC0xMTA4NjI3NTI5LDEwNDUxMz
-Q4NzksLTE0NzgyMTY5MSwtOTQ1NDkzODMxLDcwNDQxODMyNiwx
-NjczMzIzNzEzXX0=
+eyJoaXN0b3J5IjpbLTQzOTQ1NzExMiwyMzA5NTM5NTgsMTk5NT
+E1NDEzOCwyMDUwMjkxNjkzLC0yMDM5NTIxMTAyLDE1NTMxNzIy
+MDQsLTExMzM2MjQxOSwxNjQwMTAyMTY1LC0xMzE4MzA3MzcwLC
+02NjI3NDM3OTYsLTEyODY4NzAyNTEsLTEyODY4NzAyNTEsLTk1
+ODY3Mjg2MSw0NDcyMDk2MjYsLTExMDg2Mjc1MjksMTA0NTEzND
+g3OSwtMTQ3ODIxNjkxLC05NDU0OTM4MzEsNzA0NDE4MzI2LDE2
+NzMzMjM3MTNdfQ==
 -->
