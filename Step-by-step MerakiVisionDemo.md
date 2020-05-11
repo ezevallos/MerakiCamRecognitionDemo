@@ -17,7 +17,9 @@ Aquí ([https://developer.cisco.com/learning/tracks](https://developer.cisco.com
 
  - [https://developer.cisco.com/learning/modules](https://developer.cisco.com/learning/modules)
  - [https://developer.cisco.com/learning/labs](https://developer.cisco.com/learning/labs)
+
 !DevNetLearningTracks](https://i.ibb.co/kg9shVs/DN-IN-3.png)
+}
 
 ## Video-Course
 
@@ -414,11 +416,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDg2Mjc1MjksMTA0NTEzNDg3OSwtMT
-Q3ODIxNjkxLC05NDU0OTM4MzEsNzA0NDE4MzI2LDE2NzMzMjM3
-MTMsLTI5MTM3NDQyNCwtMTI2MjMxNTMyMyw4NzcyNjEyMywtNT
-A0MTA5NjY5LC02ODM1MzEwMjEsMTE4OTUxOTkxNCwxODU4MDcx
-MDExLDcxODIwMDA2OCwxNzgxMDYwMzEzLDExNTM1MjQ5MDksLT
-EzNzU4NzAyNzMsLTE3MDkzOTM5MjgsODExNjM3MTc3LDk5NjI0
-MTYyNl19
+eyJoaXN0b3J5IjpbMjAyMzQ5OTY3NCwtMTEwODYyNzUyOSwxMD
+Q1MTM0ODc5LC0xNDc4MjE2OTEsLTk0NTQ5MzgzMSw3MDQ0MTgz
+MjYsMTY3MzMyMzcxMywtMjkxMzc0NDI0LC0xMjYyMzE1MzIzLD
+g3NzI2MTIzLC01MDQxMDk2NjksLTY4MzUzMTAyMSwxMTg5NTE5
+OTE0LDE4NTgwNzEwMTEsNzE4MjAwMDY4LDE3ODEwNjAzMTMsMT
+E1MzUyNDkwOSwtMTM3NTg3MDI3MywtMTcwOTM5MzkyOCw4MTE2
+MzcxNzddfQ==
 -->
