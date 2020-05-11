@@ -181,6 +181,8 @@ Dentro de _DevNet_ existe **_DevNet Code Exchange_**, que compendia repositorios
  1. El caso de uso que utilizaremos lleva el nombre de “_Display device information from Cisco DNA Center_”. Hacemos click en el caso de uso.
 ![DNACUseCaseAutoScript](https://i.ibb.co/G369CML/DN-SB-11.png)
  2. Leemos la breve descripción para entender el caso de uso, se trata de un script en Python que nos permitirá obtener información de los dispositivos conectados a una red mediante el **_Cisco DNA Center_**, de forma automatizada. Luego damos click en el botón “_See code on Code Exchange”_ para entrar al **_DevNet Code Exchange_**.
+![DNACUseCaseCodeExchange](https://i.ibb.co/QrrHdXZ/DN-SB-12.png)
+ 3. En el **_Code Exchange_**, encontraremos información acerca del script de automatización que se encuentra disponible para nuestra utilización. Aquí están las instrucciones para hacer correr el script en los distintos sistemas operativos, para clonar el repositorio de github, la referencia de documentación del API, y finalmente un snippet de lo que obtendremos al ejecutar. Hacemos click en el botón “_View on GitHub”._
 
 [↑](#toc)
 <div id='para4'/>
@@ -576,11 +578,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NDc4NjcyOSwxNzgzOTgyODY1LDE4NT
-I5NTEzMiwyMzA5NTM5NTgsMTk5NTE1NDEzOCwyMDUwMjkxNjkz
-LC0yMDM5NTIxMTAyLDE1NTMxNzIyMDQsLTExMzM2MjQxOSwxNj
-QwMTAyMTY1LC0xMzE4MzA3MzcwLC02NjI3NDM3OTYsLTEyODY4
-NzAyNTEsLTEyODY4NzAyNTEsLTk1ODY3Mjg2MSw0NDcyMDk2Mj
-YsLTExMDg2Mjc1MjksMTA0NTEzNDg3OSwtMTQ3ODIxNjkxLC05
-NDU0OTM4MzFdfQ==
+eyJoaXN0b3J5IjpbLTE3NDk5MzQxMDYsMTc4Mzk4Mjg2NSwxOD
+UyOTUxMzIsMjMwOTUzOTU4LDE5OTUxNTQxMzgsMjA1MDI5MTY5
+MywtMjAzOTUyMTEwMiwxNTUzMTcyMjA0LC0xMTMzNjI0MTksMT
+Y0MDEwMjE2NSwtMTMxODMwNzM3MCwtNjYyNzQzNzk2LC0xMjg2
+ODcwMjUxLC0xMjg2ODcwMjUxLC05NTg2NzI4NjEsNDQ3MjA5Nj
+I2LC0xMTA4NjI3NTI5LDEwNDUxMzQ4NzksLTE0NzgyMTY5MSwt
+OTQ1NDkzODMxXX0=
 -->
