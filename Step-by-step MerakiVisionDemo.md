@@ -213,6 +213,11 @@ GitHub es un sistema de gestión de proyectos y control de versiones de código,
 Notamos en esta última captura de pantalla que los dispositivos son diferentes, pues se trata de un **_DNA Center_** distinto al primero. Pensemos en la posibilidad de tener muchos más clientes para los que deseamos obtener la misma información, y mediante una lógica básica podemos crear un script que nos entregue de forma automatizada los dispositivos de todos los **_DNA Center_** que podamos tener a nuestra disposición.
 
 [↑](#toc)
+<div id='para3'/>
+
+
+
+[↑](#toc)
 <div id='para4'/>
 
 # Lab: Reconocimiento de imágenes mediante un comando de voz. Utilice las *APIs* de *Cisco Meraki*, *Imagga* y *Google Actions* para analizar la captura de una cámara de Meraki, mediante un comando de voz en un dispositivo *Android* con *Google Assistant* 
@@ -606,7 +611,7 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMDAxMjM1MCw0NTU0MTkyLDE2NTQ1Nj
+eyJoaXN0b3J5IjpbLTQ1Mjk0Njc4MCw0NTU0MTkyLDE2NTQ1Nj
 g3ODAsLTc2NDAxMzU4NCwxNDAwNjg3MzU4LDE2ODEyNzk4MjIs
 MTc4Mzk4Mjg2NSwxODUyOTUxMzIsMjMwOTUzOTU4LDE5OTUxNT
 QxMzgsMjA1MDI5MTY5MywtMjAzOTUyMTEwMiwxNTUzMTcyMjA0
