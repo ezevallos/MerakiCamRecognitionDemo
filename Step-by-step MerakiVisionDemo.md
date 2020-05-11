@@ -81,7 +81,7 @@ Adicionalmente, se puede filtrar basado en el escenario, dominio, y producto.
 Dentro de _DevNet_ existe **_DevNet Code Exchange_**, que compendia repositorios de proyectos en _GitHub_ con los que podemos descubrir, aprender, construir y colaborar, de forma que podamos impulsar nuestro trabajo en plataformas, productos, APIs, y SDKs de Cisco.
  5. El caso de uso que utilizaremos lleva el nombre de "_Manage Multiple Meraki organizations_". Hacemos click en el caso de uso.
 ![DevNetAutomationExchangeManageMultipleMerakiOrgs](https://i.ibb.co/hdjmksH/DN-DX-3.png)
- 6. 
+ 6. Leemos la breve descripción, para entender el caso de uso, se trata de una serie de scripts en Python que nos permitirán realizar tareas comunes del administrador de una red **_Meraki_**, de forma automatizada. Luego damos click en el botón “_See code on Code Exchange”_ para entrar al **_DevNet Code Exchange_**.
 
 [↑](#toc)
 <div id='para4'/>
@@ -477,11 +477,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTU4MTExNzMsLTEzMTgzMDczNzAsLT
-Y2Mjc0Mzc5NiwtMTI4Njg3MDI1MSwtMTI4Njg3MDI1MSwtOTU4
-NjcyODYxLDQ0NzIwOTYyNiwtMTEwODYyNzUyOSwxMDQ1MTM0OD
-c5LC0xNDc4MjE2OTEsLTk0NTQ5MzgzMSw3MDQ0MTgzMjYsMTY3
-MzMyMzcxMywtMjkxMzc0NDI0LC0xMjYyMzE1MzIzLDg3NzI2MT
-IzLC01MDQxMDk2NjksLTY4MzUzMTAyMSwxMTg5NTE5OTE0LDE4
-NTgwNzEwMTFdfQ==
+eyJoaXN0b3J5IjpbMTY0MDEwMjE2NSwtMTMxODMwNzM3MCwtNj
+YyNzQzNzk2LC0xMjg2ODcwMjUxLC0xMjg2ODcwMjUxLC05NTg2
+NzI4NjEsNDQ3MjA5NjI2LC0xMTA4NjI3NTI5LDEwNDUxMzQ4Nz
+ksLTE0NzgyMTY5MSwtOTQ1NDkzODMxLDcwNDQxODMyNiwxNjcz
+MzIzNzEzLC0yOTEzNzQ0MjQsLTEyNjIzMTUzMjMsODc3MjYxMj
+MsLTUwNDEwOTY2OSwtNjgzNTMxMDIxLDExODk1MTk5MTQsMTg1
+ODA3MTAxMV19
 -->
