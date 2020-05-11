@@ -90,6 +90,8 @@ Dentro de _DevNet_ existe **_DevNet Code Exchange_**, que compendia repositorios
 GitHub es un sistema de gestión de proyectos y control de versiones de código, así como una plataforma de red social diseñada para desarrolladores. Permite trabajar en colaboración con otras personas de todo el mundo, planificar proyectos y realizar un seguimiento del trabajo.
 
  1. Hemos accedido al repositorio donde podremos encontrar todos los scripts de automatización. Como lo mencionamos en el taller ETW: Experimenting with REST APIs, **_GitHub_** es una plataforma y comunidad de práctica donde los desarrolladores archivan su código en la nube. Entre los ficheros, buscaremos el que lleva por nombre ”**_listip.py_**“ y accedemos a este.
+![DevNetCodeExchangeGitHubAutomationScripts](https://i.ibb.co/Z2MnMZw/DN-DX-6.png)
+ 2. 
 
 [↑](#toc)
 <div id='para4'/>
@@ -485,11 +487,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYzOTcyNzA4LDE2NDAxMDIxNjUsLTEzMT
-gzMDczNzAsLTY2Mjc0Mzc5NiwtMTI4Njg3MDI1MSwtMTI4Njg3
-MDI1MSwtOTU4NjcyODYxLDQ0NzIwOTYyNiwtMTEwODYyNzUyOS
-wxMDQ1MTM0ODc5LC0xNDc4MjE2OTEsLTk0NTQ5MzgzMSw3MDQ0
-MTgzMjYsMTY3MzMyMzcxMywtMjkxMzc0NDI0LC0xMjYyMzE1Mz
-IzLDg3NzI2MTIzLC01MDQxMDk2NjksLTY4MzUzMTAyMSwxMTg5
-NTE5OTE0XX0=
+eyJoaXN0b3J5IjpbLTEwMjI0MTkzMDEsMTY0MDEwMjE2NSwtMT
+MxODMwNzM3MCwtNjYyNzQzNzk2LC0xMjg2ODcwMjUxLC0xMjg2
+ODcwMjUxLC05NTg2NzI4NjEsNDQ3MjA5NjI2LC0xMTA4NjI3NT
+I5LDEwNDUxMzQ4NzksLTE0NzgyMTY5MSwtOTQ1NDkzODMxLDcw
+NDQxODMyNiwxNjczMzIzNzEzLC0yOTEzNzQ0MjQsLTEyNjIzMT
+UzMjMsODc3MjYxMjMsLTUwNDEwOTY2OSwtNjgzNTMxMDIxLDEx
+ODk1MTk5MTRdfQ==
 -->
