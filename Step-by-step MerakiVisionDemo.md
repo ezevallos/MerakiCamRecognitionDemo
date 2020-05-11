@@ -116,6 +116,8 @@ GitHub es un sistema de gestión de proyectos y control de versiones de código,
 Meraki Dashboard API es una interfaz para que el software interactúe directamente con la plataforma en la nube de Meraki y los dispositivos administrados por Meraki.
  1. Luego, nos dirigimos a [http://dashboard.meraki.com/](http://dashboard.meraki.com/) donde encontraremos el último detalle que nos falta, el nombre de la organización. Damos click en “Log in to personal account” e ingresamos las credenciales que nos otorga el Sandbox.
 
+ 2. 
+
 [↑](#toc)
 <div id='para4'/>
 
@@ -510,7 +512,7 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjA0MTIxMiwtMTEzMzYyNDE5LDE2ND
+eyJoaXN0b3J5IjpbMTU1MzE3MjIwNCwtMTEzMzYyNDE5LDE2ND
 AxMDIxNjUsLTEzMTgzMDczNzAsLTY2Mjc0Mzc5NiwtMTI4Njg3
 MDI1MSwtMTI4Njg3MDI1MSwtOTU4NjcyODYxLDQ0NzIwOTYyNi
 wtMTEwODYyNzUyOSwxMDQ1MTM0ODc5LC0xNDc4MjE2OTEsLTk0
