@@ -116,8 +116,8 @@ GitHub es un sistema de gestión de proyectos y control de versiones de código,
 Meraki Dashboard API es una interfaz para que el software interactúe directamente con la plataforma en la nube de Meraki y los dispositivos administrados por Meraki.
  1. Luego, nos dirigimos a [http://dashboard.meraki.com/](http://dashboard.meraki.com/) donde encontraremos el último detalle que nos falta, el nombre de la organización. Damos click en “Log in to personal account” e ingresamos las credenciales que nos otorga el Sandbox.
 ![SandBox Meraki Always-On Dashboard](https://i.ibb.co/FsHjc6x/DN-SB-6.png)
-
- 2. 
+![SandBox Meraki Always-On DashboardAccess](https://i.ibb.co/RS4RHTT/DN-SB-7.png)
+ 2. Para encontrar el nombre de la organización, nos dirigimos a _Organization_ à _Configure_ à _Settings_ encontraremos que el primer campo nos provee el nombre “_DevNet Sandbox_”.
 
 [↑](#toc)
 <div id='para4'/>
@@ -513,11 +513,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI1MjY5NDgsMTU1MzE3MjIwNCwtMTEzMz
-YyNDE5LDE2NDAxMDIxNjUsLTEzMTgzMDczNzAsLTY2Mjc0Mzc5
-NiwtMTI4Njg3MDI1MSwtMTI4Njg3MDI1MSwtOTU4NjcyODYxLD
-Q0NzIwOTYyNiwtMTEwODYyNzUyOSwxMDQ1MTM0ODc5LC0xNDc4
-MjE2OTEsLTk0NTQ5MzgzMSw3MDQ0MTgzMjYsMTY3MzMyMzcxMy
-wtMjkxMzc0NDI0LC0xMjYyMzE1MzIzLDg3NzI2MTIzLC01MDQx
-MDk2NjldfQ==
+eyJoaXN0b3J5IjpbMTgyNTg5MjIzOCwxNTUzMTcyMjA0LC0xMT
+MzNjI0MTksMTY0MDEwMjE2NSwtMTMxODMwNzM3MCwtNjYyNzQz
+Nzk2LC0xMjg2ODcwMjUxLC0xMjg2ODcwMjUxLC05NTg2NzI4Nj
+EsNDQ3MjA5NjI2LC0xMTA4NjI3NTI5LDEwNDUxMzQ4NzksLTE0
+NzgyMTY5MSwtOTQ1NDkzODMxLDcwNDQxODMyNiwxNjczMzIzNz
+EzLC0yOTEzNzQ0MjQsLTEyNjIzMTUzMjMsODc3MjYxMjMsLTUw
+NDEwOTY2OV19
 -->
