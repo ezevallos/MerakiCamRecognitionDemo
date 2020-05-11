@@ -203,7 +203,8 @@ GitHub es un sistema de gestión de proyectos y control de versiones de código,
  7. De esta forma podemos obtener la versión del código que podemos copiar (Ctrl – A y Ctrl – C) y pegar (Ctrl – V) al interpretador de Python de nuestra preferencia.
 ![DNACAutoScriptGitHubRawCode](https://i.ibb.co/NFyTFjs/DN-SB-20.png)
  8. En repl.it, creamos un nuevo fichero, al que llamaremos “**_env_lab.py_**”, y es aquí donde pegamos el contenido que copiamos en el paso anterior.
- 9. 
+![DNACAutoScriptReplIt](https://i.ibb.co/dKnpbSf/DN-SB-21.png)
+ 9. Habiendo establecido el entorno al que accederá nuestro fichero principal, volvemos a este, y lo ejecutamos. Observamos que luego de instalar los módulos necesarios para el correcto funcionamiento del script, este nos arroja una tabla en la que figura el host, la plataforma, el software que utiliza, la versión que se encuentra ejecutando, y el tiempo que tiene en marcha.
 
 [↑](#toc)
 <div id='para4'/>
@@ -599,11 +600,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTU0NTk5MTIsLTc2NDAxMzU4NCwxND
-AwNjg3MzU4LDE2ODEyNzk4MjIsMTc4Mzk4Mjg2NSwxODUyOTUx
-MzIsMjMwOTUzOTU4LDE5OTUxNTQxMzgsMjA1MDI5MTY5MywtMj
-AzOTUyMTEwMiwxNTUzMTcyMjA0LC0xMTMzNjI0MTksMTY0MDEw
-MjE2NSwtMTMxODMwNzM3MCwtNjYyNzQzNzk2LC0xMjg2ODcwMj
-UxLC0xMjg2ODcwMjUxLC05NTg2NzI4NjEsNDQ3MjA5NjI2LC0x
-MTA4NjI3NTI5XX0=
+eyJoaXN0b3J5IjpbOTIyNzE3MjE4LC03NjQwMTM1ODQsMTQwMD
+Y4NzM1OCwxNjgxMjc5ODIyLDE3ODM5ODI4NjUsMTg1Mjk1MTMy
+LDIzMDk1Mzk1OCwxOTk1MTU0MTM4LDIwNTAyOTE2OTMsLTIwMz
+k1MjExMDIsMTU1MzE3MjIwNCwtMTEzMzYyNDE5LDE2NDAxMDIx
+NjUsLTEzMTgzMDczNzAsLTY2Mjc0Mzc5NiwtMTI4Njg3MDI1MS
+wtMTI4Njg3MDI1MSwtOTU4NjcyODYxLDQ0NzIwOTYyNiwtMTEw
+ODYyNzUyOV19
 -->
