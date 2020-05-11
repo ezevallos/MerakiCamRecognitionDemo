@@ -179,6 +179,8 @@ Adicionalmente, se puede filtrar basado en el escenario, dominio, y producto.
 Dentro de _DevNet_ existe **_DevNet Code Exchange_**, que compendia repositorios de proyectos en _GitHub_ con los que podemos descubrir, aprender, construir y colaborar, de forma que podamos impulsar nuestro trabajo en plataformas, productos, APIs, y SDKs de Cisco.
 
  1. El caso de uso que utilizaremos lleva el nombre de “_Display device information from Cisco DNA Center_”. Hacemos click en el caso de uso.
+![DNACUseCaseAutoScript](https://i.ibb.co/G369CML/DN-SB-11.png)
+ 2. 
 
 [↑](#toc)
 <div id='para4'/>
@@ -574,7 +576,7 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NzQzMTI4OSwxNzgzOTgyODY1LDE4NT
+eyJoaXN0b3J5IjpbLTE2NDM2NzY4MiwxNzgzOTgyODY1LDE4NT
 I5NTEzMiwyMzA5NTM5NTgsMTk5NTE1NDEzOCwyMDUwMjkxNjkz
 LC0yMDM5NTIxMTAyLDE1NTMxNzIyMDQsLTExMzM2MjQxOSwxNj
 QwMTAyMTY1LC0xMzE4MzA3MzcwLC02NjI3NDM3OTYsLTEyODY4
