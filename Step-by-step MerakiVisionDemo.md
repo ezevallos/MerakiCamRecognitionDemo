@@ -84,6 +84,8 @@ Dentro de _DevNet_ existe **_DevNet Code Exchange_**, que compendia repositorios
  6. Leemos la breve descripción, para entender el caso de uso, se trata de una serie de scripts en Python que nos permitirán realizar tareas comunes del administrador de una red **_Meraki_**, de forma automatizada. Luego damos click en el botón “_See code on Code Exchange”_ para entrar al **_DevNet Code Exchange_**.
 ![DevNetAutomationExchangeCodeExchange](https://i.ibb.co/4dZ9r68/DN-DX-4.png)
  7. En el **_Code Exchange_**, encontraremos información acerca de cada uno de los scripts de automatización que se encuentran disponibles para nuestra utilización. Los invitamos a leer cada una de las descripciones, en particular nos enfocaremos en el fichero que lleva el nombre “**_listip.py_**”. Este código crea una lista de todos los números seriales, modelos y LAN IP, de dispositivos que forman parte de una red **_Meraki_** para una organización. Hacemos click en el botón “_View on GitHub”._
+![DevNetCodeExchangeAutomationScripts](https://i.ibb.co/LtnxNgj/DN-DX-5.png)
+ 8. 
 
 [↑](#toc)
 <div id='para4'/>
@@ -479,11 +481,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMTAzMjgyNiwxNjQwMTAyMTY1LC0xMz
-E4MzA3MzcwLC02NjI3NDM3OTYsLTEyODY4NzAyNTEsLTEyODY4
-NzAyNTEsLTk1ODY3Mjg2MSw0NDcyMDk2MjYsLTExMDg2Mjc1Mj
-ksMTA0NTEzNDg3OSwtMTQ3ODIxNjkxLC05NDU0OTM4MzEsNzA0
-NDE4MzI2LDE2NzMzMjM3MTMsLTI5MTM3NDQyNCwtMTI2MjMxNT
-MyMyw4NzcyNjEyMywtNTA0MTA5NjY5LC02ODM1MzEwMjEsMTE4
-OTUxOTkxNF19
+eyJoaXN0b3J5IjpbLTIxMDMxODYwNzMsMTY0MDEwMjE2NSwtMT
+MxODMwNzM3MCwtNjYyNzQzNzk2LC0xMjg2ODcwMjUxLC0xMjg2
+ODcwMjUxLC05NTg2NzI4NjEsNDQ3MjA5NjI2LC0xMTA4NjI3NT
+I5LDEwNDUxMzQ4NzksLTE0NzgyMTY5MSwtOTQ1NDkzODMxLDcw
+NDQxODMyNiwxNjczMzIzNzEzLC0yOTEzNzQ0MjQsLTEyNjIzMT
+UzMjMsODc3MjYxMjMsLTUwNDEwOTY2OSwtNjgzNTMxMDIxLDEx
+ODk1MTk5MTRdfQ==
 -->
