@@ -82,6 +82,8 @@ Dentro de _DevNet_ existe **_DevNet Code Exchange_**, que compendia repositorios
  5. El caso de uso que utilizaremos lleva el nombre de "_Manage Multiple Meraki organizations_". Hacemos click en el caso de uso.
 ![DevNetAutomationExchangeManageMultipleMerakiOrgs](https://i.ibb.co/hdjmksH/DN-DX-3.png)
  6. Leemos la breve descripción, para entender el caso de uso, se trata de una serie de scripts en Python que nos permitirán realizar tareas comunes del administrador de una red **_Meraki_**, de forma automatizada. Luego damos click en el botón “_See code on Code Exchange”_ para entrar al **_DevNet Code Exchange_**.
+![DevNetAutomationExchangeCodeExchange](https://i.ibb.co/4dZ9r68/DN-DX-4.png)
+ 7. En el **_Code Exchange_**, encontraremos información acerca de cada uno de los scripts de automatización que se encuentran disponibles para nuestra utilización. Los invitamos a leer cada una de las descripciones, en particular nos enfocaremos en el fichero que lleva el nombre “**_listip.py_**”. Este código crea una lista de todos los números seriales, modelos y LAN IP, de dispositivos que forman parte de una red **_Meraki_** para una organización. Hacemos click en el botón “_View on GitHub”._
 
 [↑](#toc)
 <div id='para4'/>
@@ -477,11 +479,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MDEwMjE2NSwtMTMxODMwNzM3MCwtNj
-YyNzQzNzk2LC0xMjg2ODcwMjUxLC0xMjg2ODcwMjUxLC05NTg2
-NzI4NjEsNDQ3MjA5NjI2LC0xMTA4NjI3NTI5LDEwNDUxMzQ4Nz
-ksLTE0NzgyMTY5MSwtOTQ1NDkzODMxLDcwNDQxODMyNiwxNjcz
-MzIzNzEzLC0yOTEzNzQ0MjQsLTEyNjIzMTUzMjMsODc3MjYxMj
-MsLTUwNDEwOTY2OSwtNjgzNTMxMDIxLDExODk1MTk5MTQsMTg1
-ODA3MTAxMV19
+eyJoaXN0b3J5IjpbMTYxMTAzMjgyNiwxNjQwMTAyMTY1LC0xMz
+E4MzA3MzcwLC02NjI3NDM3OTYsLTEyODY4NzAyNTEsLTEyODY4
+NzAyNTEsLTk1ODY3Mjg2MSw0NDcyMDk2MjYsLTExMDg2Mjc1Mj
+ksMTA0NTEzNDg3OSwtMTQ3ODIxNjkxLC05NDU0OTM4MzEsNzA0
+NDE4MzI2LDE2NzMzMjM3MTMsLTI5MTM3NDQyNCwtMTI2MjMxNT
+MyMyw4NzcyNjEyMywtNTA0MTA5NjY5LC02ODM1MzEwMjEsMTE4
+OTUxOTkxNF19
 -->
