@@ -10,7 +10,16 @@ _Cisco Developer’s Network_ o _Cisco DevNet_ es nuestra comunidad de práctica
 
 ## Start Now
 Aquí ([https://developer.cisco.com/startnow/](https://developer.cisco.com/startnow/)) encontraremos una lista curada de contenidos para empezar nuestro viaje, es el lugar ideal para aquellos que desean tomar el primer paso en programación, o llevar sus habilidades al siguiente nivel. Es el lugar para tener una experiencia de aprendizaje guiada y aplicada, en las plataformas y tecnologías de Cisco.
+![DevNetStartNow](https://i.ibb.co/BCqvtR7/DN-IN-2.png)
 
+## Learning Tracks
+<![endif]-->
+
+Aquí ([https://developer.cisco.com/learning/tracks](https://developer.cisco.com/learning/tracks)) encontraremos una ruta guiada de aprendizaje en tecnologías de Cisco selectas. Están basadas en los DevNet Learning Labs, un track está conformado por módulos, que a su vez están conformados por los learning labs. Algunos módulos se enfocan en conocimientos generales de programación, redes y otros temas.
+
+<![if !supportLists]>· <![endif]>[https://developer.cisco.com/learning/modules](https://developer.cisco.com/learning/modules)
+
+<![if !supportLists]>· <![endif]>[https://developer.cisco.com/learning/labs](https://developer.cisco.com/learning/labs)
 
 <div id='para4'/>
 
@@ -405,11 +414,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk2NTA5NzY5LDEwNDUxMzQ4NzksLTE0Nz
-gyMTY5MSwtOTQ1NDkzODMxLDcwNDQxODMyNiwxNjczMzIzNzEz
-LC0yOTEzNzQ0MjQsLTEyNjIzMTUzMjMsODc3MjYxMjMsLTUwND
-EwOTY2OSwtNjgzNTMxMDIxLDExODk1MTk5MTQsMTg1ODA3MTAx
-MSw3MTgyMDAwNjgsMTc4MTA2MDMxMywxMTUzNTI0OTA5LC0xMz
-c1ODcwMjczLC0xNzA5MzkzOTI4LDgxMTYzNzE3Nyw5OTYyNDE2
-MjZdfQ==
+eyJoaXN0b3J5IjpbLTE1NjE3OTY5MjMsMTA0NTEzNDg3OSwtMT
+Q3ODIxNjkxLC05NDU0OTM4MzEsNzA0NDE4MzI2LDE2NzMzMjM3
+MTMsLTI5MTM3NDQyNCwtMTI2MjMxNTMyMyw4NzcyNjEyMywtNT
+A0MTA5NjY5LC02ODM1MzEwMjEsMTE4OTUxOTkxNCwxODU4MDcx
+MDExLDcxODIwMDA2OCwxNzgxMDYwMzEzLDExNTM1MjQ5MDksLT
+EzNzU4NzAyNzMsLTE3MDkzOTM5MjgsODExNjM3MTc3LDk5NjI0
+MTYyNl19
 -->
