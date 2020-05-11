@@ -154,6 +154,23 @@ donde le estamos pasando los parámetros mencionados. En caso estemos corriendo 
 **_Cisco Digital Network Architecture – Center (DNA Center)_** es la arquitectura de Cisco para redes empresariales. Proporciona un enfoque abierto, extensible e impulsado por software que hace que la red sea más simple de administrar y más ágil y receptiva a las necesidades del negocio. Este caso de uso sirve para tener visibilidad de los dispositivos conectados a la red de forma automatizada. En el día a día de un administrador de red, esta es una tarea muy común pues. Realizar este proceso de forma repetitiva es simple, pero puede consumir tiempo y el error humano puede causar complicaciones. Este laboratorio utiliza las herramientas que nos ofrece **_Cisco DevNet_** para automatizar tareas frecuentes que realizan los ingenieros de red, en particular . Se explica cómo navegar dentro de la plataforma de nuestra comunidad de práctica **_DevNet_** para realizarlo, haciendo uso solamente de un navegador web, de un **_SandBox Always On_** que invocamos directamente desde el código, y de un interpretador de Python bien sea en el entorno local de desarrollo o en su defecto podemos utilizar uno basado en la web.
 ![DNAC-Python](https://i.pinimg.com/originals/43/bc/17/43bc1772bd748f043cfd1bd7d91ec2c4.png)
 
+## Recursos requeridos
+ - Acceso a Internet
+ - Navegador web
+ - Cuenta de **_Cisco DevNet_**
+
+## Parte 1: Navegar por los recursos necesarios en DevNet
+### Paso 1: Echamos un vistazo en DevNet Automation Exchange
+DevNet Automation Exchange es una biblioteca donde encontraremos casos de uso donde la programabilidad ha sido utilizada para automatizar tareas comunes en networking. La comunidad de desarrolladores de **_Cisco_** llamada **_DevNet_**, actualiza y crea continuamente código para inspirar a la comunidad a seguir desenvolviéndose en la creación de software orientado a las redes.
+
+ 1. Abrir el navegador, acceder a [https://developer.cisco.com](https://developer.cisco.com), e ingresar con su cuenta.
+![DevNetLogin](https://i.ibb.co/FbJ3SWt/DN-DM-1.png)
+ 2. En la barra superior, dirigirse _Discover_ → **Inspire** → _DevNet Automation Exchange_. ![DevNet Sandbox](https://i.ibb.co/Lrf0X6y/DN-SB.png)
+
+### Paso 2: Aprendemos a navegar entre los casos de uso
+Para hacer más simple el proceso, se han establecido estados en los que se podría encontrar el desarrollador. Estos son Caminar – Correr – Volar, donde el primero representa casos más fáciles de implementar y el posterior, casos más complicados. Por otro lado, los casos se encuentran clasificados dependiendo del ciclo de vida en el que se encuentra la red, día 0, día 1, día 2, o día N.
+
+Adicionalmente, se puede filtrar basado en el escenario, dominio, y producto.
 
 
 <div id='para4'/>
@@ -549,11 +566,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTg0NjA4MzQsMTg1Mjk1MTMyLDIzMD
-k1Mzk1OCwxOTk1MTU0MTM4LDIwNTAyOTE2OTMsLTIwMzk1MjEx
-MDIsMTU1MzE3MjIwNCwtMTEzMzYyNDE5LDE2NDAxMDIxNjUsLT
-EzMTgzMDczNzAsLTY2Mjc0Mzc5NiwtMTI4Njg3MDI1MSwtMTI4
-Njg3MDI1MSwtOTU4NjcyODYxLDQ0NzIwOTYyNiwtMTEwODYyNz
-UyOSwxMDQ1MTM0ODc5LC0xNDc4MjE2OTEsLTk0NTQ5MzgzMSw3
-MDQ0MTgzMjZdfQ==
+eyJoaXN0b3J5IjpbMTM1Mjc0MTg4NywxODUyOTUxMzIsMjMwOT
+UzOTU4LDE5OTUxNTQxMzgsMjA1MDI5MTY5MywtMjAzOTUyMTEw
+MiwxNTUzMTcyMjA0LC0xMTMzNjI0MTksMTY0MDEwMjE2NSwtMT
+MxODMwNzM3MCwtNjYyNzQzNzk2LC0xMjg2ODcwMjUxLC0xMjg2
+ODcwMjUxLC05NTg2NzI4NjEsNDQ3MjA5NjI2LC0xMTA4NjI3NT
+I5LDEwNDUxMzQ4NzksLTE0NzgyMTY5MSwtOTQ1NDkzODMxLDcw
+NDQxODMyNl19
 -->
