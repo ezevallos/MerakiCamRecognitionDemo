@@ -32,6 +32,10 @@ Aquí ([https://developer.cisco.com/codeexchange/](https://developer.cisco.com/c
 ![DevNetCodeExchange](https://i.ibb.co/t3ctc3j/DN-IN-6.png)
 
 ## Ecosystem-Exchange
+Aquí ([https://developer.cisco.com/codeexchange/](https://developer.cisco.com/codeexchange/)) encontraremos una plataforma para conectar el ecosistema global de los socios de Cisco que están creando soluciones y servicios utilizando las API de Cisco, a los clientes que buscan aprovechar o integrar las soluciones existentes para impulsar los resultados comerciales.
+![DevNetEcosystemExchange](https://i.ibb.co/0MVWTKL/DN-IN-7.png)
+
+
 
 
 <div id='para4'/>
@@ -427,7 +431,7 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNTQ0NjQ0OSwtMTEwODYyNzUyOSwxMD
+eyJoaXN0b3J5IjpbLTc1MjMyNzA3MywtMTEwODYyNzUyOSwxMD
 Q1MTM0ODc5LC0xNDc4MjE2OTEsLTk0NTQ5MzgzMSw3MDQ0MTgz
 MjYsMTY3MzMyMzcxMywtMjkxMzc0NDI0LC0xMjYyMzE1MzIzLD
 g3NzI2MTIzLC01MDQxMDk2NjksLTY4MzUzMTAyMSwxMTg5NTE5
