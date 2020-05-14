@@ -616,12 +616,14 @@ Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pú
 Para empezar nos dirigimos a [Dialogflow](https://dialogflow.com/) y utilizamos nuestra cuenta de **Google** para registrarse.
 ![Dialogflow Sign In](https://i.ibb.co/1QWd2Fk/DF-SI-1.png)
 La plataforma nos permite hacer esto de forma automática si tenemos nuestra cuenta activa en el navegador.
+![Dialogflow SignIn](https://i.ibb.co/K75mxYF/DF-SI-2.png)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2ODQ1ODkyLDUyNTM0NjgxOSwxOTk3ND
-E5NDU4LDEyNTA3NTY2OTYsNjQxNjIyMzEwLDkyNzI2MDM1Nywt
-MTc4NDA2ODk0MiwtNDUyOTQ2NzgwLDQ1NTQxOTIsMTY1NDU2OD
-c4MCwtNzY0MDEzNTg0LDE0MDA2ODczNTgsMTY4MTI3OTgyMiwx
-NzgzOTgyODY1LDE4NTI5NTEzMiwyMzA5NTM5NTgsMTk5NTE1ND
-EzOCwyMDUwMjkxNjkzLC0yMDM5NTIxMTAyLDE1NTMxNzIyMDRd
-fQ==
+eyJoaXN0b3J5IjpbMTA4MjE0MDY5LC03Njg0NTg5Miw1MjUzND
+Y4MTksMTk5NzQxOTQ1OCwxMjUwNzU2Njk2LDY0MTYyMjMxMCw5
+MjcyNjAzNTcsLTE3ODQwNjg5NDIsLTQ1Mjk0Njc4MCw0NTU0MT
+kyLDE2NTQ1Njg3ODAsLTc2NDAxMzU4NCwxNDAwNjg3MzU4LDE2
+ODEyNzk4MjIsMTc4Mzk4Mjg2NSwxODUyOTUxMzIsMjMwOTUzOT
+U4LDE5OTUxNTQxMzgsMjA1MDI5MTY5MywtMjAzOTUyMTEwMl19
+
 -->
