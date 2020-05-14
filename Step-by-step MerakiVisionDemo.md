@@ -623,13 +623,14 @@ Seremos redirigidos a la página de inicio. Aquí debemos especificar nuestro pa
 ![DialogflowCreateAgent](https://i.ibb.co/KhKmjLR/DF-TI-2.png)
 Luego debemos crear un nuevo *intent*, es decir intención o propósito. Este será la que mapeamos a la función *tell* mediante el decorador *action* en la ruta de nuestro *web server* de *Flask*. Le damos el nombre "*tv-watch*". Esto lo haremos mediante el botón azul que dice "*Create Intent*" o en la barra lateral, ubicando la sección de *Intents*, dando click en el símbolo de suma "+".
 ![Dialogflow Create Intent](https://i.ibb.co/PWnhbVx/DF-TI-1.png)
-Luego de crear nuestro *intent* y especificar su nombre, debemos indicar las frases con las que se ha de entrenar 
+Luego de crear nuestro *intent* y especificar su nombre, debemos indicar las frases con las que se ha de entrenar al asistente para reconocer nuestra intención.
+Debido a que el software de reconocimiento de imágenes *Imagga* nos devuelve la clasificación en palabras en inglés, tiene concordancia utilizar frases 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYwNDQwNDMyLDE4MzY1NjkxNjksLTE4OT
-k4ODExNzUsMTIwMTAyNDQwNCwtOTEzODAwNTA5LDkwMDA3NjA3
-NSwtMjI3MDg0Njc2LC0xNzMyODg4MzUwLDc0Njk4MTM0NSwxNz
-E5NTMwNDYzLC03Njg0NTg5Miw1MjUzNDY4MTksMTk5NzQxOTQ1
-OCwxMjUwNzU2Njk2LDY0MTYyMjMxMCw5MjcyNjAzNTcsLTE3OD
-QwNjg5NDIsLTQ1Mjk0Njc4MCw0NTU0MTkyLDE2NTQ1Njg3ODBd
+eyJoaXN0b3J5IjpbMTQwNTIwMzgzNCwzNjA0NDA0MzIsMTgzNj
+U2OTE2OSwtMTg5OTg4MTE3NSwxMjAxMDI0NDA0LC05MTM4MDA1
+MDksOTAwMDc2MDc1LC0yMjcwODQ2NzYsLTE3MzI4ODgzNTAsNz
+Q2OTgxMzQ1LDE3MTk1MzA0NjMsLTc2ODQ1ODkyLDUyNTM0Njgx
+OSwxOTk3NDE5NDU4LDEyNTA3NTY2OTYsNjQxNjIyMzEwLDkyNz
+I2MDM1NywtMTc4NDA2ODk0MiwtNDUyOTQ2NzgwLDQ1NTQxOTJd
 fQ==
 -->
