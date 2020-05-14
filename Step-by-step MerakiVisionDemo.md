@@ -621,15 +621,15 @@ Luego de ingresar con nuestra cuenta, nos dirigimos a la consola.
 ![DialogflowLanding](https://i.ibb.co/FsKCwQw/DF-SI-3.png)
 Seremos redirigidos a la página de inicio. Aquí debemos especificar nuestro país y acceder a los términos y condiciones. En primer lugar será necesario crear un nuevo agente, y darle un nombre como "QueEsLoQueVes" para identificarlo. Luego especificamos el idioma por defecto, y se creará un proyecto de *Google* de forma automática al guardar.
 ![DialogflowCreateAgent](https://i.ibb.co/KhKmjLR/DF-TI-2.png)
-debemos crear un nuevo *intent*, es decir intención o propósito. Este será la que mapeamos a la función *tell* mediante el decorador *action* en la ruta de nuestro *web server* de *Flask*. Su nombre es "*tv-watch*". Esto lo haremos mediante el botón azul que dice "*Create Intent*" o en la barra lateral, ubicando la sección de *Intents*, dando click en el símbolo de suma "+".
+Luego debemos crear un nuevo *intent*, es decir intención o propósito. Este será la que mapeamos a la función *tell* mediante el decorador *action* en la ruta de nuestro *web server* de *Flask*. Su nombre es "*tv-watch*". Esto lo haremos mediante el botón azul que dice "*Create Intent*" o en la barra lateral, ubicando la sección de *Intents*, dando click en el símbolo de suma "+".
 ![Dialogflow Create Intent](https://i.ibb.co/PWnhbVx/DF-TI-1.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NjY1MTI1OSwxMjAxMDI0NDA0LC05MT
-M4MDA1MDksOTAwMDc2MDc1LC0yMjcwODQ2NzYsLTE3MzI4ODgz
-NTAsNzQ2OTgxMzQ1LDE3MTk1MzA0NjMsLTc2ODQ1ODkyLDUyNT
-M0NjgxOSwxOTk3NDE5NDU4LDEyNTA3NTY2OTYsNjQxNjIyMzEw
-LDkyNzI2MDM1NywtMTc4NDA2ODk0MiwtNDUyOTQ2NzgwLDQ1NT
-QxOTIsMTY1NDU2ODc4MCwtNzY0MDEzNTg0LDE0MDA2ODczNThd
-fQ==
+eyJoaXN0b3J5IjpbLTE4OTk4ODExNzUsMTIwMTAyNDQwNCwtOT
+EzODAwNTA5LDkwMDA3NjA3NSwtMjI3MDg0Njc2LC0xNzMyODg4
+MzUwLDc0Njk4MTM0NSwxNzE5NTMwNDYzLC03Njg0NTg5Miw1Mj
+UzNDY4MTksMTk5NzQxOTQ1OCwxMjUwNzU2Njk2LDY0MTYyMjMx
+MCw5MjcyNjAzNTcsLTE3ODQwNjg5NDIsLTQ1Mjk0Njc4MCw0NT
+U0MTkyLDE2NTQ1Njg3ODAsLTc2NDAxMzU4NCwxNDAwNjg3MzU4
+XX0=
 -->
