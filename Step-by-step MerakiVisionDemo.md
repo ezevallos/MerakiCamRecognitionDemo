@@ -2,7 +2,7 @@
 
 <div id='toc'/>
 
-# Tabla of contents
+# Tabla de contenidos
 1. [Introducción - Cisco DevNet](#intro)
 2. [Lab 1: Cómo usar Python para obtener un inventario de red en Meraki.](#para1)
 3. [Lab 4: Reconocimiento de imágenes mediante un comando de voz.](#para4)
@@ -611,11 +611,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzU2NzYwMDAsLTQ1Mjk0Njc4MCw0NT
-U0MTkyLDE2NTQ1Njg3ODAsLTc2NDAxMzU4NCwxNDAwNjg3MzU4
-LDE2ODEyNzk4MjIsMTc4Mzk4Mjg2NSwxODUyOTUxMzIsMjMwOT
-UzOTU4LDE5OTUxNTQxMzgsMjA1MDI5MTY5MywtMjAzOTUyMTEw
-MiwxNTUzMTcyMjA0LC0xMTMzNjI0MTksMTY0MDEwMjE2NSwtMT
-MxODMwNzM3MCwtNjYyNzQzNzk2LC0xMjg2ODcwMjUxLC0xMjg2
-ODcwMjUxXX0=
+eyJoaXN0b3J5IjpbMTcyMjU1NjIxNCwtNDUyOTQ2NzgwLDQ1NT
+QxOTIsMTY1NDU2ODc4MCwtNzY0MDEzNTg0LDE0MDA2ODczNTgs
+MTY4MTI3OTgyMiwxNzgzOTgyODY1LDE4NTI5NTEzMiwyMzA5NT
+M5NTgsMTk5NTE1NDEzOCwyMDUwMjkxNjkzLC0yMDM5NTIxMTAy
+LDE1NTMxNzIyMDQsLTExMzM2MjQxOSwxNjQwMTAyMTY1LC0xMz
+E4MzA3MzcwLC02NjI3NDM3OTYsLTEyODY4NzAyNTEsLTEyODY4
+NzAyNTFdfQ==
 -->
