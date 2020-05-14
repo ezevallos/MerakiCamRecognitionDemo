@@ -606,6 +606,7 @@ $ heroku open
 $ heroku logs --tail
 # Este comando nos permitirá ver los logs y hacer debugging y troubleshooting luego de desplegar la app.
 ```
+Al ejecutar el comando `heroku create`, creamos el app y obtendremos en consola la dirección pública de nuestro aplicativo. Esta dirección es muy importante, debemos guardarla para utilizarla en la siguiente etapa.
 
 
 
@@ -613,11 +614,11 @@ $ heroku logs --tail
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ0MjkzNDY2LC00NTI5NDY3ODAsNDU1ND
-E5MiwxNjU0NTY4NzgwLC03NjQwMTM1ODQsMTQwMDY4NzM1OCwx
-NjgxMjc5ODIyLDE3ODM5ODI4NjUsMTg1Mjk1MTMyLDIzMDk1Mz
-k1OCwxOTk1MTU0MTM4LDIwNTAyOTE2OTMsLTIwMzk1MjExMDIs
-MTU1MzE3MjIwNCwtMTEzMzYyNDE5LDE2NDAxMDIxNjUsLTEzMT
-gzMDczNzAsLTY2Mjc0Mzc5NiwtMTI4Njg3MDI1MSwtMTI4Njg3
-MDI1MV19
+eyJoaXN0b3J5IjpbLTE3ODQwNjg5NDIsLTQ1Mjk0Njc4MCw0NT
+U0MTkyLDE2NTQ1Njg3ODAsLTc2NDAxMzU4NCwxNDAwNjg3MzU4
+LDE2ODEyNzk4MjIsMTc4Mzk4Mjg2NSwxODUyOTUxMzIsMjMwOT
+UzOTU4LDE5OTUxNTQxMzgsMjA1MDI5MTY5MywtMjAzOTUyMTEw
+MiwxNTUzMTcyMjA0LC0xMTMzNjI0MTksMTY0MDEwMjE2NSwtMT
+MxODMwNzM3MCwtNjYyNzQzNzk2LC0xMjg2ODcwMjUxLC0xMjg2
+ODcwMjUxXX0=
 -->
