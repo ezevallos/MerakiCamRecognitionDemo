@@ -613,9 +613,9 @@ Al ejecutar el comando `heroku create`, creamos el app y obtendremos en consola 
 ## Conectar con Dialogflow
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos referirnos mediante un webhook.
-
+Para empezar nos dirigimos a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxOTkyNzY4NiwxMjUwNzU2Njk2LDY0MT
+eyJoaXN0b3J5IjpbMTk5NzQxOTQ1OCwxMjUwNzU2Njk2LDY0MT
 YyMjMxMCw5MjcyNjAzNTcsLTE3ODQwNjg5NDIsLTQ1Mjk0Njc4
 MCw0NTU0MTkyLDE2NTQ1Njg3ODAsLTc2NDAxMzU4NCwxNDAwNj
 g3MzU4LDE2ODEyNzk4MjIsMTc4Mzk4Mjg2NSwxODUyOTUxMzIs
