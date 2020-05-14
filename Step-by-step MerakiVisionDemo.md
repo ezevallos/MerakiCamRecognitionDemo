@@ -620,16 +620,16 @@ La plataforma nos permite hacer esto de forma automática si tenemos nuestra cue
 Luego de ingresar con nuestra cuenta, nos dirigimos a la consola. 
 ![DialogflowLanding](https://i.ibb.co/FsKCwQw/DF-SI-3.png)
 Seremos redirigidos a la página de inicio. Aquí debemos especificar nuestro país y acceder a los términos y condiciones. En primer lugar será necesario crear un nuevo agente, y darle un nombre para identificarlo.
-
+![DialogflowCreateAgent]
 debemos crear un nuevo *intent*, es decir intención o propósito. Este será la que mapeamos a la función *tell* mediante el decorador *action* en la ruta de nuestro *web server* de *Flask*. Su nombre es "*tv-watch*". Esto lo haremos mediante el botón azul que dice "*Create Intent*" o en la barra lateral, ubicando la sección de *Intents*, dando click en el símbolo de suma "+".
 ![Dialogflow Create Intent](https://i.ibb.co/PWnhbVx/DF-TI-1.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMzgwMDUwOSw5MDAwNzYwNzUsLTIyNz
-A4NDY3NiwtMTczMjg4ODM1MCw3NDY5ODEzNDUsMTcxOTUzMDQ2
-MywtNzY4NDU4OTIsNTI1MzQ2ODE5LDE5OTc0MTk0NTgsMTI1MD
-c1NjY5Niw2NDE2MjIzMTAsOTI3MjYwMzU3LC0xNzg0MDY4OTQy
-LC00NTI5NDY3ODAsNDU1NDE5MiwxNjU0NTY4NzgwLC03NjQwMT
-M1ODQsMTQwMDY4NzM1OCwxNjgxMjc5ODIyLDE3ODM5ODI4NjVd
+eyJoaXN0b3J5IjpbLTEyNzQ0ODY3MywtOTEzODAwNTA5LDkwMD
+A3NjA3NSwtMjI3MDg0Njc2LC0xNzMyODg4MzUwLDc0Njk4MTM0
+NSwxNzE5NTMwNDYzLC03Njg0NTg5Miw1MjUzNDY4MTksMTk5Nz
+QxOTQ1OCwxMjUwNzU2Njk2LDY0MTYyMjMxMCw5MjcyNjAzNTcs
+LTE3ODQwNjg5NDIsLTQ1Mjk0Njc4MCw0NTU0MTkyLDE2NTQ1Nj
+g3ODAsLTc2NDAxMzU4NCwxNDAwNjg3MzU4LDE2ODEyNzk4MjJd
 fQ==
 -->
