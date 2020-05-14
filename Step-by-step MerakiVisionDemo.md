@@ -617,17 +617,18 @@ Para empezar nos dirigimos a [Dialogflow](https://dialogflow.com/) y utilizamos 
 ![Dialogflow Sign In](https://i.ibb.co/1QWd2Fk/DF-SI-1.png)
 La plataforma nos permite hacer esto de forma automática si tenemos nuestra cuenta activa en el navegador. Debemos concederle permiso a Dialogflow, y de esta forma accedemos a la página principal.
 ![Dialogflow SignIn](https://i.ibb.co/K75mxYF/DF-SI-2.png)
-Luego de ingresar con nuestra cuenta, nos dirigimos a la consola.
+Luego de ingresar con nuestra cuenta, nos dirigimos a la consola. 
 ![DialogflowLanding](https://i.ibb.co/FsKCwQw/DF-SI-3.png)
+Seremos redirigidos a la página de inicio. Aquí debemos especificar nuestro país y acceder a los términos y condiciones.
 En primer lugar será necesario crear un nuevo agentedebemos crear un nuevo *intent*, es decir intención o propósito. Este será la que mapeamos a la función *tell* mediante el decorador *action* en la ruta de nuestro *web server* de *Flask*. Su nombre es "*tv-watch*". Esto lo haremos mediante el botón azul que dice "*Create Intent*" o en la barra lateral, ubicando la sección de *Intents*, dando click en el símbolo de suma "+".
 ![Dialogflow Create Intent](https://i.ibb.co/PWnhbVx/DF-TI-1.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4ODA1OTExMywtMjI3MDg0Njc2LC0xNz
-MyODg4MzUwLDc0Njk4MTM0NSwxNzE5NTMwNDYzLC03Njg0NTg5
-Miw1MjUzNDY4MTksMTk5NzQxOTQ1OCwxMjUwNzU2Njk2LDY0MT
-YyMjMxMCw5MjcyNjAzNTcsLTE3ODQwNjg5NDIsLTQ1Mjk0Njc4
-MCw0NTU0MTkyLDE2NTQ1Njg3ODAsLTc2NDAxMzU4NCwxNDAwNj
-g3MzU4LDE2ODEyNzk4MjIsMTc4Mzk4Mjg2NSwxODUyOTUxMzJd
-fQ==
+eyJoaXN0b3J5IjpbOTAwMDc2MDc1LC0yMjcwODQ2NzYsLTE3Mz
+I4ODgzNTAsNzQ2OTgxMzQ1LDE3MTk1MzA0NjMsLTc2ODQ1ODky
+LDUyNTM0NjgxOSwxOTk3NDE5NDU4LDEyNTA3NTY2OTYsNjQxNj
+IyMzEwLDkyNzI2MDM1NywtMTc4NDA2ODk0MiwtNDUyOTQ2Nzgw
+LDQ1NTQxOTIsMTY1NDU2ODc4MCwtNzY0MDEzNTg0LDE0MDA2OD
+czNTgsMTY4MTI3OTgyMiwxNzgzOTgyODY1LDE4NTI5NTEzMl19
+
 -->
