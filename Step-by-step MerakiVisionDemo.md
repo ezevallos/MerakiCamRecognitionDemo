@@ -619,16 +619,16 @@ La plataforma nos permite hacer esto de forma automática si tenemos nuestra cue
 ![Dialogflow SignIn](https://i.ibb.co/K75mxYF/DF-SI-2.png)
 Luego de ingresar con nuestra cuenta, nos dirigimos a la consola. 
 ![DialogflowLanding](https://i.ibb.co/FsKCwQw/DF-SI-3.png)
-Seremos redirigidos a la página de inicio. Aquí debemos especificar nuestro país y acceder a los términos y condiciones.
-En primer lugar será necesario crear un nuevo agentedebemos crear un nuevo *intent*, es decir intención o propósito. Este será la que mapeamos a la función *tell* mediante el decorador *action* en la ruta de nuestro *web server* de *Flask*. Su nombre es "*tv-watch*". Esto lo haremos mediante el botón azul que dice "*Create Intent*" o en la barra lateral, ubicando la sección de *Intents*, dando click en el símbolo de suma "+".
+Seremos redirigidos a la página de inicio. Aquí debemos especificar nuestro país y acceder a los términos y condiciones. En primer lugar será necesario crear un nuevo agente
+debemos crear un nuevo *intent*, es decir intención o propósito. Este será la que mapeamos a la función *tell* mediante el decorador *action* en la ruta de nuestro *web server* de *Flask*. Su nombre es "*tv-watch*". Esto lo haremos mediante el botón azul que dice "*Create Intent*" o en la barra lateral, ubicando la sección de *Intents*, dando click en el símbolo de suma "+".
 ![Dialogflow Create Intent](https://i.ibb.co/PWnhbVx/DF-TI-1.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAwMDc2MDc1LC0yMjcwODQ2NzYsLTE3Mz
-I4ODgzNTAsNzQ2OTgxMzQ1LDE3MTk1MzA0NjMsLTc2ODQ1ODky
-LDUyNTM0NjgxOSwxOTk3NDE5NDU4LDEyNTA3NTY2OTYsNjQxNj
-IyMzEwLDkyNzI2MDM1NywtMTc4NDA2ODk0MiwtNDUyOTQ2Nzgw
-LDQ1NTQxOTIsMTY1NDU2ODc4MCwtNzY0MDEzNTg0LDE0MDA2OD
-czNTgsMTY4MTI3OTgyMiwxNzgzOTgyODY1LDE4NTI5NTEzMl19
+eyJoaXN0b3J5IjpbMzE1NDczMTksOTAwMDc2MDc1LC0yMjcwOD
+Q2NzYsLTE3MzI4ODgzNTAsNzQ2OTgxMzQ1LDE3MTk1MzA0NjMs
+LTc2ODQ1ODkyLDUyNTM0NjgxOSwxOTk3NDE5NDU4LDEyNTA3NT
+Y2OTYsNjQxNjIyMzEwLDkyNzI2MDM1NywtMTc4NDA2ODk0Miwt
+NDUyOTQ2NzgwLDQ1NTQxOTIsMTY1NDU2ODc4MCwtNzY0MDEzNT
+g0LDE0MDA2ODczNTgsMTY4MTI3OTgyMiwxNzgzOTgyODY1XX0=
 
 -->
