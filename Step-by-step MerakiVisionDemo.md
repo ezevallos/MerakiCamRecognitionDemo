@@ -617,13 +617,14 @@ Para empezar nos dirigimos a [Dialogflow](https://dialogflow.com/) y utilizamos 
 ![Dialogflow Sign In](https://i.ibb.co/1QWd2Fk/DF-SI-1.png)
 La plataforma nos permite hacer esto de forma automática si tenemos nuestra cuenta activa en el navegador.
 ![Dialogflow SignIn](https://i.ibb.co/K75mxYF/DF-SI-2.png)
+Luego de ingresar con nuestra cuenta, nos dirigimos a la consola.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MjE0MDY5LC03Njg0NTg5Miw1MjUzND
-Y4MTksMTk5NzQxOTQ1OCwxMjUwNzU2Njk2LDY0MTYyMjMxMCw5
-MjcyNjAzNTcsLTE3ODQwNjg5NDIsLTQ1Mjk0Njc4MCw0NTU0MT
-kyLDE2NTQ1Njg3ODAsLTc2NDAxMzU4NCwxNDAwNjg3MzU4LDE2
-ODEyNzk4MjIsMTc4Mzk4Mjg2NSwxODUyOTUxMzIsMjMwOTUzOT
-U4LDE5OTUxNTQxMzgsMjA1MDI5MTY5MywtMjAzOTUyMTEwMl19
-
+eyJoaXN0b3J5IjpbMTIxNjU2MjcxNSwtNzY4NDU4OTIsNTI1Mz
+Q2ODE5LDE5OTc0MTk0NTgsMTI1MDc1NjY5Niw2NDE2MjIzMTAs
+OTI3MjYwMzU3LC0xNzg0MDY4OTQyLC00NTI5NDY3ODAsNDU1ND
+E5MiwxNjU0NTY4NzgwLC03NjQwMTM1ODQsMTQwMDY4NzM1OCwx
+NjgxMjc5ODIyLDE3ODM5ODI4NjUsMTg1Mjk1MTMyLDIzMDk1Mz
+k1OCwxOTk1MTU0MTM4LDIwNTAyOTE2OTMsLTIwMzk1MjExMDJd
+fQ==
 -->
