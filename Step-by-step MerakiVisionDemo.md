@@ -619,13 +619,13 @@ La plataforma nos permite hacer esto de forma automática si tenemos nuestra cue
 ![Dialogflow SignIn](https://i.ibb.co/K75mxYF/DF-SI-2.png)
 Luego de ingresar con nuestra cuenta, nos dirigimos a la consola.
 ![DialogflowLanding](https://i.ibb.co/FsKCwQw/DF-SI-3.png)
-Aquí debemos crear un nuevo *intent*, es decir intención o propósito. Este será la que mapeamos a 
+Aquí debemos crear un nuevo *intent*, es decir intención o propósito. Este será la que mapeamos a la función *tell* mediante el decorador *action* en la ruta de nuestro *web server* de *Flask*. Su nombre es "tv-wwat
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NjI0Njg0NywtNzY4NDU4OTIsNTI1Mz
-Q2ODE5LDE5OTc0MTk0NTgsMTI1MDc1NjY5Niw2NDE2MjIzMTAs
-OTI3MjYwMzU3LC0xNzg0MDY4OTQyLC00NTI5NDY3ODAsNDU1ND
-E5MiwxNjU0NTY4NzgwLC03NjQwMTM1ODQsMTQwMDY4NzM1OCwx
-NjgxMjc5ODIyLDE3ODM5ODI4NjUsMTg1Mjk1MTMyLDIzMDk1Mz
-k1OCwxOTk1MTU0MTM4LDIwNTAyOTE2OTMsLTIwMzk1MjExMDJd
-fQ==
+eyJoaXN0b3J5IjpbNjE5OTA3NzI1LC03Njg0NTg5Miw1MjUzND
+Y4MTksMTk5NzQxOTQ1OCwxMjUwNzU2Njk2LDY0MTYyMjMxMCw5
+MjcyNjAzNTcsLTE3ODQwNjg5NDIsLTQ1Mjk0Njc4MCw0NTU0MT
+kyLDE2NTQ1Njg3ODAsLTc2NDAxMzU4NCwxNDAwNjg3MzU4LDE2
+ODEyNzk4MjIsMTc4Mzk4Mjg2NSwxODUyOTUxMzIsMjMwOTUzOT
+U4LDE5OTUxNTQxMzgsMjA1MDI5MTY5MywtMjAzOTUyMTEwMl19
+
 -->
