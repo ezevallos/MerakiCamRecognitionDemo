@@ -619,13 +619,13 @@ La plataforma nos permite hacer esto de forma automática si tenemos nuestra cue
 ![Dialogflow SignIn](https://i.ibb.co/K75mxYF/DF-SI-2.png)
 Luego de ingresar con nuestra cuenta, nos dirigimos a la consola.
 ![DialogflowLanding](https://i.ibb.co/FsKCwQw/DF-SI-3.png)
-Aquí debemos crear un nuevo *intent*, intención o propósito.
+Aquí debemos crear un nuevo *intent*, es decir intención o propósito. Este será 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NDE2OTMzNCwtNzY4NDU4OTIsNTI1Mz
-Q2ODE5LDE5OTc0MTk0NTgsMTI1MDc1NjY5Niw2NDE2MjIzMTAs
-OTI3MjYwMzU3LC0xNzg0MDY4OTQyLC00NTI5NDY3ODAsNDU1ND
-E5MiwxNjU0NTY4NzgwLC03NjQwMTM1ODQsMTQwMDY4NzM1OCwx
-NjgxMjc5ODIyLDE3ODM5ODI4NjUsMTg1Mjk1MTMyLDIzMDk1Mz
-k1OCwxOTk1MTU0MTM4LDIwNTAyOTE2OTMsLTIwMzk1MjExMDJd
-fQ==
+eyJoaXN0b3J5IjpbLTE0NDcwNTMyNTEsLTc2ODQ1ODkyLDUyNT
+M0NjgxOSwxOTk3NDE5NDU4LDEyNTA3NTY2OTYsNjQxNjIyMzEw
+LDkyNzI2MDM1NywtMTc4NDA2ODk0MiwtNDUyOTQ2NzgwLDQ1NT
+QxOTIsMTY1NDU2ODc4MCwtNzY0MDEzNTg0LDE0MDA2ODczNTgs
+MTY4MTI3OTgyMiwxNzgzOTgyODY1LDE4NTI5NTEzMiwyMzA5NT
+M5NTgsMTk5NTE1NDEzOCwyMDUwMjkxNjkzLC0yMDM5NTIxMTAy
+XX0=
 -->
