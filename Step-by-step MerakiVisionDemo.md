@@ -619,13 +619,13 @@ La plataforma nos permite hacer esto de forma automática si tenemos nuestra cue
 ![Dialogflow SignIn](https://i.ibb.co/K75mxYF/DF-SI-2.png)
 Luego de ingresar con nuestra cuenta, nos dirigimos a la consola. 
 ![DialogflowLanding](https://i.ibb.co/FsKCwQw/DF-SI-3.png)
-Seremos redirigidos a la página de inicio. Aquí debemos especificar nuestro país y acceder a los términos y condiciones. En primer lugar será necesario crear un nuevo agente, y darle un nombre para identificarlo.
-![DialogflowCreateAgent]
+Seremos redirigidos a la página de inicio. Aquí debemos especificar nuestro país y acceder a los términos y condiciones. En primer lugar será necesario crear un nuevo agente, y darle un nombre para identificarlo. Luego especificamos el idioma por defecto, y se creará un proyecto de *Google* de forma automática al guardar.
+![DialogflowCreateAgent](https://i.ibb.co/KhKmjLR/DF-TI-2.png)
 debemos crear un nuevo *intent*, es decir intención o propósito. Este será la que mapeamos a la función *tell* mediante el decorador *action* en la ruta de nuestro *web server* de *Flask*. Su nombre es "*tv-watch*". Esto lo haremos mediante el botón azul que dice "*Create Intent*" o en la barra lateral, ubicando la sección de *Intents*, dando click en el símbolo de suma "+".
 ![Dialogflow Create Intent](https://i.ibb.co/PWnhbVx/DF-TI-1.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzQ0ODY3MywtOTEzODAwNTA5LDkwMD
+eyJoaXN0b3J5IjpbMTIwMTAyNDQwNCwtOTEzODAwNTA5LDkwMD
 A3NjA3NSwtMjI3MDg0Njc2LC0xNzMyODg4MzUwLDc0Njk4MTM0
 NSwxNzE5NTMwNDYzLC03Njg0NTg5Miw1MjUzNDY4MTksMTk5Nz
 QxOTQ1OCwxMjUwNzU2Njk2LDY0MTYyMjMxMCw5MjcyNjAzNTcs
