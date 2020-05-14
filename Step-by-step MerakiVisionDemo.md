@@ -619,15 +619,15 @@ La plataforma nos permite hacer esto de forma automática si tenemos nuestra cue
 ![Dialogflow SignIn](https://i.ibb.co/K75mxYF/DF-SI-2.png)
 Luego de ingresar con nuestra cuenta, nos dirigimos a la consola.
 ![DialogflowLanding](https://i.ibb.co/FsKCwQw/DF-SI-3.png)
-Aquí debemos crear un nuevo *intent*, es decir intención o propósito. Este será la que mapeamos a la función *tell* mediante el decorador *action* en la ruta de nuestro *web server* de *Flask*. Su nombre es "*tv-watch*". Esto lo haremos mediante el botón azul que dice "*Create Intent*" o en la barra lateral, ubicando la sección de *Intents*, dando click en el símbolo de suma "+".
+En primer lugar será necesario crear un nuevo agentedebemos crear un nuevo *intent*, es decir intención o propósito. Este será la que mapeamos a la función *tell* mediante el decorador *action* en la ruta de nuestro *web server* de *Flask*. Su nombre es "*tv-watch*". Esto lo haremos mediante el botón azul que dice "*Create Intent*" o en la barra lateral, ubicando la sección de *Intents*, dando click en el símbolo de suma "+".
 ![Dialogflow Create Intent](https://i.ibb.co/PWnhbVx/DF-TI-1.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzI4ODgzNTAsNzQ2OTgxMzQ1LDE3MT
-k1MzA0NjMsLTc2ODQ1ODkyLDUyNTM0NjgxOSwxOTk3NDE5NDU4
-LDEyNTA3NTY2OTYsNjQxNjIyMzEwLDkyNzI2MDM1NywtMTc4ND
-A2ODk0MiwtNDUyOTQ2NzgwLDQ1NTQxOTIsMTY1NDU2ODc4MCwt
-NzY0MDEzNTg0LDE0MDA2ODczNTgsMTY4MTI3OTgyMiwxNzgzOT
-gyODY1LDE4NTI5NTEzMiwyMzA5NTM5NTgsMTk5NTE1NDEzOF19
+eyJoaXN0b3J5IjpbLTIyNzA4NDY3NiwtMTczMjg4ODM1MCw3ND
+Y5ODEzNDUsMTcxOTUzMDQ2MywtNzY4NDU4OTIsNTI1MzQ2ODE5
+LDE5OTc0MTk0NTgsMTI1MDc1NjY5Niw2NDE2MjIzMTAsOTI3Mj
+YwMzU3LC0xNzg0MDY4OTQyLC00NTI5NDY3ODAsNDU1NDE5Miwx
+NjU0NTY4NzgwLC03NjQwMTM1ODQsMTQwMDY4NzM1OCwxNjgxMj
+c5ODIyLDE3ODM5ODI4NjUsMTg1Mjk1MTMyLDIzMDk1Mzk1OF19
 
 -->
