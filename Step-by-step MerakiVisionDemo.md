@@ -607,18 +607,18 @@ $ heroku logs --tail
 # Este comando nos permitirá ver los logs y hacer debugging y troubleshooting luego de desplegar la app.
 ```
 Al ejecutar el comando `heroku create`, creamos el app y obtendremos en consola la dirección pública de nuestro aplicativo. Esta dirección es muy importante, debemos guardarla para utilizarla en la siguiente etapa.
-
+![Heroku App Link](https://i.ibb.co/LpTvHx6/HK-SU-5.png)
 
 
 ## Conectar con Dialogflow
 
-Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos 
+Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos referirnos mediante un webhook.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODQwNjg5NDIsLTQ1Mjk0Njc4MCw0NT
-U0MTkyLDE2NTQ1Njg3ODAsLTc2NDAxMzU4NCwxNDAwNjg3MzU4
-LDE2ODEyNzk4MjIsMTc4Mzk4Mjg2NSwxODUyOTUxMzIsMjMwOT
-UzOTU4LDE5OTUxNTQxMzgsMjA1MDI5MTY5MywtMjAzOTUyMTEw
-MiwxNTUzMTcyMjA0LC0xMTMzNjI0MTksMTY0MDEwMjE2NSwtMT
-MxODMwNzM3MCwtNjYyNzQzNzk2LC0xMjg2ODcwMjUxLC0xMjg2
-ODcwMjUxXX0=
+eyJoaXN0b3J5IjpbOTI3MjYwMzU3LC0xNzg0MDY4OTQyLC00NT
+I5NDY3ODAsNDU1NDE5MiwxNjU0NTY4NzgwLC03NjQwMTM1ODQs
+MTQwMDY4NzM1OCwxNjgxMjc5ODIyLDE3ODM5ODI4NjUsMTg1Mj
+k1MTMyLDIzMDk1Mzk1OCwxOTk1MTU0MTM4LDIwNTAyOTE2OTMs
+LTIwMzk1MjExMDIsMTU1MzE3MjIwNCwtMTEzMzYyNDE5LDE2ND
+AxMDIxNjUsLTEzMTgzMDczNzAsLTY2Mjc0Mzc5NiwtMTI4Njg3
+MDI1MV19
 -->
