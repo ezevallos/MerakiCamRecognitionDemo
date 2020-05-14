@@ -615,7 +615,7 @@ Al ejecutar el comando `heroku create`, creamos el app y obtendremos en consola 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos referirnos mediante un webhook.
 Para empezar nos dirigimos a [Dialogflow](https://dialogflow.com/) y utilizamos nuestra cuenta de **Google** para registrarse.
 ![Dialogflow Sign In](https://i.ibb.co/1QWd2Fk/DF-SI-1.png)
-La plataforma nos permite hacer esto de forma automática si tenemos nuestra cuenta activa en el navegador. Debemos concederle permiso a Dialogflow, y de esta forma accedemos a la página principal.
+La plataforma nos permite hacer esto de forma automática si tenemos nuestra cuenta activa en el navegador. Debemos concederle permiso a Dialogflow, y de esta forma accedemos a la página principal. Luego, seremos redirigidos a 
 ![Dialogflow SignIn](https://i.ibb.co/K75mxYF/DF-SI-2.png)
 Luego de ingresar con nuestra cuenta, nos dirigimos a la consola.
 ![DialogflowLanding](https://i.ibb.co/FsKCwQw/DF-SI-3.png)
@@ -623,7 +623,7 @@ En primer lugar será necesario crear un nuevo agentedebemos crear un nuevo *int
 ![Dialogflow Create Intent](https://i.ibb.co/PWnhbVx/DF-TI-1.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4ODA1OTExMywtMjI3MDg0Njc2LC0xNz
+eyJoaXN0b3J5IjpbLTIzMTI3Nzg5MSwtMjI3MDg0Njc2LC0xNz
 MyODg4MzUwLDc0Njk4MTM0NSwxNzE5NTMwNDYzLC03Njg0NTg5
 Miw1MjUzNDY4MTksMTk5NzQxOTQ1OCwxMjUwNzU2Njk2LDY0MT
 YyMjMxMCw5MjcyNjAzNTcsLTE3ODQwNjg5NDIsLTQ1Mjk0Njc4
