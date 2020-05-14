@@ -623,13 +623,13 @@ Seremos redirigidos a la página de inicio. Aquí debemos especificar nuestro pa
 ![DialogflowCreateAgent](https://i.ibb.co/KhKmjLR/DF-TI-2.png)
 Luego debemos crear un nuevo *intent*, es decir intención o propósito. Este será la que mapeamos a la función *tell* mediante el decorador *action* en la ruta de nuestro *web server* de *Flask*. Le damos el nombre "*tv-watch*". Esto lo haremos mediante el botón azul que dice "*Create Intent*" o en la barra lateral, ubicando la sección de *Intents*, dando click en el símbolo de suma "+".
 ![Dialogflow Create Intent](https://i.ibb.co/PWnhbVx/DF-TI-1.png)
-
+Luego de crear nuestro *intent* y especificar su nombre, debemos indicar las frases con las que se ha de entrenar 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNjU2OTE2OSwtMTg5OTg4MTE3NSwxMj
-AxMDI0NDA0LC05MTM4MDA1MDksOTAwMDc2MDc1LC0yMjcwODQ2
-NzYsLTE3MzI4ODgzNTAsNzQ2OTgxMzQ1LDE3MTk1MzA0NjMsLT
-c2ODQ1ODkyLDUyNTM0NjgxOSwxOTk3NDE5NDU4LDEyNTA3NTY2
-OTYsNjQxNjIyMzEwLDkyNzI2MDM1NywtMTc4NDA2ODk0MiwtND
-UyOTQ2NzgwLDQ1NTQxOTIsMTY1NDU2ODc4MCwtNzY0MDEzNTg0
-XX0=
+eyJoaXN0b3J5IjpbMzYwNDQwNDMyLDE4MzY1NjkxNjksLTE4OT
+k4ODExNzUsMTIwMTAyNDQwNCwtOTEzODAwNTA5LDkwMDA3NjA3
+NSwtMjI3MDg0Njc2LC0xNzMyODg4MzUwLDc0Njk4MTM0NSwxNz
+E5NTMwNDYzLC03Njg0NTg5Miw1MjUzNDY4MTksMTk5NzQxOTQ1
+OCwxMjUwNzU2Njk2LDY0MTYyMjMxMCw5MjcyNjAzNTcsLTE3OD
+QwNjg5NDIsLTQ1Mjk0Njc4MCw0NTU0MTkyLDE2NTQ1Njg3ODBd
+fQ==
 -->
