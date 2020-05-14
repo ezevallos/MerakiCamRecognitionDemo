@@ -613,10 +613,11 @@ Al ejecutar el comando `heroku create`, creamos el app y obtendremos en consola 
 ## Conectar con Dialogflow
 
 Una vez que hemos subido nuestro código a Heroku, ya tenemos una dirección pública a la cual podemos referirnos mediante un webhook.
-Para empezar nos dirigimos a [Dialogflow](https://dialogflow.com/) y utilizamos nuestra cuenta de **Google** 
+Para empezar nos dirigimos a [Dialogflow](https://dialogflow.com/) y utilizamos nuestra cuenta de **Google** para registrarse.
 ![Dialogflow Sign In](https://i.ibb.co/1QWd2Fk/DF-SI-1.png)
+La plataforma nos permite hacer esto de forma automática si tenemos nuestra cuenta activa en el navegador.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQwMzg3NjA5LDUyNTM0NjgxOSwxOTk3ND
+eyJoaXN0b3J5IjpbLTc2ODQ1ODkyLDUyNTM0NjgxOSwxOTk3ND
 E5NDU4LDEyNTA3NTY2OTYsNjQxNjIyMzEwLDkyNzI2MDM1Nywt
 MTc4NDA2ODk0MiwtNDUyOTQ2NzgwLDQ1NTQxOTIsMTY1NDU2OD
 c4MCwtNzY0MDEzNTg0LDE0MDA2ODczNTgsMTY4MTI3OTgyMiwx
