@@ -634,7 +634,7 @@ La plataforma nos permite hacer esto de forma automática si tenemos nuestra cue
 ![Dialogflow SignIn](https://i.ibb.co/K75mxYF/DF-SI-2.png)
 Luego de ingresar con nuestra cuenta, nos dirigimos a la consola. 
 ![DialogflowLanding](https://i.ibb.co/FsKCwQw/DF-SI-3.png)
-Seremos redirigidos a la página de inicio. Aquí debemos especificar nuestro país y acceder a los términos y condiciones. En primer lugar será necesario crear un nuevo agente, y darle un nombre como "WhatDoYouSee" para identificarlo. Luego especificamos el idioma por defecto, y se creará un proyecto de *Google* de forma automática al guardar. Para este proyecto, usaremos el idioma inglés pues la respuesta del reconocimiento de la imagen estará en inglés, y deseamos mantener la concordancia. Damos "click" en el botón de 
+Seremos redirigidos a la página de inicio. Aquí debemos especificar nuestro país y acceder a los términos y condiciones. En primer lugar será necesario crear un nuevo agente, y darle un nombre como "WhatDoYouSee" para identificarlo. Luego especificamos el idioma por defecto, y se creará un proyecto de *Google* de forma automática al guardar. Para este proyecto, usaremos el idioma inglés pues la respuesta del reconocimiento de la imagen estará en inglés, y deseamos mantener la concordancia. Damos "*click*" en el botón azul que dice "*Create*" para crear el agente.
 ![DialogflowCreateAgent](https://i.ibb.co/RjjPHfq/DF-TI-2.png)
 Luego debemos crear un nuevo *intent*, es decir intención o propósito. Este será la que mapeamos a la función *tell* mediante el decorador *action* en la ruta de nuestro *web server* de *Flask*. Le damos el nombre "*tv-watch*". Esto lo haremos mediante el botón azul que dice "*Create Intent*" o en la barra lateral, ubicando la sección de *Intents*, dando click en el símbolo de suma "+".
 ![Dialogflow Create Intent](https://i.ibb.co/PWnhbVx/DF-TI-1.png)
@@ -643,11 +643,11 @@ Debido a que el software de reconocimiento de imágenes *Imagga* nos devuelve la
 ![Dialogflow Intent Training Phrases](https://i.ibb.co/6wHZ3vQ/DF-TI-3.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTI1NDk1MTEsOTE1MTQ5MTYyLDIxND
-M4Mjc4MjksLTE0MTg5MzYxMDUsLTE0MTg5MzYxMDUsMzYwNDQw
-NDMyLDE4MzY1NjkxNjksLTE4OTk4ODExNzUsMTIwMTAyNDQwNC
-wtOTEzODAwNTA5LDkwMDA3NjA3NSwtMjI3MDg0Njc2LC0xNzMy
-ODg4MzUwLDc0Njk4MTM0NSwxNzE5NTMwNDYzLC03Njg0NTg5Mi
-w1MjUzNDY4MTksMTk5NzQxOTQ1OCwxMjUwNzU2Njk2LDY0MTYy
-MjMxMF19
+eyJoaXN0b3J5IjpbLTQ4MTE4NjYyLDkxNTE0OTE2MiwyMTQzOD
+I3ODI5LC0xNDE4OTM2MTA1LC0xNDE4OTM2MTA1LDM2MDQ0MDQz
+MiwxODM2NTY5MTY5LC0xODk5ODgxMTc1LDEyMDEwMjQ0MDQsLT
+kxMzgwMDUwOSw5MDAwNzYwNzUsLTIyNzA4NDY3NiwtMTczMjg4
+ODM1MCw3NDY5ODEzNDUsMTcxOTUzMDQ2MywtNzY4NDU4OTIsNT
+I1MzQ2ODE5LDE5OTc0MTk0NTgsMTI1MDc1NjY5Niw2NDE2MjIz
+MTBdfQ==
 -->
