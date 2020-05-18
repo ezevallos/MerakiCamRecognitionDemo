@@ -640,9 +640,10 @@ Luego debemos crear un nuevo *intent*, es decir intención o propósito. Este se
 ![Dialogflow Create Intent](https://i.ibb.co/PWnhbVx/DF-TI-1.png)
 Luego de crear nuestro *intent* y especificar su nombre, debemos indicar las frases con las que se ha de entrenar al asistente para reconocer nuestra intención.
 Debido a que el software de reconocimiento de imágenes *Imagga* nos devuelve la clasificación en palabras en inglés, tiene sentido utilizar frases de entrenamiento en inglés.
+![Dialogflow Intent Training Phrases](https://i.ibb.co/6wHZ3vQ/DF-TI-3.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1Njc5ODcxMSw5MTUxNDkxNjIsMjE0Mz
+eyJoaXN0b3J5IjpbMjExMDQ3OTc2OCw5MTUxNDkxNjIsMjE0Mz
 gyNzgyOSwtMTQxODkzNjEwNSwtMTQxODkzNjEwNSwzNjA0NDA0
 MzIsMTgzNjU2OTE2OSwtMTg5OTg4MTE3NSwxMjAxMDI0NDA0LC
 05MTM4MDA1MDksOTAwMDc2MDc1LC0yMjcwODQ2NzYsLTE3MzI4
