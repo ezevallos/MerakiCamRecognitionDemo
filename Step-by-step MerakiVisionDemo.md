@@ -641,13 +641,13 @@ Luego debemos crear un nuevo *intent*, es decir intención o propósito. Este se
 Luego de crear nuestro *intent* y especificar su nombre, debemos indicar las frases con las que se ha de entrenar al asistente para reconocer nuestra intención.
 Debido a que el software de reconocimiento de imágenes *Imagga* nos devuelve la clasificación en palabras en inglés, tiene sentido utilizar frases de entrenamiento en inglés. Usaremos frases de entrenamiento como "what is in sight", "what is it", "what is in view", o "what do you see", ya que esto significa "¿qué ves?", y es precisamente lo que hará el software, decirnos qué ve. No olvidemos guardar los cambios realizados mediante el botón azul que dice "*Save*".
 ![Dialogflow Intent Training Phrases](https://i.ibb.co/NLtrG97/DF-TI-3.png)
-
+Para el siguiente paso, será importante 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU4NzA1NTUwLC05MTE5NTc3Niw5MTUxND
-kxNjIsMjE0MzgyNzgyOSwtMTQxODkzNjEwNSwtMTQxODkzNjEw
-NSwzNjA0NDA0MzIsMTgzNjU2OTE2OSwtMTg5OTg4MTE3NSwxMj
-AxMDI0NDA0LC05MTM4MDA1MDksOTAwMDc2MDc1LC0yMjcwODQ2
-NzYsLTE3MzI4ODgzNTAsNzQ2OTgxMzQ1LDE3MTk1MzA0NjMsLT
-c2ODQ1ODkyLDUyNTM0NjgxOSwxOTk3NDE5NDU4LDEyNTA3NTY2
-OTZdfQ==
+eyJoaXN0b3J5IjpbLTIwODIyMDA1NTUsLTkxMTk1Nzc2LDkxNT
+E0OTE2MiwyMTQzODI3ODI5LC0xNDE4OTM2MTA1LC0xNDE4OTM2
+MTA1LDM2MDQ0MDQzMiwxODM2NTY5MTY5LC0xODk5ODgxMTc1LD
+EyMDEwMjQ0MDQsLTkxMzgwMDUwOSw5MDAwNzYwNzUsLTIyNzA4
+NDY3NiwtMTczMjg4ODM1MCw3NDY5ODEzNDUsMTcxOTUzMDQ2My
+wtNzY4NDU4OTIsNTI1MzQ2ODE5LDE5OTc0MTk0NTgsMTI1MDc1
+NjY5Nl19
 -->
