@@ -264,6 +264,9 @@ El catálogo cuenta con 70 _Sandboxes_ distintos. Para filtrar, podemos hacerlo 
 ![Sandbox Meraki Always-On](https://i.ibb.co/MfcwkGM/DN-SB-4.png)
 Encontraremos tres _Sandboxes_ de **_Meraki_**, el que utilizaremos se llama “**_Meraki Always On_**” y se trata de una red de prueba **_Meraki_** a la que podemos acceder en cualquier momento para realizar pruebas. En este _Sandbox_ podemos encontrar los detalles importantes para que el script funcione correctamente. En primer lugar, las credenciales de acceso al Dashboard API, Username: [devnetmeraki@cisco.com](mailto:devnetmeraki@cisco.com), Password: ilovemeraki, y por otro lado, el *API Key* que utilizaremos es 6bec40cf957de430a6f1f2baa056b99a4fac9ea0.
 
+## El script `requirements.txt`
+A continuación especificamos las librerías que utilizaremos para este laboratorio de tal forma que se puedan instalar 
+
 ## El script `GetSnap.py`
 Nuestro código en ***Python*** va a obtener una captura de la cámara Meraki modelo MV12W, cuyo número serial es el Q2GV-7HEL-HC6C, y se ubica en la red con Id L_566327653141856854 llamada *DNEAlertsNet*. Esta red no la encontraremos dentro de la interfaz del Dashboard API, pero sí estará listada si hacemos las llamadas de **Postman** *Get Organization Id* y *Get Networks Id*, utilizando el *API Key* previamente mencionado. La organización lleva el nombre *DeLab* y su Id es el 681155. Esta cámara ha sido posicionada delante de una TV que se encuentra prendida 24/7, de forma que siempre tiene algo qué mostrar, y su contenido es dinámico.
 
@@ -626,11 +629,11 @@ Luego debemos crear un nuevo *intent*, es decir intención o propósito. Este se
 Luego de crear nuestro *intent* y especificar su nombre, debemos indicar las frases con las que se ha de entrenar al asistente para reconocer nuestra intención.
 Debido a que el software de reconocimiento de imágenes *Imagga* nos devuelve la clasificación en palabras en inglés, tiene concordancia utilizar frases de entrenamiento en inglés 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTg5MzYxMDUsLTE0MTg5MzYxMDUsMz
-YwNDQwNDMyLDE4MzY1NjkxNjksLTE4OTk4ODExNzUsMTIwMTAy
-NDQwNCwtOTEzODAwNTA5LDkwMDA3NjA3NSwtMjI3MDg0Njc2LC
-0xNzMyODg4MzUwLDc0Njk4MTM0NSwxNzE5NTMwNDYzLC03Njg0
-NTg5Miw1MjUzNDY4MTksMTk5NzQxOTQ1OCwxMjUwNzU2Njk2LD
-Y0MTYyMjMxMCw5MjcyNjAzNTcsLTE3ODQwNjg5NDIsLTQ1Mjk0
-Njc4MF19
+eyJoaXN0b3J5IjpbMjE0MzgyNzgyOSwtMTQxODkzNjEwNSwtMT
+QxODkzNjEwNSwzNjA0NDA0MzIsMTgzNjU2OTE2OSwtMTg5OTg4
+MTE3NSwxMjAxMDI0NDA0LC05MTM4MDA1MDksOTAwMDc2MDc1LC
+0yMjcwODQ2NzYsLTE3MzI4ODgzNTAsNzQ2OTgxMzQ1LDE3MTk1
+MzA0NjMsLTc2ODQ1ODkyLDUyNTM0NjgxOSwxOTk3NDE5NDU4LD
+EyNTA3NTY2OTYsNjQxNjIyMzEwLDkyNzI2MDM1NywtMTc4NDA2
+ODk0Ml19
 -->
