@@ -266,7 +266,7 @@ Encontraremos tres _Sandboxes_ de **_Meraki_**, el que utilizaremos se llama “
 
 ## El script `requirements.txt`
 A continuación especificamos las librerías que utilizaremos para este laboratorio de tal forma que se puedan instalar de forma recursiva en el entorno donde tendremos nuestro interpretador de Python.
-`` `python
+```python
 certifi==2019.11.28
 chardet==3.0.4
 idna==2.9
@@ -641,11 +641,11 @@ Luego debemos crear un nuevo *intent*, es decir intención o propósito. Este se
 Luego de crear nuestro *intent* y especificar su nombre, debemos indicar las frases con las que se ha de entrenar al asistente para reconocer nuestra intención.
 Debido a que el software de reconocimiento de imágenes *Imagga* nos devuelve la clasificación en palabras en inglés, tiene concordancia utilizar frases de entrenamiento en inglés 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDU5NDg3NCwyMTQzODI3ODI5LC0xND
-E4OTM2MTA1LC0xNDE4OTM2MTA1LDM2MDQ0MDQzMiwxODM2NTY5
-MTY5LC0xODk5ODgxMTc1LDEyMDEwMjQ0MDQsLTkxMzgwMDUwOS
-w5MDAwNzYwNzUsLTIyNzA4NDY3NiwtMTczMjg4ODM1MCw3NDY5
-ODEzNDUsMTcxOTUzMDQ2MywtNzY4NDU4OTIsNTI1MzQ2ODE5LD
-E5OTc0MTk0NTgsMTI1MDc1NjY5Niw2NDE2MjIzMTAsOTI3MjYw
-MzU3XX0=
+eyJoaXN0b3J5IjpbOTE1MTQ5MTYyLDIxNDM4Mjc4MjksLTE0MT
+g5MzYxMDUsLTE0MTg5MzYxMDUsMzYwNDQwNDMyLDE4MzY1Njkx
+NjksLTE4OTk4ODExNzUsMTIwMTAyNDQwNCwtOTEzODAwNTA5LD
+kwMDA3NjA3NSwtMjI3MDg0Njc2LC0xNzMyODg4MzUwLDc0Njk4
+MTM0NSwxNzE5NTMwNDYzLC03Njg0NTg5Miw1MjUzNDY4MTksMT
+k5NzQxOTQ1OCwxMjUwNzU2Njk2LDY0MTYyMjMxMCw5MjcyNjAz
+NTddfQ==
 -->
