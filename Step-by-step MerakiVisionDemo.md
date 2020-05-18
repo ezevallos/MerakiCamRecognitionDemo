@@ -634,14 +634,15 @@ La plataforma nos permite hacer esto de forma automática si tenemos nuestra cue
 ![Dialogflow SignIn](https://i.ibb.co/K75mxYF/DF-SI-2.png)
 Luego de ingresar con nuestra cuenta, nos dirigimos a la consola. 
 ![DialogflowLanding](https://i.ibb.co/FsKCwQw/DF-SI-3.png)
-Seremos redirigidos a la página de inicio. Aquí debemos especificar nuestro país y acceder a los términos y condiciones. En primer lugar será necesario crear un nuevo agente, y darle un nombre como "WhatDoYouSee" para identificarlo. Luego especificamos el idioma por defecto, y se creará un proyecto de *Google* de forma automática al guardar. Para este proyecto, usaremos 
+Seremos redirigidos a la página de inicio. Aquí debemos especificar nuestro país y acceder a los términos y condiciones. En primer lugar será necesario crear un nuevo agente, y darle un nombre como "WhatDoYouSee" para identificarlo. Luego especificamos el idioma por defecto, y se creará un proyecto de *Google* de forma automática al guardar. Para este proyecto, usaremos el idioma inglés pues la respuesta del reconocimiento de la imagen estará en inglés, y deseamos mantener la concordancia.
 ![DialogflowCreateAgent](https://i.ibb.co/RjjPHfq/DF-TI-2.png)
 Luego debemos crear un nuevo *intent*, es decir intención o propósito. Este será la que mapeamos a la función *tell* mediante el decorador *action* en la ruta de nuestro *web server* de *Flask*. Le damos el nombre "*tv-watch*". Esto lo haremos mediante el botón azul que dice "*Create Intent*" o en la barra lateral, ubicando la sección de *Intents*, dando click en el símbolo de suma "+".
 ![Dialogflow Create Intent](https://i.ibb.co/PWnhbVx/DF-TI-1.png)
 Luego de crear nuestro *intent* y especificar su nombre, debemos indicar las frases con las que se ha de entrenar al asistente para reconocer nuestra intención.
-Debido a que el software de reconocimiento de imágenes *Imagga* nos devuelve la clasificación en palabras en inglés, tiene concordancia utilizar frases de entrenamiento en inglés 
+Debido a que el software de reconocimiento de imágenes *Imagga* nos devuelve la clasificación en palabras en inglés, tiene sentido utilizar frases de entrenamiento en inglés.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NjU0NTg2MSw5MTUxNDkxNjIsMjE0Mz
+eyJoaXN0b3J5IjpbMTY1Njc5ODcxMSw5MTUxNDkxNjIsMjE0Mz
 gyNzgyOSwtMTQxODkzNjEwNSwtMTQxODkzNjEwNSwzNjA0NDA0
 MzIsMTgzNjU2OTE2OSwtMTg5OTg4MTE3NSwxMjAxMDI0NDA0LC
 05MTM4MDA1MDksOTAwMDc2MDc1LC0yMjcwODQ2NzYsLTE3MzI4
