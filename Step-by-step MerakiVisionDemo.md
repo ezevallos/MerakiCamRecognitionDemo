@@ -636,14 +636,14 @@ Luego de ingresar con nuestra cuenta, nos dirigimos a la consola.
 ![DialogflowLanding](https://i.ibb.co/FsKCwQw/DF-SI-3.png)
 Seremos redirigidos a la página de inicio. Aquí debemos especificar nuestro país y acceder a los términos y condiciones. En primer lugar será necesario crear un nuevo agente, y darle un nombre como "WhatDoYouSee" para identificarlo. Luego especificamos el idioma por defecto, y se creará un proyecto de *Google* de forma automática al guardar. Para este proyecto, usaremos el idioma inglés pues la respuesta del reconocimiento de la imagen estará en inglés, y deseamos mantener la concordancia. Damos "*click*" en el botón azul que dice "*Create*" para crear el agente.
 ![DialogflowCreateAgent](https://i.ibb.co/RjjPHfq/DF-TI-2.png)
-Luego debemos crear un nuevo *intent*, es decir intención o propósito. Este será la que mapeamos a la función *tell* mediante el decorador *action* en la ruta de nuestro *web server* de *Flask*. Le damos el nombre "*tv-watch*". Esto lo haremos mediante el botón azul que dice "*Create Intent*" o en la barra lateral, ubicando la sección de *Intents*, dando click en el símbolo de suma "+".
+Luego debemos crear un nuevo *intent*, es decir intención o propósito. Este será el que mapeamos a la función *tell* mediante el decorador *action* en la ruta de nuestro *web server* de *Flask*. Le damos el nombre "*tv-watch*". Esto lo haremos mediante el botón azul que dice "*Create Intent*" o en la barra lateral, ubicando la sección de *Intents*, dando "*click*" en el símbolo de suma "+".
 ![Dialogflow Create Intent](https://i.ibb.co/PWnhbVx/DF-TI-1.png)
 Luego de crear nuestro *intent* y especificar su nombre, debemos indicar las frases con las que se ha de entrenar al asistente para reconocer nuestra intención.
-Debido a que el software de reconocimiento de imágenes *Imagga* nos devuelve la clasificación en palabras en inglés, tiene sentido utilizar frases de entrenamiento en inglés. Usaremos frases de entrenamiento como "what is in sight", "what is it", "what is in view", o "what do you see", ya que esto significa "¿qué ves?", y es precisamente lo que hará el software, decirnos qué ve.
+Debido a que el software de reconocimiento de imágenes *Imagga* nos devuelve la clasificación en palabras en inglés, tiene sentido utilizar frases de entrenamiento en inglés. Usaremos frases de entrenamiento como "what is in sight", "what is it", "what is in view", o "what do you see", ya que esto significa "¿qué ves?", y es precisamente lo que hará el software, decirnos qué ve. No olvidemos guardar los cambios realizados mediante el botón azul que dice "*Save*".
 ![Dialogflow Intent Training Phrases](https://i.ibb.co/6wHZ3vQ/DF-TI-3.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MTE4NjYyLDkxNTE0OTE2MiwyMTQzOD
+eyJoaXN0b3J5IjpbLTkxMTk1Nzc2LDkxNTE0OTE2MiwyMTQzOD
 I3ODI5LC0xNDE4OTM2MTA1LC0xNDE4OTM2MTA1LDM2MDQ0MDQz
 MiwxODM2NTY5MTY5LC0xODk5ODgxMTc1LDEyMDEwMjQ0MDQsLT
 kxMzgwMDUwOSw5MDAwNzYwNzUsLTIyNzA4NDY3NiwtMTczMjg4
