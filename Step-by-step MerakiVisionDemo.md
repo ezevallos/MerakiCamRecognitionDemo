@@ -643,10 +643,11 @@ Luego debemos crear un nuevo *intent*, es decir intención o propósito. Este se
 Luego de crear nuestro *intent* y especificar su nombre, debemos indicar las frases con las que se ha de entrenar al asistente para reconocer nuestra intención.
 Debido a que el software de reconocimiento de imágenes *Imagga* nos devuelve la clasificación en palabras en inglés, tiene sentido utilizar frases de entrenamiento en inglés. Usaremos frases de entrenamiento como "what is in sight", "what is it", "what is in view", o "what do you see", ya que esto significa "¿qué ves?", y es precisamente lo que hará el software, decirnos qué ve. No olvidemos guardar los cambios realizados mediante el botón azul que dice "*Save*".
 ![Dialogflow Intent Training Phrases](https://i.ibb.co/NLtrG97/DF-TI-3.png)
-Para el siguiente paso, será importante tener a la mano la dirección pública de nuestra *app*, que obtuvimos luego de realizar el `heroku create`. En la misma página, deslizamos hacia abajo, y damos click a activar la opción de *Fulfillment*
+Para el siguiente paso, será importante tener a la mano la dirección pública de nuestra *app*, que obtuvimos luego de realizar el `heroku create`. En la misma página, deslizamos hacia abajo, y damos click a activar la opción de *Fulfillment*.
 ![DialogFlow Intent Fulfillment](https://i.ibb.co/r5WJNvx/DF-TI-4.png) 
+Luego de esto, habilitamos la opción de 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MTQ4MDY2OSwtMTUzMzcwOTkwMSwxMD
+eyJoaXN0b3J5IjpbLTQ0NDk3NzMwNiwtMTUzMzcwOTkwMSwxMD
 A0MDUzNDA1LDY4Nzk0MTg3NywtMjA4MjIwMDU1NSwtOTExOTU3
 NzYsOTE1MTQ5MTYyLDIxNDM4Mjc4MjksLTE0MTg5MzYxMDUsLT
 E0MTg5MzYxMDUsMzYwNDQwNDMyLDE4MzY1NjkxNjksLTE4OTk4
