@@ -647,13 +647,14 @@ Para el siguiente paso, será importante tener a la mano la dirección pública 
 ![DialogFlow Intent Fulfillment](https://i.ibb.co/r5WJNvx/DF-TI-4.png) 
 Luego de esto, habilitamos la opción de llamada de *webhook* para nuestro *intent*.
 ![DialogFlow Intent Fulfillment with Webhook](https://i.ibb.co/cLCWPB2/DF-TI-5.png)
-
+Luego de haber habilitado esta opción, nos dirigimos en la barra lateral izquierda a la sección de *Fulfillment*. Aquí, habilitaremos 
+![DialogFlow Fulfillment](https://i.ibb.co/vc8msyq/DF-TI-6.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMzNzc1NzAsLTE1MzM3MDk5MDEsMTAwND
-A1MzQwNSw2ODc5NDE4NzcsLTIwODIyMDA1NTUsLTkxMTk1Nzc2
-LDkxNTE0OTE2MiwyMTQzODI3ODI5LC0xNDE4OTM2MTA1LC0xND
-E4OTM2MTA1LDM2MDQ0MDQzMiwxODM2NTY5MTY5LC0xODk5ODgx
-MTc1LDEyMDEwMjQ0MDQsLTkxMzgwMDUwOSw5MDAwNzYwNzUsLT
-IyNzA4NDY3NiwtMTczMjg4ODM1MCw3NDY5ODEzNDUsMTcxOTUz
-MDQ2M119
+eyJoaXN0b3J5IjpbLTUyNjE3Njk2Miw2MzM3NzU3MCwtMTUzMz
+cwOTkwMSwxMDA0MDUzNDA1LDY4Nzk0MTg3NywtMjA4MjIwMDU1
+NSwtOTExOTU3NzYsOTE1MTQ5MTYyLDIxNDM4Mjc4MjksLTE0MT
+g5MzYxMDUsLTE0MTg5MzYxMDUsMzYwNDQwNDMyLDE4MzY1Njkx
+NjksLTE4OTk4ODExNzUsMTIwMTAyNDQwNCwtOTEzODAwNTA5LD
+kwMDA3NjA3NSwtMjI3MDg0Njc2LC0xNzMyODg4MzUwLDc0Njk4
+MTM0NV19
 -->
