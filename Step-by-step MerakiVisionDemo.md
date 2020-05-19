@@ -683,12 +683,12 @@ $ heroku logs --tail
 ```
 Este comando nos permitirá ver los logs y hacer debugging y troubleshooting luego de desplegar la app.
 
-Finalmente, para ver nuest
+Finalmente, para probar nuestra aplicación, entramos a la consola de *test*.
 
 
 [↑](#toc)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNzM2MzQzMywxNTE5Mzk5NzQ1LC0xMT
+eyJoaXN0b3J5IjpbLTg5MjY0ODg2MSwxNTE5Mzk5NzQ1LC0xMT
 c1MTA5Nzc2LDczNDcxMDY1Niw2MzM3NzU3MCwtMTUzMzcwOTkw
 MSwxMDA0MDUzNDA1LDY4Nzk0MTg3NywtMjA4MjIwMDU1NSwtOT
 ExOTU3NzYsOTE1MTQ5MTYyLDIxNDM4Mjc4MjksLTE0MTg5MzYx
