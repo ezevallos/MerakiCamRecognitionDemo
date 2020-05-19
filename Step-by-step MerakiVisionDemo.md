@@ -651,18 +651,18 @@ Luego de haber habilitado esta opción, nos dirigimos en la barra lateral izquie
 ![DialogFlow Fulfillment](https://i.ibb.co/vc8msyq/DF-TI-6.png)
 Para el siguiente paso, será importante tener a la mano la dirección pública de nuestra *app*, que obtuvimos luego de realizar el `heroku create`.  En el espacio especificado para la URL, introducimos la dirección de nuestro aplicativo de *Heroku*.
 ![DialogFlow Fulfillment Webhok](https://i.ibb.co/HBMHWcp/DF-TI-7.png)
-Para el último paso, necesitaremos nuestros *API Keys*. Para esto nos dirigimos a la configuración de nuestro agente, dando "*click*" en la ruedita o tuerca en la barra lateral, y deslizamos hacia abajo para encontrar nuestros *API Keys*.
+Para el último paso, necesitaremos nuestros *API Keys*. Para esto nos dirigimos a la configuración de nuestro agente, dando "*click*" en la ruedita o tuerca en la barra lateral, y deslizamos hacia abajo para encontrar nuestros *API Keys*. Es muy importante que copiemos el *Client Access Token*, y no el otro *API Key*.
 ![DialogFlow Settings APIKeys](https://i.ibb.co/4Kkf1Yx/DF-TI-8.png)
 Finalmente, el último paso será dirigirnos al directorio donde está nuestro proyecto y repositorio local, desde el *Git Bash*.
 
 
 [↑](#toc)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxOTM5OTc0NSwtMTE3NTEwOTc3Niw3Mz
-Q3MTA2NTYsNjMzNzc1NzAsLTE1MzM3MDk5MDEsMTAwNDA1MzQw
-NSw2ODc5NDE4NzcsLTIwODIyMDA1NTUsLTkxMTk1Nzc2LDkxNT
-E0OTE2MiwyMTQzODI3ODI5LC0xNDE4OTM2MTA1LC0xNDE4OTM2
-MTA1LDM2MDQ0MDQzMiwxODM2NTY5MTY5LC0xODk5ODgxMTc1LD
-EyMDEwMjQ0MDQsLTkxMzgwMDUwOSw5MDAwNzYwNzUsLTIyNzA4
-NDY3Nl19
+eyJoaXN0b3J5IjpbMTM0OTk4MzI4MiwxNTE5Mzk5NzQ1LC0xMT
+c1MTA5Nzc2LDczNDcxMDY1Niw2MzM3NzU3MCwtMTUzMzcwOTkw
+MSwxMDA0MDUzNDA1LDY4Nzk0MTg3NywtMjA4MjIwMDU1NSwtOT
+ExOTU3NzYsOTE1MTQ5MTYyLDIxNDM4Mjc4MjksLTE0MTg5MzYx
+MDUsLTE0MTg5MzYxMDUsMzYwNDQwNDMyLDE4MzY1NjkxNjksLT
+E4OTk4ODExNzUsMTIwMTAyNDQwNCwtOTEzODAwNTA5LDkwMDA3
+NjA3NV19
 -->
