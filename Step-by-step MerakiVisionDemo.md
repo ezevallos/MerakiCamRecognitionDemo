@@ -687,11 +687,12 @@ Finalmente, para probar nuestra aplicación, entramos a la consola de *test*.
 ![DialogFlowIntegrations](https://i.ibb.co/Q88Qbxk/DF-TI-9.png)
 ![](https://i.ibb.co/1qkrg2Z/DF-TI-10.png)
 
-Aquí hacemos click en *Talk to my test app* y escribimos nuestro intent 
+Aquí hacemos click en *Talk to my test app* y escribimos nuestro intent "*what do you see*" o podemos utilizar el micrófono para decirlo.
+![Test Console](https://i.ibb.co/nzvnQxB/DF-TI-11.png)
 
 [↑](#toc)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTAxNDY3NjksMTUxOTM5OTc0NSwtMT
+eyJoaXN0b3J5IjpbLTE5MDMzOTQ3NjIsMTUxOTM5OTc0NSwtMT
 E3NTEwOTc3Niw3MzQ3MTA2NTYsNjMzNzc1NzAsLTE1MzM3MDk5
 MDEsMTAwNDA1MzQwNSw2ODc5NDE4NzcsLTIwODIyMDA1NTUsLT
 kxMTk1Nzc2LDkxNTE0OTE2MiwyMTQzODI3ODI5LC0xNDE4OTM2
