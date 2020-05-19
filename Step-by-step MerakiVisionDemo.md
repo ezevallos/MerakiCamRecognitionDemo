@@ -5,7 +5,8 @@
 # Tabla de contenidos
 1. [Introducción - Cisco DevNet](#intro)
 2. [Lab 1: Cómo usar Python para obtener un inventario de red en Meraki.](#para1)
-3. [Lab 4: Reconocimiento de imágenes mediante un comando de voz.](#para4)
+3. [Lab 2: Cómo usar Python para ](#para2)
+4. [Lab 4: Reconocimiento de imágenes mediante un comando de voz.](#para4)
 
 <div id='intro'/>
 
@@ -643,11 +644,11 @@ Debido a que el software de reconocimiento de imágenes *Imagga* nos devuelve la
 ![Dialogflow Intent Training Phrases](https://i.ibb.co/NLtrG97/DF-TI-3.png)
 Para el siguiente paso, será importante tener a la mano la dirección pública de nuestra *app*, que obtuvimos luego de realizar el `heroku create`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg3OTQxODc3LC0yMDgyMjAwNTU1LC05MT
-E5NTc3Niw5MTUxNDkxNjIsMjE0MzgyNzgyOSwtMTQxODkzNjEw
-NSwtMTQxODkzNjEwNSwzNjA0NDA0MzIsMTgzNjU2OTE2OSwtMT
-g5OTg4MTE3NSwxMjAxMDI0NDA0LC05MTM4MDA1MDksOTAwMDc2
-MDc1LC0yMjcwODQ2NzYsLTE3MzI4ODgzNTAsNzQ2OTgxMzQ1LD
-E3MTk1MzA0NjMsLTc2ODQ1ODkyLDUyNTM0NjgxOSwxOTk3NDE5
-NDU4XX0=
+eyJoaXN0b3J5IjpbLTE4OTI3MzExOTcsNjg3OTQxODc3LC0yMD
+gyMjAwNTU1LC05MTE5NTc3Niw5MTUxNDkxNjIsMjE0MzgyNzgy
+OSwtMTQxODkzNjEwNSwtMTQxODkzNjEwNSwzNjA0NDA0MzIsMT
+gzNjU2OTE2OSwtMTg5OTg4MTE3NSwxMjAxMDI0NDA0LC05MTM4
+MDA1MDksOTAwMDc2MDc1LC0yMjcwODQ2NzYsLTE3MzI4ODgzNT
+AsNzQ2OTgxMzQ1LDE3MTk1MzA0NjMsLTc2ODQ1ODkyLDUyNTM0
+NjgxOV19
 -->
