@@ -684,15 +684,16 @@ $ heroku logs --tail
 Este comando nos permitirá ver los logs y hacer debugging y troubleshooting luego de desplegar la app.
 
 Finalmente, para probar nuestra aplicación, entramos a la consola de *test*.
-
+![DialogFlowIntegrations](https://i.ibb.co/Q88Qbxk/DF-TI-9.png)
+![]
 
 [↑](#toc)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MjY0ODg2MSwxNTE5Mzk5NzQ1LC0xMT
-c1MTA5Nzc2LDczNDcxMDY1Niw2MzM3NzU3MCwtMTUzMzcwOTkw
-MSwxMDA0MDUzNDA1LDY4Nzk0MTg3NywtMjA4MjIwMDU1NSwtOT
-ExOTU3NzYsOTE1MTQ5MTYyLDIxNDM4Mjc4MjksLTE0MTg5MzYx
-MDUsLTE0MTg5MzYxMDUsMzYwNDQwNDMyLDE4MzY1NjkxNjksLT
-E4OTk4ODExNzUsMTIwMTAyNDQwNCwtOTEzODAwNTA5LDkwMDA3
-NjA3NV19
+eyJoaXN0b3J5IjpbODU4NjE5NTYwLDE1MTkzOTk3NDUsLTExNz
+UxMDk3NzYsNzM0NzEwNjU2LDYzMzc3NTcwLC0xNTMzNzA5OTAx
+LDEwMDQwNTM0MDUsNjg3OTQxODc3LC0yMDgyMjAwNTU1LC05MT
+E5NTc3Niw5MTUxNDkxNjIsMjE0MzgyNzgyOSwtMTQxODkzNjEw
+NSwtMTQxODkzNjEwNSwzNjA0NDA0MzIsMTgzNjU2OTE2OSwtMT
+g5OTg4MTE3NSwxMjAxMDI0NDA0LC05MTM4MDA1MDksOTAwMDc2
+MDc1XX0=
 -->
