@@ -643,18 +643,19 @@ Luego debemos crear un nuevo *intent*, es decir intención o propósito. Este se
 Luego de crear nuestro *intent* y especificar su nombre, debemos indicar las frases con las que se ha de entrenar al asistente para reconocer nuestra intención.
 Debido a que el software de reconocimiento de imágenes *Imagga* nos devuelve la clasificación en palabras en inglés, tiene sentido utilizar frases de entrenamiento en inglés. Usaremos frases de entrenamiento como "what is in sight", "what is it", "what is in view", o "what do you see", ya que esto significa "¿qué ves?", y es precisamente lo que hará el software, decirnos qué ve. No olvidemos guardar los cambios realizados mediante el botón azul que dice "*Save*".
 ![Dialogflow Intent Training Phrases](https://i.ibb.co/NLtrG97/DF-TI-3.png)
-Para el siguiente paso, será importante tener a la mano la dirección pública de nuestra *app*, que obtuvimos luego de realizar el `heroku create`. En la misma página, deslizamos hacia abajo, y damos click a activar la opción de *Fulfillment*.
+En la misma página, deslizamos hacia abajo, y damos click a activar la opción de *Fulfillment*.
 ![DialogFlow Intent Fulfillment](https://i.ibb.co/r5WJNvx/DF-TI-4.png) 
 Luego de esto, habilitamos la opción de llamada de *webhook* para nuestro *intent*.
 ![DialogFlow Intent Fulfillment with Webhook](https://i.ibb.co/cLCWPB2/DF-TI-5.png)
-Luego de haber habilitado esta opción, nos dirigimos en la barra lateral izquierda a la sección de *Fulfillment*. Aquí, habilitaremos 
+Luego de haber habilitado esta opción, nos dirigimos en la barra lateral izquierda a la sección de *Fulfillment*. Aquí, habilitaremos los webhooks para nuestro agente.
 ![DialogFlow Fulfillment](https://i.ibb.co/vc8msyq/DF-TI-6.png)
+Para el siguiente paso, será importante tener a la mano la dirección pública de nuestra *app*, que obtuvimos luego de realizar el `heroku create`. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNjE3Njk2Miw2MzM3NzU3MCwtMTUzMz
-cwOTkwMSwxMDA0MDUzNDA1LDY4Nzk0MTg3NywtMjA4MjIwMDU1
-NSwtOTExOTU3NzYsOTE1MTQ5MTYyLDIxNDM4Mjc4MjksLTE0MT
-g5MzYxMDUsLTE0MTg5MzYxMDUsMzYwNDQwNDMyLDE4MzY1Njkx
-NjksLTE4OTk4ODExNzUsMTIwMTAyNDQwNCwtOTEzODAwNTA5LD
-kwMDA3NjA3NSwtMjI3MDg0Njc2LC0xNzMyODg4MzUwLDc0Njk4
-MTM0NV19
+eyJoaXN0b3J5IjpbNzM0NzEwNjU2LDYzMzc3NTcwLC0xNTMzNz
+A5OTAxLDEwMDQwNTM0MDUsNjg3OTQxODc3LC0yMDgyMjAwNTU1
+LC05MTE5NTc3Niw5MTUxNDkxNjIsMjE0MzgyNzgyOSwtMTQxOD
+kzNjEwNSwtMTQxODkzNjEwNSwzNjA0NDA0MzIsMTgzNjU2OTE2
+OSwtMTg5OTg4MTE3NSwxMjAxMDI0NDA0LC05MTM4MDA1MDksOT
+AwMDc2MDc1LC0yMjcwODQ2NzYsLTE3MzI4ODgzNTAsNzQ2OTgx
+MzQ1XX0=
 -->
