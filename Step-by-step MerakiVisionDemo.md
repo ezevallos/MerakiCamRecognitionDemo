@@ -649,13 +649,15 @@ Luego de esto, habilitamos la opción de llamada de *webhook* para nuestro *inte
 ![DialogFlow Intent Fulfillment with Webhook](https://i.ibb.co/cLCWPB2/DF-TI-5.png)
 Luego de haber habilitado esta opción, nos dirigimos en la barra lateral izquierda a la sección de *Fulfillment*. Aquí, habilitaremos los webhooks para nuestro agente.
 ![DialogFlow Fulfillment](https://i.ibb.co/vc8msyq/DF-TI-6.png)
-Para el siguiente paso, será importante tener a la mano la dirección pública de nuestra *app*, que obtuvimos luego de realizar el `heroku create`. 
+Para el siguiente paso, será importante tener a la mano la dirección pública de nuestra *app*, que obtuvimos luego de realizar el `heroku create`.  En el espacio especificado para la URL, introducimos la dirección de nuestro aplicativo de *Heroku*.
+![DialogFlow Fulfillment Webhok](https://i.ibb.co/HBMHWcp/DF-TI-7.png)
+Finalmente, el último paso será dirigirnos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM0NzEwNjU2LDYzMzc3NTcwLC0xNTMzNz
-A5OTAxLDEwMDQwNTM0MDUsNjg3OTQxODc3LC0yMDgyMjAwNTU1
-LC05MTE5NTc3Niw5MTUxNDkxNjIsMjE0MzgyNzgyOSwtMTQxOD
-kzNjEwNSwtMTQxODkzNjEwNSwzNjA0NDA0MzIsMTgzNjU2OTE2
-OSwtMTg5OTg4MTE3NSwxMjAxMDI0NDA0LC05MTM4MDA1MDksOT
-AwMDc2MDc1LC0yMjcwODQ2NzYsLTE3MzI4ODgzNTAsNzQ2OTgx
-MzQ1XX0=
+eyJoaXN0b3J5IjpbODg5OTA4NTQwLDczNDcxMDY1Niw2MzM3Nz
+U3MCwtMTUzMzcwOTkwMSwxMDA0MDUzNDA1LDY4Nzk0MTg3Nywt
+MjA4MjIwMDU1NSwtOTExOTU3NzYsOTE1MTQ5MTYyLDIxNDM4Mj
+c4MjksLTE0MTg5MzYxMDUsLTE0MTg5MzYxMDUsMzYwNDQwNDMy
+LDE4MzY1NjkxNjksLTE4OTk4ODExNzUsMTIwMTAyNDQwNCwtOT
+EzODAwNTA5LDkwMDA3NjA3NSwtMjI3MDg0Njc2LC0xNzMyODg4
+MzUwXX0=
 -->
