@@ -685,15 +685,17 @@ Este comando nos permitirá ver los logs y hacer debugging y troubleshooting lue
 
 Finalmente, para probar nuestra aplicación, entramos a la consola de *test*.
 ![DialogFlowIntegrations](https://i.ibb.co/Q88Qbxk/DF-TI-9.png)
-![]
+![](https://i.ibb.co/1qkrg2Z/DF-TI-10.png)
+
+Aquí hacemos click en *Talk to my test app* y escribimos nuestro intent 
 
 [↑](#toc)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU4NjE5NTYwLDE1MTkzOTk3NDUsLTExNz
-UxMDk3NzYsNzM0NzEwNjU2LDYzMzc3NTcwLC0xNTMzNzA5OTAx
-LDEwMDQwNTM0MDUsNjg3OTQxODc3LC0yMDgyMjAwNTU1LC05MT
-E5NTc3Niw5MTUxNDkxNjIsMjE0MzgyNzgyOSwtMTQxODkzNjEw
-NSwtMTQxODkzNjEwNSwzNjA0NDA0MzIsMTgzNjU2OTE2OSwtMT
-g5OTg4MTE3NSwxMjAxMDI0NDA0LC05MTM4MDA1MDksOTAwMDc2
-MDc1XX0=
+eyJoaXN0b3J5IjpbLTE4OTAxNDY3NjksMTUxOTM5OTc0NSwtMT
+E3NTEwOTc3Niw3MzQ3MTA2NTYsNjMzNzc1NzAsLTE1MzM3MDk5
+MDEsMTAwNDA1MzQwNSw2ODc5NDE4NzcsLTIwODIyMDA1NTUsLT
+kxMTk1Nzc2LDkxNTE0OTE2MiwyMTQzODI3ODI5LC0xNDE4OTM2
+MTA1LC0xNDE4OTM2MTA1LDM2MDQ0MDQzMiwxODM2NTY5MTY5LC
+0xODk5ODgxMTc1LDEyMDEwMjQ0MDQsLTkxMzgwMDUwOSw5MDAw
+NzYwNzVdfQ==
 -->
