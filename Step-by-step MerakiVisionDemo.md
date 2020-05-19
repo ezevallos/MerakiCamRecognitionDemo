@@ -651,13 +651,14 @@ Luego de haber habilitado esta opción, nos dirigimos en la barra lateral izquie
 ![DialogFlow Fulfillment](https://i.ibb.co/vc8msyq/DF-TI-6.png)
 Para el siguiente paso, será importante tener a la mano la dirección pública de nuestra *app*, que obtuvimos luego de realizar el `heroku create`.  En el espacio especificado para la URL, introducimos la dirección de nuestro aplicativo de *Heroku*.
 ![DialogFlow Fulfillment Webhok](https://i.ibb.co/HBMHWcp/DF-TI-7.png)
-Finalmente, el último paso será dirigirnos 
+Para el último paso, necesitaremos nuestros *API Keys*. Para esto nos dirigimos a la configuración de nuestro agente, dando "*click*" en la ruedita o tuerca en la barra lateral, y deslizamos hacia abajo para encontrar nuestros *API Keys*
+Finalmente, el último paso será dirigirnos al directorio donde está nuestro proyecto y repositorio local. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5OTA4NTQwLDczNDcxMDY1Niw2MzM3Nz
-U3MCwtMTUzMzcwOTkwMSwxMDA0MDUzNDA1LDY4Nzk0MTg3Nywt
-MjA4MjIwMDU1NSwtOTExOTU3NzYsOTE1MTQ5MTYyLDIxNDM4Mj
-c4MjksLTE0MTg5MzYxMDUsLTE0MTg5MzYxMDUsMzYwNDQwNDMy
-LDE4MzY1NjkxNjksLTE4OTk4ODExNzUsMTIwMTAyNDQwNCwtOT
-EzODAwNTA5LDkwMDA3NjA3NSwtMjI3MDg0Njc2LC0xNzMyODg4
-MzUwXX0=
+eyJoaXN0b3J5IjpbLTExNzUxMDk3NzYsNzM0NzEwNjU2LDYzMz
+c3NTcwLC0xNTMzNzA5OTAxLDEwMDQwNTM0MDUsNjg3OTQxODc3
+LC0yMDgyMjAwNTU1LC05MTE5NTc3Niw5MTUxNDkxNjIsMjE0Mz
+gyNzgyOSwtMTQxODkzNjEwNSwtMTQxODkzNjEwNSwzNjA0NDA0
+MzIsMTgzNjU2OTE2OSwtMTg5OTg4MTE3NSwxMjAxMDI0NDA0LC
+05MTM4MDA1MDksOTAwMDc2MDc1LC0yMjcwODQ2NzYsLTE3MzI4
+ODgzNTBdfQ==
 -->
