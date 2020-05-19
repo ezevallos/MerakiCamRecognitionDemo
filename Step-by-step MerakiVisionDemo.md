@@ -658,47 +658,35 @@ Finalmente, el último paso será dirigirnos al directorio donde está nuestro p
 export CLIENT_ACCESS_TOKEN='CLIENT_ACCESS_TOKEN'
 ```
 Donde `'CLIENT_ACCESS_TOKEN'` es el *API Key* llamado *Client access token* mostrado en la figura anterior. Luego de hacer esto, volvemos a seguir los pasos para actualizar nuestro repositorio de *Heroku*.
-
- 1. List item
-
 Agregar los archivos de nuestro nuevo repositorio local. Esto lo añadimos al área de ensayo, para el primer *commit*.
 ```git
 $ git add .
 ```
- 3. Realizamos el commit de los archivos que hemos añadido al área de ensayo en nuestro repositorio local.
+Realizamos el commit de los archivos que hemos añadido al área de ensayo en nuestro repositorio local.
 ```git
 $ git commit -m "Primer commit"
 ```
- 4. En la sección superior de la página de GitHub que acabamos de crear aparecerá la URL del repositorio remoto.
- ![GitHubRepoLink](https://ibb.co/D45pkBZ)
- 5. En la línea de comando, agregamos el URL para el repositorio remoto, desde nuestro repositorio local.
-```git
-$ git remote add origin <URL repositorio remoto>
-# Este comando configura el nuevo URL remoto
-$ git remote -v
-# Este comando verifica el nuevo URL remoto
-```
- 6. Finalmente, publicamos nuestro proyecto al repositorio de GitHub.
+Publicamos nuestro proyecto al repositorio de GitHub.
 ```git
 $ git push origin master
 ```
-Ahora finalmente pasamos a desplegar nuestro aplicativo en Heroku, debemos ejecutar los siguientes comandos:
 ```git
-$ heroku create
-# Este comando crea el app
 $ git push heroku master
-# Este comando despliega nuestro proyecto al app que hemos creado
+```
+Este comando despliega nuestro proyecto al app que hemos creado
+``` git
 $ heroku ps:scale web=1
-# Este comando asegura que al menos una instancia del aplicativo esté corriendo
+``` 
+Este comando asegura que al menos una instancia del aplicativo esté corriendo
 $ heroku open
-# Si todo ha salido bien hasta este punto, deberíamos ver una página que dice "Eureka"
+Si todo ha salido bien hasta este punto, deberíamos ver una página que dice "Eureka"
 $ heroku logs --tail
-# Este comando nos permitirá ver los logs y hacer debugging y troubleshooting luego de desplegar la app.
+Este comando nos permitirá ver los logs y hacer debugging y troubleshooting luego de desplegar la app.
 
 
 [↑](#toc)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcxNDU0NTE2LDE1MTkzOTk3NDUsLTExNz
+eyJoaXN0b3J5IjpbNDY5MTUzODkyLDE1MTkzOTk3NDUsLTExNz
 UxMDk3NzYsNzM0NzEwNjU2LDYzMzc3NTcwLC0xNTMzNzA5OTAx
 LDEwMDQwNTM0MDUsNjg3OTQxODc3LC0yMDgyMjAwNTU1LC05MT
 E5NTc3Niw5MTUxNDkxNjIsMjE0MzgyNzgyOSwtMTQxODkzNjEw
