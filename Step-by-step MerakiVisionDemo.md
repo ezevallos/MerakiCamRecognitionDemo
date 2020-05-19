@@ -645,13 +645,15 @@ Debido a que el software de reconocimiento de imágenes *Imagga* nos devuelve la
 ![Dialogflow Intent Training Phrases](https://i.ibb.co/NLtrG97/DF-TI-3.png)
 Para el siguiente paso, será importante tener a la mano la dirección pública de nuestra *app*, que obtuvimos luego de realizar el `heroku create`. En la misma página, deslizamos hacia abajo, y damos click a activar la opción de *Fulfillment*.
 ![DialogFlow Intent Fulfillment](https://i.ibb.co/r5WJNvx/DF-TI-4.png) 
-Luego de esto, habilitamos la opción de 
+Luego de esto, habilitamos la opción de llamada de *webhook* para nuestro *intent*.
+![DialogFlow Intent Fulfillment with Webhook](https://i.ibb.co/cLCWPB2/DF-TI-5.png)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NDk3NzMwNiwtMTUzMzcwOTkwMSwxMD
-A0MDUzNDA1LDY4Nzk0MTg3NywtMjA4MjIwMDU1NSwtOTExOTU3
-NzYsOTE1MTQ5MTYyLDIxNDM4Mjc4MjksLTE0MTg5MzYxMDUsLT
-E0MTg5MzYxMDUsMzYwNDQwNDMyLDE4MzY1NjkxNjksLTE4OTk4
-ODExNzUsMTIwMTAyNDQwNCwtOTEzODAwNTA5LDkwMDA3NjA3NS
-wtMjI3MDg0Njc2LC0xNzMyODg4MzUwLDc0Njk4MTM0NSwxNzE5
-NTMwNDYzXX0=
+eyJoaXN0b3J5IjpbNjMzNzc1NzAsLTE1MzM3MDk5MDEsMTAwND
+A1MzQwNSw2ODc5NDE4NzcsLTIwODIyMDA1NTUsLTkxMTk1Nzc2
+LDkxNTE0OTE2MiwyMTQzODI3ODI5LC0xNDE4OTM2MTA1LC0xND
+E4OTM2MTA1LDM2MDQ0MDQzMiwxODM2NTY5MTY5LC0xODk5ODgx
+MTc1LDEyMDEwMjQ0MDQsLTkxMzgwMDUwOSw5MDAwNzYwNzUsLT
+IyNzA4NDY3NiwtMTczMjg4ODM1MCw3NDY5ODEzNDUsMTcxOTUz
+MDQ2M119
 -->
