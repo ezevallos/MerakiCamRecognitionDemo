@@ -17,7 +17,7 @@ def setHeaders_meraki():
     return header
 
 def getSnap(theHeader):
-    uri = "https://api.meraki.com/api/v0/networks/L_566327653141856854/cameras/Q2GV-7HEL-HC6C/snapshot?X-Cisco-Meraki-API-Key=6bec40cf957de430a6f1f2baa056b99a4fac9ea0"
+    uri = "https://api.meraki.com/api/v1/devices/Q2GV-7HEL-HC6C/camera/generateSnapshot?X-Cisco-Meraki-API-Key=6bec40cf957de430a6f1f2baa056b99a4fac9ea0"
     resp = requests.post(uri, headers = theHeader,data={})
     return resp.json()
 
